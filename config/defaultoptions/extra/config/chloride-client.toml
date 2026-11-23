@@ -1,0 +1,9 @@
+[fullscreen]
+mode = "BORDERLESS"
+
+[culling]
+entityDistanceX = 16384
+
+[fastBlocks]
+chests = true
+beds = true

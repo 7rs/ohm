@@ -1,0 +1,13 @@
+name = "TACZ-Sound Attracts Zombies"
+filename = "tsaz-1.1.0-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wH1bHrfW/versions/69Osyfcb/tsaz-1.1.0-forge.jar"
+hash-format = "sha512"
+hash = "36d9557c1624b0af4f5c9b4f6046828a81a37a030f18d8f953a251902ee186130e77d68edc8d320ecf3c49d0b4eae055c259b9c77eaad19af2a1bc7a2f34852f"
+
+[update]
+[update.modrinth]
+mod-id = "wH1bHrfW"
+version = "69Osyfcb"

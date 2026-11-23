@@ -1,0 +1,13 @@
+[client.advanced.graphics]
+enableSsao = false
+
+[client.advanced.graphics.genericRendering]
+enableCloudRendering = false
+
+[client.advanced.graphics.quality]
+lodChunkRenderDistanceRadius = 64
+horizontalQuality = "LOW"
+verticalQuality = "LOW"
+transparency = "DISABLED"
+vanillaFadeMode = "SINGLE_PASS"
+lodBiomeBlending = 1

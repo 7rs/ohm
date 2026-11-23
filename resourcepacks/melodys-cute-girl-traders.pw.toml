@@ -1,0 +1,13 @@
+name = "Melody's Cute Girl Traders"
+filename = "Melodys Cute Traders 1.0.0_pre-26.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pWGL78ur/versions/3vSAE2AK/Melodys%20Cute%20Traders%201.0.0_pre-26.1.zip"
+hash-format = "sha512"
+hash = "aa48b795463c91b161cc3cdc4216569bae086c2561d12a2f1496af8a0441f10c90f1f4c730a7ddd424f8a1fe32e4675a340cdbe8dd76d2b56e02cb47c7fec73a"
+
+[update]
+[update.modrinth]
+mod-id = "pWGL78ur"
+version = "3vSAE2AK"

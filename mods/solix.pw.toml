@@ -1,0 +1,13 @@
+name = "Solix"
+filename = "solix-0.3.7-mc1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6a53fb2d1b49d51dbc5440a355bc4aa964b71bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9447088
+project-id = 1736468

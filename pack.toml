@@ -1,0 +1,13 @@
+name = "ohm"
+author = "Cbrnex"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0180cbcc4e5ad9c80c512397b598813bc2d56976f3f391f92e8b5ef22160ba38"
+
+[versions]
+forge = "47.4.28"
+minecraft = "1.20.1"

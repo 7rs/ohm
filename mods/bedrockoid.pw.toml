@@ -1,0 +1,13 @@
+name = "Bedrockoid"
+filename = "bedrockoid-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c7VSNCbf/versions/8or6XOIQ/bedrockoid-0.1.2.jar"
+hash-format = "sha512"
+hash = "cf457bf011793da04fefdef3ae317571fe3f8c724b566ccbd9900d399cfa4377ec270decf3a3bb9ccfa173b11b6fff00412c90e9e435d20101440e9cb5272ed3"
+
+[update]
+[update.modrinth]
+mod-id = "c7VSNCbf"
+version = "8or6XOIQ"

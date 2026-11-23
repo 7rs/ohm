@@ -1,0 +1,13 @@
+name = "JEI/EMI Optimizations"
+filename = "jeioptimizations-1.0.5-1.20.1-forge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8ae8bcb080c9cf343d98046f7866723f4b2c8f30"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9672665
+project-id = 1755877

@@ -1,0 +1,13 @@
+name = "Iron Girl"
+filename = "Iron Girl v2.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DzFZbAtt/versions/crUqRz5F/Iron%20Girl%20v2.0.zip"
+hash-format = "sha512"
+hash = "4009fefd238f8999ecbee703a9ca374e078e7ec913b721d9b4bdea28eeb0d0af0f7a62b1b219ed772176e7dec7addb0c0912e0ca3876db0f11d3d7005190b125"
+
+[update]
+[update.modrinth]
+mod-id = "DzFZbAtt"
+version = "crUqRz5F"

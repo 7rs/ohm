@@ -1,0 +1,13 @@
+name = "Melody's Cute Girl Witches"
+filename = "Melodys Cute Witches 1.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gtdL2vkh/versions/H5fRRdAK/Melodys%20Cute%20Witches%201.0.1.zip"
+hash-format = "sha512"
+hash = "98882548b88ff84855db133143e424883ef73edb65c70b6e7233c4901ba0f21ced2baad2f215b1a5f2f07af147e676904f9e0296fe766bcc2447e300e53373c1"
+
+[update]
+[update.modrinth]
+mod-id = "gtdL2vkh"
+version = "H5fRRdAK"

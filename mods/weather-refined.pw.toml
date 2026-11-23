@@ -1,0 +1,13 @@
+name = "Weather Refined"
+filename = "WeatherRefind-forge-1.20.1-v2.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3d6e19068102c682236a884194a5bf69dc792b00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8984796
+project-id = 1500089

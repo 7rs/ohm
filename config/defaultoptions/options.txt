@@ -1,0 +1,16 @@
+version:3465
+renderDistance:8
+simulationDistance:8
+entityDistanceScaling:2.0
+particles:2
+mipmapLevels:0
+graphicsMode:0
+renderClouds:"false"
+entityShadows:false
+guiScale:3
+fov:0.75
+lang:ja_jp
+mouseSensitivity:0.165
+onboardAccessibility:false
+resourcePacks:["vanilla","tacz_resources","mod_resources","mod/punchy:punchy","file/Fluid & Foolish 1.0.1.zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/Iron Girl v2.0.zip","file/Piglin-Chan.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip","file/AzukiV57.zip"]
+incompatibleResourcePacks:["file/Iron Girl v2.0.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip"]

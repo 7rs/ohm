@@ -1,0 +1,13 @@
+name = "Melody's Cute Girl Illagers"
+filename = "Melodys Cute Illagers 1.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/J7uXWTVl/versions/3ijcaasQ/Melodys%20Cute%20Illagers%201.0.1.zip"
+hash-format = "sha512"
+hash = "d54b0178bb060ebf07b5d2746a5178c7583ff7a16a636843e44c4b3ff7c69d3accd059a882584d3d0df064f6dfca14bb08e28cb726f056a28378bf4e19ff396b"
+
+[update]
+[update.modrinth]
+mod-id = "J7uXWTVl"
+version = "3ijcaasQ"

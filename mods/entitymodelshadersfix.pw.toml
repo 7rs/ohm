@@ -1,0 +1,13 @@
+name = "EntityModelShadersFix"
+filename = "entitymodelshaderfix-forge-1.2.0+mc1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/M0ds8rsj/versions/OV28DOCF/entitymodelshaderfix-forge-1.2.0%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "56e9f458081a9adc93c30ecae55b3aedc68bfe1a11bdad9978a59e06b35abb019702647abcecd93c395f853d83890e64863380f71fdbaf5b15448a84004446cc"
+
+[update]
+[update.modrinth]
+mod-id = "M0ds8rsj"
+version = "OV28DOCF"
