@@ -247,6 +247,17 @@ Evidence: `refs/comparisons/vehicles/` (`gh_issues.md` has the issue digest). No
 - Closed reports of interest: 314 (a 1.20.1 `ConcurrentModificationException` in `GoalSelector` on a zombie; the author points to other AI mods, the report had Enhanced AI and Zombie Awareness), 301 (a `RepairGolem` crash in 1.6.17), 305 (1.20.1 lag the author attributed to vanilla). Zombie Awareness and AI Improvements both change mob goals here. (`unverified`)
 - Clanging Howl infection and Enhanced Celestials 2 village sieges are threats the guards answer; how guards do against techno-flesh with 50 % resistance was not tested. (`unverified`)
 
+## Turbo for Distant Horizons (added 2026-11-24)
+
+- Version 1.6.0, chosen by the user from `refs/comparisons/dh-optimization/`. Not run in the game or on a server. Its speed and accuracy figures are the author's own, measured on Minecraft 1.21.1 with a LOD radius of 256 chunks (the pack uses 64), and no independent benchmark exists. (`unverified`)
+- It is young: one Forge 1.20.1 file on Modrinth, published 2026-11-07. The Modrinth page still says the 1.20.1 build is at 1.4.0 while the file is 1.6.0 (its changelog says 1.5.0 and 1.6.0 are in it and that ReTerraForged support was not checked on 1.20.1). Its GitHub issue tracker could not be read. (`unverified`)
+- It declares DH `[3.3.3,3.4)` as an optional dependency. Forge probably still checks the range when DH is present (inference), so a DH 3.4 from `packwiz update` could stop the game at launch. DH 3.3.3 is the newest 1.20.1 build now. (`unverified`)
+- Mixin scan against 133 installed jars (7 CurseForge ones read from the CDN; Craftspeed and jtrans not scanned): no hard conflict. Structure Layout Optimizer `@Redirect`s `Palette.blocks()` inside `StructureTemplate.placeInWorld`; Turbo injects at the end of the `StructureTemplate$Palette` constructor (it replaces the cache map) and wraps `getLevel()` and `getSeed()` in `CappedProcessor.finalizeProcessing`: different methods. Oculus's four frustum mixins implement DH's shadow-culling API, which Turbo does not touch. No other installed mixin names a DH class. (`unverified`)
+- Its mixin config has `defaultRequire 0`: a failed injection into DH logs a warning and that part (for example the horizon pass) stops working without a crash. Check `logs/latest.log` for Mixin warnings from `dhturbo.mixins.json` after the first launch. (`unverified`)
+- Which levels Turbo can draw was not run. It checks each level at load and leaves an unreadable one to DH, with the chat line "DH Turbo can't read the terrain of ..." for operators and the host. Not checked: Twilight Forest, The Aether, Deeper and Darker (Otherside), and the Overworld with Vanilla Backport, Bedrockoid, End Remastered, Waystones and Botania. In a level left to DH only DH's rough surface is drawn (trees and structures missing) unless `real_chunks_nearby` is `true`. (`unverified`)
+- Its exact pass (`exact_radius`, 16 in singleplayer) uses the game's real generator, which Fast Noise replaces in part (`populateNoise`, `populateBiomes`, the surface builder). SeedGen's page named Fast Noise as a possible conflict; Turbo's docs name nothing. Not run together. (`unverified`)
+- Existing worlds: distant terrain that DH or an older Turbo stored keeps its look until `/dhturbo regenerate` (operators and the host). (`by design`)
+
 ## Resolved
 
 - GPUBooster was a Fabric-only jar. It was replaced with the Forge build `1.0.5.1-forge`. (`resolved`)

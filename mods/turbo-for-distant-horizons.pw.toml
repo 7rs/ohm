@@ -1,0 +1,13 @@
+name = "Turbo for Distant Horizons"
+filename = "dhturbo-forge-1.20.1-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hPK04GEA/versions/5wIYd7Fs/dhturbo-forge-1.20.1-1.6.0.jar"
+hash-format = "sha512"
+hash = "06f0082d3310181ad46cebb98193dfeab2c569548b2d09994dd3f04f979296cfbe220bbf22889fd9d83f2a5b14d863dabb84321f66826365da70b2a6e5aab849"
+
+[update]
+[update.modrinth]
+mod-id = "hPK04GEA"
+version = "5wIYd7Fs"

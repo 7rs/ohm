@@ -688,6 +688,11 @@ hash = "0bc775f6b740e9fa539e8237f49ce5265a15f16725fef1deeab7097ea6571099"
 metafile = true
 
 [[files]]
+file = "mods/turbo-for-distant-horizons.pw.toml"
+hash = "c568f2b0a37e18e4874f60bcb3095fcf11c11a76e464ab2bd27e0951fba36fdb"
+metafile = true
+
+[[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "2b77a327d048ef40db95a67de21e88e2ef3622a22e994173a95232dee058d6b3"
 metafile = true

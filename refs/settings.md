@@ -57,6 +57,25 @@ File: `config/defaultoptions/extra/config/DistantHorizons.toml`
 
 - The values equal its Low preset. The other preset-controlled keys stay at defaults, so its UI shows Low.
 - Generation is bounded by its render distance (`generationMaxChunkRadius` is `0`, which means "use the render distance"). Never set `generationMaxChunkRadius`: it is centered on chunk 0,0, not on the player.
+- DH's default `generation.plan` is `SURFACE_THEN_CHUNKS` (read from the 3.3.3 jar). Turbo for Distant Horizons overrides it to `SURFACE_ONLY` through the DH API at run time, so the DH config file and its UI keep the default (see the next section).
+
+### Turbo for Distant Horizons
+
+Nothing is shipped. Its config is a Forge COMMON config (`config/dhturbo-common.toml`, created by the mod at first launch; the type is read from the jar). Every default fits the pack, so no file is written:
+
+| Key | Default | Why it stays |
+| --- | --- | --- |
+| `enabled` | `true` | The mod is the purpose. With it off, DH's own generator runs. |
+| `threads` | `0` | Two thirds of the CPU cores. Hardware-dependent, so never shipped. |
+| `exact_radius` | `16` | Singleplayer: the chunks around the player are redrawn by the game's real generator while the generator is idle (caves, ores, lakes). Chunks inside the render distance are real anyway. |
+| `exact_radius_server` | `0` | A dedicated server pays for the exact pass with tick time, so it is opt-in. |
+| `real_chunks_nearby` | `false` | Off: Turbo sets the DH plan to `SURFACE_ONLY`, so DH never re-requests tiles as real chunks. On: DH keeps `SURFACE_THEN_CHUNKS`, which costs more CPU. |
+| `excluded_dimensions` | `[]` | Turbo compares a few dozen columns per level with the level's own generator and leaves an unreadable level to DH by itself (chat line for operators and the host, log line). |
+| `share_worldgen` | `true` | Only a server without DH sends the seed to clients that have Turbo. The pack's server has DH, so it sends distant terrain and no seed. |
+| `structures`, `fake_trees`, `real_trees`, `ground_cover`, `vanilla_surface`, `soft_plant_colors` | `true` | The look of the distance. |
+| `full_resolution` | `false` | Costs about twice the time for a few more exact heights. |
+
+- `/dhturbo regenerate` (operators and the host) deletes a world's distant terrain so it is drawn again. Terrain that DH or an older Turbo already stored keeps its look until then.
 
 ### Chloride
 
