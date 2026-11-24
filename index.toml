@@ -234,7 +234,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "0c36aaee77acc61474ca5b509e18c09dae3a6a28766134d8b7ac6150dc3bb9e8"
+hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
@@ -364,7 +364,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "97c9949291fb9d536739782c595117dac2e1e7c70a1efc640c19120d721148c4"
+hash = "5d591c88e40c08d70a0fbdba62a1626f15a3371349752de3b7386d368185a035"
 metafile = true
 
 [[files]]
