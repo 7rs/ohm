@@ -7,7 +7,7 @@ How to change this repository: branches, pull requests and merging. For building
 | Branch | Role | Direct push | Deletion |
 | --- | --- | --- | --- |
 | `main` | Released state. Servers install from `main/pack.toml`. | Not allowed (enforced) | Not allowed (enforced) |
-| `dev` | Integration of finished topics. | Allowed technically; by convention only for [documentation](#documentation) | Not allowed (enforced) |
+| `dev` | Integration of finished topics. | Allowed technically; by convention only for [documentation](#documentation) and [syncing with `main`](#syncing-dev-with-main) | Not allowed (enforced) |
 | `<prefix>/<name>` | One topic. Short-lived. | Allowed | Deleted after merge |
 
 Force pushes to `main` and `dev` are blocked.
@@ -24,12 +24,12 @@ Force pushes to `main` and `dev` are blocked.
 
 - Name: `<prefix>/<short-kebab-case-name>`.
 - Cut one branch per topic. A topic is what was raised as one item: five mods requested together are one `add/` branch, and the settings they need stay in it.
-- Branch from `dev`.
+- Branch from `dev`, never from `main`. This holds for any tool that creates the branch for you (for example a Claude Code cloud session): check the base before the first commit.
 - `ci/` carries CI changes and nothing else.
 
 ## Pull requests
 
-1. Open a pull request from the topic branch into `dev`.
+1. Open a pull request from the topic branch into `dev`. GitHub proposes `main` as the base: change it to `dev`.
 2. Wait for the [Build modpack](.github/workflows/build-mrpack.yml) workflow to pass (`build (modrinth)` and `build (curseforge)`).
 3. Squash merge. One topic is one commit on `dev`.
 4. The topic branch is deleted after the merge (GitHub deletes it automatically).
@@ -42,6 +42,22 @@ Checks on a pull request into `dev` are a convention: GitHub does not block the 
 2. The checks below are enforced: the pull request, a passing `build (modrinth)` and `build (curseforge)`.
 3. Merge with a merge commit. Do not squash or rebase: `dev` would diverge from `main`.
 4. `dev` is kept: it is protected from deletion, which also stops the automatic deletion of head branches.
+5. Sync `dev` with `main` ([Syncing dev with main](#syncing-dev-with-main)).
+
+## Syncing dev with main
+
+The merge commit of a release lands on `main` only, so `dev` is behind after every release. Sync it before cutting the next topic branch:
+
+```sh
+git fetch origin
+git switch dev
+git merge --ff-only origin/main
+git push origin dev
+```
+
+If `dev` has moved since the release, the fast-forward fails: run `git merge origin/main` instead, which makes a merge commit. Never rebase `dev` or force push it.
+
+This and [documentation](#documentation) are the only direct pushes to `dev`. A sync adds no new content.
 
 ## Documentation
 
