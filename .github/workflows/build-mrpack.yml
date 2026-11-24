@@ -1,4 +1,4 @@
-name: Build mrpack
+name: Build modpack
 
 on:
   push:
@@ -28,7 +28,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: build-mrpack-${{ github.ref }}
+  group: build-modpack-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -36,8 +36,17 @@ env:
 
 jobs:
   build:
+    name: build (${{ matrix.platform }})
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: modrinth
+            ext: mrpack
+          - platform: curseforge
+            ext: zip
     steps:
       - uses: actions/checkout@v7
 
@@ -54,15 +63,20 @@ jobs:
           "$(go env GOPATH)/bin/packwiz" refresh
           git diff --exit-code -- pack.toml index.toml
 
-      - name: Export mrpack
+      - name: Export
+        id: export
+        env:
+          PLATFORM: ${{ matrix.platform }}
+          EXT: ${{ matrix.ext }}
         run: |
           mkdir -p dist
-          "$(go env GOPATH)/bin/packwiz" modrinth export --output "dist/ohm-${GITHUB_SHA::7}.mrpack"
+          file="dist/ohm-${GITHUB_SHA::7}-${PLATFORM}.${EXT}"
+          "$(go env GOPATH)/bin/packwiz" "$PLATFORM" export --output "$file"
+          echo "file=$file" >> "$GITHUB_OUTPUT"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: ohm-mrpack
-          path: dist/*.mrpack
-          compression-level: 0
+          path: ${{ steps.export.outputs.file }}
+          archive: false
           if-no-files-found: error
           retention-days: 14
