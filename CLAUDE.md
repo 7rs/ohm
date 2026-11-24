@@ -25,10 +25,11 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
 - `config/defaultoptions/extra/`: Any file here is copied to the game directory at first launch, keeping its relative path. `extra/config/X.toml` becomes `config/X.toml`. Existing files are never overwritten.
+- `defaultconfigs/`: Defaults for per-world server configs (the world's `serverconfig/<modid>-server.toml`, Forge config type SERVER). When a world has no such file, Forge copies it from here (`defaultConfigPath` in `config/fml.toml` is `defaultconfigs`). It applies to new worlds only: an existing world keeps its own file.
 
 ## Rules
 
-- Put settings that players may change (client-only mods, video) under `config/defaultoptions/extra/config/`. Put settings that must be enforced (server-side or gameplay) directly under `config/`.
+- Put settings that players may change (client-only mods, video) under `config/defaultoptions/extra/config/`. Put settings that must be enforced (server-side or gameplay) directly under `config/`. Put per-world server settings (the mod writes them to `serverconfig/`, not `config/`) under `defaultconfigs/`.
 - Never put `options.txt` or `servers.dat` in the pack root. Use `config/defaultoptions/`.
 - Add only shader packs that support Distant Horizons (the zip has `dh_*` programs). Distant Horizons is installed and draws its LODs only with such packs. This is the user's rule (2026-11-23).
 - Write only the keys that differ from the mod's defaults. Do not ship hardware-dependent values such as thread counts.

@@ -33,6 +33,26 @@ file = "config/modernfix-mixins.properties"
 hash = "44f4a418feecf1b88f752507502653426c282f69460246c06ebbd46279733a1a"
 
 [[files]]
+file = "config/sem-common.toml"
+hash = "4fe5a6318c1044ae484cee2061f4705781f7738b6091e118f7f1e2cb80397341"
+
+[[files]]
+file = "config/zombieawareness/Features.toml"
+hash = "5ca3ce3abca356bbe1bb69fda27834d2ea9f22d4c1ad01831aaee44d18f23ba8"
+
+[[files]]
+file = "config/zombieawareness/General.toml"
+hash = "5b3963424c5e7cf736b0777d48280a654a8447528177e4d4c83e76ddc4eeb338"
+
+[[files]]
+file = "config/zombieawareness/MobLists.toml"
+hash = "cbf36e298399e59d878cde5ce41623c5ab1afc3cb2dfef2a2d16f34c6f8b1113"
+
+[[files]]
+file = "defaultconfigs/smallships-server.toml"
+hash = "0f0f8b63d0d29df5b92ef757d10536546379c3ecfe190992b7cd22d5b7c6de7c"
+
+[[files]]
 file = "mods/0pack2reload.pw.toml"
 hash = "c10376c75fcd23d6ab7d2220f9010bb0eb3ff20c173d30b08bacc7bce241e032"
 metafile = true
@@ -148,6 +168,11 @@ hash = "2038c2c82c6b566677d386847ceab1f58b6b41599700aab6500ccc951eedca71"
 metafile = true
 
 [[files]]
+file = "mods/clanging-howl.pw.toml"
+hash = "f0f847c2b56877360a679165defef09254d1b78c5f9266a90769ddf9e31578e3"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
 metafile = true
@@ -173,8 +198,18 @@ hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
+file = "mods/corgilib.pw.toml"
+hash = "3a04e507c1411b97bf5aa3ce3f238249de5f43b876997d7bfb4d98e325231494"
+metafile = true
+
+[[files]]
 file = "mods/coroutil.pw.toml"
 hash = "b2c7739b56ef71f50a86658cfa67375796beafd391c4dbe26a5de8cd92b9b685"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "c13a9000148ee786906c815c6218fad32497e9b71853614d78a8ebff5077af76"
 metafile = true
 
 [[files]]
@@ -199,7 +234,12 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+hash = "0c36aaee77acc61474ca5b509e18c09dae3a6a28766134d8b7ac6150dc3bb9e8"
+metafile = true
+
+[[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "62472a60936379eed43ebc923d32ecc8b17521db391a49ea687d38a5e47a047f"
 metafile = true
 
 [[files]]
@@ -245,6 +285,21 @@ metafile = true
 [[files]]
 file = "mods/enhanced-boss-bars-mod.pw.toml"
 hash = "42fcafbaa912f10b3b02bdec03395c78352236b85bfbc4fb9b4ba2bac00b445c"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-2-core.pw.toml"
+hash = "18c189bde8701214cf0b5daee2c69a1dae195a6e13b42b25247e7631277bddcf"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-2-default-lunar-events.pw.toml"
+hash = "44f8e6276c9b5a73987e4b4b43bbeb8bb21c99919d46b01b9569552160828a64"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-2-shader-support.pw.toml"
+hash = "98db3f32f67b3e8821f87ec517bed4e6fbee84b6f1893908da57ad64affd4b49"
 metafile = true
 
 [[files]]
@@ -309,7 +364,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "5d591c88e40c08d70a0fbdba62a1626f15a3371349752de3b7386d368185a035"
+hash = "97c9949291fb9d536739782c595117dac2e1e7c70a1efc640c19120d721148c4"
 metafile = true
 
 [[files]]
@@ -320,6 +375,16 @@ metafile = true
 [[files]]
 file = "mods/gputape.pw.toml"
 hash = "5e9d7c8fe15e7342aee0070e7e6dbf24659fe6d44fdc06c161f39830a98dce50"
+metafile = true
+
+[[files]]
+file = "mods/gt-craft-ivmts.pw.toml"
+hash = "70736b79a9d025fed7e934fcec692d593655d10c14d5466bb23fa62a152efa27"
+metafile = true
+
+[[files]]
+file = "mods/guard-villagers.pw.toml"
+hash = "145d32a60f94c6541c7d381e09590f6ad96b89a904fa059a50b1491f80b8ff6d"
 metafile = true
 
 [[files]]
@@ -338,8 +403,28 @@ hash = "1a9564ded8e9cd1f843f9de7fc87ffbf73033aab51494205458b0e58cc0ab194"
 metafile = true
 
 [[files]]
+file = "mods/immersive-aircraft.pw.toml"
+hash = "5f2372d0191c0c6412051ef3d17831c23868a54f6886045ab37385a8789b600e"
+metafile = true
+
+[[files]]
 file = "mods/immersive-optimization.pw.toml"
 hash = "16784aa8a627d9d4f5e93f704b2cb21fa37ae17d5e1d1d42b91aa7dd7bc3bd65"
+metafile = true
+
+[[files]]
+file = "mods/immersive-vehicles-craftspeed.pw.toml"
+hash = "189351ce185e8aa53da242e25ac22e95518a6c6ec20fc1f059f0a7c11f8c7dfe"
+metafile = true
+
+[[files]]
+file = "mods/immersive-vehicles-official-content-pack.pw.toml"
+hash = "374db2a55a974e6d17abe135572e1829de6ce2265315f4fbef2f480ac508ce25"
+metafile = true
+
+[[files]]
+file = "mods/immersive-vehicles.pw.toml"
+hash = "704fad4989730378eb427751d32a53d1e5bd8fb8ef5a2677a766cca404b519a1"
 metafile = true
 
 [[files]]
@@ -420,6 +505,11 @@ metafile = true
 [[files]]
 file = "mods/lr-tactical.pw.toml"
 hash = "143569673f10c7517a0b1f09beaa9ccaf97478908d55923c1f5a6a37547d51f6"
+metafile = true
+
+[[files]]
+file = "mods/man-of-many-planes.pw.toml"
+hash = "0b4cf3763061e4bc1f90d933e9d830244be087ab74176f9cda00773767ee9958"
 metafile = true
 
 [[files]]
@@ -533,6 +623,16 @@ hash = "7e9c734c37e5b8f4680798505b05a7b0a053d778bcac43ba535af23bbb8c0ee5"
 metafile = true
 
 [[files]]
+file = "mods/simple-enemy.pw.toml"
+hash = "82634c1f07aba77bccc2aa01f3db9aee90cac6df0752198ec627177deace12c1"
+metafile = true
+
+[[files]]
+file = "mods/small-ships.pw.toml"
+hash = "94496c76ed94dd7170681e9fafc4125c7f8405318fbadbbb1a0044e5bec7423d"
+metafile = true
+
+[[files]]
 file = "mods/solix.pw.toml"
 hash = "f3eebcd5777b4fb0c893b167022ac40ea36288c22d543de47ecfa6e240e4c5df"
 metafile = true
@@ -555,6 +655,11 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
+metafile = true
+
+[[files]]
+file = "mods/tacz-combined-arms.pw.toml"
+hash = "9469dfff5b14ffeeadf43b16725ec4e0593262336eb8a4a5a68d5936f8eb6918"
 metafile = true
 
 [[files]]

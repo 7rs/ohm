@@ -167,6 +167,53 @@ Added 2026-11-24. Nothing is shipped for them.
 - Superb Warfare: block destruction by explosions is on by default (user's choice: on). The setting is in the world's `serverconfig/superbwarfare-server.toml` (`explosion_destroy`), not in `config/`, so nothing is shipped.
 - TACZ-Sound Attracts Zombies: it listens to TaCZ's `GunFireEvent` and `GunReloadEvent` and calls Zombie Awareness's `ZAUtil.hookSoundEvent`, with a silencer check (`SilencerDetector`). It has an on/off command (`SoundAttractionCommand`, state in `SoundAttractionConfig`); its name was not read. Its page says it needs no configuration.
 
+### Create: Steam 'n' Rails, Immersive Aircraft, Man of Many Planes, Small Ships, Immersive Vehicles
+
+Added 2026-11-24. Only one key is shipped (`defaultconfigs/smallships-server.toml`, below); none of them has its main feature switched off by default. Defaults below were read from the mods' 1.20.1 branch sources (Immersive Aircraft `Config.java`, Small Ships `SmallShipsConfig.java`); the jars hold the same key names (read), the default values were not read from the jars. None was run.
+
+- Immersive Aircraft (`config/immersive_aircraft.json`): `enableCrashExplosion` `true` with `crashExplosionRadius` 2.0, `enableCrashBlockDestruction` `false`, `enableCrashFire` `false`, `weaponsAreDestructive` `false`, `collisionDamage` `true`, `separateCamera` `true`, `useThirdPersonByDefault` `true`, `fuelConsumption` 1.0. So a crash explodes but does not break blocks and weapons do not break blocks.
+- Small Ships: server settings are per world (`serverconfig/smallships-server.toml`, type SERVER) and client settings are in `config/smallships-client.toml`. Server defaults are shipped through `defaultconfigs/smallships-server.toml`: Forge copies it into a new world, so an existing world keeps its own file (edit `saves/<world>/serverconfig/smallships-server.toml` by hand there). The server's value is synced to clients. Defaults: `shipGeneralCannonDamage` 25.0 and `shipGeneralCannonDestruction` 1.0 ("destruction a cannonball does when it hits the ground"), `windEnable` `true`, `sailDamageEnable` `true`, `shipGeneralCameraFreeLook` `true`, `shipUpgradeEnable` `true`, `updateCheckerEnable` `true` (server and client). `vanillaBoatSlowdownEnable` is `true` by default with `vanillaBoatSpeedFactor` 0.25: vanilla boats would be 75 % slower so that Small Ships' ships are more attractive. The user switched it off (2026-11-24), see the table below.
+
+  | File | Key | Value | Reason |
+  | --- | --- | --- | --- |
+  | `defaultconfigs/smallships-server.toml` | `Ship.VanillaBoats.vanillaBoatSlowdownEnable` | `false` | Keeps vanilla boats at vanilla speed. Chosen by the user (2026-11-24). `vanillaBoatSpeedFactor` stays at 0.25 and has no effect while this is `false`. The file holds only this key: Forge fills the other keys with their defaults at the first load of the world (the table path was read from the mod's 1.20.1 branch source `SmallShipsConfig.java`; the file name follows from Forge's `<modid>-server.toml` rule and the jar registers the spec without a name; not run). |
+- Immersive Vehicles: defaults. Its config files are `mtsconfig.json` and `mtsconfigclient.json` (names read from the jar; the folder was not read). Content packs added on 2026-11-24 by the user's choice: Official Content Pack (OCP) V29, GT CRAFT 2.1.2 and Craftspeed 1.7.5. Nothing is shipped for the packs: they hold assets and JSON and have no config of their own. Keys of the `damage` section of `mtsconfig.json` that decide what OCP's bombs, rockets and RPGs do (named on the community pack list): `bulletBlockBreaking`, `bulletExplosions`, `vehicleBlockBreaking`, `vehicleExplosions`, `allowExternalDamage` (key names and descriptions read from the jar; the default values were not read; 24.0.0 notes say `allowExternalDamage` became `true` by default).
+- Create: Steam 'n' Rails, Man of Many Planes: defaults (Man of Many Planes has no config).
+
+### Zombie Awareness
+
+Files: `config/zombieawareness/Features.toml`, `General.toml` and `MobLists.toml` (enforced: they change mob behavior). Added 2026-11-24, chosen by the user. All are Forge COMMON configs registered by the mod (`ModLoadingContext.registerConfig`, read from the jar), so Forge fills the keys that are not shipped with their defaults when it loads them (not run).
+
+| File | Key | Value | Reason |
+| --- | --- | --- | --- |
+| `Features.toml` | `general.wanderingHordes` | `true` | Enhanced mobs gather into hordes and walk to random points near players (every `frequencyOfWanderingHordesPerPlayer` = 30 s by default). Off by default. The only gameplay feature of the mod that was off. |
+| `General.toml` | `general.awareness_Light_OnlyZombies` | `false` | Lets the other enhanced mobs (creepers, skeletons, strays, witches, spiders, illagers) follow light near players too. The default `true` limits it to zombies. |
+| `MobLists.toml` | `general.enhancedMobs` | the 7 defaults (`zombie`, `husk`, `creeper`, `skeleton`, `stray`, `witch`, `zombie_villager`) plus `spider`, `cave_spider`, `pillager`, `vindicator`, `evoker` (all `minecraft:`) | Spiders and illagers also hunt by sound, scent and light. Chosen by the user (2026-11-24). A list key replaces the default list, so the defaults are written out too. |
+
+- Already on by default and left alone: sound, scent and light senses, noisy zombies and pistons, sounds from machines (`blockBreakEvent_PlayersOnly = false`), and every dimension (`awareness_Sound_OverworldOnly = false`). `daysBeforeFeaturesActivate` is 0, so all of it runs from the first day.
+- Left off on purpose: `omniscient` (always target the closest player) and `seeThroughWalls` (no line-of-sight check), both marked performance sensitive by the mod.
+- Not in `enhancedMobs`: flying and water mobs, bosses, neutral mobs, `ravager` and `illusioner`, modded mobs (Twilight Forest spiders, Iron's Spells mobs, Clanging Howl, Simple Enemy units, which have their own AI), Vanilla Backport's `parched` and `minecraft:wither_skeleton` (candidates if more skeletons are wanted). The mod's `enhanceableMobs` list (about 130 entries) says only ground-walking mobs probably work.
+- Extra spawning (`ZAConfigSpawning` in the jar) is not registered in 1.13.1, so it cannot be set.
+
+### Simple Enemy
+
+File: `config/sem-common.toml` (enforced: a gameplay switch). Simple Enemy registers it as a Forge COMMON config named `sem-common.toml` (read from the jar, `ModConfigs`), so Forge fills the other keys with their defaults (not run).
+
+| Key | Value | Reason |
+| --- | --- | --- |
+| `general_settings.enableVillageGarrison` | `false` | The default `true` spawns a hostile squad of 2 to 4 Russian or American soldiers near each village the first time its villagers load, which would fight Guard Villagers' guards and iron golems in every village. Chosen by the user (2026-11-24). Patrols, faction battles and cave squads near players still run (see `refs/issues.md`). Section and key name read from the jar's `GeneralConfig`. |
+
+### Simple Enemy, Combined Arms, Enhanced Celestials 2, Clanging Howl, Guard Villagers
+
+Added 2026-11-24. Nothing else is shipped; their main features are on by default:
+
+- Guard Villagers (common config, read from its `1.20.1` branch source): 6 guards per village at the golem piece (`minecraft:village/common/iron_golem`), `Guards attack all mobs?` `true`, `All mobs attack guards` `false` (only zombies and illagers attack guards), `Mob Blacklist` villager, iron golem, wandering trader, guard, creeper, Alex's Mobs komodo dragon, enderman; witches attack villagers `true`, raid illagers attack animals `true`, guards turn into zombie villagers when zombies kill them `true`, guard arrows can hurt friendlies `true` (with a friendly-fire check), patrols `false`, conversion of nitwits and unemployed villagers without Hero of the Village allowed.
+
+- Simple Enemy: timed events per player, evaluated every 1200 ticks (patrol base chance 0.1 per minute, faction battle 0.08, cave extraction 0.02, each rising after a miss), with a global cooldown between events; difficulty preset, accuracy, burst, drops (gun drop 0.5 inferred) and tactical AI budgets are in its config (read from the jar's config spec). Booleans from its `main` branch source: `enableVillageGarrison = true` (shipped as `false`, above), `ruUnitsFriendly = false`, `usUnitsFriendly = false`.
+- Combined Arms: defaults (its wiki documents the orders).
+- Enhanced Celestials 2: the event data lives in the Default Lunar Events jar (blood moon, super blood moon, blue moon, harvest moon and their super versions, super moon). The Overworld settings: events at least 3 and at most 98 days apart, clear skies required, year length 100 days. Changes would be a data pack (the pack ships none).
+- Clanging Howl: defaults, `TechnoFleshBuff` on (buffs by game time), `MeteorShower` on (every 15 days, 180 s), six of the eight techno-flesh mobs start spawning on day 15 (`-1` disables a mob).
+
 ## Launcher
 
 Not shippable in the `.mrpack`. Set in the launcher.
