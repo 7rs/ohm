@@ -22,7 +22,7 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `README.md`: Human-facing overview and install and update guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server; Update: modpack, PC, server). Not distributed.
 - `CONTRIBUTING.md`: Branch, pull request and merge rules for maintainers. Not distributed.
 - `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
-- `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
+- `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack. It runs on every pull request with no `paths:` filter, because `main` requires its checks and a skipped workflow leaves them pending forever. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
 - `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.github/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.

@@ -13,15 +13,6 @@ on:
       - .packwizignore
       - .github/workflows/build-mrpack.yml
   pull_request:
-    paths:
-      - pack.toml
-      - index.toml
-      - mods/**
-      - config/**
-      - resourcepacks/**
-      - shaderpacks/**
-      - .packwizignore
-      - .github/workflows/build-mrpack.yml
   workflow_dispatch:
 
 permissions:
