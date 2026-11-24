@@ -3,6 +3,7 @@
 Packwiz modpack for Minecraft Java Edition 1.20.1 and Forge 47.4.28.
 
 - [Mod List](docs/modlist.md)
+- [Contributing](CONTRIBUTING.md)
 - [Installation](#installation)
   - [Build modpack](#build-modpack)
   - [Install on your PC](#install-on-your-pc)
@@ -102,13 +103,13 @@ For maintainers. Work in a clone with [packwiz](https://packwiz.infra.link/insta
 
 3. A file with `pin = true` is skipped by `packwiz update`.
 4. If a resource pack's file name changed, update the `resourcePacks` key in `config/defaultoptions/options.txt`.
-5. Refresh the index, commit and push:
+5. Refresh the index:
 
    ```sh
    packwiz refresh
    ```
 
-   The [Build modpack workflow](https://github.com/7rs/ohm/actions/workflows/build-mrpack.yml) checks that `index.toml` is up to date and builds the pack.
+   Commit on an `update/` branch and open a pull request into `dev` ([Contributing](CONTRIBUTING.md)). The [Build modpack workflow](https://github.com/7rs/ohm/actions/workflows/build-mrpack.yml) checks that `index.toml` is up to date and builds the pack.
 
 ### Update on your PC
 
