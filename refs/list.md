@@ -1,6 +1,6 @@
 # List
 
-Installed mods by category. The human-facing version with links and badges is the Mod List in `README.md`.
+Installed mods by category. The human-facing version with links and badges is the Mod List in `docs/modlist.md`.
 
 - Slug: the metafile name, `mods/<slug>.pw.toml` (`resourcepacks/<slug>.pw.toml` for the Resource Pack category). It is also the project slug on the Source platform.
 - Source: the platform the metafile updates from (`modrinth` or `curseforge`).
