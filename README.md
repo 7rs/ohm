@@ -10,7 +10,7 @@ Packwiz modpack for Minecraft Java Edition 1.20.1 and Forge 47.4.28.
 ## Client: Prism Launcher
 
 1. Install [Prism Launcher](https://prismlauncher.org/download/).
-2. Get `ohm.mrpack`. [Build it from this repository](#build-the-mrpack-from-this-repository).
+2. Get `ohm.mrpack`: download the `.mrpack` artifact of a run of the [Build modpack workflow](https://github.com/7rs/ohm/actions/workflows/build-mrpack.yml) (kept for 14 days, GitHub login required), or [build it from this repository](#build-the-mrpack-from-this-repository).
 3. In Prism Launcher, click **Add Instance**, choose **Import**, select the `.mrpack` file under **Local file** and click **OK**.
 4. Prism Launcher creates an instance with Minecraft 1.20.1 and Forge 47.4.28 and downloads the mods. Launch the instance.
 
