@@ -1,0 +1,13 @@
+name = "Simple Enemy"
+filename = "simpleenemymod-1.20.1-0.1.6-beta-hotfix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nXACETjw/versions/HiPRtUNb/simpleenemymod-1.20.1-0.1.6-beta-hotfix.jar"
+hash-format = "sha512"
+hash = "785246c16401ceadbcff526597e1ae870ff286d8780388597f68eb555f27c54accc6cb9a68152f477754a6249384369a82483fe4d67c6fcb0d1cfbd360a7705f"
+
+[update]
+[update.modrinth]
+mod-id = "nXACETjw"
+version = "HiPRtUNb"

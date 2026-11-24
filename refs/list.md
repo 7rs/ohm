@@ -1,6 +1,6 @@
 # List
 
-Installed mods by category. The human-facing version with links and badges is the Mod List in `README.md`.
+Installed mods by category. The human-facing version with links and badges is the Mod List in `docs/modlist.md`.
 
 - Slug: the metafile name, `mods/<slug>.pw.toml` (`resourcepacks/<slug>.pw.toml` for the Resource Pack category). It is also the project slug on the Source platform.
 - Source: the platform the metafile updates from (`modrinth` or `curseforge`).
@@ -32,6 +32,14 @@ Installed mods by category. The human-facing version with links and badges is th
 | Iron's Spells 'n Spellbooks | irons-spells-n-spellbooks | modrinth | github.com/iron431/Irons-Spells-n-Spellbooks |
 | Botania | botania | modrinth | github.com/VazkiiMods/Botania |
 | Superb Warfare | superb-warfare | modrinth | github.com/Mercurows/SuperbWarfare |
+| Create: Steam 'n' Rails | create-steam-n-rails | modrinth | github.com/Layers-of-Railways/Railway |
+| Immersive Aircraft | immersive-aircraft | modrinth | github.com/Luke100000/ImmersiveAircraft |
+| Man of Many Planes | man-of-many-planes | modrinth | github.com/Luke100000/Man-of-Many-Planes |
+| Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
+| Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
+| Immersive Vehicles - Official Content Pack [OCP] | immersive-vehicles-official-content-pack | modrinth | github.com/DonBruce64/MTSOfficialPack |
+| GT CRAFT [IV/MTS] | gt-craft-ivmts | modrinth | - |
+| [Immersive Vehicles] Craftspeed | immersive-vehicles-craftspeed | curseforge | - |
 
 ## Item/Mob
 
@@ -42,6 +50,11 @@ Installed mods by category. The human-facing version with links and badges is th
 | True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
 | Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
 | TACZ-Sound Attracts Zombies | tacz-sound-attracts-zombies | modrinth | - |
+| Simple Enemy | simple-enemy | modrinth | github.com/NekoYuni/Simple-Enemy-Mod-Public |
+| [TaCZ/SBW] Combined Arms | tacz-combined-arms | modrinth | github.com/NeoAlive/tacz-simple-enemies-vehicular-warfare |
+| Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
+| Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
+| Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
 
 ## Change
 
@@ -152,6 +165,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | EntityModelShaderFix | entitymodelshadersfix | modrinth | github.com/vfx-dev/EntityModelShaderFix |
 | Spawn Animations | spawn-animations | modrinth | github.com/Tschipcraft/spawnanimations |
 | 3D Skin Layers | 3dskinlayers | modrinth | github.com/tr7zw/3d-skin-layers |
+| Enhanced Celestials 2: Shader Support | enhanced-celestials-2-shader-support | modrinth | - |
 
 ## Library
 
@@ -175,6 +189,9 @@ Installed mods by category. The human-facing version with links and badges is th
 | CoroUtil | coroutil | modrinth | github.com/Corosauce/CoroUtil |
 | Platform | platform | modrinth | github.com/ItsBlackGear/Platform |
 | Kotlin for Forge | kotlin-for-forge | modrinth | github.com/thedarkcolour/KotlinForForge |
+| Enhanced Celestials 2: Core | enhanced-celestials-2-core | modrinth | - |
+| CorgiLib | corgilib | modrinth | github.com/CorgiTaco/CorgiLib |
+| Data Anchor | data-anchor | modrinth | github.com/CorgiTaco/Data-Anchor |
 
 ## Resource Pack
 

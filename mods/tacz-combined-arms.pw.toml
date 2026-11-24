@@ -1,0 +1,13 @@
+name = "[TaCZ/SBW] Combined Arms"
+filename = "tacz_sewv-0.1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F5gjlN5D/versions/nUbgqM3I/tacz_sewv-0.1.7.jar"
+hash-format = "sha512"
+hash = "57b520deda4738b41bb57aa74b25c39fbe0c61da2a6aef791e0703d04aad6f8c954936fd5f89d4d306842e6cdc47bea0ea93c2637965cae1a142fb0547facbbc"
+
+[update]
+[update.modrinth]
+mod-id = "F5gjlN5D"
+version = "nUbgqM3I"
