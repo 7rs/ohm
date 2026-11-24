@@ -19,8 +19,9 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `mods/*.pw.toml`: One metafile per mod. The file name is the project slug.
 - `resourcepacks/*.pw.toml`: One metafile per resource pack. Enabled at first launch through the `resourcePacks` key of `config/defaultoptions/options.txt`. The key holds the file name, so update it when `packwiz update` changes a resource pack's file name. Minecraft 1.20.1 reads only `pack_format`: a pack whose value is not 15 must also be listed in `incompatibleResourcePacks`, or the game removes it from the list at load.
 - `shaderpacks/*.pw.toml`: One metafile per shader pack. packwiz marks them `both` because Modrinth lists their environment as unknown, so set `side = "client"` by hand. No shader pack is selected at first launch: `config/defaultoptions/extra/config/oculus.properties` has no `shaderPack` key. A pinned pack (`pin = true`) stays on its version through `packwiz update`.
-- `README.md`: Human-facing overview and the Mod List with links and badges. Not distributed.
-- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md and `refs/` are not distributed.
+- `README.md`: Human-facing overview and install guide (Prism Launcher, building the `.mrpack` from a clone, server install). Not distributed.
+- `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
+- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
@@ -33,15 +34,15 @@ In this project, we maintain a Packwiz modpack named ohm.
 - Never put `options.txt` or `servers.dat` in the pack root. Use `config/defaultoptions/`.
 - Add only shader packs that support Distant Horizons (the zip has `dh_*` programs). Distant Horizons is installed and draws its LODs only with such packs. This is the user's rule (2026-11-23).
 - Write only the keys that differ from the mod's defaults. Do not ship hardware-dependent values such as thread counts.
-- When any definition in this project changes, record it in this CLAUDE.md in the same change. This covers the Minecraft or Forge version, the structure, the commands and the rules. Keep `refs/list.md` and the Mod List in `README.md` in sync with `mods/`, `resourcepacks/` and `shaderpacks/`, and `refs/settings.md` in sync with `config/`.
+- When any definition in this project changes, record it in this CLAUDE.md in the same change. This covers the Minecraft or Forge version, the structure, the commands and the rules. Keep `refs/list.md` and the Mod List in `docs/modlist.md` in sync with `mods/`, `resourcepacks/` and `shaderpacks/`, and `refs/settings.md` in sync with `config/`.
 - When a problem with an installed mod is found or resolved, update `refs/issues.md`.
-- When a mod is removed, remove its entries from `refs/issues.md`, `refs/list.md`, `README.md` and `refs/settings.md`.
+- When a mod is removed, remove its entries from `refs/issues.md`, `refs/list.md`, `docs/modlist.md` and `refs/settings.md`.
 
 ## References
 
 Long reference files live under `refs/`. They are excluded from the index and are not distributed. Read them only when the task needs them.
 
-- `refs/list.md`: Mod tables by category (Name, Slug, Source, Repository). Slug is the metafile name, Source is `modrinth` or `curseforge`. It has no icons, links or dates: those live in `README.md`. Read it when adding, removing or looking up a mod.
+- `refs/list.md`: Mod tables by category (Name, Slug, Source, Repository). Slug is the metafile name, Source is `modrinth` or `curseforge`. It has no icons, links or dates: those live in `docs/modlist.md`. Read it when adding, removing or looking up a mod.
 - `refs/issues.md`: Known problems of installed mods with a status (`open`, `unverified`, `by design`, `resolved`). Read it before changing a mod or its settings.
 - `refs/notes.md`: Per-mod decisions and constraints by topic (key binding, Punchy, viewer/info/camera, recipe/worldgen/Create/weather, optimization): why a mod is installed, what must not be added beside it, and what was checked and rejected. Read it before adding, removing or replacing a mod.
 - `refs/settings.md`: Shipped settings. Vanilla (`options.txt`) and each mod have their own section, with a table of Key, Value and Reason per file. Launcher-only items sit at the end. Read it before changing a setting.
@@ -83,7 +84,7 @@ Needs the comparison and review above to be done.
 - After adding or removing a mod, run `packwiz refresh` to update `index.toml`.
 - When the setup is done, record it:
   - Problems and open questions found so far: `refs/issues.md`.
-  - The mod: `refs/list.md` and the Mod List in `README.md` (Modrinth, CurseForge and repository links, last commit badge).
+  - The mod: `refs/list.md` and the Mod List in `docs/modlist.md` (Modrinth, CurseForge and repository links, last commit badge).
   - Shipped settings: `refs/settings.md`.
   - Decisions and constraints (what to avoid beside it): `refs/notes.md`.
 
