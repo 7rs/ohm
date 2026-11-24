@@ -20,8 +20,10 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `resourcepacks/*.pw.toml`: One metafile per resource pack. Enabled at first launch through the `resourcePacks` key of `config/defaultoptions/options.txt`. The key holds the file name, so update it when `packwiz update` changes a resource pack's file name. Minecraft 1.20.1 reads only `pack_format`: a pack whose value is not 15 must also be listed in `incompatibleResourcePacks`, or the game removes it from the list at load.
 - `shaderpacks/*.pw.toml`: One metafile per shader pack. packwiz marks them `both` because Modrinth lists their environment as unknown, so set `side = "client"` by hand. No shader pack is selected at first launch: `config/defaultoptions/extra/config/oculus.properties` has no `shaderPack` key. A pinned pack (`pin = true`) stays on its version through `packwiz update`.
 - `README.md`: Human-facing overview and install and update guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server; Update: modpack, PC, server). Not distributed.
+- `CONTRIBUTING.md`: Branch, pull request and merge rules for maintainers. Not distributed.
 - `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
-- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, `docs/` and `refs/` are not distributed.
+- `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
+- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.github/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
@@ -34,6 +36,7 @@ In this project, we maintain a Packwiz modpack named ohm.
 - Never put `options.txt` or `servers.dat` in the pack root. Use `config/defaultoptions/`.
 - Add only shader packs that support Distant Horizons (the zip has `dh_*` programs). Distant Horizons is installed and draws its LODs only with such packs. This is the user's rule (2026-11-23).
 - Write only the keys that differ from the mod's defaults. Do not ship hardware-dependent values such as thread counts.
+- Follow `CONTRIBUTING.md` for branches. Never push to `main`. Cut one `add/`, `update/`, `config/`, `ci/` or `feat/` branch per topic from `dev` and merge it into `dev` by pull request. Push to `dev` directly only for documentation-only changes. When the branch rules change, update `CONTRIBUTING.md` and `.github/rulesets/` together.
 - When any definition in this project changes, record it in this CLAUDE.md in the same change. This covers the Minecraft or Forge version, the structure, the commands and the rules. Keep `refs/list.md` and the Mod List in `docs/modlist.md` in sync with `mods/`, `resourcepacks/` and `shaderpacks/`, and `refs/settings.md` in sync with `config/`.
 - When a problem with an installed mod is found or resolved, update `refs/issues.md`.
 - When a mod is removed, remove its entries from `refs/issues.md`, `refs/list.md`, `docs/modlist.md` and `refs/settings.md`.
