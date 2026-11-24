@@ -19,7 +19,7 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `mods/*.pw.toml`: One metafile per mod. The file name is the project slug.
 - `resourcepacks/*.pw.toml`: One metafile per resource pack. Enabled at first launch through the `resourcePacks` key of `config/defaultoptions/options.txt`. The key holds the file name, so update it when `packwiz update` changes a resource pack's file name. Minecraft 1.20.1 reads only `pack_format`: a pack whose value is not 15 must also be listed in `incompatibleResourcePacks`, or the game removes it from the list at load.
 - `shaderpacks/*.pw.toml`: One metafile per shader pack. packwiz marks them `both` because Modrinth lists their environment as unknown, so set `side = "client"` by hand. No shader pack is selected at first launch: `config/defaultoptions/extra/config/oculus.properties` has no `shaderPack` key. A pinned pack (`pin = true`) stays on its version through `packwiz update`.
-- `README.md`: Human-facing overview and install guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server). Not distributed.
+- `README.md`: Human-facing overview and install and update guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server; Update: modpack, PC, server). Not distributed.
 - `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
 - `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
