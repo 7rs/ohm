@@ -26,7 +26,7 @@ Force pushes to `main` and `dev` are blocked.
 - Cut one branch per topic. A topic is what was raised as one item: five mods requested together are one `add/` branch, and the settings they need stay in it.
 - Branch from `dev`, never from `main`. This holds for any tool that creates the branch for you (for example a Claude Code cloud session): check the base before the first commit.
 - Do not reuse a branch for a second topic, not even in the same session: cut a new one from `dev`.
-- A branch name that does not start with one of the prefixes above is not allowed. This holds for names a tool generates, such as `ccr-*` from a Claude Code cloud session. If a tool starts on such a branch, rename it with `git branch -m` before the first commit and push: the session cannot delete a pushed branch, so a pushed `ccr-*` stays on the remote. GitHub does not enforce this: it is a convention.
+- A branch name that does not start with one of the prefixes above is not allowed. This holds for names a tool generates, such as `ccr-*` from a Claude Code cloud session. If a tool starts on such a branch for a topic, rename it with `git branch -m` before the first commit and push: the session cannot delete a pushed branch, so a pushed `ccr-*` stays on the remote. GitHub does not enforce this: it is a convention.
 - `ci/` carries CI changes and nothing else.
 
 ## Pull requests
@@ -63,7 +63,9 @@ This and [documentation](#documentation) are the only direct pushes to `dev`. A 
 
 ## Documentation
 
-A change that touches only `README.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `docs/` or `refs/` may be pushed to `dev` directly.
+A change that touches only `README.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `docs/` or `refs/` is pushed to `dev` directly, without a topic branch. A change to `CLAUDE.md` alone is one of these.
+
+If a Claude Code cloud session starts on a `ccr-*` branch, do not rename it for such a change: switch to `dev`, bring it up to date with `origin/dev`, then commit and push `dev`.
 
 Documentation that belongs to a topic (for example `refs/list.md` and `docs/modlist.md` for an added mod) goes in that topic's branch.
 
