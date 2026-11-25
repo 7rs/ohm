@@ -2,5 +2,7 @@ CLAUDE.md
 README.md
 CONTRIBUTING.md
 refs/
+.editorconfig
+.githooks/
 .github/
 docs/
