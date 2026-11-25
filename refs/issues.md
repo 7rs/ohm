@@ -258,6 +258,17 @@ Evidence: `refs/comparisons/vehicles/` (`gh_issues.md` has the issue digest). No
 - Its exact pass (`exact_radius`, 16 in singleplayer) uses the game's real generator, which Fast Noise replaces in part (`populateNoise`, `populateBiomes`, the surface builder). SeedGen's page named Fast Noise as a possible conflict; Turbo's docs name nothing. Not run together. (`unverified`)
 - Existing worlds: distant terrain that DH or an older Turbo stored keeps its look until `/dhturbo regenerate` (operators and the host). (`by design`)
 
+## Mixin hard-conflict candidates among installed mods (scan 2026-11-25)
+
+- Method: the Mixin annotations of the 134 installed jars (nested Jar-in-Jar included; the three Immersive Vehicles content packs skipped) were parsed from the class files: target class, target method, injector kind and hooked call. A candidate is an `@Overwrite` on a method another mod also hooks, or two `@Redirect` or `@ModifyConstant` on the same call. Names are compared as written (Mojmap and SRG spellings of one method are not matched) and a mixin that a plugin switches off at load is not known, so this is a list to check, not a result. Earlier scans reported no hard conflict; this parser also counts `@Overwrite`. Not run. (`unverified`)
+- Nine pairs; the first four are the ones to watch:
+  - AllTheLeaks and Harium: AllTheLeaks wraps an expression inside `Entity.isInFluidType` (`EntityMixin2`), and Harium's `entity.collisions.fluid` overwrites that method. If Harium applies first the wrapper has no target. Most likely crash candidate. (`unverified`)
+  - FerriteCore and Harium: both overwrite two `PalettedContainer` lock methods (FerriteCore `threaddetec`, Harium `chunk.no_locking`). Same job; one overwrite is skipped with a warning (inference from Mixin's overwrite rule, not run). `mixin.chunk.no_locking` is Harium's switch. (`unverified`)
+  - Harium and ModernFix: both overwrite `Biome` temperature caching (Harium `world.temperature_cache`, ModernFix `perf.remove_biome_temperature_cache`). Same job; turning one switch off settles it. (`unverified`)
+  - AsyncParticles with Flerovium, BadOptimizations and Oculus (`ParticleEngine`): AsyncParticles overwrites `render` and the tick helpers, and its jar names Flerovium's `ParticleEngineMixin` and `ParticleMixin` and BadOptimizations' `MixinParticleManager` in a canceller class, so those are switched off on purpose (class strings; not run). Oculus's `ParticleEngine.render` redirect is not in that list. (`unverified`)
+  - Embeddium and Oculus (`MipmapGenerator`, `ModelPart` overwrites, one `SpriteContents.<init>` redirect), Embeddium and FerriteCore (`MultiPartBakedModel.getQuads`): combinations other packs run (inference, no report searched). (`unverified`)
+  - AllTheLeaks and ModernFix (`IngredientWithCount`, a CoFH class): CoFH Core is not installed, so the target class is absent (inference). (`unverified`)
+
 ## Resolved
 
 - GPUBooster was a Fabric-only jar. It was replaced with the Forge build `1.0.5.1-forge`. (`resolved`)
