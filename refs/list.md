@@ -24,13 +24,10 @@ Installed mods by category. The human-facing version with links and badges is th
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
-| Bedrockoid | bedrockoid | modrinth | github.com/SashaKYotoz/Bedrockoid |
 | Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
-| Create Crafts & Additions | createaddition | modrinth | github.com/mrh0/createaddition |
 | Applied Energistics 2 | ae2 | modrinth | github.com/AppliedEnergistics/Applied-Energistics-2 |
 | Botania | botania | modrinth | github.com/VazkiiMods/Botania |
 | Immersive Aircraft | immersive-aircraft | modrinth | github.com/Luke100000/ImmersiveAircraft |
-| Man of Many Planes | man-of-many-planes | modrinth | github.com/Luke100000/Man-of-Many-Planes |
 | Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
 | Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
 
@@ -43,6 +40,9 @@ Installed mods by category. The human-facing version with links and badges is th
 | Create: Steam 'n' Rails | create-steam-n-rails | modrinth | github.com/Layers-of-Railways/Railway |
 | Immersive Vehicles - Official Content Pack [OCP] | immersive-vehicles-official-content-pack | modrinth | github.com/DonBruce64/MTSOfficialPack |
 | GT CRAFT [IV/MTS] | gt-craft-ivmts | modrinth | - |
+| Create Crafts & Additions | createaddition | modrinth | github.com/mrh0/createaddition |
+| [TaCZ/SBW] Combined Arms | tacz-combined-arms | modrinth | github.com/NeoAlive/tacz-simple-enemies-vehicular-warfare |
+| Man of Many Planes | man-of-many-planes | modrinth | github.com/Luke100000/Man-of-Many-Planes |
 
 ## Item/Mob
 
@@ -54,7 +54,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
 | TACZ-Sound Attracts Zombies | tacz-sound-attracts-zombies | modrinth | - |
 | Simple Enemy | simple-enemy | modrinth | github.com/NekoYuni/Simple-Enemy-Mod-Public |
-| [TaCZ/SBW] Combined Arms | tacz-combined-arms | modrinth | github.com/NeoAlive/tacz-simple-enemies-vehicular-warfare |
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
 | Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
 | Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
@@ -67,6 +66,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Vanilla Backport | vanillabackport | modrinth | github.com/ItsBlackGear/VanillaBackport |
 | Almost Unified | almostunified | modrinth | github.com/AlmostReliable/almostunified |
 | Almost Unify Everything | almost-unify-everything | modrinth | git.karmakrafts.dev/kk/mc-projects/almost-unify-everything |
+| Bedrockoid | bedrockoid | modrinth | github.com/SashaKYotoz/Bedrockoid |
 
 ## Graphic Optimization
 
@@ -115,22 +115,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Async Locator | async-locator | modrinth | thebrightspark/AsyncLocator |
 | Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
 
-## UI Improvement
-
-| Name | Slug | Source | Repository |
-| --- | --- | --- | --- |
-| Better Advancements | better-advancements | modrinth | github.com/way2muchnoise/BetterAdvancements |
-| BetterF3 | betterf3 | modrinth | github.com/TreyRuffy/BetterF3 |
-| Durability Tooltip | durability-tooltip | modrinth | github.com/SuperMartijn642/DurabilityTooltip |
-| Catalogue | catalogue | curseforge | github.com/MrCrayfish/Catalogue |
-| Xaero's Minimap | xaeros-minimap | modrinth | - |
-| Xaero's World Map | xaeros-world-map | modrinth | - |
-| EMI | emi | modrinth | github.com/emilyploszaj/emi |
-| Just Enough Items (JEI) | jei | modrinth | github.com/mezz/JustEnoughItems |
-| Jade | jade | modrinth | github.com/Snownee/Jade |
-| Jade Addons (Neo/Forge) | jade-addons-forge | modrinth | github.com/Snownee/JadeAddons |
-| Enhanced Boss Bars | enhanced-boss-bars-mod | modrinth | Naku2004/Enhanced_Boss_Bars_1.21.1_NeoForge |
-
 ## QoL
 
 | Name | Slug | Source | Repository |
@@ -157,6 +141,22 @@ Installed mods by category. The human-facing version with links and badges is th
 | Leaves Be Gone | leaves-be-gone | modrinth | Fuzss/leavesbegone |
 | Cubes Without Borders | cubes-without-borders | modrinth | Kira-NT/cubes-without-borders |
 | All Japanese Translate | jtrans | curseforge | - |
+
+## UI Improvement
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| Better Advancements | better-advancements | modrinth | github.com/way2muchnoise/BetterAdvancements |
+| BetterF3 | betterf3 | modrinth | github.com/TreyRuffy/BetterF3 |
+| Durability Tooltip | durability-tooltip | modrinth | github.com/SuperMartijn642/DurabilityTooltip |
+| Catalogue | catalogue | curseforge | github.com/MrCrayfish/Catalogue |
+| Xaero's Minimap | xaeros-minimap | modrinth | - |
+| Xaero's World Map | xaeros-world-map | modrinth | - |
+| EMI | emi | modrinth | github.com/emilyploszaj/emi |
+| Just Enough Items (JEI) | jei | modrinth | github.com/mezz/JustEnoughItems |
+| Jade | jade | modrinth | github.com/Snownee/Jade |
+| Jade Addons (Neo/Forge) | jade-addons-forge | modrinth | github.com/Snownee/JadeAddons |
+| Enhanced Boss Bars | enhanced-boss-bars-mod | modrinth | Naku2004/Enhanced_Boss_Bars_1.21.1_NeoForge |
 
 ## Graphic
 
