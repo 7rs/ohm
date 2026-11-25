@@ -36,7 +36,6 @@
 | Immersive Vehicles | [![Modrinth](https://cdn.simpleicons.org/modrinth?size=16)](https://modrinth.com/mod/immersive-vehicles) [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator) [![GitHub](https://cdn.simpleicons.org/github/181717/white?size=16)](https://github.com/DonBruce64/MinecraftTransportSimulator) | ![last commit](https://img.shields.io/github/last-commit/DonBruce64/MinecraftTransportSimulator) |
 | Immersive Vehicles - Official Content Pack [OCP] | [![Modrinth](https://cdn.simpleicons.org/modrinth?size=16)](https://modrinth.com/mod/immersive-vehicles-official-content-pack) [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/transport-simulator-official-vehicle-set) [![GitHub](https://cdn.simpleicons.org/github/181717/white?size=16)](https://github.com/DonBruce64/MTSOfficialPack) | ![last commit](https://img.shields.io/github/last-commit/DonBruce64/MTSOfficialPack) |
 | GT CRAFT [IV/MTS] | [![Modrinth](https://cdn.simpleicons.org/modrinth?size=16)](https://modrinth.com/mod/gt-craft-ivmts) [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/gt-craft-iv-mts) | - |
-| [Immersive Vehicles] Craftspeed | [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/immersive-vehicles-craftspeed) | - |
 
 ## Item/Mob
 

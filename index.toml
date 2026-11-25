@@ -413,11 +413,6 @@ hash = "16784aa8a627d9d4f5e93f704b2cb21fa37ae17d5e1d1d42b91aa7dd7bc3bd65"
 metafile = true
 
 [[files]]
-file = "mods/immersive-vehicles-craftspeed.pw.toml"
-hash = "189351ce185e8aa53da242e25ac22e95518a6c6ec20fc1f059f0a7c11f8c7dfe"
-metafile = true
-
-[[files]]
 file = "mods/immersive-vehicles-official-content-pack.pw.toml"
 hash = "374db2a55a974e6d17abe135572e1829de6ce2265315f4fbef2f480ac508ce25"
 metafile = true
