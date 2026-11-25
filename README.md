@@ -52,12 +52,16 @@ Clone the repository and export:
 ```sh
 git clone https://github.com/7rs/ohm.git
 cd ohm
-packwiz modrinth export --output ohm.mrpack
+sh scripts/export.sh
 ```
 
-`*.mrpack` is ignored by Git, so the file can stay in the repository directory.
+On Windows, run it in Git Bash (installed with Git for Windows). The script needs `sh`, `curl`, `awk` and `sed`, which Git Bash, macOS and Linux all have. It writes `ohm-<version>.mrpack` to the repository directory. Pass the platform and a file name to change that: `sh scripts/export.sh [modrinth|curseforge] [output]`.
 
-Some CurseForge mods cannot be downloaded through the CurseForge API. [Immersive Vehicles] Craftspeed is one. In that case packwiz exits with `Found N manual downloads`, lists each file with its CurseForge page, and leaves an empty `.mrpack`. Download each listed file in a browser, put it in the `import` folder that packwiz prints, and run the export again.
+`*.mrpack` is ignored by Git, so the file can stay in the repository directory. The CurseForge `.zip` is not ignored: write it outside the repository.
+
+Some CurseForge mods cannot be downloaded through the CurseForge API. [Immersive Vehicles] Craftspeed is one. The script downloads it from the CurseForge CDN, checks the hash in its metafile and puts it in the packwiz `import` folder, then exports. It skips the download when packwiz already has the file. To cover another such mod, add its slug to `MANUAL_MODS` in [scripts/export.sh](scripts/export.sh).
+
+If you run `packwiz modrinth export` yourself, packwiz exits with `Found N manual downloads`, lists each file with its CurseForge page, and leaves an empty `.mrpack`. Download each listed file in a browser, put it in the `import` folder, and run the export again.
 
 | OS | `import` folder |
 | --- | --- |

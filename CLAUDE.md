@@ -23,7 +23,8 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `CONTRIBUTING.md`: Branch, pull request and merge rules for maintainers. Not distributed.
 - `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
 - `docs/benchmark.md`, `docs/benchmark-mods.md`: Human procedures to profile and benchmark the pack: the common method, then one mod from a clean Forge instance, overlap tests and the scene each optimization mod needs. They hold no results. Linked from `README.md`. Not distributed. Results of a run go to `refs/` (see the Run record in `docs/benchmark.md`).
-- `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack. It runs on every pull request with no `paths:` filter, because `main` requires its checks and a skipped workflow leaves them pending forever. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
+- `scripts/export.sh`: Builds the pack on any OS: `sh scripts/export.sh [modrinth|curseforge] [output]`. One POSIX `sh` file (Git Bash on Windows), shared by CI and local builds. For Modrinth it first downloads the CurseForge files that the CurseForge API does not serve (`MANUAL_MODS`, now `immersive-vehicles-craftspeed`) from the CurseForge CDN into the packwiz `import` folder, checks the hash of the metafile, then runs `packwiz <platform> export`. It skips a file that packwiz already holds. When another mod ends with `Found N manual downloads`, add its slug to `MANUAL_MODS`. Not distributed.
+- `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack with `scripts/export.sh`. It runs on every pull request with no `paths:` filter, because `main` requires its checks and a skipped workflow leaves them pending forever. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
 - `.editorconfig`: Editor settings for files edited by hand (UTF-8, LF, final newline, 2 spaces). `config/` and `defaultconfigs/` are unset, because mods write those files and an editor must not reformat them (the bytes feed the `index.toml` hash). Not distributed.
 - `.gitattributes`: `* text=auto eol=lf` keeps the working tree in LF on every OS. Without it Git on Windows (`core.autocrlf=true`) checks files out as CRLF, packwiz hashes those bytes, and `packwiz refresh` disagrees with CI. packwiz excludes it from the index by default. Not distributed.
 - `.githooks/pre-commit`: Warning-only checks before a commit. It never blocks a commit and always exits 0. One POSIX `sh` file, because Git runs hooks through `sh` on every OS (Git for Windows ships it). Enable it once per clone: `git config core.hooksPath .githooks`. It warns when:
@@ -35,7 +36,7 @@ In this project, we maintain a Packwiz modpack named ohm.
   - `.github/`, `.githooks/`, `.claude/`, `.editorconfig`, `.gitattributes` or `.packwizignore` changed, but `CLAUDE.md` is not staged.
   Not distributed.
 - `.claude/agents/*.md`: Claude Code subagents, one file per agent, both on `model: sonnet`. `mod-researcher` does the comparison and review before a mod is added and returns a recommendation: it loads the `anthropic-skills:comparison` skill, holds the project's adaptations of it, writes only under `refs/comparisons/<topic>/` and never adds anything. `update-reviewer` reviews the working tree after `packwiz update` and reports risks and follow-up edits: it is read-only. Not distributed.
-- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.claude/`, `.githooks/`, `.github/`, `docs/` and `refs/` are not distributed.
+- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.claude/`, `.githooks/`, `.github/`, `scripts/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
@@ -118,4 +119,4 @@ Needs the comparison and review above to be done.
 - After editing a metafile by hand: `packwiz refresh`
 - Update: `packwiz update <slug>` / `packwiz update --all`
   - Then review the changes with the `update-reviewer` subagent and apply its follow-up edits.
-- Export: `packwiz modrinth export`
+- Export: `sh scripts/export.sh` (Modrinth, `.mrpack`). `sh scripts/export.sh curseforge` for the CurseForge `.zip`. A bare `packwiz modrinth export` fails with `Found N manual downloads` while the CurseForge-only files are missing from the packwiz cache.
