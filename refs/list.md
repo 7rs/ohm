@@ -104,6 +104,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | AllTheLeaks (Memory Leak Fix) | alltheleaks | curseforge | github.com/pietro-lopes/AllTheLeaks |
 | JEI/EMI Optimizations | jeiemi-optimizations | curseforge | - |
 | Structure Layout Optimizer | structure-layout-optimizer | modrinth | github.com/TelepathicGrunt/StructureLayoutOptimizer |
+| Turbo for Distant Horizons | turbo-for-distant-horizons | modrinth | github.com/Pocky-l/dhturbo |
 | FastWorkbench | fastworkbench | modrinth | github.com/Shadows-of-Fire/FastWorkbench |
 | FastFurnace | fastfurnace | modrinth | github.com/Shadows-of-Fire/FastFurnace |
 | FastSuite | fastsuite | modrinth | github.com/Shadows-of-Fire/FastSuite |
