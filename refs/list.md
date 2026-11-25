@@ -16,27 +16,31 @@ Installed mods by category. The human-facing version with links and badges is th
 | ParCool! | parcool | modrinth | github.com/alRex-U/ParCool |
 | [TaCZ] Timeless and Classics Zero | timeless-and-classics-zero | modrinth | github.com/MCModderAnchor/TACZ |
 | Create | create | modrinth | github.com/Creators-of-Create/Create |
+| Mekanism | mekanism | modrinth | github.com/mekanism/Mekanism |
+| Iron's Spells 'n Spellbooks | irons-spells-n-spellbooks | modrinth | github.com/iron431/Irons-Spells-n-Spellbooks |
+| Superb Warfare | superb-warfare | modrinth | github.com/Mercurows/SuperbWarfare |
 
 ## Sub Feature
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
 | Bedrockoid | bedrockoid | modrinth | github.com/SashaKYotoz/Bedrockoid |
-| [TACZ] LesRaisins Tactical Equipements | lr-tactical | modrinth | github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements |
-| Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 | Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
-| Mekanism | mekanism | modrinth | github.com/mekanism/Mekanism |
-| Mekanism Generators | mekanism-generators | modrinth | github.com/mekanism/Mekanism |
 | Create Crafts & Additions | createaddition | modrinth | github.com/mrh0/createaddition |
 | Applied Energistics 2 | ae2 | modrinth | github.com/AppliedEnergistics/Applied-Energistics-2 |
-| Iron's Spells 'n Spellbooks | irons-spells-n-spellbooks | modrinth | github.com/iron431/Irons-Spells-n-Spellbooks |
 | Botania | botania | modrinth | github.com/VazkiiMods/Botania |
-| Superb Warfare | superb-warfare | modrinth | github.com/Mercurows/SuperbWarfare |
-| Create: Steam 'n' Rails | create-steam-n-rails | modrinth | github.com/Layers-of-Railways/Railway |
 | Immersive Aircraft | immersive-aircraft | modrinth | github.com/Luke100000/ImmersiveAircraft |
 | Man of Many Planes | man-of-many-planes | modrinth | github.com/Luke100000/Man-of-Many-Planes |
 | Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
 | Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
+
+## Addon/Plugin
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| [TACZ] LesRaisins Tactical Equipements | lr-tactical | modrinth | github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements |
+| Mekanism Generators | mekanism-generators | modrinth | github.com/mekanism/Mekanism |
+| Create: Steam 'n' Rails | create-steam-n-rails | modrinth | github.com/Layers-of-Railways/Railway |
 | Immersive Vehicles - Official Content Pack [OCP] | immersive-vehicles-official-content-pack | modrinth | github.com/DonBruce64/MTSOfficialPack |
 | GT CRAFT [IV/MTS] | gt-craft-ivmts | modrinth | - |
 
@@ -54,6 +58,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
 | Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
 | Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
+| Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 
 ## Change
 
