@@ -1,0 +1,94 @@
+﻿[
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "LKA6xzYY",
+        "project_id":  "JBfHPeZC",
+        "author_id":  "QOD2Xv35",
+        "featured":  false,
+        "name":  "1.21.1 NeoForge Patch",
+        "version_number":  "3.7.3",
+        "changelog":  "Quick patch to update the pack to 1.21.1 NeoForge (it also works on 1.20.1-1.19.2-1.18.2-1.16.5 Forge).\n\nMake sure you have the right MTS version!\n\nHave fun!",
+        "changelog_url":  null,
+        "date_published":  "2026-04-16T21:08:35.660527Z",
+        "downloads":  8920,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "c8CgpoWQ",
+                          "hashes":  {
+                                         "sha512":  "19a2623fbaa637b198b0bd187082894e0626ac98f2ae2173df2674403943ce1c452944a1af2844e8210e0462d2de9ff435b44452eeffcae9fec676774ed3488e",
+                                         "sha1":  "e73e95c01734ad0d6a0ff26d6aa3d75c2d182d31"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/JBfHPeZC/versions/LKA6xzYY/SVMP3.7.3%201.16%2B.jar",
+                          "filename":  "SVMP3.7.3 1.16+.jar",
+                          "primary":  true,
+                          "size":  33892649,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "oGNETsIb",
+        "project_id":  "JBfHPeZC",
+        "author_id":  "QOD2Xv35",
+        "featured":  false,
+        "name":  "SVMP3.7.3 - 1.16+ (100K Downloads Special)",
+        "version_number":  "3.7.3",
+        "changelog":  "![some of the new content added](https://cdn.modrinth.com/data/cached_images/5e7cc72c1020e1487147f3b0c9bf399f48395ef2_0.webp)\n\nWell. I\u0027m sort of lost for words here. I have always hoped I would \"make it big\" in these circles, but I never actually thought we\u0027d get here.\nThank you so so much for 100.000 downloads!\n\n### CHANGELOG\n\n+ remastered the Aston Martin Valkyrie\n+ added Aston Martin Valkyrie Spider\n+ added liveries to various cars\n+ added new parts sets for the Suzuki Swift\n+ added new parts sets for the Lancia Beta Montecarlo\n+ fixed the Volkswagen Transporter",
+        "changelog_url":  null,
+        "date_published":  "2026-02-27T10:29:23.122296Z",
+        "downloads":  1477,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "BbkHUOmK",
+                          "hashes":  {
+                                         "sha512":  "41e681bfc2f258a451c24bc8a4af260ca7686cf1140da6c03718d68a7e06ac100c5b74904277c5d24b0249f37d97f1022ca358320017b5d02aea0d192042518f",
+                                         "sha1":  "aaea900a18452226461e3ce0aa8d35f5450d24a0"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/JBfHPeZC/versions/oGNETsIb/SVMP3.7.3%201.16%2B.jar",
+                          "filename":  "SVMP3.7.3 1.16+.jar",
+                          "primary":  true,
+                          "size":  33891838,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+
+                         ]
+    }
+]

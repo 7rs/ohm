@@ -1,0 +1,21 @@
+id,author,product,kind,forge_1_20_1,downloads,last_update,status,evidence,url
+P01,aoityou,All Japanese Translate (jtrans) 1.9.1,mod (universal jar),yes (Forge/NeoForge/Fabric/Quilt),"31,465 (CurseForge)",2026-11-21,researched,"jar read, measured coverage",https://www.curseforge.com/minecraft/mc-mods/jtrans
+P02,as_azu (RemilyMart),Japanese Language Pack V57,resource pack,yes (pack_format 15),"12,429 (CurseForge); 4,613 (Modrinth)",2026-11-10,researched,"zip read, measured coverage",https://modrinth.com/resourcepack/japanese-language-pack
+P03,墨涤千尘 (Moirstral),AutoTranslation 1.2.1,mod (online machine translation),yes (1.20.1 Forge build 2023-10-06),"277,650 (CurseForge)",2023-12-30,researched (page only),"page and README read; not run",https://www.curseforge.com/minecraft/mc-mods/autotranslation
+P04,yuefdev,minecraft-ai-translator (AutoTranslation fork),mod (online machine translation),yes (Forge 47),unknown (GitHub),repo created 2026-10-09,unverified,README read; tuned for Turkish only,https://github.com/yuefdev/minecraft-ai-translator
+P05,takapii_kun,MOD Japanese translation v3.9,resource pack (19 mods),yes,"308 (CurseForge); 42 (Modrinth)",2026-08-29,bounded,README list only,https://www.curseforge.com/minecraft/texture-packs/mod-japanese-translation
+P06,craft-palette (one person),くらふとぱれっと packs,site of per-mod resource packs (342 packs),yes (per pack),unknown,monthly runs,bounded,site text only,https://craft-palette.net/mods/
+P07,ykpiece,マイクラMOD 日本語化パック配布所,site of per-mod resource packs (185 Forge mods),yes (per pack),unknown,unknown,bounded,site text only,https://ykpiece.github.io/minecraft-ja-packs/
+P08,twister716,Twister716 repository,repo of per-mod resource packs,yes (per pack),n/a (GitHub stars 1),2026-06 (created),bounded,README only,https://github.com/twister716/Twister716s-JP-Translations-for-Minecraft-mods
+P09,unknown,Sodium 日本語訳 (sodium-translation),resource pack (Sodium and Sodium Extra),partly (Sodium namespaces),"39,480 (Modrinth)",2026-09-20,bounded,"description only; jtrans already covers the sodium and embeddium namespaces (measured)",https://modrinth.com/resourcepack/sodium-translation
+P10,unknown,Embeddium Unofficial Japanese Translate (EUJT),resource pack (Embeddium),yes,"13,708 (Modrinth)",2024-07-31,bounded,description only,https://modrinth.com/resourcepack/eujt
+P11,unknown,Sodium Japanese Localization,resource pack (Sodium),partly,"3,950 (Modrinth)",2024-09-03,bounded,description only,https://modrinth.com/resourcepack/sodium-japanese-localization
+P12,den2_nova,MOD-JP-DEN2,resource pack (18 mods),yes,unknown,2024-09,bounded,note.com article only,https://note.com/den2_nova/n/n77c2f9003292
+P13,E.B.K.N.,和訳パック (5 mods),resource pack,yes,unknown,2026-04,bounded,note.com article only,https://note.com/ebkn_no_note/n/na788f9408a7f
+P14,suthibu,ja_jp.json (few mods),repo of resource packs,yes,n/a,unknown,bounded,README only,https://github.com/suthibu/ja_jp.json
+P15,none,Own resource pack for the leftover keys ("no mod"),resource pack written for this pack,yes,n/a,n/a,candidate,not built,
+P16,aoityou + as_azu,jtrans plus Japanese Language Pack,combination,yes,n/a,n/a,researched,measured coverage,
+X01,various,VM Translation Utility; Masa Mod Translation Pack; Sodium Chinese Localization Pack; i18nUpdateMod,Chinese localization tools,n/a,n/a,n/a,excluded (a) outside the category,,
+X02,various,Re-FTBQLocalizationKeys; Texture Locale Redirector; Language Reload; Tag Localization Fixes; Textualizer,language tooling that supplies no Japanese text,n/a,n/a,n/a,excluded (a) outside the category,,
+X03,various,Mya's masady mods; Relics; Simply Swords; Create Aeronautics; Blockfront; Immersive Weathering; MTA; weapons of miracles; Split Self; Craft to Exile 2 pack,packs for mods the pack does not install,n/a,n/a,n/a,excluded (a) none of the pack's mods,,
+X04,777shuang,More ja_jp,resource pack,no (1.12.2 only),944,2024-12-01,excluded (b) no 1.20.1 build,,https://www.curseforge.com/minecraft/texture-packs/more-ja_jp

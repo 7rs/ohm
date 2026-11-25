@@ -1,0 +1,96 @@
+#!/bin/sh
+
+cd "$(git rev-parse --show-toplevel)" || exit 0
+
+staged=$(git diff --cached --name-only)
+[ -n "$staged" ] || exit 0
+
+tmp=$(mktemp -d) || exit 0
+trap 'rm -rf "$tmp"' EXIT
+
+warn() {
+  printf '  - %s\n' "$1" >> "$tmp/warnings"
+}
+
+has() {
+  printf '%s\n' "$staged" | grep -q -E "$1"
+}
+
+json_ok() {
+  if command -v jq >/dev/null 2>&1; then
+    jq empty "$1" >/dev/null 2>&1
+  elif command -v powershell.exe >/dev/null 2>&1; then
+    JSON_FILE="$1" powershell.exe -NoProfile -NonInteractive -Command 'try { [void](Get-Content -Raw -LiteralPath $env:JSON_FILE | ConvertFrom-Json) } catch { exit 1 }' >/dev/null 2>&1
+  else
+    return 0
+  fi
+}
+
+added_meta=$(git diff --cached --no-renames --name-only --diff-filter=A -- 'mods/*.pw.toml' 'resourcepacks/*.pw.toml' 'shaderpacks/*.pw.toml')
+removed_meta=$(git diff --cached --no-renames --name-only --diff-filter=D -- 'mods/*.pw.toml' 'resourcepacks/*.pw.toml' 'shaderpacks/*.pw.toml')
+
+if [ -n "$added_meta$removed_meta" ]; then
+  has '^refs/list\.md$' || warn "refs/list.md is not staged, but a metafile was added or removed"
+  has '^docs/modlist\.md$' || warn "docs/modlist.md is not staged, but a metafile was added or removed"
+
+  ls mods resourcepacks shaderpacks 2>/dev/null | sed -n 's/\.pw\.toml$//p' | LC_ALL=C sort > "$tmp/slugs"
+  awk -F'|' '$4 ~ /^ *(modrinth|curseforge) *$/ { gsub(/ /, "", $3); print $3 }' refs/list.md | LC_ALL=C sort > "$tmp/listed"
+  missing=$(LC_ALL=C comm -23 "$tmp/slugs" "$tmp/listed" | tr '\n' ' ')
+  stale=$(LC_ALL=C comm -13 "$tmp/slugs" "$tmp/listed" | tr '\n' ' ')
+  [ -z "$missing" ] || warn "refs/list.md lacks: $missing"
+  [ -z "$stale" ] || warn "refs/list.md lists slugs without a metafile: $stale"
+
+  for f in $added_meta; do
+    s=$(basename "$f" .pw.toml)
+    grep -qF "/$s)" docs/modlist.md || warn "docs/modlist.md has no link ending in /$s)"
+  done
+  for f in $removed_meta; do
+    s=$(basename "$f" .pw.toml)
+    if grep -qF "/$s)" docs/modlist.md; then
+      warn "docs/modlist.md still links $s"
+    fi
+  done
+fi
+
+for f in $(git diff --cached --no-renames --name-only --diff-filter=ACMR -- 'shaderpacks/*.pw.toml'); do
+  grep -q '^side = "client"' "$f" || warn "$f is not side = \"client\""
+done
+
+if has '^(mods|resourcepacks|shaderpacks|config|defaultconfigs)/|^\.packwizignore$'; then
+  if command -v packwiz >/dev/null 2>&1; then
+    cp index.toml "$tmp/index.before"
+    cp pack.toml "$tmp/pack.before"
+    if packwiz refresh >/dev/null 2>&1; then
+      git show :index.toml > "$tmp/index.staged" 2>/dev/null
+      git show :pack.toml > "$tmp/pack.staged" 2>/dev/null
+      if ! cmp -s "$tmp/index.staged" index.toml || ! cmp -s "$tmp/pack.staged" pack.toml; then
+        warn "index.toml or pack.toml is stale or not staged: run packwiz refresh and stage both"
+      fi
+    else
+      warn "packwiz refresh failed"
+    fi
+    cp "$tmp/index.before" index.toml
+    cp "$tmp/pack.before" pack.toml
+  else
+    warn "packwiz is not on PATH: the index check was skipped"
+  fi
+fi
+
+if has '^(config|defaultconfigs)/' && ! has '^refs/settings\.md$'; then
+  warn "config/ or defaultconfigs/ changed, but refs/settings.md is not staged"
+fi
+
+for f in $(git diff --cached --no-renames --name-only --diff-filter=ACMR -- 'config/*.json' 'defaultconfigs/*.json'); do
+  json_ok "$f" || warn "$f is not valid JSON"
+done
+
+if has '^(\.github/|\.githooks/|\.editorconfig$|\.gitattributes$|\.packwizignore$)' && ! has '^CLAUDE\.md$'; then
+  warn "a structure file changed, but CLAUDE.md is not staged"
+fi
+
+if [ -s "$tmp/warnings" ]; then
+  printf 'pre-commit warnings (the commit goes ahead):\n' >&2
+  cat "$tmp/warnings" >&2
+fi
+
+exit 0

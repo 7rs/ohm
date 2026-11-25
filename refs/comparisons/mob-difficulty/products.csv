@@ -1,0 +1,38 @@
+id,topic,name,slug,source,forge_1201_latest,date,channel,downloads,required,status,reason
+champions,elite,Champions Unofficial,champions-unofficial,modrinth,20.1.1.6-forge,2026-09-06,release,100428,Architectury API,researched,
+infernal,elite,Infernal Mobs,infernal-mobs (CurseForge 227875),curseforge,unknown,,,,,light,1.20.1 Forge build implied by an add-on; file not seen
+brutalnightmare,elite,Brutal Nightmare,brutal-nightmare,modrinth,7,2026-10-18,release,100163,Reactify; FokusAPI,light,
+zgmobs,elite,ZG Mobs,zg-mobs,modrinth,2.3.0,2026-05-07,release,79420,,light,
+advancedmobs,elite,Advanced Mobs,advanced_mobs,modrinth,2.0.0,2026-10-28,release,2630,GeckoLib,light,
+d2affix,elite,D2 Affix,d2-affix,modrinth,0.1.3-Beta,2026-08-02,beta,198,,light,
+mobdice,elite,Mob Dice Attributes,mob-dice-attributes,modrinth,1.0.0,2026-04-23,release,2644,,light,
+summoners,elite,Summoner's Mod,summoners-mod,modrinth,1.0.1,2026-07-31,release,2153,,light,
+apotheosis,elite,Apotheosis,apotheosis,modrinth,7.4.8,2026-06-19,release,415287,Apothic Attributes; Patchouli; Placebo,light,overhauls enchanting and more; Apothic Attributes overlaps AttributeFix
+ec1,lunar,Enhanced Celestials,enhanced-celestials,modrinth,1.20.1-5.0.3.3-forge,2026-08-07,release,2559118,Data Anchor; CorgiLib,researched,
+ec2core,lunar,Enhanced Celestials 2: Core,enhanced-celestials-2-core,modrinth,1.0.3.4-forge,2026-11-05,release,91127,Data Anchor; CorgiLib,researched,
+ec2events,lunar,Enhanced Celestials 2: Default Lunar Events,enhanced-celestials-2-default-lunar-events,modrinth,1.0.0.7-forge,2026-11-05,release,82032,EC2 Core; Data Anchor; CorgiLib,researched,
+ec2shaders,lunar,Enhanced Celestials 2: Shader Support,enhanced-celestials-2-shader-support,modrinth,1.0.0.5-forge,2026-11-05,release,69581,EC2 Core; Data Anchor; CorgiLib; Oculus; Embeddium,researched,
+lunar,lunar,Lunar,lunar,modrinth,0.2.7,2025-11-08,beta,683140,,light,only beta builds
+bloodmoon,lunar,Blood Moon (RRC Horde Nights),blood-moon,modrinth,1.0.13+mod,2026-01-02,release,303654,,light,
+bloodmoonupdate,lunar,Bloodmoon Update,bloodmoon-update,curseforge,1.3.2,2025-04-18,,,,light,page says the 1.20.1 version is being reworked
+thehordes,lunar,The Hordes,the-hordes,modrinth,1.20.1-1.6.3g,2026-09-09,release,1634928,Atlas Lib,light,horde events and zombie infection; overlaps Zombie Awareness hordes
+undeadnights,lunar,Undead Nights,undead-nights,modrinth,2.3.0-Forge-mc1.20.1,2026-08-23,release,326896,,light,
+apocalypse,lunar,Apocalypse addon,apocolypseaddon,modrinth,1.15.0,2026-11-10,release,300695,,light,
+za-hordes,lunar,Zombie Awareness wanderingHordes (no mod),zombie-awareness,installed,1.13.1,,,,,researched,config only
+tacznpcs,gun-enemy,TaCZ NPCs,tacz-npcs,modrinth,2.1.0,2026-07-12,release,210605,TaCZ (Modrinth only; not in mods.toml),researched,
+simpleenemy,gun-enemy,TaCZ: Simple Enemy Mod,simple-enemy,modrinth,1.20.1-0.1.6-beta-hotfix,2026-09-14,beta,49651,TaCZ 1.1.4+,researched,
+combinedarms,gun-enemy,TaCZ Combined Arms,tacz-combined-arms,modrinth,0.1.7,2026-10-25,release,30668,Simple Enemy 0.1.6-beta-hotfix+; Superb Warfare 0.8.9.1+; TaCZ 1.1.4+,researched,
+taczmorelevel,gun-enemy,TaCZ More Level,tacz_more_level,modrinth,1.4.4,2026-10-31,beta,27654,GeckoLib; TaCZ,light,
+biomesoldiers,gun-enemy,[TACZ] Biome Soldiers,tacz-biome-soldiers,modrinth,1.2.5,2026-07-12,release,6797,TaCZ; GeckoLib; Marbled's Arsenal; Marbled's Core,light,needs a gun pack and library that are not installed
+commandsoldiers,gun-enemy,Command Soldiers,command-soldiers,curseforge,unknown,,,,,light,aimed at roleplay servers
+projecttacz,gun-enemy,Project TaCZ,project-tacz,curseforge,unknown,,,,,excluded,(b) the page says the developer quit; no updates expected
+dochis,gun-enemy,Dochi's Warfare,dochis-warfare,modrinth,0.2.9,2026-09-30,release,1109,TaCZ; CustomNPCs,light,tool for map makers on CustomNPCs
+cnpctaczfire,gun-enemy,CNPC TaCZ Fire,cnpc-tacz-fire,curseforge,unknown,,,,,light,tool for CustomNPCs
+gunfightnpcs,gun-enemy,Gunfight NPCs,gunfight-npcs,modrinth,1.5,2025-10-19,release,1285,GeckoLib,light,
+clanginghowl,content,Clanging Howl,clanging-howl (CurseForge 1367022),curseforge,1.1.0 (file 8175977),2026-05-31,release,524783,GeckoLib; Curios,researched,
+guardvillagers,village,Guard Villagers,guard-villagers,modrinth,1.6.19,2026-08-23,release,13981950,,researched,
+recruits,village,Villager Recruits,villager-recruits,modrinth,,2026-11-04,,469413,,light,player-commanded armies
+knightscastles,village,Knights and Castles,knights-and-castles,modrinth,,2025-08-23,,28794,,light,
+customguards,village,Customizable Guards,customizable-guards,modrinth,,2024-04-07,,1090,,light,
+gvconversion,village,Guard Villagers Automatic Guard Conversion,guard-villagers-automatic-guard-conversion,modrinth,,2026-03-03,,6320,Guard Villagers,light,add-on
+sem-friendly,village,Simple Enemy friendly faction (no mod),simple-enemy,installed,0.1.6-beta-hotfix,,,,,light,config only

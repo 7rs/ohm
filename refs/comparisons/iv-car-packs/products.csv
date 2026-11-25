@@ -1,0 +1,40 @@
+id,pack,author,platform,has_1_20_1_forge_build,latest_release,status,reason_or_note,evidence
+P01,GT CRAFT [IV/MTS],VellEagle,Modrinth+CurseForge,yes (2.1.2 multi-version jar; 2.0.1 is 1.20.1 only),2026-10-15,finalist,user candidate; 57 vehicle JSONs,measured
+P02,Kaminari Motor Works [KMW] (formerly GGVP/GVP),Nax / NaxGeneral + Hashim,CurseForge,yes (2.6.1 "16-20" jar),2025-05-20,finalist,user candidate; community list says not updated and abandoned,measured+evaluated
+P03,Craftspeed,Oskiinus09 / Team Motorcraft,CurseForge,yes (1.7.5 "1.16+" multi-version jar),2026-08-08,finalist,found in research; 97 vehicle JSONs,measured
+P04,Sphase Vehicle Mashup Pack (SVMP),Sphase / Team Motorcraft,Modrinth+CurseForge,yes (3.7.3),2026-04-16,scanned - not a fit,"48 vehicle JSONs: EU 25, JDM 8, US 0, rest tanks/trailers/misc; self-contained",measured
+P05,R.A.G.E 3.0 beta 2,VIKTORWOOD,Modrinth+CurseForge,yes (3.0b2; stable 2.3 is 1.20.1 only),2026-08-13,scanned - not a fit,"3.0b2 jar has only 2 vehicle JSONs (Datsun 100A, VW Golf I): a remake in progress; 2.3 not scanned",measured+evaluated
+P06,Official Content Pack (OCP) V29,Mr.Mulle and team,Modrinth+CurseForge,yes,2026-04-16,prerequisite,"needed by P01 and P02 (and P07); 17 vehicles, 5 with real-brand names (Ford Mustang, GMC Brigadier, Ford Trimotor, Renault FT, Mercedes)",measured
+P07,Official Automobile Pack (OAmP) V3,Mr.Mulle and team,Modrinth+CurseForge,yes,2026-04-16,scanned - not a fit,8 vehicles; mostly fictional names (Cagouille...) plus Camaro / VW Bus / station wagon; needs OCP,measured
+P08,Sungradsk RP Cars 90's,BDFM Team,CurseForge,yes (V1.0.2 for 1.18.2-1.20.1),2026-01-30,light card,"not on the community list; 638.5 MB; Daewoo Lanos, BMW E36/E38/E39/E46, VW Passat B5/Golf IV/Transporter T4, Mercedes W124, Skoda Octavia, Lexus RX300 (page text); not scanned",claimed
+P09,Blue Seoul Vehicles,PARANG,Modrinth+CurseForge,yes (Narae v6.1),2026-06-24,light card - outside the three regions,"Korean vehicles (Hyundai, Kia, Higer buses)",claimed
+P10,Repair Car Pack,(Modrinth),Modrinth,yes,2026-04-18,light card,single car family: Mitsubishi Lancer Evolution VIII with tuning parts; some JSON by the KMW author,claimed
+P11,Aero's Vehicle Pack (AVP),Aero_Fr,CurseForge,yes (V2 1.16.5+),2026-11-15,excluded - not cars,"ground support equipment, buses, trucks (Toyota tow tractors, Hino XL, Fuso)",claimed
+P12,MTS/Immersive Vehicles - New Cars (BDH),KristiLY,CurseForge+Modrinth,yes,2025-11-28 (1.12.2 file),excluded - crash list,"44 modern cars (Urus, G63, M4...). The IV page FAQ says packs labelled BeautyDriveHome or CMA must be removed for startup crashes; the Modrinth versions are named BDH (identification inferred)",claimed
+P13,Generic American Motoring,(CurseForge),CurseForge,no (1.12.2 only),n/a,excluded - no 1.20.1,CurseForge file list shows 1.12.2 only,measured (API)
+P14,Dripler's Garage,Dripler / Downfa1l_,CurseForge,no (1.12.2 and 1.16.5),2024-01-02,excluded - no 1.20.1,abandoned per community list,measured+evaluated
+P15,Mackrel Automotive Industries,Kevinwarren,CurseForge,no (1.12.2),2021-04-08,excluded - no 1.20.1,abandoned per community list,measured+evaluated
+P16,Poker's Garage (IPG),Poker / Team Motorcraft,CurseForge,no per community list (1.12.2 only),2023-07-07,excluded - no 1.20.1,hiatus; CurseForge API returned 404 so the page was not read,evaluated
+P17,GustNov's Motorsport,GustNov,CurseForge,no (list: 1.12.2/1.16.5/1.18.2; API: 1.12.2),2025-12-24,excluded - no 1.20.1,racing machines,measured+evaluated
+P18,Cactus's Vehicle Pack,Cactus,CurseForge,no,2024-01-13,excluded - no 1.20.1,abandoned; Ford F-150 and Bronco II,evaluated
+P19,Sk8torad3's Simple Vehicles,Aero_fr + Sk8torad3,CurseForge,no (list),2024-11-23,excluded - no 1.20.1,,evaluated
+P20,Alice Motors,bloodmoonabyss + Laura Darkez,CurseForge,no (1.12.2 and 1.16.5),2025-02-12,excluded - no 1.20.1,,measured (API)
+P21,"UNU Civilian / Expanded UNUverse / Trin Civil Pack",Dr_Prof_Luigi / TheOddlySeagull,Modrinth+CurseForge,partly,2026-11-12 (UNU) / 2026-04-07 (Trin),excluded - fictional brands,original-brand cars outside the three regions,claimed
+P22,Belroft Motor Company,(CurseForge),CurseForge,not checked,n/a,excluded - fictional brands,"IV page: fictional muscle cars, vans, motorcycles",claimed
+P23,Mock GoGo / WayneTech Garage,speedydragon9k,CurseForge,yes,2026-07-08,excluded - themed fiction,Speed Racer car / vigilante cars,claimed
+P24,Kadwin Jurassic Park Vehicles Pack,Kadwin,CurseForge,yes,2025-08-16,excluded - themed,film-themed vehicles,claimed
+P25,VEB Automobilwerke Schwikau,franz_junker + Wartich,Modrinth+CurseForge,yes,2025-10-09,excluded - outside the three regions,"(mostly) Soviet-era vehicles, tanks",claimed
+P26,Moonspire Metro Motors,Blulitron,Modrinth+CurseForge,yes,2026-07-03,excluded - buses,needs UNU Parts Pack,claimed
+P27,SaltyFish Vehicle,(Modrinth),Modrinth+CurseForge,yes,2026-04-13,excluded - not cars,"Boeing 777 and European trucks; needs OCP, GAP sounds",claimed
+P28,Truckers Pack,(Modrinth),Modrinth,yes,2026-08-19,excluded - trucks,,claimed
+P29,Create Automotives,Mr.Mulle,Modrinth,yes,2026-04-26,excluded - not cars,steam cart and biplane,evaluated
+P30,Imperium,Kitsunami_,CurseForge,no (API: 1.12.2),2025-01-27,excluded - no 1.20.1 / one car,1900s car,measured (API)
+P31,"Naomi Retro Vehicles, Turbo's Random Vehicles Pack, Waywardcraft, Air-Cooled Pack, Iconic Movie Vehicles",various,CurseForge,no,2019-2022,excluded - abandoned / no 1.20.1,community list: abandoned,evaluated
+P32,The Cars (feat. Ashminggu),(CurseForge),CurseForge,file named tc_1.18.2 listed for 1.20.1,2026-09-26,excluded - not read,1.2 MB file and 2.5K downloads; not on the community list,claimed
+P33,Asphalt 8 Cars,(CurseForge),CurseForge,not checked,2026-02-10,excluded - not read,"themed pack; CurseForge API returned 404, so only a search snippet was seen",claimed
+P34,Russian Dream,(MetaMods list),CurseForge,versions not stated in the listing,not read,excluded - outside the three regions,Soviet and Russian cars (holdout inventory item),claimed
+P35,"Military, aircraft, decor, sign, parts and farming packs (about 45 rows of the community list)",various,CurseForge+Modrinth,various,various,excluded - outside category,see data/approved-list.csv,evaluated
+N01,Kuruma,(Modrinth),Modrinth,yes (Forge 47.4.22+),recent (page: updated 2 days before the research),not a fit,"realistic physics car mod; starts with one RWD sports car plus 'Basic Car Pack' and 'Dream Drift Pack'; no real-brand packs found",claimed
+N02,DragN's Valiant Vehicles,DragN0007,Modrinth,yes,not checked,not a fit,"small set of drivable cars, SUVs and pickups; no JDM set",claimed
+N03,Ultimate Car Mod,henkelmax,CurseForge,yes (1.20.1-1.0.34),2026-10-09 (project),not a fit,generic cars with a road and biodiesel system,claimed
+N04,[ST]Drive / Automobility (+ RIAutomobility) / GTA 6 Vehicles,various,CurseForge+GitHub,yes,various,not a fit,"customizable generic cars, karts, fictional GTA-style cars",claimed

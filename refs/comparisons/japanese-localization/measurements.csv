@@ -1,0 +1,26 @@
+id,criterion,value,type,source,source_url
+baseline,pack_text_keys,"13177 keys in 56 namespaces (91 jars scanned, 40 jars have no lang file)",measured,scripts/scan-lang.ps1 and scripts/coverage.ps1,data/ohm-lang-scan.csv
+baseline,coverage_pct,61.3 (8075 keys),measured,official ja_jp.json inside the pack jars,data/coverage-union.csv
+P01,coverage_pct,90.7 (11956 keys; fills 3881 of 5102 missing),measured,"keys read from the jtrans 1.9.1 database (JTD2 blocks) against pack en_us keys",data/coverage.csv
+P02,coverage_pct,86.2 (11362 keys; fills 3287 of 5102 missing),measured,AzukiV57.zip ja_jp.json files against pack en_us keys,data/coverage-AzukiV57.csv
+P16,coverage_pct,98.1 (12926 keys; 251 keys left),measured,union of official + jtrans + Azuki,data/coverage-union.csv
+P01,only_jtrans_fills,"xaerominimap 459; shouldersurfing 360; create 266 (mostly EMI category keys); lrtactical 107; aether 79",measured,data/coverage.csv vs data/coverage-AzukiV57.csv,
+P02,only_azuki_fills,punchy 710; asyncparticles 156; obe 63; cwb 36,measured,data/coverage-AzukiV57.csv,
+P16,left_after_both,"punchy_moves 134; rrls 29; bedrockoid 25; shouldersurfing 23; punchy 18; weatherrefind 6; jeioptimizations 6; fastitems 5; key_binding_patch 3; distanthorizons 1; chloride 1",measured,data/coverage-union.csv,
+P01,official_text_overlap,"jtrans values equal to official values: create 99.4%; twilightforest 99.2%; emi 99.9%; tacz 99.3%; xaerominimap 98.3%; oculus 98.4%; jade 48.8%; betterf3 37.3%; aether 35.3%; jei 21.9%; parcool 9.4%; modernfix 9.3%",measured,"unique value sets of jtrans blocks vs official ja_jp.json",
+P01,downloads,31465 (CurseForge; 24370 on 2026-11-03),measured,CurseForge counter,https://www.curseforge.com/minecraft/mc-mods/jtrans
+P01,releases,"about 23 files from 2026-09-02 (1.5.5) to 2026-11-21 (1.9.1)",measured,CurseForge file list,https://www.curseforge.com/minecraft/mc-mods/jtrans/files/all
+P01,file_size,"52,744,731 bytes (1.9.1); 8.2 MB at 1.5.7, 29.4 MB at 1.6.8, 78.1 MB at 1.8.3",measured,jar and CurseForge file list,
+P01,supported_mods_1_20_1,"3,268 mods on the 1.20.1 page; 3,533 ja_jp namespaces in resourcepacks/jtrans_1201",measured,jtrans.aoiserver.com and jar,https://jtrans.aoiserver.com/minecraft/1.20.1/
+P01,mrpack_size,"scratch pack with jtrans only exports to a 48.9 MB .mrpack; the ohm pack is 23.6 MB now",measured,packwiz modrinth export in a scratch copy,
+P01,mods_toml,"1,376 [[dependencies.jtrans]] blocks (2 mandatory, rest optional with ordering AFTER); displayTest IGNORE_ALL_VERSION; loader [36,)",measured,META-INF/mods.toml,
+P01,global_hooks,"Mixin ModifyVariable on Font.drawInBatch(String...), Font.width(String), GuiGraphics.drawString/drawCenteredString (String), ForgeHooksClient.gatherTooltipComponents, LiteralContents; Language.loadFromJson (expands the DB stub); defaultRequire 0 and required false",measured,class constant pools of jtrans-runtime-modern-1.8.0.jar and the main jar,data/mixin-hits.csv
+P01,network_process_api,"no java/net/http, HttpURLConnection, Socket, ProcessBuilder or URLClassLoader reference in any class (static string check; java/net/URL in 6 classes)",measured,class constant pools,
+P01,quality_sample,"natural, context-aware Japanese in 5 namespaces (random samples of 7 values each)",evaluated (own reading; not independent),jtrans DB value tables,
+P02,quality_sample,"natural, context-aware Japanese in 5 namespaces (random samples of 6 values each)",evaluated (own reading; not independent),AzukiV57.zip,
+P02,downloads,12429 (CurseForge); 4613 (Modrinth),measured,platform counters,
+P02,releases,"55 Modrinth versions; V57 on 2026-11-10; 771 namespaces in the zip",measured,Modrinth API and zip,
+P02,file_size,4232621 bytes,measured,zip,
+P03,last_update,"2023-12-30 (1.20.1 Forge build 2023-10-06); default engine Google Translate; screen translation is called experimental and heavy by the author",claimed,CurseForge and GitHub README,
+P03,downloads,277650 (CurseForge),measured,CurseForge counter,
+P09,downloads,39480 (Modrinth),measured,Modrinth API,

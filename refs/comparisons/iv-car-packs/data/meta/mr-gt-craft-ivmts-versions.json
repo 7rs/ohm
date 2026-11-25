@@ -1,0 +1,214 @@
+﻿[
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "ssj2yoeI",
+        "project_id":  "n1cr3YKZ",
+        "author_id":  "LZ4UzbMg",
+        "featured":  false,
+        "name":  "GT CRAFT - 2.1.2",
+        "version_number":  "2.1.2",
+        "changelog":  "- Fixed an issue where the value next to the slider in the Suspension Setter did not fluctuate properly.\n- Fixed an issue where the axleratio setter for the lfa/lfanur was positioned too close to the hood.",
+        "changelog_url":  null,
+        "date_published":  "2026-10-15T17:32:53.725272Z",
+        "downloads":  3405,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "jviK7jsO",
+                          "hashes":  {
+                                         "sha1":  "a951e168754c37319a0c894f16f15817951e64da",
+                                         "sha512":  "1468a664a57e251e3762c5e42a53c56740b42a17b4fba0e53327b31270f24a37dec1172a0b819ce0154c38d1570e63e269926c15052dcdd65afab7712a39a170"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/n1cr3YKZ/versions/ssj2yoeI/gtcraft-2.1.2.jar",
+                          "filename":  "gtcraft-2.1.2.jar",
+                          "primary":  true,
+                          "size":  52530810,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "C7TiPPJz",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             },
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "ClRSbrsp",
+        "project_id":  "n1cr3YKZ",
+        "author_id":  "LZ4UzbMg",
+        "featured":  false,
+        "name":  "GT CRAFT - 2.1.1",
+        "version_number":  "2.1.1",
+        "changelog":  "- Remove the ECU and crankshaft\n- Fixed an issue where, when adjusting the opening and closing angles of a retractable light using the Retractable Light Setter, the animation would go beyond the correct position when the light was turned off.\n- Temporary Restoration of the AE86 Version 2.0.1 Engine Sound",
+        "changelog_url":  null,
+        "date_published":  "2026-10-14T03:55:03.997535Z",
+        "downloads":  199,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "KCGvQRK1",
+                          "hashes":  {
+                                         "sha512":  "f1663a90bdf51428dc3e399fc0b4d40c28f181d375104531ddd2406185a9c0606c686d4f1b3da180dffa25feb10b26e7e49cce75dfb9d8d4f8134a259b07144d",
+                                         "sha1":  "8927b41e3c4b25e7e6528e3cc225ad55be2d77eb"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/n1cr3YKZ/versions/ClRSbrsp/gtcraft-2.1.1.jar",
+                          "filename":  "gtcraft-2.1.1.jar",
+                          "primary":  true,
+                          "size":  52530803,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "C7TiPPJz",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             },
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "h4RsOhJR",
+        "project_id":  "n1cr3YKZ",
+        "author_id":  "LZ4UzbMg",
+        "featured":  false,
+        "name":  "GT CRAFT - 2.1",
+        "version_number":  "2.1",
+        "changelog":  "- updated the suspension system. (The system is based on a design by Kaminari Motor Works [KMW].)\n- Changed the tuning UI.\n- Following the gtcraft 2.0 update, the car models from gtcraft 1.0 that were removedâexcluding the NSX NA2 and Celica ST205âhave been remade and re-added.\n- Five new models have been added.\n- Changed the rollcage to a single item.\n- added recipes for all items on a trial basis and made them compatible with Survival Mode.",
+        "changelog_url":  null,
+        "date_published":  "2026-10-13T14:34:39.303816Z",
+        "downloads":  79,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "jZvgLhmX",
+                          "hashes":  {
+                                         "sha1":  "8b72a4adb857a296e560d8e015399a7c25a32e2c",
+                                         "sha512":  "48ad9650733350bcb469d240c5caafbc0d8c78d5c2e73652b07a0d8bf4f2cd19a2beea9026c60606bbaf4d1fa78dff6036f8bf6c1ccef9687b9eeccf573c5cfb"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/n1cr3YKZ/versions/h4RsOhJR/gtcraft-2.1.jar",
+                          "filename":  "gtcraft-2.1.jar",
+                          "primary":  true,
+                          "size":  52597673,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             },
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "C7TiPPJz",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "2VvUWJqU",
+        "project_id":  "n1cr3YKZ",
+        "author_id":  "LZ4UzbMg",
+        "featured":  false,
+        "name":  "GT CRAFT - 2.0.1 [GTC-II] (1.20.1)",
+        "version_number":  "2.0.1",
+        "changelog":  "- Fixed a problem with the default front bumper blinkers not replacing when the front bumper is installed on a Silvia S13.\n- Fixed problem with some meters not lighting when headlights are turned on.\n- Fixed problem with nitrous not functioning properly.\n- Fixed missing textures on some models.\n- Fixed problem with tires being too wide when installing Supra Charge front fenders.\n- Fixed a problem with the 180sx origin front bumper not having a set hook mounting location.\n- Fixed problem with 13B engine position.\n- Fixed speedometer Rotationfactor issue.\n- Move exhaust parts from gtcraft_parts to gtcraft_exterior.\n- Relaxed upper limit of rev limiter\n- Added descriptions to some parts.",
+        "changelog_url":  null,
+        "date_published":  "2025-09-29T03:04:23.144873Z",
+        "downloads":  33302,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "WYkBrIm8",
+                          "hashes":  {
+                                         "sha512":  "281d305a155de6e1cac1bcab70f8b5a94541fdf3f00e3ae02e943e7be104dfccc89f0d0df5ff6b9259bb535aa4628b795d91b1164a21ba356f04a55959cc3317",
+                                         "sha1":  "3302f7f27dc17dab9ad6d1632489f641b4d25d3e"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/n1cr3YKZ/versions/2VvUWJqU/gtcraft-2.0.1%281.20.1%29.jar",
+                          "filename":  "gtcraft-2.0.1(1.20.1).jar",
+                          "primary":  true,
+                          "size":  19818838,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    }
+]

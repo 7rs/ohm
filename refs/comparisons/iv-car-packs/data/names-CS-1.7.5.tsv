@@ -1,0 +1,98 @@
+pack	file	name	variants	type
+craftspeed	1967fordmustang	'67 Ford Mustang Fastback [Black]	1	tow_wheel
+craftspeed	240sx	Nissan 240SX [Calypso Blue]	1	tow_wheel
+craftspeed	240turbo	Volvo 240 Turbo [Beige]	1	tow_wheel
+craftspeed	240z	Nissan 240Z [Black]	1	tow_wheel
+craftspeed	360	Ferrari Challenge Stradale [Azzurro Monaco]	1	tow_wheel
+craftspeed	360p	Ferrari Challenge Stradale [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	360spider	Ferrari 360 Spider [Azzurro Monaco w/ Black Interior]	1	tow_wheel
+craftspeed	485r	Caterham Seven 485R [Peppermint Green, Crystaline White Noseband and Stripe]	1	tow_wheel
+craftspeed	930	Porsche 911 Turbo 3.3 (930) [Light Bronze Metallic]	1	tow_wheel
+craftspeed	997	Porsche 911 Carrera [997.2] [White]	1	car
+craftspeed	ae86	Toyota Sprinter Trueno (AE86) [Black]	1	car
+craftspeed	amggt	Mercedes-AMG GT [Solarbeam Yellow Metallic]	1	car
+craftspeed	atom	Ariel Atom V8 [Black/Black/Black]	1	tow_wheel
+craftspeed	c110	Nissan Skyline 2000 GT-R (C110) [Snow White]	1	tow_wheel
+craftspeed	c6z06	Chevrolet Corvette Z06 (C6) [Velocity Yellow]	1	tow_wheel
+craftspeed	c6z06p	Chevrolet Corvette Z06 (C6) [Creekwood County Police Cruiser]	1	tow_wheel
+craftspeed	camaross	Chevrolet Camaro SS 396 [Bolero Red]	1	tow_wheel
+craftspeed	charger	Dodge Charger R/T 440 [Red]	1	tow_wheel
+craftspeed	chevelle	Chevrolet Chevelle SS454 Sport Coupe [Red w/ black stripe]	1	tow_wheel
+craftspeed	chevellep	Chevrolet Chevelle SS454 Sport Coupe Police Interceptor [Generic Police]	1	tow_wheel
+craftspeed	civic	Honda Civic Type R (EK9) [Sunlight Yellow]	1	tow_wheel
+craftspeed	civic3	Honda Civic Si (1986) [Peach]	1	tow_wheel
+craftspeed	civicef	Honda Civic Si (EF) [Aqua Blue]	1	tow_wheel
+craftspeed	civicefsedan	Honda Civic Sedan (EF) [Almond Cream]	1	tow_wheel
+craftspeed	cizeta	Cizeta-Moroder V16T (Dark Blue)	1	tow_wheel
+craftspeed	coronet	1970 Dodge Coronet Super Bee [Bright Blue]	1	tow_wheel
+craftspeed	coronetp	1970 Dodge Coronet Super Bee [Creekwood County Police Department]	1	tow_wheel
+craftspeed	corrado	Volkswagen Corrado G60 [Jasmine Yellow]	1	tow_wheel
+craftspeed	corradop	VolksWagen Corrado [German Police]	1	tow_wheel
+craftspeed	delta	Lancia Delta HF Integrale [Azzurro Acqua]	1	car
+craftspeed	e30	BMW M3 (E30) [Avus Blue]	1	tow_wheel
+craftspeed	e30p	BMW M3 (E30) [German Police]	1	tow_wheel
+craftspeed	e30touring	BMW 325i Touring (E30) [Avus Blue]	1	tow_wheel
+craftspeed	e36	BMW 320i Coupe (E36) [Blue]	1	tow_wheel
+craftspeed	e39	BMW M5 (E39) [Ambra]	1	tow_wheel
+craftspeed	e39p	BMW M5 (E39) [German Police Livery]	1	tow_wheel
+craftspeed	e46	BMW M3 (E46) [Laguna Seca Blue]	1	tow_wheel
+craftspeed	e63	BMW M6 (E63) [Azurite Black]	1	tow_wheel
+craftspeed	e63p	BMW M6 (E63) [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	e64	BMW M6 Convertible (E64) [Azurite Black]	1	tow_wheel
+craftspeed	elcamino	Chevrolet El Camino SS454 [Red w/ black stripe]	1	tow_wheel
+craftspeed	elise	Lotus Elise SC (Series 2) [Orange]	1	tow_wheel
+craftspeed	eu7	Honda Civic (EU7) [Gray]	1	tow_wheel
+craftspeed	evo9	Mitsubishi Lancer Evolution IX [Army Green]	1	tow_wheel
+craftspeed	evo9p	Mitsubishi Lancer Evolution IX [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	evo9wagon	Mitsubishi Lancer Evolution IX Wagon [Army Green]	1	tow_wheel
+craftspeed	evo9wagonp	Mitsubishi Lancer Evolution IX Wagon [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	f40	Ferrari F40 (Red)	1	tow_wheel
+craftspeed	focus	Ford Focus 1.6 Zetec (Mk1) [Light Blue Metallic]	1	tow_wheel
+craftspeed	golf4	Volkswagen Golf R32 (Mk4) [Athlete Silver]	1	tow_wheel
+craftspeed	huracanevo	Lamborghini Huracan Evo (Black)	1	tow_wheel
+craftspeed	huracanspyder	Lamborghini Huracan Evo Spyder (Black)	1	tow_wheel
+craftspeed	i30n	2023 Hyundai i30 N [Abyss Black]	1	tow_wheel
+craftspeed	i30np	2023 Hyundai i30 N Police Car [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	impreza22b	Subaru Impreza 22B STi [Anthracite]	1	tow_wheel
+craftspeed	imprezamk1	Subaru Impreza WRX Sedan (GC) [Anthracite]	1	tow_wheel
+craftspeed	imprezamk1p	Subaru Impreza WRX Sedan (GC) Police Car [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	imprezamk3	2010 Subaru Impreza WRX STi [Crystal Black]	1	tow_wheel
+craftspeed	imprezamk3sedan	2010 Subaru Impreza WRX STi Sedan [Crystal Black]	1	tow_wheel
+craftspeed	m3gtr	BMW M3 GTR ALMS (E46) [#42 BMW Motorsport]	1	tow_wheel
+craftspeed	m4coupe	BMW M4 Coupe [Alpine White III]	1	tow_wheel
+craftspeed	m8	BMW M8 (E31) [Bright Red]	1	tow_wheel
+craftspeed	mazda3mk2	Mazda3 MPS (Mk2) [Aurora Blue]	1	tow_wheel
+craftspeed	mazda3mk2sedan	Mazda3 (Mk2) Sedan [Aurora Blue]	1	tow_wheel
+craftspeed	mx5	Mazda MX-5 (NA) [Blue]	1	tow_wheel
+craftspeed	paseo	Toyota Paseo (L50) [Red]	1	tow_wheel
+craftspeed	passatb5	Volkswagen Passat W8 (B5) [Candy White]	1	tow_wheel
+craftspeed	passatb5p	Volkswagen Passat W8 (B5) [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	passatr36	Volkswagen Passat R36 (B6) [Artic Blue]	1	tow_wheel
+craftspeed	passatr36p	Volkswagen Passat R36 (B6) [German Police]	1	tow_wheel
+craftspeed	passatr36variant	Volkswagen Passat R36 Variant (B6) [Artic Blue]	1	tow_wheel
+craftspeed	passatr36variantp	Volkswagen Passat R36 Variant (B6) [German Police]	1	tow_wheel
+craftspeed	r32	Nissan Skyline GT-R (R32) [Gray]	1	car
+craftspeed	r34	Nissan Skyline GT-R (R34) [Active Red]	1	tow_wheel
+craftspeed	r34p	Nissan Skyline GT-R (R34) [Japanese Police]	1	tow_wheel
+craftspeed	r34sedan	Nissan Skyline 25GT-X (R34) [Active Red]	1	tow_wheel
+craftspeed	r35	Nissan GT-R Premium (R35) [Blaze Metallic]	1	tow_wheel
+craftspeed	r35police	Nissan GT-R Premium Police Interceptor (R35) [Creekwood County Police Department]	1	tow_wheel
+craftspeed	rx7	Mazda RX-7 (FD3S) [Black]	1	tow_wheel
+craftspeed	rz34	Nissan Z Performance (RZ34) [Ikazuchi Yellow]	1	car
+craftspeed	s12	Nissan Silvia RS-X Hatchback (S12) [Aegean Blue]	1	tow_wheel
+craftspeed	s12coupe	Nissan Silvia RS-X Coupe (S12) [Aegean Blue]	1	tow_wheel
+craftspeed	s13	Nissan Silvia (S13) [Calypso Blue]	1	tow_wheel
+craftspeed	s13convertible	Nissan Silvia Autech Convertible (S13) [Calypso Blue]	1	tow_wheel
+craftspeed	s650	Ford Mustang Dark Horse (S650) [Atlas Blue]	1	tow_wheel
+craftspeed	s650convertible	Ford Mustang GT Convertible (S650) [Atlas Blue]	1	tow_wheel
+craftspeed	s650p	Ford Mustang Dark Horse (S650) Police Car [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	sfr	Toyota S-FR Concept [Green]	1	tow_wheel
+craftspeed	sn95	2000 Ford Mustang GT (SN95) [Azure Blue]	1	tow_wheel
+craftspeed	sn95convertible	2000 Ford Mustang GT Convertible (SN95) [Azure Blue]	1	tow_wheel
+craftspeed	sn95p	2000 Ford Mustang GT (SN95) Police Car [Creekwood County Police Department Livery]	1	tow_wheel
+craftspeed	supra	Toyota GR Supra RZ (A90) [Silver Metallic]	1	car
+craftspeed	versa	Nissan Versa 1.8 S Hatchback (C11) [Monarch Orange]	1	car
+craftspeed	versasedan	Nissan Versa 1.8 S Sedan (C11) [Monarch Orange]	1	car
+craftspeed	viper	Dodge Viper SRT-10 Coupe (Blue)	1	tow_wheel
+craftspeed	z8	BMW Z8 [Alpine White]	1	tow_wheel
+craftspeed	z8p	BMW Z8 [Creekwood County Police Department Livery]	1	tow_wheel

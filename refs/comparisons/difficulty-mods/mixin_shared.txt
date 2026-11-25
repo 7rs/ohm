@@ -1,0 +1,476 @@
+﻿=== Apotheosis-1.20.1-7.4.8.jar targets=29
+  classes whose same methods are also hooked by installed mods: 4
+  LivingEntity :: Inject:readAdditionalSaveData <- VanillaBackport, irons_spellbooks
+  Slime :: Inject:checkSlimeSpawnRules <- Enhanced-Celestials-2-Core
+  SmithingMenu :: Inject:onTake <- create
+  ThrownTrident :: Inject:onHitEntity <- touhoulittlemaid-1.5.3
+=== ArPhEx-6.0.1-forge-1.20.1.jar targets=31
+  classes whose same methods are also hooked by installed mods: 9
+  Entity :: Inject:move <- ParCool, VanillaBackport, create, touhoulittlemaid-1.5.3
+  ItemRenderer :: ModifyVariable:render <- Platform
+  HumanoidArmorLayer :: Inject:renderArmorPiece <- create, oculus
+  ServerGamePacketListenerImpl :: Redirect:handleMoveVehicle <- modernfix
+  LivingEntity :: Inject:tick, Inject:travel, Inject:addAdditionalSaveData, Inject:readAdditionalSaveData <- Enhanced-Celestials-2-Core, Platform, VanillaBackport, aether, bedrockoid-0.1.2, create
+  Camera :: Inject:setup, ModifyArg:setup <- ShoulderSurfing, VanillaBackport, create, immersive_aircraft-1.5.0+, punchy-3.2b, punchy-moves-1.0.9b
+  GameRenderer :: Inject:render <- lrtactical, modernfix, punchy-moves-1.0.9b, rrls-4.0.6.1+
+  EntityRenderDispatcher :: Inject:shouldRender <- chloride, smallships-2.0.2
+  Minecraft :: Inject:tick <- modernfix, punchy-moves-1.0.9b
+=== BOMD-Forge-1.20.1-1.1.2.jar targets=6
+  classes whose same methods are also hooked by installed mods: 2
+  EnderEyeItem :: Inject:useOn <- endrem_
+  LivingEntity :: Inject:isDamageSourceBlocked <- lrtactical
+=== BrutalNightmare-v7_MOD.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== ColdSweat-2.4.5.jar targets=38
+  classes whose same methods are also hooked by installed mods: 10
+  ItemStack :: Inject:getTooltipLines <- deeperdarker
+  BlockBehaviour :: Inject:getDrops <- Steam_Rails-1.7.3+
+  LivingEntity :: Inject:readAdditionalSaveData, Inject:canFreeze <- VanillaBackport, aether, curios, irons_spellbooks, superbwarfare-0.8.9.2
+  SmithingTransformRecipe :: Inject:assemble <- irons_spellbooks
+  BaseFireBlock :: Inject:entityInside <- irons_lib
+  TagLoader :: Inject:build <- almostunified
+  GameRenderer :: Inject:renderLevel <- chloride, immersive_aircraft-1.5.0+, oculus, punchy-moves-1.0.9b, superbwarfare-0.8.9.2
+  Minecraft :: Inject:handleKeybinds <- Steam_Rails-1.7.3+, punchy-3.2b, superbwarfare-0.8.9.2
+  HumanoidModel :: Inject:setupAnim, Inject:poseRightArm, Inject:poseLeftArm, Inject:setupAttackAnimation <- Immersive Vehicles, VanillaBackport, irons_lib, punchy-moves-1.0.9b, superbwarfare-0.8.9.2, tacz
+  ItemInHandLayer :: Inject:renderArmWithItem <- VanillaBackport, irons_lib, player-animation-lib, superbwarfare-0.8.9.2, tacz
+=== Contagion-2.2.0-Forge-mc1.20.1.jar targets=6
+  classes whose same methods are also hooked by installed mods: 3
+  Player :: Inject:attack, Inject:readAdditionalSaveData, Inject:addAdditionalSaveData <- Botania, ParCool, VanillaBackport, aether
+  Mob :: Inject:finalizeSpawn, Inject:doHurtTarget <- Enhanced-Celestials-2-Core, VanillaBackport, letmedespawn
+  Villager :: Inject:addAdditionalSaveData, Inject:readAdditionalSaveData <- guardvillagers, superbwarfare-0.8.9.2
+=== CustomEntityAttributes-FABRIC-1.20.X-1.0.0.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Dangerous Forge - 1.20.1 v1.5.2.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Dungeon Now Loading-forge-1.20.1-2.2.jar targets=44
+  classes whose same methods are also hooked by installed mods: 17
+  AnvilMenu :: Inject:createResult <- appliedenergistics2, lrtactical
+  Minecraft :: Inject:<init>, Inject:tick <- ImmediatelyFast, dynamic-fps-3.11.4+minecra, modernfix, punchy-moves-1.0.9b, rrls-4.0.6.1+
+  ServerLevel :: Inject:tick <- LeavesBeGone-v8.0.0, clanging-howl-[, immersive_optimization
+  EnchantmentHelper :: Inject:getAvailableEnchantmentResults <- VanillaBackport
+  ItemInHandRenderer :: Inject:tick <- superbwarfare-0.8.9.2, tacz
+  WalkNodeEvaluator :: Inject:getBlockPathTypeRaw <- Steam_Rails-1.7.3+
+  ServerPlayer :: Inject:tick <- Botania, Platform
+  Player :: Inject:wantsToStopRiding <- immersive_aircraft-1.5.0+, superbwarfare-0.8.9.2, touhoulittlemaid-1.5.3
+  BlockItem :: Inject:place <- create
+  FlintAndSteelItem :: Inject:useOn <- irons_spellbooks
+  HumanoidModel :: Inject:poseRightArm, Inject:poseLeftArm <- VanillaBackport, punchy-moves-1.0.9b
+  PlayerRenderer :: Inject:render <- Steam_Rails-1.7.3+, player-animation-lib, punchy-3.2b
+  AbstractClientPlayer :: Inject:getFieldOfViewModifier <- Platform, immersive_aircraft-1.5.0+
+  MusicManager :: Inject:tick <- VanillaBackport
+  LivingEntityRenderer :: Inject:render <- Immersive Vehicles, VanillaBackport, player-animation-lib, punchy-3.2b, punchy-moves-1.0.9b
+  TitleScreen :: Inject:init <- Ixeris-4.6.11+, oculus
+  RangedAttribute :: Inject:<init> <- VanillaBackport
+=== DungeonsArise-1.20.x-2.1.58-release.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Dynamic Difficulty 1.7a.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Ecliptic-Seasons-1.20.1-forge-0.15.5-all.jar targets=62
+  classes whose same methods are also hooked by installed mods: 15
+  BlockBehaviour$BlockStateBase :: Inject:initCache <- ferritecore-6.0.1, solix-0.3.7
+  LevelChunk :: Inject:<init>, Inject:setBlockState <- Corgilib, Harium, LeavesBeGone-v8.0.0, solix-0.3.7
+  Entity :: Inject:move, WrapOperation:spawnSprintParticle <- ParCool, VanillaBackport, bedrockoid-0.1.2, create, touhoulittlemaid-1.5.3
+  ServerLevel :: Inject:tickChunk, WrapOperation:tickChunk <- Data_Anchor, Steam_Rails-1.7.3+, bedrockoid-0.1.2
+  SurfaceSystem :: Inject:buildSurface <- modernfix
+  ClientLevel :: Inject:tick, Inject:tickNonPassenger <- Enhanced-Celestials-2-Core, VanillaBackport, clanging-howl-[, entityculling
+  Minecraft :: Inject:setLevel, Inject:resizeDisplay <- AsyncParticles-20.1.4.4+, create, oculus, superbwarfare-0.8.9.2
+  ModelBakery :: Inject:<init>, Inject:bakeModels <- Platform, balm, modernfix
+  GameRenderer :: Inject:render <- lrtactical, modernfix, punchy-moves-1.0.9b, rrls-4.0.6.1+
+  LevelRenderer :: WrapOperation:renderSnowAndRain, Inject:renderSnowAndRain, ModifyArg:renderSnowAndRain <- AsyncParticles-20.1.4.4+, WeatherRefind, chloride, oculus
+  ChunkRenderDispatcher$RenderChunk$RebuildTask :: WrapOperation:compile, ModifyExpressionValue:compile <- bedrockoid-0.1.2, obe+
+  LocalPlayer :: Inject:<init> <- Enhanced-Celestials-2-Core
+  MusicManager :: Inject:tick <- VanillaBackport
+  ChunkBuilderMeshingTask :: Inject:execute <- oculus
+  BlockRenderDispatcher :: WrapOperation:renderBatched <- obe+
+=== Eldritch_End-FORGE-MC1.20.1-0.3.4.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== EnderZoology-v8.0.3-1.20.1-Forge.jar targets=6
+  classes whose same methods are also hooked by installed mods: 1
+  Player :: Inject:dropEquipment <- Botania
+=== Forge-projectatmosphere-0.9.4.jar targets=33
+  classes whose same methods are also hooked by installed mods: 6
+  ServerLevel :: Inject:tickChunk <- Data_Anchor
+  Minecraft :: Inject:setLevel <- AsyncParticles-20.1.4.4+, oculus
+  OptionsScreen :: Inject:init <- DistantHorizons-3.3.3, WeatherRefind
+  LevelRenderer :: Inject:renderSnowAndRain, Inject:renderClouds <- AsyncParticles-20.1.4.4+, DistantHorizons-3.3.3, WeatherRefind, chloride, oculus
+  LoadingOverlay :: Inject:render <- rrls-4.0.6.1+
+  ParticleEngine :: Inject:tickParticle <- AsyncParticles-20.1.4.4+
+=== GameStages-Forge-1.20.1-15.0.2.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== IceAndFireCE-1.2.7-1.20.1-forge.jar targets=12
+  classes whose same methods are also hooked by installed mods: 5
+  LivingEntity :: Inject:tick <- Enhanced-Celestials-2-Core, Platform, VanillaBackport, bedrockoid-0.1.2, tacz
+  Gui :: Inject:render <- oculus, smallships-2.0.2
+  LivingEntityRenderer :: Inject:render <- Immersive Vehicles, VanillaBackport, player-animation-lib, punchy-3.2b, punchy-moves-1.0.9b
+  PlayerRenderer :: Inject:render <- Steam_Rails-1.7.3+, player-animation-lib, punchy-3.2b
+  TitleScreen :: Inject:init <- Ixeris-4.6.11+, oculus
+=== IllagerInvasion-v8.0.7-1.20.1-Forge.jar targets=7
+  classes whose same methods are also hooked by installed mods: 0
+=== Incendium_1.20.x_v5.3.5.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== L_Enders_Cataclysm-3.31.jar targets=25
+  classes whose same methods are also hooked by installed mods: 3
+  ItemEntity :: Inject:hurt <- appliedenergistics2
+  HumanoidArmorLayer :: Inject:renderArmorPiece <- create, oculus
+  HumanoidModel :: Inject:poseRightArm, Inject:poseLeftArm <- VanillaBackport, punchy-moves-1.0.9b
+=== Luminous Monsters V1.3.1 - Forge 1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Metabolism-Forge-1.20.1-2.1.3.jar targets=7
+  classes whose same methods are also hooked by installed mods: 2
+  MobEffect :: Inject:applyEffectTick <- irons_spellbooks
+  Player :: Inject:attack, Inject:jumpFromGround, Inject:tryToStartFallFlying <- Botania, ParCool, VanillaBackport, aether
+=== Mo'ZombiesWave-1.20.1-0.1.0-forge.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== MonsterPlus-Forge1.20.1-v1.1.6.1 (1).jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== MutantMonsters-v8.0.8-1.20.1-Forge.jar targets=2
+  classes whose same methods are also hooked by installed mods: 0
+=== MutantsZombies-1.4.0-Forge-mc1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== PeakStamina Forge 2.3.2.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Raided-1.20.1-0.1.6.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== ScalingHealth-1.20.1-8.0.2+9.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== SereneSeasons-forge-1.20.1-9.1.0.3.jar targets=5
+  classes whose same methods are also hooked by installed mods: 3
+  BlockBehaviour$BlockStateBase :: Inject:randomTick <- bedrockoid-0.1.2
+  ServerLevel :: Redirect:tickChunk <- Harium
+  LevelRenderer :: Redirect:renderSnowAndRain <- Immersive Vehicles
+=== SkeletonAIFix-v20.1.1-1.20.1-Forge.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== Survive-1.20.1-10.2.0-Forge.jar targets=28
+  classes whose same methods are also hooked by installed mods: 3
+  Player :: Inject:<init>, Inject:readAdditionalSaveData, Inject:addAdditionalSaveData, Inject:tick <- ParCool, Steam_Rails-1.7.3+, VanillaBackport, player-animation-lib
+  Entity :: Inject:saveWithoutId, Inject:load <- Data_Anchor, balm
+  LocalPlayer :: Inject:tick <- tacz
+=== The-Hordes-1.20.1-1.6.3i-all.jar targets=26
+  classes whose same methods are also hooked by installed mods: 8
+  Entity :: Inject:remove <- Harium
+  LivingEntity :: Inject:addAdditionalSaveData, Inject:readAdditionalSaveData <- VanillaBackport, irons_spellbooks
+  Mob :: Inject:canBeLeashed <- VanillaBackport
+  ServerPlayer :: Inject:addAdditionalSaveData <- VanillaBackport
+  ZombieHorse :: Inject:createAttributes <- VanillaBackport
+  LevelRenderer :: Inject:renderSky <- Botania, Enhanced-Celestials-2-Core, clanging-howl-[, oculus
+  LivingEntityRenderer :: WrapOperation:getRenderType <- VanillaBackport
+  ServerLevel :: Inject:tick <- LeavesBeGone-v8.0.0, clanging-howl-[, immersive_optimization
+=== ThirstWasReclaimed-1.20.1-3.0.5.jar targets=33
+  classes whose same methods are also hooked by installed mods: 2
+  Bootstrap :: Inject:bootStrap <- appliedenergistics2, modernfix
+  LayeredCauldronBlock :: Inject:createBlockStateDefinition <- bedrockoid-0.1.2
+=== ThirstWasTaken-1.20.1-1.4.0.jar targets=32
+  classes whose same methods are also hooked by installed mods: 2
+  Bootstrap :: Inject:bootStrap <- appliedenergistics2, modernfix
+  LayeredCauldronBlock :: Inject:createBlockStateDefinition <- bedrockoid-0.1.2
+=== ToughAsNails-forge-1.20.1-9.2.0.171.jar targets=11
+  classes whose same methods are also hooked by installed mods: 3
+  Player :: Inject:readAdditionalSaveData, Inject:addAdditionalSaveData, Inject:tick <- ParCool, Steam_Rails-1.7.3+, VanillaBackport, player-animation-lib
+  ServerLevel :: Inject:addPlayer <- Botania, Data_Anchor
+  ServerPlayer :: Inject:restoreFrom <- tacz
+=== UndeadNights-2.3.0-Forge-mc1.20.1.jar targets=8
+  classes whose same methods are also hooked by installed mods: 1
+  Player :: Inject:readAdditionalSaveData, Inject:addAdditionalSaveData, Inject:tick <- ParCool, Steam_Rails-1.7.3+, VanillaBackport, player-animation-lib
+=== VestigesOfThePresent 1.20.1-1.7.8.jar targets=35
+  classes whose same methods are also hooked by installed mods: 9
+  CuriosApi :: Inject:getCuriosInventory <- aether, curios, superbwarfare-0.8.9.2
+  Entity :: Inject:getBoundingBox <- superbwarfare-0.8.9.2, touhoulittlemaid-1.5.3
+  ItemEntity :: Inject:tick <- Botania, appliedenergistics2
+  LivingEntity :: Inject:getHealth <- superbwarfare-0.8.9.2
+  Mob :: Inject:getTarget <- superbwarfare-0.8.9.2
+  PlayerList :: Inject:respawn <- Data_Anchor
+  SmithingMenu :: Inject:onTake <- create
+  AbstractContainerScreen :: Inject:render <- Platform, emi-1.1.24+
+  LevelRenderer :: Inject:renderEntity <- ShoulderSurfing, create, entityculling, player-animation-lib, punchy-moves-1.0.9b, superbwarfare-0.8.9.2
+=== alternative_twilight-1.20.1-1.1.0.jar targets=16
+  classes whose same methods are also hooked by installed mods: 0
+=== aquamirae-forge-1.20.1-6.4.0.jar targets=3
+  classes whose same methods are also hooked by installed mods: 0
+=== bleedingmod-1.7-mc1.20-1.20.1-1.7.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== block_factorys_bosses-2.1.2-forge-1.20.1.jar targets=26
+  classes whose same methods are also hooked by installed mods: 9
+  Level :: Inject:getEntities <- superbwarfare-0.8.9.2, tacz_sewv-0.1.7
+  Camera :: Inject:setup <- ShoulderSurfing, VanillaBackport, immersive_aircraft-1.5.0+, punchy-3.2b, punchy-moves-1.0.9b, smallships-2.0.2
+  CapeLayer :: Inject:render <- oculus
+  GameRenderer :: Inject:bobView, Inject:getNightVisionScale, Inject:render <- ShoulderSurfing, Steam_Rails-1.7.3+, clanging-howl-[, lrtactical, modernfix, oculus
+  LevelRenderer :: Inject:renderEntity <- ShoulderSurfing, create, entityculling, player-animation-lib, punchy-moves-1.0.9b, superbwarfare-0.8.9.2
+  MouseHandler :: Inject:onMove <- tacz_sewv-0.1.7
+  MusicManager :: Inject:tick, Inject:startPlaying <- VanillaBackport
+  PlayerModel :: Inject:<init>, Inject:setupAnim <- entity_model_features-3.3., lrtactical, player-animation-lib, punchy-moves-1.0.9b, superbwarfare-0.8.9.2, tacz
+  GeoModel :: Overwrite:applyMolangQueries <- alltheleaks-1.1.6
+=== born_in_chaos_[Forge]1.20.1_1.7.5.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== champions-forge-20.1.1.6.jar targets=1
+  classes whose same methods are also hooked by installed mods: 0
+=== chaos-core-1.2.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== creatures-expanded-v3.2.1-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== creeperoverhaul-3.0.2-forge.jar targets=1
+  classes whose same methods are also hooked by installed mods: 0
+=== crypticfoes-1.0.4.jar targets=8
+  classes whose same methods are also hooked by installed mods: 3
+  VibrationSystem$Listener :: Inject:handleGameEvent <- deeperdarker
+  LevelRenderer :: Inject:renderLevel <- AsyncParticles-20.1.4.4+, Botania, Enhanced-Celestials-2-Shad, Immersive Vehicles, Patchouli, colorwheel
+  LivingEntityRenderer :: Inject:getRenderType <- punchy-moves-1.0.9b
+=== custom_mob_attributes-forge-1.20.1-3.0.10.jar targets=37
+  classes whose same methods are also hooked by installed mods: 3
+  Entity :: Inject:positionRider <- touhoulittlemaid-1.5.3
+  LivingEntity :: Inject:tick <- Enhanced-Celestials-2-Core, Platform, VanillaBackport, bedrockoid-0.1.2, tacz
+  EntityRenderer :: Inject:render <- VanillaBackport
+=== danger_close-merged-1.20.1-3.3.0.jar targets=2
+  classes whose same methods are also hooked by installed mods: 2
+  Minecraft :: Inject:<init> <- ImmediatelyFast, dynamic-fps-3.11.4+minecra, rrls-4.0.6.1+
+  TitleScreen :: Inject:init <- Ixeris-4.6.11+, oculus
+=== darkmobs-forge-1.20.1-1.0.6.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== dontcry-1.0.4.jar targets=1
+  classes whose same methods are also hooked by installed mods: 1
+  LightTexture :: Inject:updateLightTexture <- DistantHorizons-3.3.3, Enhanced-Celestials-2-Core, VanillaBackport, clanging-howl-[, oculus, superbwarfare-0.8.9.2
+=== dungeon_difficulty-forge-3.8.0+1.20.1.jar targets=11
+  classes whose same methods are also hooked by installed mods: 0
+=== dynamic_progression_and_difficulty-forge-1.20.1-5.2.0.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== edf-remastered-4.3.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== eeeabsmobs-1.20.1-0.98.1.jar targets=1
+  classes whose same methods are also hooked by installed mods: 0
+=== epic-fight-20.14.17-mc1.20.1-forge.jar targets=39
+  classes whose same methods are also hooked by installed mods: 15
+  Entity :: Inject:setOnGroundWithKnownMovement <- superbwarfare-0.8.9.2
+  LivingEntity :: Inject:readAdditionalSaveData, Inject:addAdditionalSaveData, Inject:hurt <- VanillaBackport, irons_spellbooks
+  Camera :: Inject:setup <- ShoulderSurfing, VanillaBackport, immersive_aircraft-1.5.0+, punchy-3.2b, punchy-moves-1.0.9b, smallships-2.0.2
+  ClientPacketListener :: Inject:handleRespawn <- ShoulderSurfing
+  RenderType$CompositeRenderType :: Inject:<init> <- oculus
+  EnderDragonRenderer :: Inject:render <- alltheleaks-1.1.6, modernfix
+  GameRenderer :: Redirect:renderLevel <- ShoulderSurfing, oculus
+  Gui :: Redirect:renderCrosshair, Inject:renderCrosshair <- BetterF3-7.0.2, ShoulderSurfing, punchy-moves-1.0.9b, smallships-2.0.2
+  LevelRenderer :: Inject:renderLevel <- AsyncParticles-20.1.4.4+, Botania, Enhanced-Celestials-2-Shad, Immersive Vehicles, Patchouli, colorwheel
+  LightTexture :: Inject:updateLightTexture <- DistantHorizons-3.3.3, Enhanced-Celestials-2-Core, VanillaBackport, clanging-howl-[, oculus, superbwarfare-0.8.9.2
+  LocalPlayer :: Inject:tick <- tacz
+  Options :: Inject:setCameraType <- ShoulderSurfing
+  Minecraft :: Redirect:tick, Inject:handleKeybinds, Inject:startAttack, Inject:continueAttack <- AsyncParticles-20.1.4.4+, Steam_Rails-1.7.3+, VanillaBackport, bedrockoid-0.1.2, clanging-howl-[, irons_spellbooks
+  MouseHandler :: Redirect:turnPlayer <- ShoulderSurfing
+  ParticleEngine :: Inject:<init> <- AsyncParticles-20.1.4.4+
+=== fangs_n_claws-1.20.1-1.2.6.jar targets=3
+  classes whose same methods are also hooked by installed mods: 1
+  PlayerModel :: Inject:setupAnim <- lrtactical, player-animation-lib, punchy-moves-1.0.9b, superbwarfare-0.8.9.2, tacz
+=== fdbosses-3.2-1.20.1.jar targets=11
+  classes whose same methods are also hooked by installed mods: 5
+  PlayerList :: Inject:respawn <- Data_Anchor
+  Player :: Inject:tick, Inject:wantsToStopRiding <- Steam_Rails-1.7.3+, VanillaBackport, immersive_aircraft-1.5.0+, player-animation-lib, superbwarfare-0.8.9.2, touhoulittlemaid-1.5.3
+  GameRenderer :: Inject:getNightVisionScale <- clanging-howl-[, oculus
+  KeyboardInput :: Inject:tick <- superbwarfare-0.8.9.2
+  LocalPlayer :: Inject:aiStep <- ParCool
+=== firstaid-1.20.1-1.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== frozify-1.3.3-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== globalhealthmod-1.0.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== goety-2.5.60.6.jar targets=46
+  classes whose same methods are also hooked by installed mods: 13
+  ApplyBonusCount :: ModifyVariable:run <- aether, curios, superbwarfare-0.8.9.2
+  BaseFireBlock :: Inject:entityInside <- irons_lib
+  EnchantRandomlyFunction :: ModifyVariable:run <- clanging-howl-[
+  Entity :: Inject:push, Inject:isAlliedTo, Inject:canCollideWith <- Steam_Rails-1.7.3+, irons_spellbooks, tacz_sewv-0.1.7
+  ItemEntity :: Inject:hurt <- appliedenergistics2
+  LivingEntity :: Inject:updateInvisibilityStatus <- irons_spellbooks
+  Raid :: Inject:tick <- Harium
+  ServerLevel :: Inject:tickNonPassenger <- immersive_optimization
+  GuiGraphics :: Inject:renderItemDecorations <- irons_lib
+  LevelRenderer :: Inject:renderLevel <- AsyncParticles-20.1.4.4+, Botania, Enhanced-Celestials-2-Shad, Immersive Vehicles, Patchouli, colorwheel
+  LivingEntityRenderer :: Inject:isShaking <- clanging-howl-[
+  Minecraft :: Inject:shouldEntityAppearGlowing <- clanging-howl-[, irons_spellbooks
+  MouseHandler :: Inject:turnPlayer <- smallships-2.0.2
+=== graveyard-FORGE-4.0.1+mc1.20.1.jar targets=15
+  classes whose same methods are also hooked by installed mods: 3
+  Mob :: Inject:finalizeSpawn <- Enhanced-Celestials-2-Core, VanillaBackport, letmedespawn
+  CraftingMenu :: Inject:quickMoveStack <- FastWorkbench
+  SoundEngine :: Inject:play, Inject:calculateVolume <- Botania, flerovium
+=== hardcore_torches-1.20.1-x.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== harder-difficulty-1.2.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== hcsurvival-0.20.0-all.jar targets=125
+  classes whose same methods are also hooked by installed mods: 17
+  AbstractArrow :: Inject:tick <- aether, touhoulittlemaid-1.5.3
+  Block :: Inject:animateTick <- VanillaBackport, bedrockoid-0.1.2
+  FarmBlock :: Inject:canSurvive <- Botania
+  ItemEntity :: Inject:tick <- Botania, appliedenergistics2
+  Entity :: Inject:isInvulnerableTo, Inject:spawnAtLocation, WrapOperation:move <- Botania, Enhanced-Celestials-2-Core, VanillaBackport
+  LivingEntity :: Inject:hurt <- irons_spellbooks
+  Player :: Inject:attack, Inject:readAdditionalSaveData, Inject:addAdditionalSaveData, Inject:jumpFromGround <- Botania, ParCool, VanillaBackport, aether
+  ServerPlayer :: Inject:tick <- Botania, Platform
+  ItemStack :: Inject:getTooltipLines <- deeperdarker
+  ServerPlayerGameMode :: WrapOperation:destroyBlock <- bedrockoid-0.1.2
+  Minecraft :: Inject:startAttack, Inject:startUseItem <- VanillaBackport, bedrockoid-0.1.2, punchy-3.2b, punchy-moves-1.0.9b
+  MouseHandler :: Inject:onPress, WrapOperation:turnPlayer <- punchy-moves-1.0.9b, smallships-2.0.2, tacz
+  SoundEngine :: Inject:calculateVolume <- Botania
+  Screen :: Inject:getTooltipFromItem <- appliedenergistics2
+  BlockEntityWithoutLevelRenderer :: Inject:renderByItem <- Platform, skinlayers3d
+  ItemInHandRenderer :: Inject:tick <- superbwarfare-0.8.9.2, tacz
+  LightTexture :: WrapOperation:updateLightTexture <- Kerria-1.3.2+
+=== homeostatic-1.20.1-2.9.16.2-FORGE.jar targets=5
+  classes whose same methods are also hooked by installed mods: 1
+  LivingEntity :: Inject:canFreeze <- aether, curios, superbwarfare-0.8.9.2
+=== hostile-mobs-improve-over-time-1.9.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== hostile_humans_1.4.13.jar targets=20
+  classes whose same methods are also hooked by installed mods: 4
+  ChunkGenerator :: Inject:tryGenerateStructure <- tacz_sewv-0.1.7
+  LocateCommand :: Inject:locateStructure <- async-locator
+  Creeper :: Inject:registerGoals <- Botania
+  WalkNodeEvaluator :: Inject:getBlockPathTypeRaw <- Steam_Rails-1.7.3+
+=== iguanatweaksreborn-4.30.1.4.jar targets=114
+  classes whose same methods are also hooked by installed mods: 13
+  AnvilMenu :: Inject:createResult <- appliedenergistics2, lrtactical
+  Entity :: Redirect:move <- Harium
+  ItemEntity :: Inject:hurt <- appliedenergistics2
+  LivingEntity :: Inject:setSprinting, WrapOperation:travel, ModifyArg:travel, Inject:hurt <- ParCool, VanillaBackport, irons_spellbooks, superbwarfare-0.8.9.2
+  PistonBaseBlock :: ModifyVariable:moveBlocks, Inject:moveBlocks <- Botania
+  PlayerList :: Inject:respawn <- Data_Anchor
+  Player :: Inject:attack, WrapOperation:attack, ModifyExpressionValue:aiStep <- Botania, VanillaBackport, aether, create
+  ServerLevel :: Inject:<init>, WrapOperation:tickChunk <- Harium, Steam_Rails-1.7.3+, bedrockoid-0.1.2, clanging-howl-[
+  Wolf :: Inject:getTailAngle <- VanillaBackport
+  Camera :: Inject:setup <- ShoulderSurfing, VanillaBackport, immersive_aircraft-1.5.0+, punchy-3.2b, punchy-moves-1.0.9b, smallships-2.0.2
+  ClientLevel :: Inject:tick <- Enhanced-Celestials-2-Core, VanillaBackport, clanging-howl-[
+  GameRenderer :: Inject:getNightVisionScale <- clanging-howl-[, oculus
+  LocalPlayer :: ModifyExpressionValue:canStartSprinting, ModifyExpressionValue:aiStep, Inject:respawn <- VanillaBackport, irons_lib, tacz, xaerominimap
+=== immersive_pillagers-forge-0.1.5+1.20.1.jar targets=7
+  classes whose same methods are also hooked by installed mods: 2
+  Boat :: Inject:tick <- VanillaBackport, punchy-moves-1.0.9b, smallships-2.0.2
+  BlockEntityWithoutLevelRenderer :: Inject:renderByItem <- Platform, skinlayers3d
+=== improvedmobs-1.20.1-1.13.7-forge.jar targets=16
+  classes whose same methods are also hooked by installed mods: 3
+  Entity :: Inject:load, Inject:saveWithoutId <- Data_Anchor, balm
+  Mob :: Inject:finalizeSpawn, Inject:readAdditionalSaveData, Inject:addAdditionalSaveData <- Enhanced-Celestials-2-Core, VanillaBackport, almanac, letmedespawn
+  WalkNodeEvaluator :: Inject:getBlockPathType <- tacz_sewv-0.1.7
+=== insurgents-1.2.0r-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== l2hostility-2.5.19.jar targets=12
+  classes whose same methods are also hooked by installed mods: 4
+  CuriosImplMixinHooks :: Inject:isStackValid <- irons_spellbooks
+  Entity :: Inject:getTeamColor <- clanging-howl-[, irons_spellbooks
+  ItemStack :: Inject:useOn <- Placebo
+  Player :: Inject:attack <- Botania, VanillaBackport, aether
+=== lastofus-2.8-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== legendarymonsters-2.2.4 MC 1.20.1.jar targets=6
+  classes whose same methods are also hooked by installed mods: 0
+=== legendarysurvivaloverhaul-1.20.1-2.4.7.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== majruszs-difficulty-forge-1.20.1-1.9.10.jar targets=8
+  classes whose same methods are also hooked by installed mods: 0
+=== mebahel-creatures-dwarven-1.4.0-fix-fabric-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== mebahel-zombie-horde-2.0.1-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== mediumcore-1.0.0.jar targets=3
+  classes whose same methods are also hooked by installed mods: 0
+=== meetyourfight-1.20.1-1.6.2.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== mischief_illagers-1.2-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== mob-ai-tweaks-1.11.3-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== monsterexpansion-1.20.1-v0.7.6.jar targets=8
+  classes whose same methods are also hooked by installed mods: 3
+  ItemInHandLayer :: Inject:renderArmWithItem <- VanillaBackport, irons_lib, player-animation-lib, superbwarfare-0.8.9.2, tacz
+  Camera :: ModifyArg:setup <- create, smallships-2.0.2
+  LivingEntityRenderer :: Inject:render <- Immersive Vehicles, VanillaBackport, player-animation-lib, punchy-3.2b, punchy-moves-1.0.9b
+=== moremobvariants-forge+1.20.1-1.3.0.1.jar targets=25
+  classes whose same methods are also hooked by installed mods: 1
+  Mob :: Inject:finalizeSpawn, Inject:addAdditionalSaveData, Inject:readAdditionalSaveData <- Enhanced-Celestials-2-Core, VanillaBackport, almanac, letmedespawn
+=== mowziesmobs-1.8.2.jar targets=1
+  classes whose same methods are also hooked by installed mods: 0
+=== naturaltemperature-1.2.3-FORGE-MC-1.20.1.jar targets=4
+  classes whose same methods are also hooked by installed mods: 0
+=== nomindlessshooting-2.3.0-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== nyctophobia-forge-mc1.20.1-2.0.1.jar targets=1
+  classes whose same methods are also hooked by installed mods: 0
+=== primity-0.2.1.1+1.20.1-forge.jar targets=2
+  classes whose same methods are also hooked by installed mods: 0
+=== sanitydim-mc1.20-1.1.0.jar targets=22
+  classes whose same methods are also hooked by installed mods: 4
+  Entity :: Inject:move <- ParCool, VanillaBackport, create, touhoulittlemaid-1.5.3
+  ThrownEgg :: Inject:onHit <- VanillaBackport
+  ClientLevel :: Inject:playSeededSound <- ShoulderSurfing
+  GameRenderer :: Inject:render <- lrtactical, modernfix, punchy-moves-1.0.9b, rrls-4.0.6.1+
+=== savage_and_ravage-1.20.1-6.0.1.jar targets=5
+  classes whose same methods are also hooked by installed mods: 0
+=== sculkhorde-1.20.1-0.12.7.jar targets=3
+  classes whose same methods are also hooked by installed mods: 0
+=== simpleenemymod-1.20.1-0.1.6-beta-hotfix.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== sleep_tight-1.20-1.5.8.jar targets=18
+  classes whose same methods are also hooked by installed mods: 6
+  ServerLevel :: Inject:<init> <- Harium, clanging-howl-[
+  LivingEntity :: Inject:getBedOrientation <- VanillaBackport
+  Player :: Inject:updatePlayerPose <- ParCool, immersive_aircraft-1.5.0+, superbwarfare-0.8.9.2
+  GameRenderer :: Inject:renderLevel <- chloride, immersive_aircraft-1.5.0+, oculus, punchy-moves-1.0.9b, superbwarfare-0.8.9.2
+  LevelRenderer :: Inject:renderLevel <- AsyncParticles-20.1.4.4+, Botania, Enhanced-Celestials-2-Shad, Immersive Vehicles, Patchouli, colorwheel
+  LivingEntityRenderer :: Inject:render, WrapOperation:render <- Immersive Vehicles, VanillaBackport, player-animation-lib, punchy-3.2b, punchy-moves-1.0.9b, smallships-2.0.2
+=== sons_of_sins-2.2.1-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== soulslike-weaponry-1.4.10-1.20.1-forge.jar targets=24
+  classes whose same methods are also hooked by installed mods: 1
+  EntityRenderDispatcher :: Inject:m_114384_ <- entity_model_features-3.3., entity_texture_features-7.
+=== spore_1.20.1_2.2.0j.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== stalwart-dungeons-1.20.1-1.2.8.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== superbosses-2.0.0.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== tacz_morelevel-1.4.2 .jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== tacznpcs-2.1.0-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== takesapillage-1.0.3-1.20.1.jar targets=3
+  classes whose same methods are also hooked by installed mods: 1
+  Mob :: Inject:finalizeSpawn <- Enhanced-Celestials-2-Core, VanillaBackport, letmedespawn
+=== terramity-0.9.8-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== the_knocker-1.5.2-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== the_obsessed-1.5.2g-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== threateningly_mobs-1.1.1-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== treasures_of_the_dead-0.7.1a-1.20.1.jar targets=1
+  classes whose same methods are also hooked by installed mods: 1
+  LivingEntity :: Inject:hurt <- irons_spellbooks
+=== ultris-v5.6.9c.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== undead_unleashed-2.0.6-forge-1.20.1.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== variantsandventures-forge-1.0.30+mc1.20.1.jar targets=17
+  classes whose same methods are also hooked by installed mods: 1
+  WorldOpenFlows :: Inject:confirmWorldCreation <- YeetusExperimentus
+=== witherreincarnated-1.20.1-1.0.5.jar targets=18
+  classes whose same methods are also hooked by installed mods: 5
+  Entity :: Inject:getTeam, Inject:isAlliedTo <- Botania, irons_spellbooks
+  RandomStrollGoal :: Inject:canUse <- zombieawareness
+  Player :: Inject:tryToStartFallFlying <- ParCool
+  LevelRenderer :: Inject:renderLevel <- AsyncParticles-20.1.4.4+, Botania, Enhanced-Celestials-2-Shad, Immersive Vehicles, Patchouli, colorwheel
+  LivingEntityRenderer :: Inject:setupRotations <- immersive_aircraft-1.5.0+, superbwarfare-0.8.9.2
+=== zgmobs-2.3.0-all.jar targets=8
+  classes whose same methods are also hooked by installed mods: 3
+  LivingEntity :: Inject:hurt <- irons_spellbooks
+  Mob :: Inject:addAdditionalSaveData, Inject:readAdditionalSaveData <- VanillaBackport, almanac, letmedespawn
+  EntityRenderDispatcher :: Inject:renderFlame <- oculus
+=== zombie_variants-forge-1.0.3-1.20.1.jar targets=6
+  classes whose same methods are also hooked by installed mods: 2
+  ServerPlayer :: Inject:tick <- Botania, Platform
+  VibrationSystem$Listener :: Inject:listen <- Harium
+=== zombieapocalypseaddon-forge-1.20.1-1.15.0.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0
+=== zombiegamereborn-2.1.0.jar targets=22
+  classes whose same methods are also hooked by installed mods: 3
+  LivingEntity :: Inject:playHurtSound <- superbwarfare-0.8.9.2
+  Item :: Inject:use <- irons_lib
+  WalkNodeEvaluator :: Inject:getBlockPathTypeRaw <- Steam_Rails-1.7.3+
+=== zombies_reworked-1.20.1-1.1.6.jar targets=0
+  classes whose same methods are also hooked by installed mods: 0

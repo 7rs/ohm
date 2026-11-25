@@ -1,0 +1,44 @@
+﻿{
+    "game_versions":  [
+                          "1.16.5",
+                          "1.18.2",
+                          "1.19.2",
+                          "1.20.1",
+                          "1.21.1"
+                      ],
+    "loaders":  [
+                    "forge",
+                    "neoforge"
+                ],
+    "environment":  "client_and_server",
+    "id":  "rUUz9G1n",
+    "project_id":  "BZQyVKg6",
+    "author_id":  "742gYt1j",
+    "featured":  false,
+    "name":  "mc1.21.1-v1.3.5",
+    "version_number":  "mc1.21.1-v1.3.5",
+    "changelog":  "",
+    "changelog_url":  null,
+    "date_published":  "2026-04-13T13:42:40.663476Z",
+    "downloads":  21691,
+    "version_type":  "beta",
+    "status":  "listed",
+    "requested_status":  null,
+    "files":  [
+                  {
+                      "id":  "W8Xl6olS",
+                      "hashes":  {
+                                     "sha1":  "5a13b21bf0f44ead6ea3dfd69f516fc44c70a256",
+                                     "sha512":  "c0c41d412e21a6847e0fec6559dab6f85f4c151cc17adce6cd630e9183e97445c83f9937c571872e3e5bce95fc3f9bad5c269fe0b855caddf174abcd9883d25a"
+                                 },
+                      "url":  "https://cdn.modrinth.com/data/BZQyVKg6/versions/rUUz9G1n/SaltyFishVehicle_mc121_Beta_V1.3.5_iconfix.jar",
+                      "filename":  "SaltyFishVehicle_mc121_Beta_V1.3.5_iconfix.jar",
+                      "primary":  true,
+                      "size":  54864057,
+                      "file_type":  null
+                  }
+              ],
+    "dependencies":  [
+
+                     ]
+}

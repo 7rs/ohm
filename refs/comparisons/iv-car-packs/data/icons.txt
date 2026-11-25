@@ -1,0 +1,22 @@
+﻿OCP: model jsons=547 texture refs=597 missing=3 dirs=item:586,block:1,items:10
+   e.g. assets/mts/models/item/mtsofficialpack.gmcbrig_yellow.json -> assets/mtsofficialpack/textures/item/gmcbrig_yellow.png
+   e.g. assets/mts/models/item/mtsofficialpack.bell206.json -> assets/mtsofficialpack/textures/item/bell206.png
+   e.g. assets/mtsofficialpack/models/item/parts/wheelmedium_goth.json -> assets/mtsofficialpack/textures/item/wheelmedium_goth.png
+OAmP: model jsons=165 texture refs=180 missing=5 dirs=item:170,parts:8
+   e.g. assets/mts/models/item/oamp.cagouille_pinkish.json -> assets/oamp/textures/item/cagouille_pinkish.png
+   e.g. assets/mts/models/item/oamp.dashornament_snil.json -> assets/oamp/textures/item/dashornament_snil.png
+   e.g. assets/mts/models/item/oamp.escargot_jadegreen.json -> assets/oamp/textures/item/escargot_jadegreen.png
+GT2.1.2: model jsons=1584 texture refs=1584 missing=0 dirs=item:1584
+GT2.0.1-1.20.1: model jsons=1023 texture refs=1023 missing=0 dirs=item:1023
+KMW2.6.1: model jsons=1643 texture refs=1643 missing=2 dirs=item:1643
+   e.g. assets/mts/models/item/gvp.liverykit.json -> assets/gvp/textures/item/items/liverykit.png
+   e.g. assets/mts/models/item/gvp.tools.json -> assets/gvp/textures/item/items/tools.png
+RAGE3.0b2: model jsons=454 texture refs=852 missing=0 dirs=item:852
+SVMP3.7.3: model jsons=1241 texture refs=1242 missing=124 dirs=item:1138,items:104
+   e.g. assets/mts/models/item/svmp.valkyrieamrgreen.json -> assets/svmp/textures/item/valkyrieamrgreen.png
+   e.g. assets/mts/models/item/svmp.valkyriebritannica.json -> assets/svmp/textures/item/valkyriebritannica.png
+   e.g. assets/mts/models/item/svmp.valkyriecblue.json -> assets/svmp/textures/item/valkyriecblue.png
+CS1.7.5: model jsons=6822 texture refs=6822 missing=4 dirs=item:6822
+   e.g. assets/mts/models/item/craftspeed.civic4rearbumper.json -> assets/craftspeed/textures/item/civic4rearbumper.png
+   e.g. assets/mts/models/item/craftspeed.mazda3mk2rearseats.json -> assets/craftspeed/textures/item/mazda3mk2rearseats.png
+   e.g. assets/mts/models/item/craftspeed.mazda3mk2sedablue.json -> assets/craftspeed/textures/item/mazda3mk2sedablue.png

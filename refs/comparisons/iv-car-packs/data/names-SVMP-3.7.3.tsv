@@ -1,0 +1,49 @@
+pack	file	name	variants	type
+ccynho	flamingo	GSM Flamingo [Red]	1	tow_wheel
+ccynho	gtb	Puma GTB S2 [Puma Yellow]	1	tow_wheel
+ccynho	x8	Miura X8 [Black]	1	tow_wheel
+ccynho	x8p	Miura X8 [Creekwood County Police Department]	1	tow_wheel
+panzerkrieg	kubel	Volkswagen Typ 82 Kübelwagen [Raw Metal]	1	smoke
+panzerkrieg	leopard2	Leopard 2A4 Hull [Olive Green]	1	smoke
+panzerkrieg	leopard2a7plus	Leopard 2A7+ Hull [Olive Green]	1	smoke
+panzerkrieg	panther	Panzerkampfwagen V Panther Ausführung A Hull [Raw Metal]	1	smoke
+svmp	037	Lancia Rally 037 [Lancia - Martini Racing Livery]	1	tow_wheel
+svmp	037stradale	Lancia 037 Stradale [Black]	1	tow_wheel
+svmp	260	Ikarus 260 [Blank White]	1	smoke
+svmp	480	Volvo 480 [Black]	1	tow_wheel
+svmp	betamontecarlo	Lancia Beta Montecarlo [Amber]	1	tow_wheel
+svmp	betamontecarlogr5	Lancia Beta Montecarlo Group 5 Racecar [Lancia Martini Racing Livery]	1	tow_wheel
+svmp	campo	Opel Campo [Red Rock]	1	car
+svmp	campod	Opel Campo [Yorkshire Yellow]	1	tow_wheel
+svmp	campop	Opel Campo [Creekwood County Police Department]	1	car
+svmp	citadel	Moncetti Citadel [Ruby Red]	1	tow_wheel
+svmp	citadelp	Moncetti Citadel [Italian Police]	1	tow_wheel
+svmp	evija	Lotus Evija [Ardent Green]	1	tow_wheel
+svmp	f30	Nissan Leopard Coupe (F30) [Aztec Red]	1	tow_wheel
+svmp	ghia	Dual-Ghia 6.4L [Black]	1	tow_wheel
+svmp	hbcosmo	Mazda Cosmo Coupe (HB) [Mariner Blue]	1	tow_wheel
+svmp	m939	AM General M939 Series [Tan]	1	smoke
+svmp	mantgx	2021 MAN TGX [Broom Yellow]	1	trailer_fifthwheel
+svmp	megane	Renault Mégane Coupe (MK1) [Boreal Gray]	1	tow_wheel
+svmp	meganemaxi	Renault Mégane Maxi Kit Car [Yellow]	1	tow_wheel
+svmp	pantera	De Tomaso Pantera GT5-S [Albany Gray]	1	tow_wheel
+svmp	rangerover	Range Rover Classic [Alaskan Blue]	1	tow_wheel
+svmp	sagaris	TVR Sagaris [Black Cherry]	1	tow_wheel
+svmp	semitrailerflatbed	Flatbed Semi Trailer	1	trailer_fifthwheel
+svmp	semitrailertanker	Tanker Semi Trailer	1	trailer_fifthwheel
+svmp	swift	1991 Suzuki Swift (5 Door) [Superior White]	1	tow_wheel
+svmp	swift3	2017 Suzuki Swift Sport [Atlantis Cyan]	1	tow_wheel
+svmp	swiftcabrio	1991 Suzuki Swift Cabrio [Superior White]	1	tow_wheel
+svmp	swiftgti	1991 Suzuki Swift GTi [Superior White]	1	tow_wheel
+svmp	swiftsedan	1991 Suzuki Swift (Sedan) [Superior White]	1	tow_wheel
+svmp	t180	Voxel Toyota Celica (T180) [White]	1	
+svmp	trailer	Flatbed Car Trailer [Black]	1	trailer_standard
+svmp	transporter	Volkswagen Transporter (T6) Panelvan [Bay Leaf Green]	1	tow_wheel
+svmp	transportermulti	Volkswagen Transporter (T6) Multivan [Bay Leaf Green]	1	tow_wheel
+svmp	transporterp	Volkswagen Transporter (T6) Panel Van [Hinode Motorpark Safety Team]	1	tow_wheel
+svmp	valkyrie	Aston Martin Valkyrie [Cosmos Orange]	1	tow_wheel
+svmp	valkyriespider	Aston Martin Valkyrie Spider [Cosmos Orange]	1	tow_wheel
+svmp	w201	Mercedes-Benz 190 E 2.5-16 Evolution II [Andor Blue]	1	tow_wheel
+svmp	wiesmann	Wiesmann GT MF5 [Galaxy Black]	1	tow_wheel
+vehiclesofsurvival	voscarrion	VoS Carrion (Mule Class)	1	car
+vehiclesofsurvival	vosexplorer	VoS Explorer (Scout Class)	1	car
