@@ -3,6 +3,7 @@ README.md
 CONTRIBUTING.md
 refs/
 .editorconfig
+.claude/
 .githooks/
 .github/
 docs/

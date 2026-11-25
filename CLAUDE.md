@@ -32,9 +32,10 @@ In this project, we maintain a Packwiz modpack named ohm.
   - `mods/`, `resourcepacks/`, `shaderpacks/`, `config/`, `defaultconfigs/` or `.packwizignore` changed, but `packwiz refresh` gives an `index.toml` or `pack.toml` different from the staged one.
   - `config/` or `defaultconfigs/` changed, but `refs/settings.md` is not staged.
   - A staged `.json` under `config/` or `defaultconfigs/` is not valid JSON (checked with `jq`, or PowerShell on Windows; skipped when neither exists).
-  - `.github/`, `.githooks/`, `.editorconfig`, `.gitattributes` or `.packwizignore` changed, but `CLAUDE.md` is not staged.
+  - `.github/`, `.githooks/`, `.claude/`, `.editorconfig`, `.gitattributes` or `.packwizignore` changed, but `CLAUDE.md` is not staged.
   Not distributed.
-- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.githooks/`, `.github/`, `docs/` and `refs/` are not distributed.
+- `.claude/agents/*.md`: Claude Code subagents, one file per agent, both on `model: sonnet`. `mod-researcher` does the comparison and review before a mod is added and returns a recommendation: it writes only under `refs/comparisons/<topic>/` and never adds anything. `update-reviewer` reviews the working tree after `packwiz update` and reports risks and follow-up edits: it is read-only. Not distributed.
+- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.claude/`, `.githooks/`, `.github/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
@@ -81,6 +82,7 @@ A mod is never added blindly, without a plan, without evidence, or on a shallow 
   - Download counts.
   - Forge 1.20.1 build, required dependencies, and conflicts with installed mods.
 - Use the `comparison` skill. Keep the documents in `refs/comparisons/<topic>/`.
+- Run the research with the `mod-researcher` subagent, one per topic (in parallel for unrelated topics). It returns a recommendation only: the discussion, the user's approval and the records stay with the main session.
 - Read `refs/notes.md` and `refs/issues.md` first: they hold known conflicts and mods that must not be added.
 - Discuss the result with the user. Never add a mod without the user's approval: present the comparison and wait for the answer. This also applies when a mod is the only way to fulfil a request.
 - There is no exception. Do this even when the prompt does not ask for it, in the background of the task. The only case that skips it is when it was already done: a comparison in `refs/comparisons/` that covers the candidate (look it up in `refs/comparisons/index.md`).
@@ -115,4 +117,5 @@ Needs the comparison and review above to be done.
 - Enable the commit checks (once per clone): `git config core.hooksPath .githooks`
 - After editing a metafile by hand: `packwiz refresh`
 - Update: `packwiz update <slug>` / `packwiz update --all`
+  - Then review the changes with the `update-reviewer` subagent and apply its follow-up edits.
 - Export: `packwiz modrinth export`
