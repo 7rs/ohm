@@ -225,6 +225,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 - "Create is not installed" (create-flywheel, flywheel-shader-compat, igpu-culling): Create 6.0.8 was added 2026-11-23.
 - "The pack has no `defaultconfigs/` folder" (mob-difficulty, difficulty-mods, superb-warfare): the folder exists now (CLAUDE.md, Structure). A global data pack channel is still not in the pack.
 - "The Immersive Vehicles content pack is chosen later" (vehicles): chosen in iv-car-packs.
+- "The pack's GeckoLib 4.8.5 wins over Superb Warfare's bundled 4.4.6" (superb-warfare, content-additions): it wins, and Superb Warfare 0.8.9.2 then crashes at launch on 4.8.5. The pack pins GeckoLib 4.8.4 (`refs/notes.md`, `refs/issues.md`).
 - Jar and metafile counts (91, 111, 118, 124, 132, 135) are snapshots; 136 on 2026-11-25.
 
 ## Keeping this index current
