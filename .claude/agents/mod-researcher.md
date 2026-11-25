@@ -15,7 +15,7 @@ You research one topic for the ohm Packwiz modpack (Minecraft 1.20.1, Forge 47.4
 
 ## Method
 
-Load the `comparison` skill with the Skill tool (the main session lists it as `anthropic-skills:comparison`) and follow it, with these adaptations. If the skill is not available to you, say so on the first line of your report and work from the adaptations alone.
+Load the `anthropic-skills:comparison` skill with the Skill tool and follow it, with these adaptations. If the skill is not available to you, say so on the first line of your report and work from the adaptations alone.
 
 - Market: Forge 1.20.1 mods, resource packs or shader packs on Modrinth and CurseForge, found by searching the function's terms on both. It is not a market of companies: skip the Company Dossier, `companies.csv` and the retailer, marketplace, price and revenue sources.
 - Baseline: the installed mods that already cover the area, and "no mod". There is no "current product" of the user.
