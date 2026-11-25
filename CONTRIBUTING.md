@@ -85,7 +85,7 @@ It is one POSIX `sh` file, and Git runs hooks through `sh` on every OS (Git for 
 | A shader pack metafile | `side` is not `"client"` |
 | `mods/`, `resourcepacks/`, `shaderpacks/`, `config/`, `defaultconfigs/`, `.packwizignore` | `index.toml` or `pack.toml` is not what `packwiz refresh` gives |
 | `config/`, `defaultconfigs/` | `refs/settings.md` not staged, a `.json` that does not parse |
-| `.github/`, `.githooks/`, `.editorconfig`, `.gitattributes`, `.packwizignore` | `CLAUDE.md` not staged |
+| `.github/`, `.githooks/`, `.claude/`, `.editorconfig`, `.gitattributes`, `.packwizignore` | `CLAUDE.md` not staged |
 
 ## Repository settings
 

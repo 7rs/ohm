@@ -84,7 +84,7 @@ for f in $(git diff --cached --no-renames --name-only --diff-filter=ACMR -- 'con
   json_ok "$f" || warn "$f is not valid JSON"
 done
 
-if has '^(\.github/|\.githooks/|\.editorconfig$|\.gitattributes$|\.packwizignore$)' && ! has '^CLAUDE\.md$'; then
+if has '^(\.github/|\.githooks/|\.claude/|\.editorconfig$|\.gitattributes$|\.packwizignore$)' && ! has '^CLAUDE\.md$'; then
   warn "a structure file changed, but CLAUDE.md is not staged"
 fi
 
