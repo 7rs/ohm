@@ -1,0 +1,16 @@
+﻿group,slug,title,source,version,channel,date,downloads,required_not_installed,side_client,side_server,hard_conflicts,shared_hook_classes,note
+elite,champions-unofficial,Champions Unofficial,modrinth,20.1.1.6-forge,release,2026-09-06,100697,architectury-api 9.2.14,required,required,0,,on hold since 2026-11-24 (mob-difficulty)
+elite,l2hostility,L2Hostility,modrinth,2.5.19,release,2026-03-26,2949512,l2library;l2complements,required,required,0,4,
+progress,improved-mobs,Improved Mobs,modrinth,1.20.1-1.13.7-forge,release,2026-06-19,654845,tenshilib,optional,required,0,3,
+progress,monsters-level-up,Monsters Level Up,modrinth,1.6,release,2026-11-04,8663,none (GeckoLib optional),,,0,0,"milestones: iron armor, diamond armor, enchanting, Nether, Ender Dragon; gear, shields, reinforcements, behaviors"
+progress,mod-scaling,Mod Scaling,modrinth,1.0.0,release,2024-11-15,3473,none,,,0,0,"gear and effects by progress (iron, diamond, totem, Nether, stronghold, dragon); no stat scaling"
+elite,advanced-mobs,Advanced Mobs,modrinth,2.0.0,release,2026-10-28,2634,geckolib 4.8.2+ (installed 4.8.5),,,0,0,"elite versions of zombies, skeletons, blazes that scale with the vanilla difficulty setting"
+elite,d2-affix,D2 Affix,modrinth,0.1.3-Beta,beta,2026-08-02,198,none,,,0,1,"Diablo 2 style elite tiers, affixes and auras; data driven JSON under config/d2affix/elite_types"
+elite,summoners-mod,Summoners,modrinth,1.0.1,release,2026-07-31,2188,none,,,,,"5 % of hostile mobs become Summoners that call reinforcements; jar not downloaded"
+rules,in-control,In Control!,modrinth,1.20-9.5.1,release,2026-10-25,4238508,none (Lost Cities and KubeJS optional),,,0,0,"rule files under config/incontrol (spawn, summonaid, phases, effects, events); slug is in-control (earlier note used incontrol)"
+rules,mob-dice-attributes,Mob Dice Attributes,modrinth,1.0.0,release,2026-04-23,2658,gottschcore,,,0,0,"random attribute rolls whose average equals vanilla; not a buff"
+rules,custom-mob-attributes,Custom Mob Attributes,modrinth,3.0.10,release,2026-09-28,24861,none,,,0,3,"per-mob attribute editor"
+rules,mobspawncontroller,MobSpawnController,modrinth,1.4.2,release,2026-11-17,29070,not downloaded,,,,,"spawn toggles, conditions, multipliers, attributes and equipment presets by command or GUI"
+content,alexs-mobs,Alex's Mobs,modrinth,1.22.9,release,2024-09-06,15823545,Modrinth required id jJfV67b1 (not resolved),,,,,"89 mobs, mostly real-world creatures; boss mobs exist; not a difficulty mod"
+content,alexs-caves,Alex's Caves,modrinth,2.0.2,release,,11550022,not resolved,,,,,"131 mob classes, 14 structures; 71 MB"
+

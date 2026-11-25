@@ -1,0 +1,46 @@
+﻿## IVcore
+own pack ids: mts
+distinct external refs: 1
+- ns=mtsofficialpack distinct=1 resolved-by[OCP:1] unresolved=0
+
+## OCP
+own pack ids: mtsofficialpack
+distinct external refs: 14
+- ns=mts distinct=14 resolved-by[IVcore:14] unresolved=0
+
+## CS
+own pack ids: craftspeed, craftspeedengines, craftspeedparts, craftspeedplates, craftspeedwheels
+distinct external refs: 6
+- ns=mts distinct=5 resolved-by[IVcore:5] unresolved=0
+- ns=mtsofficialpack distinct=1 resolved-by[OCP:1] unresolved=0
+
+## GT
+own pack ids: gtcraft, gtcraft_bodykit, gtcraft_exterior, gtcraft_interior, gtcraft_parts, gtcraft_rims
+distinct external refs: 58
+- ns=mtsofficialpack distinct=56 resolved-by[OCP:55] unresolved=1 e.g. mtsofficialpack:rocketbooch(1)
+- ns=mts distinct=2 resolved-by[IVcore:2] unresolved=0
+
+## KMW
+own pack ids: general_pretuned_cars, gvp
+distinct external refs: 21
+- ns=mtsofficialpack distinct=11 resolved-by[OCP:11] unresolved=0
+- ns=mts distinct=8 resolved-by[IVcore:8] unresolved=0
+- ns=potatpacc distinct=2 resolved-by[] unresolved=2 e.g. potatpacc:gearboxshift6(3), potatpacc:gearboxshift5(25)
+
+## RAGE
+own pack ids: blockyrageaftermarket, blockyragecivil, blockyrageheavy, blockyrageother, blockyragestock
+distinct external refs: 108
+- ns=mtsofficialpack distinct=105 resolved-by[OCP:104] unresolved=1 e.g. mtsofficialpack:thiccfont(24)
+- ns=mts distinct=3 resolved-by[IVcore:3] unresolved=0
+
+## SVMP
+own pack ids: ccynho, panzerkrieg, svmp, vehiclesofsurvival
+distinct external refs: 5
+- ns=mts distinct=5 resolved-by[IVcore:5] unresolved=0
+
+## OAmP
+own pack ids: oamp
+distinct external refs: 174
+- ns=mtsofficialpack distinct=167 resolved-by[OCP:161] unresolved=6 e.g. mtsofficialpack:mirrorornament_snail(1), mtsofficialpack:ewind_med_outside(1), mtsofficialpack:weind_med_outside(2), mtsofficialpack:enginefordfe428_mediumwell(1), mtsofficialpack:placeholder(8), mtsofficialpack:wheellarge_whitewall(3)
+- ns=mts distinct=7 resolved-by[IVcore:7] unresolved=0
+

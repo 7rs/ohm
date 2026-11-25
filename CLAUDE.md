@@ -22,8 +22,19 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `README.md`: Human-facing overview and install and update guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server; Update: modpack, PC, server). Not distributed.
 - `CONTRIBUTING.md`: Branch, pull request and merge rules for maintainers. Not distributed.
 - `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
+- `docs/benchmark.md`, `docs/benchmark-mods.md`: Human procedures to profile and benchmark the pack: the common method, then one mod from a clean Forge instance, overlap tests and the scene each optimization mod needs. They hold no results. Linked from `README.md`. Not distributed. Results of a run go to `refs/` (see the Run record in `docs/benchmark.md`).
 - `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
-- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.github/`, `docs/` and `refs/` are not distributed.
+- `.editorconfig`: Editor settings for files edited by hand (UTF-8, LF, final newline, 2 spaces). `config/` and `defaultconfigs/` are unset, because mods write those files and an editor must not reformat them (the bytes feed the `index.toml` hash). Not distributed.
+- `.gitattributes`: `* text=auto eol=lf` keeps the working tree in LF on every OS. Without it Git on Windows (`core.autocrlf=true`) checks files out as CRLF, packwiz hashes those bytes, and `packwiz refresh` disagrees with CI. packwiz excludes it from the index by default. Not distributed.
+- `.githooks/pre-commit`: Warning-only checks before a commit. It never blocks a commit and always exits 0. One POSIX `sh` file, because Git runs hooks through `sh` on every OS (Git for Windows ships it). Enable it once per clone: `git config core.hooksPath .githooks`. It warns when:
+  - A metafile is added or removed, but `refs/list.md` or `docs/modlist.md` is not staged, `refs/list.md` and the metafiles disagree on slugs, or `docs/modlist.md` has no link (or still has one) for the slug.
+  - A shader pack is not `side = "client"`.
+  - `mods/`, `resourcepacks/`, `shaderpacks/`, `config/`, `defaultconfigs/` or `.packwizignore` changed, but `packwiz refresh` gives an `index.toml` or `pack.toml` different from the staged one.
+  - `config/` or `defaultconfigs/` changed, but `refs/settings.md` is not staged.
+  - A staged `.json` under `config/` or `defaultconfigs/` is not valid JSON (checked with `jq`, or PowerShell on Windows; skipped when neither exists).
+  - `.github/`, `.githooks/`, `.editorconfig`, `.gitattributes` or `.packwizignore` changed, but `CLAUDE.md` is not staged.
+  Not distributed.
+- `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.githooks/`, `.github/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
 - `config/defaultoptions/`: Default Options data (`options.txt`, `keybindings.txt`, `servers.dat`). Applied only when the target file does not exist.
@@ -36,10 +47,12 @@ In this project, we maintain a Packwiz modpack named ohm.
 - Never put `options.txt` or `servers.dat` in the pack root. Use `config/defaultoptions/`.
 - Add only shader packs that support Distant Horizons (the zip has `dh_*` programs). Distant Horizons is installed and draws its LODs only with such packs. This is the user's rule (2026-11-23).
 - Write only the keys that differ from the mod's defaults. Do not ship hardware-dependent values such as thread counts.
-- Follow `CONTRIBUTING.md` for branches. Never push to `main` and never branch from it. Cut one `add/`, `update/`, `config/`, `ci/` or `feat/` branch per topic from `dev` and merge it into `dev` by pull request. GitHub proposes `main` as the base of a pull request: change it to `dev`. A cloud session branch (`ccr-*`) is a topic branch too: base it on `dev`, and if it was cut from `main`, reset it to `dev` before the first commit. Push to `dev` directly only for documentation-only changes and for syncing it with `main` after a release. When the branch rules change, update `CONTRIBUTING.md` and `.github/rulesets/` together.
+- Follow `CONTRIBUTING.md` for branches. Never push to `main` and never branch from it. Cut one `add/`, `update/`, `config/`, `ci/` or `feat/` branch per topic from `dev` and merge it into `dev` by pull request. GitHub proposes `main` as the base of a pull request: change it to `dev`. Name every branch `<prefix>/<short-kebab-case-name>`. Never commit to or push a branch named `ccr-*`: if a cloud session starts on one, rename it with `git branch -m` before the first commit and push (the session cannot delete a pushed branch, so a pushed `ccr-*` stays on the remote). A cloud session branch is a topic branch too: base it on `dev`, and if it was cut from `main`, reset it to `dev` before the first commit. Do not reuse a branch for a second topic: cut a new one from `dev`. Push to `dev` directly only for documentation-only changes and for syncing it with `main` after a release. When the branch rules change, update `CONTRIBUTING.md` and `.github/rulesets/` together.
 - When any definition in this project changes, record it in this CLAUDE.md in the same change. This covers the Minecraft or Forge version, the structure, the commands and the rules. Keep `refs/list.md` and the Mod List in `docs/modlist.md` in sync with `mods/`, `resourcepacks/` and `shaderpacks/`, and `refs/settings.md` in sync with `config/`.
+- When a rule that `.githooks/pre-commit` checks changes (the files that go together, the sync of `refs/list.md` and `docs/modlist.md`, the shader pack side), change the hook and the list under `.githooks/pre-commit` in Structure, and the table in `CONTRIBUTING.md`, in the same change.
 - When a problem with an installed mod is found or resolved, update `refs/issues.md`.
 - When a mod is removed, remove its entries from `refs/issues.md`, `refs/list.md`, `docs/modlist.md` and `refs/settings.md`.
+- When a comparison is added, or the user decides on one (add, hold, reject), update `refs/comparisons/index.md` and the matching section of `refs/notes.md` in the same change.
 
 ## References
 
@@ -49,7 +62,8 @@ Long reference files live under `refs/`. They are excluded from the index and ar
 - `refs/issues.md`: Known problems of installed mods with a status (`open`, `unverified`, `by design`, `resolved`). Read it before changing a mod or its settings.
 - `refs/notes.md`: Per-mod decisions and constraints by topic (key binding, Punchy, viewer/info/camera, recipe/worldgen/Create/weather, optimization): why a mod is installed, what must not be added beside it, and what was checked and rejected. Read it before adding, removing or replacing a mod.
 - `refs/settings.md`: Shipped settings. Vanilla (`options.txt`) and each mod have their own section, with a table of Key, Value and Reason per file. Launcher-only items sit at the end. Read it before changing a setting.
-- `refs/comparisons/<topic>/`: Evidence files of a comparison between similar mods (`comparison.md` is the result; scope, ledgers, sources and coverage sit beside it). Read the folder before adding a mod for that topic.
+- `refs/comparisons/index.md`: One-page summary of every comparison: question, result, the user's decision, install status, constraints and statements that went stale. Read it first when adding, removing or replacing a mod, and when the session's context is lost.
+- `refs/comparisons/<topic>/`: Evidence files of a comparison between similar mods (`comparison.md` is the result; scope, ledgers, sources, coverage, scripts and raw data sit beside it). Tracked in git. Read the folder when the evidence behind a result in the index is needed, and before adding a mod for that topic.
 
 ## Mod Addition
 
@@ -68,7 +82,7 @@ A mod is never added blindly, without a plan, without evidence, or on a shallow 
 - Use the `comparison` skill. Keep the documents in `refs/comparisons/<topic>/`.
 - Read `refs/notes.md` and `refs/issues.md` first: they hold known conflicts and mods that must not be added.
 - Discuss the result with the user. Never add a mod without the user's approval: present the comparison and wait for the answer. This also applies when a mod is the only way to fulfil a request.
-- There is no exception. Do this even when the prompt does not ask for it, in the background of the task. The only case that skips it is when it was already done: a comparison in `refs/comparisons/` that covers the candidate.
+- There is no exception. Do this even when the prompt does not ask for it, in the background of the task. The only case that skips it is when it was already done: a comparison in `refs/comparisons/` that covers the candidate (look it up in `refs/comparisons/index.md`).
 
 ### Adding a Mod
 
@@ -97,6 +111,7 @@ Needs the comparison and review above to be done.
   - `packwiz modrinth add <URL>`
   - `packwiz curseforge add <URL>`
 - Remove a mod: `packwiz remove <slug>`
+- Enable the commit checks (once per clone): `git config core.hooksPath .githooks`
 - After editing a metafile by hand: `packwiz refresh`
 - Update: `packwiz update <slug>` / `packwiz update --all`
 - Export: `packwiz modrinth export`

@@ -1,0 +1,30 @@
+id,criterion,value,type,source,source_url
+yeetus,downloads_modrinth_total,20409323,measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/yeetus-experimentus
+yeetus,downloads_modrinth_forge_1_20_1,"13254106 (2.3.1: 6948720; 2.3.0-build.4: 6305386)",measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/yeetus-experimentus/version
+yeetus,downloads_curseforge,not available (page not found by fetch),measured,Exa fetch 2026-11-22,https://www.curseforge.com/minecraft/mc-mods/yeetus-experimentus
+yeetus,release_forge_1_20_1,"2.3.1 listed 2023-08-03; 2.3.0-build.4 listed 2023-09-16 (classes identical in size)",measured,Modrinth API,https://api.modrinth.com/v2/project/yeetus-experimentus/version
+yeetus,project_updated,2026-09-19 (other Minecraft versions),measured,Modrinth API,https://api.modrinth.com/v2/project/yeetus-experimentus
+esd,downloads_modrinth_total,427181,measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/experimental-settings-disabler
+esd,downloads_modrinth_forge_1_20_1,287180 (3.0),measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/experimental-settings-disabler/version
+esd,downloads_curseforge_total,9753326,measured,cfwidget 2026-11-22 (page cached by Exa showed 9682408),https://api.cfwidget.com/minecraft/mc-mods/experimental-settings-disabler
+esd,downloads_curseforge_1_20_1_file,2663977,measured,cfwidget 2026-11-22,https://api.cfwidget.com/minecraft/mc-mods/experimental-settings-disabler
+esd,release_forge_1_20_1,3.0: 2023-10-27 (Modrinth) / 2023-10-24 (CurseForge file),measured,Modrinth API and cfwidget,https://api.modrinth.com/v2/project/experimental-settings-disabler/version
+esd,project_updated,2024-03-13 (Modrinth); newest CurseForge file 2024-03-16 for 1.20.4,measured,Modrinth API and Exa,https://www.curseforge.com/minecraft/mc-mods/experimental-settings-disabler
+hew,downloads_modrinth_total,958092,measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/hide-experimental-warning
+hew,downloads_modrinth_forge_1_20_1,"438726 (1.0: 1622; 1.1: 35329; 1.2: 399461; 1.3: 2314)",measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/hide-experimental-warning/version
+hew,downloads_curseforge_total,3151207 (all versions incl. 26.x),measured,cfwidget 2026-11-22 (page cached by Exa showed 3149759),https://api.cfwidget.com/minecraft/mc-mods/hide-experimental-warning
+hew,downloads_curseforge_1_20_1_files,"1.2: 30395; 1.1: 11183; 1.0: 696; 1.3: 0 (per-file counters look low against Modrinth; treat as unreliable)",measured,cfwidget 2026-11-22,https://api.cfwidget.com/minecraft/mc-mods/hide-experimental-warning
+hew,release_forge_1_20_1,1.3: 2026-10-02 (first 1.20.1 build 1.0: 2024-04-26),measured,Modrinth API,https://api.modrinth.com/v2/project/hide-experimental-warning/version
+hew,project_updated,2026-10-28,measured,Modrinth API,https://api.modrinth.com/v2/project/hide-experimental-warning
+collective,downloads_modrinth_total,71859163,measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/collective
+collective,release_forge_1_20_1,8.87: 2026-11-15; 155 Forge 1.20.1 releases since 2023-06-12,measured,Modrinth API,https://api.modrinth.com/v2/project/collective/version
+expist,downloads_modrinth_total,98519,measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/experimentalist
+expist,downloads_modrinth_forge_1_20_1,"690 (2.0.2: 64; 2.0.3: 626)",measured,Modrinth API 2026-11-22,https://api.modrinth.com/v2/project/experimentalist/version
+expist,downloads_curseforge_total,218157,measured,cfwidget 2026-11-22,https://api.cfwidget.com/minecraft/mc-mods/experimentalist
+expist,downloads_curseforge_forge_1_20_x_files,"2.0.3: 7; 2.0.2: 8",measured,cfwidget 2026-11-22,https://api.cfwidget.com/minecraft/mc-mods/experimentalist
+expist,release_forge_1_20_1,2.0.3: 2025-12-01 (2.0.2: 2025-11-28),measured,Modrinth API,https://api.modrinth.com/v2/project/experimentalist/version
+expist,project_updated,2026-03-31 (published 2024-12-18),measured,Modrinth API,https://api.modrinth.com/v2/project/experimentalist
+shutup,downloads_curseforge_total,52835864,measured,cfwidget 2026-11-22,https://api.cfwidget.com/minecraft/mc-mods/shutup-experimental-settings
+shutup,game_versions,1.18.1 to 1.19.2 Forge; last update 2022-04-19,measured,CurseForge page via Exa,https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings
+noworldgenwarning,description,"silences the MIN/MAX function log warning; requires Mixin Booster on Forge 1.20.1",claimed,CurseForge page via Exa,https://www.curseforge.com/minecraft/mc-mods/no-worldgen-warning
+directentry,game_versions,Forge 1.21.1 only,measured,Modrinth page via Exa,https://modrinth.com/mod/directentry/versions

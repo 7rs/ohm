@@ -1,0 +1,509 @@
+##### tr7zw/3d-skin-layers #165 [open] Incompatibility with ParCool | comments=1 | created=2024-07-30 updated=2024-07-30 | labels=
+Minecraft version used: 1.20.1
+Forge version used: 47.3.5
+3D Skinlayers version used: skinlayers3d-forge-1.6.6-mc1.20.1
+ParCool version used: ParCool-1.20.1-3.2.1.2-R
+
+My issue: ParCool has a sprinting animation separate from the vanilla sprint. When used, 3D skinlayer's first-person hand layer warps backwards resulting in an unwanted display.
+
+Temporary fix I've used: First-Person Model mod to display a full body character and completely disregard the first-person hand model bug.
+
+Things to note:
+- I have did not bother testing the mod with any other of their versions.
+- Bug doesn't occur when sprinting normally, only when ParCool sprint is activated.
+- I have used the mods together previously back in minecraft 1.19.2, using forge 43.4.2. This issue did not occur.
+  >> comment by itszeele 2024-07-30: I've reported this here first with the thought that ParCool shifts the player model into a state unusual for vanilla. Maybe 3D skin layers devs could have a fix? Anyways, nothing major. As I've mentioned, using first person mod fixes the problem by completely avoiding it.
+
+##### tr7zw/3d-skin-layers #303 [closed] Compatibility with FA Player Addon | comments=16 | created=2026-04-30 updated=2026-10-13 | labels=
+Currently, the mod stops working if you enable this resource pack
+I guess it's probably the same issue as https://github.com/tr7zw/3d-Skin-Layers/issues/290
+
+Without FA Player Addon:
+<img width="221" height="303" alt="Image" src="https://github.com/user-attachments/assets/fd6a2596-dd1c-40e7-b45f-d952ff65b957" />
+
+With FA Player Addon:
+<img width="214" height="293" alt="Image" src="https://github.com/user-attachments/assets/f877b84b-ea6d-4c94-b657-abbb81dda092" />
+  >> comment by tr7zw 2026-10-08: https://github.com/tr7zw/3d-Skin-Layers/actions/runs/36773470903 artifacts button at the bottom.
+  >> comment by NugglinGaming 2026-10-13: and I just download the jar, correct?
+  >> comment by tr7zw 2026-10-13: It's a zip file with all the different version jars, you need to use the correct one. Or wait for the next release.
+##### AlexModGuy/Ice_and_Fire #5416 [open] [1.20.1] [Forge] [Version 2.1.13 beta 5] Crash when trying to generate a hydra cave | comments=0 | created=2024-12-07 updated=2024-12-07 | labels=bug,1.20
+### What happened?
+
+I was simply moving around in a small radius, waiting for distant horizons to load my chunks, when my game crashed. Here is my [full log output](https://mclo.gs/zkVSncv). Some additional information that might be helpful is that I tried (and thought I had succeeded considering I went hundreds of chunks only seeing one) to disable hydra caves through the config.
+
+### Minecraft Version
+
+1.20.1
+
+### Ice and Fire version
+
+2.1.13-beta-5
+
+### Citadel version
+
+2.6.0
+
+### Relevant log output
+
+_No response_
+
+### Other Information
+
+- [X] I am using other mods besides Ice and Fire
+- [X] I have attached a log file from the session that I have experienced this issue
+##### AlexModGuy/Ice_and_Fire #5592 [open] [Bug]: World Border Dragon Nest Generation Crash | comments=3 | created=2025-12-05 updated=2026-03-31 | labels=bug,1.20
+### What happened?
+
+This bug occurs when the dragon's nest attempts to spawn at the absolute world coordinates of -1 (specifically at the world border limit of 30,000,000 blocks on the X or Z axis). This position is in the void, and since nothing can generate there, it causes an immediate crash. It is worth noting that the issue is related to this specific XYZ world position, not a chunk-based generation problem. In the latest single-player version, the game does not crash, but it consistently crashes on the server version.
+
+### Minecraft Version
+
+1.20.1
+
+### Ice and Fire version
+
+iceandfire-2.1.13
+
+### Citadel version
+
+1.20.1-2.1.13
+
+### Relevant log output
+
+```shell
+---- Minecraft Crash Report ----
+// Embeddium instance tainted by mods: [flerovium, ruokmod, oculus, sodiumdynamiclights, acceleratedrendering, culllessleaves]
+// Please do not reach out for Embeddium support without removi
+  >> comment by Pei-xiao-xiao 2025-12-05: Mod List: 
+		smsn-forge-1.3.1-1.20.1.jar                       |Save My Shit Network          |smsn                          |1.3.1-1.20.1        |DONE      |Manifest: NOSIGNATURE
+		almanac-1.20.x-forge-1.0.2.jar                    |Almanac                       |almanac                       |1.0.2               |DONE      |Manifest: NOSIGNATURE
+		Jadens-Nether-Expansion-2.3.2.jar                 |Jaden's Nether Expansion      |netherexp                     |2.3.2               |DONE      |Mani
+  >> comment by Aresiel 2026-01-02: Bump
+  >> comment by KingDubDub 2026-03-31: Bumping as well, still present and causing issues on the server I run for my friends.
+
+<details>
+  <summary>Full crash report</summary>
+
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2026-03-31 05:26:38
+Description: Feature placement
+
+java.lang.RuntimeException: We are asking a region for a chunk out of bound | -1875000 -365
+        at net.minecraft.server.level.WorldGenRegion.m_6522_(WorldGenRegion.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23247!/:?] {re:mixin,re:cla
+##### nonamecrackers2/crackers-wither-storm-mod #2505 [open] [Bug]: Wither Storm Vanishes when you're far away from it using DH | comments=5 | created=2025-07-31 updated=2025-11-30 | labels=Bug/Errors,Compat,1.20.1
+### Guidelines
+
+- [x] By checking this box, I am saying that I have read the guidelines and believe to be following them to the best of my ability
+
+### Minecraft Version
+
+1.20.1
+
+### Mod Version
+
+4.2.1
+
+### Mod Loader
+
+Forge
+
+### Mod Loader Version
+
+47.4.0
+
+### Describe the bug
+
+When you're far away from the wither storm using the "Distant Horizons" mod, the Wither Storm vanishes 
+
+### Steps to Reproduce
+
+1. Install DH
+2. Blow up WS
+3. fly up or walk far away enough from the wither storm 
+4. See error
+
+
+### Crash Reports/Logs
+
+N/A
+
+### Is OptiFine installed?
+
+- [ ] OptiFine is installed
+
+### Screenhots
+
+<img width="1920" height="1009" alt="Image" src="https://github.com/user-attachments/assets/3b4825ce-f47b-4a40-9298-ac543f3c4b83" />
+
+### Mod List
+
+EMF
+ETF
+CWSM
+Distant Horizons
+  >> comment by nonamecrackers2 2025-08-04: Probably because of DH's dither fade, will have to fix this with proper DH support
+  >> comment by ahmetenesay 2025-08-16: I'm using DH and I've never encountered such a problem, it's all due to optifine! Optifine is better than xenon mod in vanilla minecraft, but its shader system is much worse than oculus or iris... Don't use Optifine in modpacks, use xenon instead!
+  >> comment by perrylin4 2025-11-30: I have the same issue when I use occulus with embeddium and DH.
+##### nonamecrackers2/crackers-wither-storm-mod #2293 [open] [Bug]: Distant render layers are broken with oculus | comments=1 | created=2024-11-10 updated=2026-02-24 | labels=Bug/Errors,Compat,1.20.1
+### Guidelines
+
+- [X] By checking this box, I am saying that I have read the guidelines and believe to be following them to the best of my ability
+
+### Minecraft Version
+
+1.20.1
+
+### Mod Version
+
+4.2.1
+
+### Mod Loader
+
+Forge
+
+### Mod Loader Version
+
+47.3.11
+
+### Describe the bug
+
+A bug happened!
+
+### Steps to Reproduce
+
+1. download oculus
+2. get a wither storm in to distant render
+3. See error
+
+
+### Crash Reports/Logs
+
+no log
+
+### Is OptiFine installed?
+
+- [ ] OptiFine is installed
+
+### Screenhots
+
+without oculus:
+![2024-11-09_20 22 25](https://github.com/user-attachments/assets/9703c51f-86b0-40b1-ac6e-f1cfe9119fa2)
+
+with oculus:
+![2024-11-09_20 21 01](https://github.com/user-attachments/assets/7ad661e2-b8df-47ce-8fa3-dc1213536585)
+
+### Mod List
+
+embedium (oculus dependency)
+oculus
+  >> comment by stormkille 2026-02-24: odd I never noticed that before. didn't think it was oculus causing that.  
+##### AppliedEnergistics/Applied-Energistics-2 #8772 [closed] Issue with Fast Suite+ae2 crafting through wireless crafting terminal. | comments=1 | created=2026-01-16 updated=2026-10-28 | labels=bug
+### Describe the bug
+
+[message.txt](https://github.com/user-attachments/files/24661366/message.txt)
+
+![Image](https://github.com/user-attachments/assets/8b2d0dc1-19ce-4ebc-8a7d-d667d9a06c04)
+
+### How to reproduce the bug
+
+Auto fill items inside crafting terminal.
+
+### Expected behavior
+
+Causes Client side crash.
+
+### Additional details
+
+_No response_
+
+### Which minecraft version are you using?
+
+1.21
+
+### On which mod loaders does it happen?
+
+NeoForge
+
+### Crash log
+
+https://pastebin.com/ZkVCAeH3
+  >> comment by shartte 2026-01-16: The error seems to be in fastsuite, I hope you have reported this to them.
+##### mrh0/createaddition #1063 [open] Entirely nonfunctional for Forge 1.20.1 | comments=1 | created=2025-09-10 updated=2025-09-10 | labels=bug,forge
+**Describe the bug**
+A clear and concise description of what the bug is.
+Create: Crafts and Additions crashes the game on error message 1 upon loading due to "Mod ID: 'flywheel', Requested by: 'createaddition', Expected range: '[0.6.9.a,0.7)', Actual version: '1.0.4'
+	Mod ID: 'create', Requested by: 'createaddition', Expected range: '[0.5.1.e,0.5.2)', Actual version: '6.0.6'" (direct from the crash log). Changelog for 1.3.1 says "Updated to support Create 6.0.3", and the crash is the same for 1.3.2. The crash log only outputs this on Create version 6.0.6, though it still crashes until 6.0.2 when it fully loads, when it demands you to have 6.0.3 or above. Confirmed from 1.3.2-1.2.5, when it requires a Create version lower than 6.0.3.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+- Open the game
+- That's literally it.
+
+**Additional context**
+- Mod version: 1.3.2-1.2.5
+- Forge version:
+  >> comment by Eclasto 2025-09-10: On Create 6.0.2 and C:C&A version <=1.2.5 it still gives this error, until Create 6.0.1 when other mods require a higher Create version. I will continue experimentation.
+##### mrh0/createaddition #899 [open] Not working with Create 6.0.1 (Crashing) | comments=2 | created=2025-03-06 updated=2025-04-07 | labels=bug,forge
+Game crashing on starting to the menu for additional mods in ATM9
+
+all i did was update create and CC&A to latest, when i bring CC&A to the second latest, it says "not right version of Create and Flywheel"
+
+**Additional context**
+- Mod version: 1.3.0
+- Forge version: 47.4.0
+- Create version: 6.0.1
+
+  >> comment by JanekSnaj 2025-03-09: Yea i have the same problem, but on my PC it just crashes minecraft and returnes back to launcher
+  >> comment by Dhanvanth141 2025-04-07: Create 6 brought huge changes and also seperated the ponder system as it's own mod, embedded into create so mods look for ponder worlds in the wrong place. IF YOU really need this mod, Go to create 5 or use Create: Simple Generator which I may understand, doesn't have anything expect for ya know generators.
+##### Tschipcraft/spawnanimations #33 [open] Version 1.20.1 Forge, The mod is on but the mobs spawn normally not by digging up. | comments=12 | created=2025-01-13 updated=2026-08-31 | labels=bug,status: needs information
+### Describe the bug
+
+It was working at first, Idk how it just stopped out of nowhere.
+Is there a way I can find out what caused the issue?
+
+### Steps to reproduce
+
+_No response_
+
+### Expected behavior
+
+_No response_
+
+### Additional context
+
+_No response_
+  >> comment by AffinityXOfficial 2026-08-26: @Tschipcraft I think these are the ones for spawn animations: Minecraft 1.20.1 | Fabric Loader 0.18.4 | Fabric API 0.92.11+1.20.1 | Java 17
+
+Mods:
+- spawnanimations 1.11.5+mod
+- mr_spawn_animationscompats 16.0
+- wet-sand beta-0.0.4-1.20.1
+
+```yaml
+[13:22:04] [Render thread] [spawnanimations/INFO]: [Spawn Animations] MidnightLib detected!
+[13:22:04] [Render thread] [spawnanimations/INFO]: [Spawn Animations] Registering server started event ...
+[13:22:04] [Render thread] [spawnanimations/INFO]: [S
+  >> comment by Tschipcraft 2026-08-27: @AffinityXOfficial Thanks! In your case, it's an incompatibility with wet-sand. It specifies some blocks in the `#minecraft:sand` tag (used by Spawn Animation to know when to play sand particles and sounds), that apparently don't exist. This also breaks some other Minecraft tags like supports_cactus, camel_spawnable_on, etc. and with them the vanilla functionality. Please report this to the developer of the mod
+
+_Edit:_ In the description the developer of wet-sand writes "Current 1.20.1 beta rel
+  >> comment by AffinityXOfficial 2026-08-31: Alright thanks! It kinda sucks I cant use both but its fine.
+##### Tschipcraft/spawnanimations #53 [open] Spiders invisible until player is a few blocks away from them | comments=11 | created=2026-02-22 updated=2026-05-12 | labels=bug,help wanted
+### Describe the bug
+
+I've ruled out this mod being the issue as uninstalling it removed the issue and reinstalling it reimplemented the issue.
+
+### Steps to reproduce
+
+1. Open any Minecraft world
+2. Spawn a spider some distance away with the "summon" command or allow one to spawn naturally
+3. The spider is not visible until you're very close to it, but it does emit the normal sound effects.
+
+https://github.com/user-attachments/assets/f800f67f-f151-40b7-a115-656c13f88d6b
+
+### Expected behavior
+
+_No response_
+
+### Additional context
+
+_No response_
+  >> comment by Foxxin1104 2026-05-07: I'm running on 1.21.11, so that could be the issue
+  >> comment by Tschipcraft 2026-05-07: I can't reproduce it on 1.21.11 either
+  >> comment by eugenslp 2026-05-12: I use the FO modpack for 1.21.11, some additional mods and resourcepacks, in particular fresh animations.
+I currently cannot bisect this properly. The best bet is maybe the fresh animations resourcepack?
+But there have been updates in the meantime, too.
+I'll try to disable culling for spiders next.
+##### ItsBlackGear/VanillaBackport #89 [open] Issue with Oculus, strange behaviour and crashing | comments=0 | created=2025-08-09 updated=2025-08-09 | labels=
+I recently updated my modpack to include Vanilla Backport.
+Only when connected to a server we noticed that after going through a portal the screen mostly stopped refreshing except for particles.  The game was running and I could move around but screen was frozen on the last frame before going through the portal.
+After going through the portal I tried turning shaders on and got a crash.
+
+Not sure if the issue is this mod or a problem with Oculus.
+
+Here's some of the relevent logs.  The rest is attached.  Modpack is Sakura Pack 2.0b
+
+[latest.log](https://github.com/user-attachments/files/21702435/latest.log)
+
+.
+
+```
+
+[17:38:44] [Render thread/INFO]: Loaded [0] waiting chunk wrappers.
+[17:38:44] [Render thread/INFO]: Synced supplementaries-common.toml configs
+[17:38:44] [Render thread/INFO]: Synced amendments-common.toml configs
+[17:38:44] [Render thread/INFO]: Synced moonlight-common.toml 
+##### VazkiiMods/Botania #3951 [open] Shader mods conflict with Botania's own usage of shaders, leading to missing renders | comments=22 | created=2022-02-11 updated=2025-07-22 | labels=compatibility,investigate
+### Mod Loader
+
+Fabric
+
+### Minecraft Version
+
+1.18.1
+
+### Botania version
+
+Botania-1.18.1-427-FABRIC
+
+### Modloader version
+
+Fabric: Loader 0.12.12 + API 0.46.1
+
+### Modpack info
+
+_No response_
+
+### The latest.log file
+
+https://gist.github.com/Ninlives/9e0db834a95fc471eaa7ac3ffd50a404
+
+### Issue description
+
+1. Sparks are invisible.
+2. Mana Pools are always look like they are empty.
+3. Part of Mana Pylon is invisible.
+
+![Pylon](https://user-images.githubusercontent.com/17873203/153593768-fb001fe2-2d6c-432d-965a-b6ff74e453b2.jpg)
+
+![ManaPool](https://user-images.githubusercontent.com/17873203/153593838-804f5b2c-73e3-456b-bf81-8e7bc00acfcf.jpg)
+
+
+
+### Steps to reproduce
+
+1. Launch the game.
+2. Place a Mana Pool and fill it with some mana.
+3. Place a Spark.
+4. Place a Mana Pylon.
+5. Enable any shaderpack.
+6. Texture disappears.
+
+### Other information
+
+Iris version: mc1.18.1-1.2.0-pre
+Sodiu
+  >> comment by barryjamba 2025-01-17: Mod Loader
+Forge
+
+Minecraft Version
+1.18.2
+
+Botania version
+1.18.2-435
+
+Modloader version
+Forge - 40.2.4
+
+see the "empty" mana pool, botania sharders are disabled, I also manually changed it in the text file, does anyone know of any other ways to fix this?
+
+![Image](https://github.com/user-attachments/assets/f71b8ae0-37ea-427c-bbb0-bb237ad34777)
+
+
+  >> comment by anoomolu 2025-01-18: > see the "empty" mana pool, botania sharders are disabled, I also manually changed it in the text file, does anyone know of any other ways to fix this?
+
+ 
+You might need to restart your game to see the config change take effect.
+
+  >> comment by Ninlives 2025-07-22: So is this problem fixed by disabling the shader in the botania side? Are there any other side effects?
+##### TartaricAcid/TouhouLittleMaid #1146 [open] [Bug] Periodic crashes related to ticking world | comments=2 | created=2026-06-06 updated=2026-11-16 | labels=bug
+### Minecraft Version
+
+- [ ] 1.12.2 (End of support)
+- [ ] 1.16.5 (End of support)
+- [ ] 1.18.2 (End of support)
+- [ ] 1.19.2 (End of support)
+- [x] 1.20/1.20.1
+- [ ] 1.21/1.21.1
+
+### What happened?
+
+Hello! Wanted to report an issue with ticking world at random intervals. Unable to find one single source, disabling all fairy entities in the overworld using `InControl` helped reduce overall crashes, however they still persist. No players have their maids spawned in world.
+Attached below is server log.
+
+Mod version: `touhoulittlemaid-1.5.2-forge+mc1.20.1.jar`
+
+Question: which version to downgrade to as a temporary solution until a fix is applied? Thanks.
+
+### Relevant log output
+
+```shell
+[20:53:23] [Server thread/ERROR] [minecraft/MinecraftServer]: Encountered an unexpected exception
+net.minecraft.ReportedException: Exception ticking world
+        at net.minecraft.server.MinecraftServer.m
+  >> comment by wyv202011y 2026-10-28: Confirming this still reproduces on **1.21.1 / NeoForge** with `touhoulittlemaid-1.5.3-neoforge+mc1.21.1` (latest as of this writing).
+
+We have had **4** occurrences on our server, all on the exact same path (`PersistentEntitySectionManager.processUnloads` / `tick` → `LongCollection.removeIf` or `forEach` → `LongOpenHashSet$SetIterator`), with two faces:
+
+| date | exception |
+|---|---|
+| 2026-09-20 (x2) | `NullPointerException: Cannot invoke "it.unimi.dsi.fastutil.longs.LongArrayList.getLong(int
+  >> comment by Kelaien-Moleidi 2026-11-16: Confirming on **1.20.1 / Forge 47.4.16** as well — same `PersistentEntitySectionManager` path, and the same `ConcurrentModificationException` flavour.
+
+Three crashes in one session, all triggered by a long-distance teleport (`/tp` across several thousand blocks):
+
+| time | exception |
+|---|---|
+| 2026-11-16 20:05:47 | `ConcurrentModificationException` |
+| 2026-11-16 20:37:42 | `ConcurrentModificationException` |
+| 2026-11-16 20:58:49 | `ConcurrentModificationException` |
+
+All three are identical
+##### KyaniteMods/DeeperAndDarker #441 [open] (Forge 1.20.1) Game immediately does not load anything upon loading into the Otherside | comments=4 | created=2025-03-12 updated=2026-08-23 | labels=compatibility,forge
+<img width="1274" alt="Image" src="https://github.com/user-attachments/assets/68e76e32-c863-4193-a7cd-acb9daf31441" />
+
+[latest.log](https://github.com/user-attachments/files/19200053/latest.log)
+
+All I see is the following with the error in the screenshot
+
+![Image](https://github.com/user-attachments/assets/ef57e75e-2b2c-4ac4-bc22-ebacc606d645)
+  >> comment by ModernGamingWorld 2025-03-12: @Charmander906 The issue is Embeddium, as soon as I removed that mod and its add-on from my pack. things worked without issues
+  >> comment by txnitxnichopper 2025-03-13: issue with Majruszs Accessories https://github.com/Majrusz/MajruszsAccessories/issues/67
+  >> comment by camilochys 2026-08-23: Confirming this happens on Fabric 1.20.1, Majrusz's Accessories 0.19.3. Same root cause, different trigger: in my case it's Deeper and Darker's OthersideColumnFeature → CrystallizedAmberBlockEntity.generateFossil() firing while flying through unexplored deeperdarker:otherside chunks in Creative.
+
+Setting underwater_chest_spawn_chance to 0.0 did not prevent the hang — the block-state lookup runs regardless of the configured chance.
+
+Also confirming this isn't caused by Embeddium (not installed in
+##### mekanism/Mekanism #8609 [closed] tacz hand animation broken with meka suit | comments=4 | created=2026-07-24 updated=2026-11-04 | labels=
+### Issue description
+
+as in the title, timeless and classics zero hand animation is broken while wearing meka suit chestplate
+
+<img width="1920" height="874" alt="Image" src="https://github.com/user-attachments/assets/2a15579b-27e7-49f6-ad81-ed569a8e7a65" />
+
+### Steps to reproduce
+
+look at it
+
+### Minecraft version
+
+1.21.1 (Latest)
+
+### NeoForge version
+
+21.1.234
+
+### Mekanism version
+
+10.7.19 (Latest)
+
+### Other relevant versions
+
+[12:03:33] [main/INFO]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Abandoned Structures 1.4.0 (abandoned_structures)
+		Accessories 1.1.0-beta.48+1.21.1 (accessories)
+		AE2 JEI Integration 1.2.1 (ae2jeiintegration)
+		AE2 Things 1.4.2-beta (ae2things)
+		AE2WTLib 19.5.0 (ae2wtlib)
+		AE2WTLib API 19.5.0 (ae2wtlib_api)
+		AeroBlender 1.0.0 (aeroblender)
+		Alex's Caves 2.0.10 (alexscaves)
+		Alex's Mobs 1.22.17 (alexsmobs)
+		All The Leaks 1.1.10+1.21.1-neoforge (all
+  >> comment by Zaikahn 2026-09-21: I'm surprised you get the hands to show up at all. My hands won't show when I wear the suit.
+  >> comment by CitiesXL2815 2026-09-29: i can confirm this isn't only mod either, Netherite Backtank from create has same issue, i don't think it's on Mekanism's end, in fact it's on unofficial Timeless and classics end, i would advise reporting there too
+  >> comment by pupnewfster 2026-11-04: I doubt this is on our end as we just use Neo's even for rendering the arm https://github.com/mekanism/Mekanism/blob/1.21.x/src/main/java/mekanism/client/render/RenderTickHandler.java#L229 and render it based on where the arm is. If it is due to the things we do specifically to make maps render better, then hopefully it will render better in 26.3 where the code flow is nicer and thus doesn't require us setting up the anim ourselves.

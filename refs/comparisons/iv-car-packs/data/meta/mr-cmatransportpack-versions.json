@@ -1,0 +1,39 @@
+﻿{
+    "game_versions":  [
+                          "1.20.1"
+                      ],
+    "loaders":  [
+                    "forge"
+                ],
+    "environment":  "client_and_server",
+    "id":  "CRqzudD6",
+    "project_id":  "sxgM8KDu",
+    "author_id":  "JE8vOQ0m",
+    "featured":  false,
+    "name":  "C.M.A_Transport_Pack _v.3.3-1.20.1",
+    "version_number":  "3.3-(1.20.1)",
+    "changelog":  "",
+    "changelog_url":  null,
+    "date_published":  "2026-04-01T10:45:58.517993Z",
+    "downloads":  30718,
+    "version_type":  "release",
+    "status":  "listed",
+    "requested_status":  null,
+    "files":  [
+                  {
+                      "id":  "jj6NxfT0",
+                      "hashes":  {
+                                     "sha1":  "80de02713abc55bcff52c3b100876e934b49f13d",
+                                     "sha512":  "919159b64076092dc2eafb7a11fe2af9cc021edca173c7962e705c43c1ab12909264a068e419090ed1c4a8f0d34701cc2f77bf815f8ce70fa6c7f9fff714bdf3"
+                                 },
+                      "url":  "https://cdn.modrinth.com/data/sxgM8KDu/versions/CRqzudD6/C.M.A_Transport_Pack%20_v.3.3-1.20.1.jar",
+                      "filename":  "C.M.A_Transport_Pack _v.3.3-1.20.1.jar",
+                      "primary":  true,
+                      "size":  118528306,
+                      "file_type":  null
+                  }
+              ],
+    "dependencies":  [
+
+                     ]
+}

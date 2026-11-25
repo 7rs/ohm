@@ -1,0 +1,141 @@
+﻿[
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "Er1webCv",
+        "project_id":  "OP76SB7W",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Automobile Pack - 1.20.1 - V3",
+        "version_number":  "OAmP-V3",
+        "changelog":  "# **OAmP - Version 3**\n\n***\n\n## **ADDITIONS:**\n\n*   **Ported OAmP to 1.21.1**\n*   Added invisible trunk seat to luxorama\n*   Added Vintage Wheels\n*   Added the Cagouille, a second gen escargot\n*   Added working police sirens to luxorama police variant\n*   Added the Highwayman, a 50s Corvette\n*   Added new door animations\n\n## **FIXES:**\n\n*   Fixed Stationawgon glovebox not having blinking anim\n*   Fixed Luxorama not being able to mount Bobbleheads\n*   Fixed perma-muddy exhaust on Stationwagon\n*   Fixed Luxorama missing headlights \u0026 blinkers\n*   fixed offroad wheel size\n*   Fixed custom steering wheel interfering with escargots interactive elements\n*   Fixed big gap on license text on merc\n*   Fixed pixel errors on luxorama\n*   Fixed frontal disc clipping on merc\n*   Fixed taxi luxorama not showing up\n*   fixed wrong audio pos on camaro door (right)\n*   Fixed missing silver stationwagon icon\n\n## **CHANGES**\n\n*   Instruments now come with cars by default\n*   Lowered Luxorama engine by 0.5px\n*   modified offroad wheel model\n*   Tweaked description colors to a lighter gray (Â§7)\n*   Headlights now use a lit texture instead of pure white color when on\n*   Hid all car color variants except for one for clean inventory",
+        "changelog_url":  null,
+        "date_published":  "2026-04-16T03:22:07.061763Z",
+        "downloads":  67534,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "XZJUmZTg",
+                          "hashes":  {
+                                         "sha1":  "d466e3c54b0ded1b53b408eb3fd9fa840cfff2c6",
+                                         "sha512":  "fac30c08af4f00080a0e263d1855aebdbf7ea474b770ed37eee541abf9e0f8cf3b28ce6845268e402ce752e27e1f2fcd7ce9e14dd1244253cab9f24c7f1e8cb1"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/OP76SB7W/versions/Er1webCv/OAmP-1.20.1-V3.jar",
+                          "filename":  "OAmP-1.20.1-V3.jar",
+                          "primary":  true,
+                          "size":  24285160,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "TDXAh7T9",
+        "project_id":  "OP76SB7W",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Automobile Pack -1.20.1- V2",
+        "version_number":  "OAmP-V2",
+        "changelog":  "## OAmP Version 2\n\n### ADDITIONS:\nAdded the âLuxoramaâ, a 57s four-door car for showing off\n- Added the Mercedes Station-Wagon, a four door station wagon for long road trips\n- Added Off-Road wheel with better traction on grass and dirtÂ \n- Added a couple of custom steering wheels\n- Added slots for custom steering wheels (compatible with other packs)\n- Added a couple of bobblehead ornaments\n- Added slots for dash ornaments\n- Overhauled all damage smoke particles\n- Added Auxiliary battery unit that can be used to increase your maximum battery capacity.\n- Added Auxiliary battery slots to cars\n- Added totalled explosion sounds to ground vehicles\n- Added camera roll to ground vehicles, AKA Camera tilts based on your driving\n\n\n### FIXES:\n- Fixed watertrail particles being spammed\n- Fixed burnt overlays\n\n\n### CHANGES:\n- Removed block collisions from Camaro to prevent frequent explosions\n- Removed \"iron duke\" from Camaro V8 description\n- Tweaked Camaro stats\n\n",
+        "changelog_url":  null,
+        "date_published":  "2026-03-03T23:39:52.485066Z",
+        "downloads":  13136,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "vfAVOWqW",
+                          "hashes":  {
+                                         "sha1":  "e8ad3ec68b0061fbb1aa55c174c098803b21e217",
+                                         "sha512":  "599ac0f9760ed1a0b53ff6f2002adc39bde3067bbf931f57a4e9fc11c4cf12db54e8b8be596ccdbeaebb500dd17bbcc7331c6d96af9f6cf653b3a96a14b7a53d"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/OP76SB7W/versions/TDXAh7T9/OAmP-1.20.1-V2.jar",
+                          "filename":  "OAmP-1.20.1-V2.jar",
+                          "primary":  true,
+                          "size":  21063928,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "C7TiPPJz",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             },
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "GspwI9za",
+        "project_id":  "OP76SB7W",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Automobile Pack -1.20.1- V1",
+        "version_number":  "OAmP-V1",
+        "changelog":  "- Added the \"Escargot\", a 50s coupe\n- Added the Escargot i6 Engine\n- Added the Camaro, an 80s sports car\n- Added the Camaro V8 engine\n- Added vintage seats\n- Added sport seats",
+        "changelog_url":  null,
+        "date_published":  "2025-12-10T13:30:38.464275Z",
+        "downloads":  10933,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "ad4YLzVG",
+                          "hashes":  {
+                                         "sha512":  "f6d87cf7ec4ccff8b92fd0829d9cf590ce12741a920774ed08b15af7c5f05b12c99b97693fa7be03705d6360ae22f043d65243809c735bd356ae134d578c2dca",
+                                         "sha1":  "1c017bb0956bb1b2d97dafc53b0bb606608e9d13"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/OP76SB7W/versions/GspwI9za/OAmP-1.20.1-V1.jar",
+                          "filename":  "OAmP-1.20.1-V1.jar",
+                          "primary":  true,
+                          "size":  13455542,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "C7TiPPJz",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             },
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    }
+]

@@ -25,6 +25,8 @@ Force pushes to `main` and `dev` are blocked.
 - Name: `<prefix>/<short-kebab-case-name>`.
 - Cut one branch per topic. A topic is what was raised as one item: five mods requested together are one `add/` branch, and the settings they need stay in it.
 - Branch from `dev`, never from `main`. This holds for any tool that creates the branch for you (for example a Claude Code cloud session): check the base before the first commit.
+- Do not reuse a branch for a second topic, not even in the same session: cut a new one from `dev`.
+- A branch name that does not start with one of the prefixes above is not allowed. This holds for names a tool generates, such as `ccr-*` from a Claude Code cloud session. If a tool starts on such a branch, rename it with `git branch -m` before the first commit and push: the session cannot delete a pushed branch, so a pushed `ccr-*` stays on the remote. GitHub does not enforce this: it is a convention.
 - `ci/` carries CI changes and nothing else.
 
 ## Pull requests
@@ -64,6 +66,24 @@ This and [documentation](#documentation) are the only direct pushes to `dev`. A 
 A change that touches only `README.md`, `CONTRIBUTING.md`, `CLAUDE.md`, `docs/` or `refs/` may be pushed to `dev` directly.
 
 Documentation that belongs to a topic (for example `refs/list.md` and `docs/modlist.md` for an added mod) goes in that topic's branch.
+
+## Local checks
+
+`.githooks/pre-commit` warns before a commit. It never blocks: it always exits 0, so the commit goes ahead. CI stays the enforcement. Enable it once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+It is one POSIX `sh` file, and Git runs hooks through `sh` on every OS (Git for Windows ships it). It needs `packwiz` on `PATH` for the index check. The JSON check uses `jq`, or PowerShell on Windows, and is skipped when neither exists.
+
+| Staged change | Warning |
+| --- | --- |
+| A metafile added or removed | `refs/list.md` or `docs/modlist.md` not staged, a slug missing from or left in them |
+| A shader pack metafile | `side` is not `"client"` |
+| `mods/`, `resourcepacks/`, `shaderpacks/`, `config/`, `defaultconfigs/`, `.packwizignore` | `index.toml` or `pack.toml` is not what `packwiz refresh` gives |
+| `config/`, `defaultconfigs/` | `refs/settings.md` not staged, a `.json` that does not parse |
+| `.github/`, `.githooks/`, `.editorconfig`, `.gitattributes`, `.packwizignore` | `CLAUDE.md` not staged |
 
 ## Repository settings
 

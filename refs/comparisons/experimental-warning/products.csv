@@ -1,0 +1,14 @@
+id,product,author,modrinth,curseforge,source_repo,forge_1_20_1_build,status,exclusion_reason
+yeetus,Yeetus Experimentus,Sunekaer,https://modrinth.com/mod/yeetus-experimentus,not found (fetch returned not found),https://github.com/nanite/Yeetus-Experimentus,yes (2.3.1),researched,
+esd,Experimental Settings Disabler,Eruannie_9,https://modrinth.com/mod/experimental-settings-disabler,https://www.curseforge.com/minecraft/mc-mods/experimental-settings-disabler,none public,yes (3.0),researched,
+hew,Hide Experimental Warning,Serilum,https://modrinth.com/mod/hide-experimental-warning,https://www.curseforge.com/minecraft/mc-mods/hide-experimental-warning,https://github.com/Serilum/Hide-Experimental-Warning,yes (1.3; requires Collective),researched,
+expist,Experimentalist,pajic,https://modrinth.com/mod/experimentalist,https://www.curseforge.com/minecraft/mc-mods/experimentalist,https://github.com/pajicadvance/experimentalist,yes (2.0.3),researched,
+collective,Collective (dependency of hew),Serilum,https://modrinth.com/mod/collective,,https://github.com/Serilum/Collective,yes (8.87),researched as dependency,
+shutup,Shutup Experimental Settings!,corgi_taco_archive,,https://www.curseforge.com/minecraft/mc-mods/shutup-experimental-settings,,no (Forge 1.18.1 to 1.19.2 only),excluded,No Forge 1.20.1 build
+noworldgenwarning,No Worldgen Warning,P1nero,,https://www.curseforge.com/minecraft/mc-mods/no-worldgen-warning,,yes (1.0.1),excluded,Different function: it silences a log message (MIN/MAX function between non-overlapping inputs) and does not touch the screen
+directentry,DirectEntry,Seikai-Takenawa,https://modrinth.com/mod/directentry,,https://github.com/Seikai-Takenawa/DirectEntry,no (Forge 1.21.1 only),excluded,No Forge 1.20.1 build
+dcwa,Disable Custom Worlds Advice,rdvdev2,https://modrinth.com/mod/dcwa,https://www.curseforge.com/minecraft/mc-mods/fabric-disable-custom-worlds-advice,https://github.com/rdvdev2/DisableCustomWorldsAdvice,no (Fabric and Quilt only),excluded,Wrong loader (its Forge port is Shutup Experimental Settings!)
+skip-backup-screen,Skip Backup Screen,,https://modrinth.com/mod/skip-backup-screen,,,no (Fabric only),excluded,Wrong loader
+here-be-no-dragons,Here Be No Dragons,,https://modrinth.com/mod/here-be-no-dragons,,,no (Fabric and Quilt only),excluded,Wrong loader
+i-know-what-im-doing,I Know What I'm Doing,,https://modrinth.com/mod/i-know-what-im-doing-iolaireeagle,,,no (Fabric only),excluded,Wrong loader
+declutterui,DeclutterUI,,https://modrinth.com/mod/declutterui,,,no (NeoForge only),excluded,Wrong loader

@@ -1,0 +1,747 @@
+##### ValkyrienSkies/Valkyrien-Skies-2 #1112 [open] Invisible blocks when building a large ship | comments=11 | created=2025-03-03 updated=2026-11-22 | labels=bug,2.4 / 2.5
+### This issue occurs when only Valkyrien Skies and addons are installed and no other mods
+
+- [x] I have tested this issue and it occurs when no other mods are installed
+
+### Minecraft Version
+
+1.20.x
+
+### Mod Loader
+
+Forge
+
+### Issue description
+
+If a ship is built very large, sections(s) (blocks) of the of the ship in various places are invisible.
+(Note that This issue has no relationship with sodium or embeddium. The issue still occurs **without** sodium or embeddium.)
+
+Screenshots:
+![Image](https://github.com/user-attachments/assets/34d5210c-c4b6-436c-ad92-31963f76535c)
+
+![Image](https://github.com/user-attachments/assets/6f0427dd-49cb-4554-a2bd-ba8670f022bb)
+
+![Image](https://github.com/user-attachments/assets/3ecc2f74-40b2-488d-acc9-f01b41c4bd5c)
+
+### Issue reproduction
+
+1. Create a small ship
+2. Expand the size of the ship, by adding very long lines of blocks to it in one or multiple directions
+3. Once you are finished, parts of the ship should be invisible
+4. The rendering bug will go away if you exit the world and come back in
+
+
+### Logs
+
+_No response_
+  >> comment by Kajto359 2026-11-22: Cannot reproduce on playtest
+  >> comment by ThePlasticPotato 2026-11-22: ive been able to reproduce this in the past, it happens still i think
+  >> comment by Kajto359 2026-11-22: I'm pretty sure this got fixed quite early in 2.5 playtests, i do remember it being fairly common near the start but havent encountered those since
+##### ValkyrienSkies/Valkyrien-Skies-2 #728 [closed] BlockEntityRenderers don't render on ships with Embeddium installed | comments=2 | created=2024-02-11 updated=2026-11-08 | labels=compat
+### Mod Name
+
+Embeddium
+
+### This issue occurs when only Valkyrien Skies, addons, and the mod I have specified are installed and no other mods
+
+- [X] I have tested this issue and it occurs with only Valkyrien Skies, addons, and the mod I have specified
+
+### Minecraft Version
+
+1.18
+
+### Mod Loader
+
+Forge
+
+### Issue description
+
+Hi guys!
+
+Rubidium(1.18.2-0.5.6):
+![2024-02-11_10 35 02](https://github.com/ValkyrienSkies/Valkyrien-Skies-2/assets/37253663/72c9e2ad-7fcf-4384-bdd4-0bad047634d9)
+
+
+Embeddium(0.3.0-1.18.2):
+![2024-02-11_10 31 58](https://github.com/ValkyrienSkies/Valkyrien-Skies-2/assets/37253663/9e731c19-cb3b-4dca-99f5-9699d084506e)
+
+I've talked to Embeddedt too about it:
+![image](https://github.com/ValkyrienSkies/Valkyrien-Skies-2/assets/37253663/c604bb0b-5365-4b7e-bf47-18391f658490)
+
+
+### Issue reproduction
+
++Install latest version of Oculus
++Install Embeddium
++place enchanting table (Block using BlockEntityRenderer) on physicised ship
+
+### Logs
+
+_No response_
+  >> comment by osoper 2024-02-22: The issue is fixed with Embeddium 0.2.4 or earlier, so something within the 0.2.5 update creates incompatibility.
+  >> comment by Kajto359 2026-11-08: Cannot reproduce on playtest/newest embedium & oculus (as stated in the repro description)
+##### ValkyrienSkies/Valkyrien-Skies-2 #1980 [closed] [1.20.1 Forge] BlockEntity / model rendering transforms break after VS ship rendering | comments=1 | created=2026-09-17 updated=2026-09-20 | labels=
+## Minecraft Version
+1.20.1
+
+## Forge Version
+47.4.13
+
+## Valkyrien Skies Version
+Latest
+
+## Mods involved
+- Valkyrien Skies 2
+- Clockwork
+- Trackwork
+- Create
+- Flywheel
+- Embeddium
+- Oculus
+
+## Description
+
+After installing Valkyrien Skies 2 and its addons, some block/entity models render with incorrect transforms.
+
+The object is invisible. Instead, a huge scaled version of the model appears in the world.
+
+The issue depends on camera direction:
+- Looking south makes the incorrect render appear.
+- Looking other directions makes it disappear.
+- Moving closer/farther changes visibility.
+
+The real block remains at the correct position.
+
+## Reproduction
+
+1. Install VS2 with Create/Flywheel based addons.
+2. Place affected block/entity.
+3. Look at it from different directions.
+4. Observe incorrect oversized render.
+
+## Additional information
+
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/da61df18-2499-4682-bea5-217cd9afc979" />
+
+<img width="1920" height="1017" alt="Image" src="https://github.com/user-attachments/assets/36abfb92-ef3e-4968-8fe1-
+  >> comment by blockninja124 2026-09-20: This is a conflict with litematica rendering. It has been partially fixed in the next update (the big visuals are fixed, however Block Entities on ships are still invisible while litematica rendering is active)
+##### ValkyrienSkies/Valkyrien-Skies-2 #1896 [open] When using DH and Shaders (oculus), you cant see ships farther regardless of your load distance. | comments=0 | created=2026-06-06 updated=2026-07-26 | labels=compat,1.20,2.4 / 2.5,Verified Playtester
+### This issue occurs when only Valkyrien Skies and addons are installed and no other mods.
+
+- [x] I have tested this issue and it occurs when no other mods are installed
+
+### Minecraft Version
+
+- [x] 1.20.x
+- [ ] 1.21.x
+- [ ] Older (Unsupported)
+
+### Mod Loader
+
+- [x] Forge
+- [ ] NeoForge
+- [ ] Fabric
+- [ ] Quilt
+
+### Expected Behavior
+
+Currently, i am using DH 3.0, Oculus shaders (makeup ultrafast, though i tested with other shaders and it still happens), and VS playtester jar 2.5.0-Z. When testing this, make sure you change vanilla fade mode to none in **dh settings > advanced > graphics > qaulity > vanilla fade mode**. Then go to  **dh settings > advanced > graphics > cuilling > overdraw protection** and set it to 0. Also make sure you disable fog on your shader. My VS ship load distance is above 1k. 
+
+Below, you can see DH disabled & shaders disabled, and i can see ships beyond the render distance. This is normal.
+
+<img width="2879" height="1799" alt="Image" src="https://github.com/user-attachments/assets/d3edfafb-ae80-4325-8084-2f3828ca4081" />
+
+Below, you can see DH enabled & 
+##### ValkyrienSkies/Valkyrien-Skies-2 #1300 [open] [DH] Ships invisible (in part) due to LOD fade — Needs RenderableBoxGroup integration | comments=0 | created=2025-09-12 updated=2025-09-12 | labels=compat
+### Mod Name
+
+Distant Horizons
+
+### This issue occurs when only Valkyrien Skies, addons, and the mod I have specified are installed and no other mods
+
+- [x] I have tested this issue and it occurs with only Valkyrien Skies, addons, and the mod I have specified
+
+### Minecraft Version
+
+1.20.x
+
+### Mod Loader
+
+Forge
+
+### Issue description
+
+There are two behaviors (w/ shaders & w/o shaders), both are caused by the same core issue: VS should declare ships as a `RenderableBoxGroup` to the render pass so that Distant Horizons becomes aware of their depth within the scene.
+
+Video: https://streamable.com/q2v8cq
+
+<img width="2560" height="1440" alt="Image" src="https://github.com/user-attachments/assets/baa2ea9f-6acd-48dd-b077-dffff2baacef" />
+
+DH Render API: https://distant-horizons-team.gitlab.io/distant-horizons/com/seibel/distanthorizons/api/interfaces/render/package-summary.html
+
+It looks like `CustomRenderRegister` is expecting a `RenderableBoxGroup`, which can be generated using the `CustomRenderObjectFactory`. If you can feed the ship’s AABB information into that `RenderableBoxGroup`, t
+##### ValkyrienSkies/Valkyrien-Skies-2 #1967 [closed] Die - or just walk/teleport far from the ship | comments=2 | created=2026-08-22 updated=2026-10-11 | labels=bug
+### This issue occurs when only Valkyrien Skies and addons are installed and no other mods.
+
+- [ ] I have tested this issue and it occurs when no other mods are installed
+
+### Minecraft Version
+
+- [x] 1.20.x
+- [ ] 1.21.x
+- [ ] Older (Unsupported)
+
+### Mod Loader
+
+- [ ] Forge
+- [ ] NeoForge
+- [x] Fabric
+- [ ] Quilt
+
+### Expected Behavior
+
+### Mod Name
+Valkyrien Skies 2 (2.4.11)
+
+### This issue occurs when only Valkyrien Skies, addons, and the mod I have specified are installed and no other mods
+- [ ] I have tested this issue and it occurs with only Valkyrien Skies, addons, and the mod I have specified
+
+(Not tested in isolation — occurs in a large modpack, see mod list in the attached log. Distant Horizons is also installed.)
+
+### Minecraft Version
+1.20.1
+
+### Mod Loader
+Fabric (Fabric Loader 0.19.3)
+
+### Issue description
+
+Client crashes with `IllegalArgumentException: Received ship create packet for already loaded ship?!` when teleporting/respawning near a ship after being far away from it. This happens consistently and reproducibly for both me and a friend on the same server (multip
+  >> comment by blockninja124 2026-08-22: Can you see if it happens with just VS on a test server?
+  >> comment by blockninja124 2026-10-11: Can't reproduce 
+##### ValkyrienSkies/Valkyrien-Skies-2 #986 [closed] Render Thread Exception with Distant Horizons | comments=5 | created=2024-10-18 updated=2026-08-02 | labels=compat
+### Mod Name
+
+Distant Horizons 2.2.1-a
+
+### This issue occurs when only Valkyrien Skies, addons, and the mod I have specified are installed and no other mods
+
+- [X] I have tested this issue and it occurs with only Valkyrien Skies, addons, and the mod I have specified
+
+### Minecraft Version
+
+1.20.x
+
+### Mod Loader
+
+Fabric
+
+### Issue description
+
+Loading a ship (moving away and back) which is not near your non-ship spawn point throws an IllegalArgumentException "Received ship create packet for already loaded ship?!" in the render thread, this exception locks the game while displayed, but can be dismissed without the game crashing.
+Notably in many cases the ships were already visible when the exception was thrown.
+
+I could not replicate the issue when the latest non-ship spawnpoint is world spawn.
+
+### Issue reproduction
+
+Easiest reproduction is:
+- Create new world
+- /spawnpoint
+- move/teleport a significant distance away (ex: 1000 blocks)
+- make a ship
+- place a bed on the ship and set spawn by right clicking
+- respawn (ex: /kill)
+
+Ships built near a land spawnpoint are not consistentl
+  >> comment by ulaanbaatarhoteltours 2025-04-07: I am having this same issue. It also seemed intuitive to me that this was Distant Horizons-related, but the suggested downgrade option mentioned by @thetheaplant does not fix the issue for me. In fact, I can remove Distant Horizons altogether and I can still reproduce the issue, so it may in fact not be DH related at all. 1.20.1, Quilt. 
+  >> comment by kasperbjerby 2025-12-20: I also had this happen, the problem is [Puzzle](https://modrinth.com/mod/puzzle) and that alone, Valkyrien Skies, fabric api and Puzzle, use the debug stick to make a block into a ship, kill yourself and you get the errror.. Remove Puzzle and the error is gone.. Has nothing to do with Distant Horizons
+  >> comment by sugar-chips 2026-08-02: This issue has been resolved.
+##### ValkyrienSkies/Valkyrien-Skies-2 #913 [closed] Game crashes randomly with just VS2 and Distant Horizons installed | comments=10 | created=2024-07-22 updated=2025-11-10 | labels=compat
+### Mod Name
+
+Distant Horizons
+
+### This issue occurs when only Valkyrien Skies, addons, and the mod I have specified are installed and no other mods
+
+- [X] I have tested this issue and it occurs with only Valkyrien Skies, addons, and the mod I have specified
+
+### Minecraft Version
+
+1.20.x
+
+### Mod Loader
+
+Forge
+
+### Issue description
+
+Saw this issue across the discord, whittled down the issue to just Valkyrien Skies 2 (+ Kotlin) and Distant Horizons.
+Have seen other users get this crash in Fabric version as well.
+- What happens: Game crashes upon entering singleplayer, fresh world
+- Crash type 1:
+  - Exception in server tick loop
+    - java.lang.NullPointerException: Cannot invoke "it.unimi.dsi.fastutil.longs.LongArrayList.getLong(int)" because "this.wrapped" is null
+- Crash type 2:
+  - Exception ticking world
+    - java.lang.ArrayIndexOutOfBoundsException: Index 32 out of bounds for length 17
+
+
+### Issue reproduction
+
+- Install latest Kotlin (4.11.0), Valkyrien Skies 2 (2.3.0 beta 5), and Distant Horizons (2.1.2).
+- Load up a new world
+- Game will either crash within a few seconds,
+  >> comment by gededo 2024-08-25: Does anyone know if Distant Horizons 2.2.0 fixes this issue? Will be testing it myself soon.
+  >> comment by StewStrong 2024-09-02: I do have an attempt at a fix, tho this needs testing https://github.com/ValkyrienSkies/Valkyrien-Skies-2/commit/4645958acd8c745791f1d5eec4871f1dd2e128e4
+  >> comment by blockninja124 2025-11-10: I think this got fixed, I haven't had any issues with DH and VS recently
+##### ValkyrienSkies/Valkyrien-Skies-2 #1534 [open] Shafts are invisible on assembled ships | comments=8 | created=2025-12-29 updated=2026-11-22 | labels=bug
+### This issue occurs when only Valkyrien Skies and addons are installed and no other mods
+
+- [x] I have tested this issue and it occurs when no other mods are installed
+
+### Minecraft Version
+
+1.20.x
+
+### Mod Loader
+
+Forge
+
+### Issue description
+
+So, when i assemble a ship all shaft parts become invisible
+
+### Issue reproduction
+
+I got it by just making a vs2 ship with blocks that contain shaft parts
+
+### Logs
+
+_No response_
+  >> comment by Defetyre 2026-02-02: @Unc478
+@AIMLIMAS
+Use Embedium instead of Xenon
+  >> comment by camgamerzyt1-netizen 2026-03-19: > [@Unc478](https://github.com/Unc478) [@AIMLIMAS](https://github.com/AIMLIMAS) Use Embedium instead of Xenon
+
+I already do that, still I have the same issue as unc
+  >> comment by Kajto359 2026-11-22: Cannot reproduce on latest playtest (fixed! yay!)
+##### ValkyrienSkies/Valkyrien-Skies-2 #1744 [open] Compat's are outdated | comments=1 | created=2026-03-20 updated=2026-07-28 | labels=1.21
+## What this PR does:
+- [x] Bug fix 
+- [ ] Feature
+- [x] Code refactor / improvement
+- [ ] API addition / improvement
+- [x] Compat with another mod
+
+**Explain what this PR is doing:**
+Removes non-working code from compatabilities replaced with todo messages.
+replaces EMF compat code with something more modern.
+
+---
+
+## Modloaders this PR affects:
+- [x] Forge
+- [ ] Fabric
+
+## Where this PR was tested:
+- [ ] In-dev singleplayer
+- [ ] In-dev dedicated server
+- [x] Out of dev singleplayer
+- [ ] GameTest framework
+
+
+## Breaking Changes
+- [ ] Yes (describe)
+- [x] No
+
+---
+
+
+## Additional Notes
+for some reason while using sodium, ships do not render correctly, this is not my issue, this was not caused by me.
+
+---
+
+## Declaration
+By submitting this PR, I affirm:  
+- Code/data compiles and loads  
+- Tests _(if any)_ pass  
+- This PR will not brick worlds
+
+  >> comment by CLAassistant 2026-03-20: [![CLA assistant check](https://cla-assistant.io/pull/badge/signed)](https://cla-assistant.io/ValkyrienSkies/Valkyrien-Skies-2?pullRequest=1744) <br/>All committers have signed the CLA.
+
+##### Layers-of-Railways/Railway #768 [open] Flywheel instancing causes severe FPS drop with Create rails - indirect restores smooth | comments=3 | created=2026-08-30 updated=2026-09-11 | labels=type: bug
+### Description
+
+### Summary
+When using Flywheel `instancing` backend and viewing a scene with many Create rails (Steam 'n' Rails), the game experiences **severe frame drops even with shaders disabled**. Switching to the `indirect` backend immediately restores smooth performance. In my test, `indirect` reached **over 1000 FPS** on an RTX 3050 Laptop, while `instancing` caused visible stuttering and very low framerates in the same scene.
+
+This issue is **not GPU performance related** (the hardware is capable of >1000 FPS with `indirect`), nor is it a server TPS issue. The root cause is that each Create rail block is split into **at least 3 independent geometry layers** under Flywheel, breaking instancing batching and causing massive draw call overhead.
+
+---
+
+### Steps to Reproduce
+1. Create a superflat world and place a significant number of Create standard rails (e.g., 50–100 blocks) – **shaders are not required**.
+2. Run `/flywheel backend flywheel:instancing` (default).
+3. Look at the rails and observe the frame rate drop heavily.
+4. Run `/flywheel backend flywheel:indirect`.
+5. Ob
+  >> comment by ganhaoton 2026-08-30: I've uploaded a video demonstrating the issue in detail: https://www.bilibili.com/video/BV1KttW6JEDk/
+
+The video shows:
+
+The severe FPS drop when looking at a large number of rails with instancing backend
+
+The immediate recovery after switching to indirect
+
+The model_id debug visualization proving each rail block is split into at least 3 separate geometry layers
+
+This should help visualize the problem. Let me know if you need any additional information or testing.
+  >> comment by zerastos 2026-09-08: I think the issue may be Cased Tracks rendering not using Create's instancing, specifically: not passing in the same `SimpleModel`, instead constructing a new one every time, so Flywheel doesn't know its the same and can't use instancing for it. Indirect uses different mechanisms and so isn't affected.
+
+The 3 geometry layers thing may be a red herring.
+
+My naive patch for this just adds a cache for the Cased Tracks `SimpleModel`s, feel free to take this but double check and take with a grain of salt \:) https://github.com/zerastos/mc-railway/commit/c054a9cb9e7a141c787751bc74c79dcd50fdbba9
+  >> comment by ganhaoton 2026-09-11: Thank you so much for looking into this and finding the actual root cause! The SimpleModel caching issue makes perfect sense now. I really appreciate you writing a patch for it.
+
+If there is a test build or a branch with this fix available, I would be more than happy to test it in-game and report back with a performance comparison (instancing vs indirect)!
+##### Layers-of-Railways/Railway #752 [open] Wide Tieless Train Track random conversion bug | comments=1 | created=2026-03-21 updated=2026-08-26 | labels=type: bug,status: unable to reproduce,status: needs info
+### Description
+
+When it snows, snow accumulating on the Wide Tieless Train Track will convert the track into random blocks.
+
+### Game Log
+
+https://mclo.gs/Ylt0k4j
+
+### Debug Information
+
+<details>
+<summary>Client Info</summary>
+
+```
+Create:
+	Mod Version: 6.0.8
+	Mod Git Commit: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+	Ponder Version: 1.0.91
+	Forge Version: 47.4.10
+	Minecraft Version: 1.20.1
+
+Graphics:
+	Flywheel Version: 1.0.5
+	Flywheel Backend: flywheel:indirect
+	OpenGL Renderer: NVIDIA GeForce RTX 5070 Laptop GPU/PCIe/SSE2
+	OpenGL Version: 4.6.0 NVIDIA 576.65
+	Graphics Mode: fancy
+	PojavLauncher Detected: false
+
+System Information:
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	JVM Flags: 10 total; -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:-OmitStackTraceInFastThrow -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmn1843m -Xmx12288m
+	Memory: 1374919600 bytes (1311 MiB) / 6442450944 bytes (6144 MiB) 
+  >> comment by techno-sam 2026-08-26: I can't repro this, could you send a schematic w/ the broken track? (once it's been converted)
+##### Layers-of-Railways/Railway #740 [closed] Tracks placed before 1.7.0 do not work | comments=2 | created=2026-03-02 updated=2026-08-27 | labels=type: bug
+### Description
+
+Tracks placed before updating to 1.7.0 are not recognized by the blocks (stations, signals etc). On using it says "Cannot target this track here".
+
+### Game Log
+
+https://mclo.gs/YkT24oh
+
+### Debug Information
+
+<details>
+<summary>Client Info</summary>
+
+```
+Create:
+	Mod Version: 6.0.8
+	Mod Git Commit: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+	Ponder Version: 1.0.91
+	Forge Version: 47.4.13
+	Minecraft Version: 1.20.1
+
+Graphics:
+	Flywheel Version: 1.0.5
+	Flywheel Backend: flywheel:indirect
+	OpenGL Renderer: Radeon RX 570 Series
+	OpenGL Version: 4.6.0 Core Profile Context 25.8.1.250617
+	Graphics Mode: fancy
+	PojavLauncher Detected: false
+
+System Information:
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Microsoft
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx7040M
+	Memory: 388854904 bytes (370 MiB) / 3716153344 bytes (3544 MiB) up to 7381975040 bytes (7040 MiB)
+	Total Memory: 3118834448 bytes (2974 MiB) / 3716153344 bytes (3544 MiB)
+	CPU: AMD Ryzen 5 5600X 6-Core Processor @ 3.6
+  >> comment by techno-sam 2026-03-02: Create tracks data is failing to load due to a datafixer of ours that it turns out only works if a world has been loaded with an indev version of 1.7.0. Release out soon to fix this
+  >> comment by techno-sam 2026-03-02: You will need to restore from a backup to get your track/train data back
+##### Layers-of-Railways/Railway #712 [closed] The game closes without creating a crash file. 1.20.1, forge - 47.4.10 | comments=8 | created=2025-10-31 updated=2025-11-09 | labels=type: crash
+### Context
+
+Hello!
+I decided to try to create an assembly on version 1.20.1 exclusively with the Create mod and a couple more mods for it.
+
+- if only mod "create-1.20.1-6.0.7.jar " - the game is starting;
+- if I add a mod "createaddition-1.20.1-1.3.2.jar " - the game is starting;
+- if I add your mod to the listed 2 mods "Steam_Rails-1.6.7+forge-mc1.20.1.jar " - the game closes without creating a crash file.
+
+I am attaching all 3 log files.
+
+[2025-10-31-1-Create_only.log](https://github.com/user-attachments/files/23264262/2025-10-31-1-Create_only.log)
+[2025-10-31-2-Create+Create Crafts & Additions.log](https://github.com/user-attachments/files/23264266/2025-10-31-2-Create%2BCreate.Crafts.Additions.log)
+[latest-Create+Create Crafts & Additions+Create_Steam 'n' Rails.log](https://github.com/user-attachments/files/23264267/latest-Create%2BCreate.Crafts.Additions%2BCreate_Steam.n.Rails.log)
+
+I hope this helps in identifying errors in your mod (if possible).
+
+Thanks!
+
+### Crash Report
+
+no file
+  >> comment by Mailootje 2025-11-05: > ### Context
+> Hello! I decided to try to create an assembly on version 1.20.1 exclusively with the Create mod and a couple more mods for it.
+> 
+> * if only mod "create-1.20.1-6.0.7.jar " - the game is starting;
+> * if I add a mod "createaddition-1.20.1-1.3.2.jar " - the game is starting;
+> * if I add your mod to the listed 2 mods "Steam_Rails-1.6.7+forge-mc1.20.1.jar " - the game closes without creating a crash file.
+> 
+> I am attaching all 3 log files.
+> 
+> [2025-10-31-1-Create_only.log](https://github.com/user-attachments/files/23264262/2025-10-31-1-Create_only.log) [2025-10-31-2-Create+Cr
+  >> comment by techno-sam 2025-11-09: SnR 1.6.14, supporting Create 6.0.7 and 6.0.8 is about to be released
+  >> comment by Mailootje 2025-11-09: > SnR 1.6.14, supporting Create 6.0.7 and 6.0.8 is about to be released
+
+Thank you 😊
+##### Layers-of-Railways/Railway #734 [closed] train and bogeys not loading | comments=1 | created=2026-01-23 updated=2026-01-23 | labels=type: bug
+### Description
+
+<img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/b88886ef-ad44-440f-9066-13d02ddd6bfe" />
+<img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/4220d3bd-bbad-4469-b7ae-c954c0e70f52" />
+
+### Game Log
+
+https://mclo.gs/AIA4gne
+
+### Debug Information
+
+<details>
+<summary>Client Info</summary>
+
+```
+Create:
+	Mod Version: 6.0.9
+	Mod Git Commit: e2de2b9a02406ec33ff6d8851ed6f0b56240b6ec
+	Ponder Version: 1.0.81+mc1.21.1
+	NeoForge Version: 21.1.218
+	Minecraft Version: 1.21.1
+
+Graphics:
+	Flywheel Version: 1.0.6
+	Flywheel Backend: flywheel:instancing
+	OpenGL Renderer: Intel(R) UHD Graphics 630
+	OpenGL Version: 4.6.0 - Build 31.0.101.2111
+	Graphics Mode: fancy
+	PojavLauncher Detected: false
+
+System Information:
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Eclipse Adoptium
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx4096m -Xms256m
+	Memory: 405379216 bytes (386 MiB) / 2541748224 bytes (2424 MiB) up to 
+  >> comment by K2568 2026-01-23: You are using the neoforge fork, report issues to them
+https://github.com/Porters-of-Railways/Railway-1.21.1/issues
+##### Layers-of-Railways/Railway #727 [closed] Shader bug with boiler (Parallax Occlusion Mapping) | comments=1 | created=2025-12-25 updated=2026-01-10 | labels=type: bug,area: shaders
+### Description
+
+It seems to happen because of how Bliss and Pegasus handle POM. Turning off POM on either seems to fix it.
+<img width="2474" height="1324" alt="Image" src="https://github.com/user-attachments/assets/293c484f-ff90-44b0-a048-6dbb03e09023" /> Bliss ^
+<img width="2474" height="1324" alt="Image" src="https://github.com/user-attachments/assets/0550f56e-f16d-4ec3-bc41-6af0e6bffd85" /> Pegasus ^
+<img width="2474" height="1324" alt="Image" src="https://github.com/user-attachments/assets/95d9f4e9-2bed-4203-868a-354d2b2a6c6f" /> Bsl ^
+
+
+### Game Log
+
+Bliss: https://mclo.gs/GZPfi1X | Pegasus: https://mclo.gs/OaXWfzz
+
+### Debug Information
+
+This is on a modpack so there are a lot of mods
+
+<details>
+<summary>Client Info</summary>
+
+```
+Create:
+	Mod Version: 6.0.8
+	Mod Git Commit: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+	Ponder Version: 1.0.91
+	Forge Version: 47.4.3
+	Minecraft Version: 1.20.1
+
+Graphics:
+	Flywheel Version: 1.0.5
+	Flywheel Backend: flywheel:off
+	OpenGL Renderer: AMD Radeon RX 9060 XT
+	OpenGL Version: 4.6.0 Core Profile Context 25.12.1.251128
+	Graphics Mode: fancy
+	Po
+  >> comment by techno-sam 2026-01-10: You'll need to report this to Bliss/Pegasus. I don't think we're doing anything particularly strange here (*maybe* the shaders are freaked out by connected textures on a large block?).
+
+If the shader devs say that we are doing something absurd, let me know and I'll reopen.
+
+##### Luke100000/ImmersiveAircraft #246 [closed] Crashing other players when creating Aircraft on 1.20.1 | comments=6 | created=2025-02-12 updated=2026-02-17 | labels=
+Have a local server, every time one player creates and places an aircraft/blimp all the other players that have that chunk loaded crash out with an error in the client.  Removing/picking up the loaded aircraft/blimp fixes the issue.  I am not certain if it is specifically an immersive aircraft issue or some other rendering issue, but hopefully there is an answer here.  For now, we have to not build them...
+```
+Error:
+Connection Lost:
+Internal Exception:
+java.lang.IndexOutOfBoundsException:
+readerIndex(1) + length(8) exceeds writerIndex(5):
+PooledUnsafeDirectByteBuf(ridx: 1, widx:5, cap:5)
+
+MC: 1.20.1
+Forge: 47.3.29
+Modlist:
+Macaw's Holidays (by sketch_macaw)
+Midnight Madness (by kotishe666)
+Blue's Better Skeletons (by mrblueyeti)
+Undergarden Delight (A Farmer's Delight Add-on) (by nocubeyt)
+Forbidden and Arcanus (by cesar_zorak)
+HammerLib (by Zeith)
+Born in Chaos Delight (by Project_Count)
+Realm RPG: Dragon Wyrms (by nocubeyt)
+Peeping Tom (by Zcoper)
+Xaero's Minimap & World Map - Waystones Compatibility [Forge] (by ArcaneAlloy)
+Every Compat (Wood Good) (by MehVahdJukaar)
+Decorative W
+  >> comment by Culf-B 2026-02-16: Issue is still there, and installing immersive machinery still fixes it. I think this should be documented better as it was quite hard to find this issue and is a bit inconvenient that you have to install immersive machinery to make immersive aircraft work... 
+  >> comment by Luke100000 2026-02-17: > Issue is still there, and installing immersive machinery still fixes it. I think this should be documented better as it was quite hard to find this issue and is a bit inconvenient that you have to install immersive machinery to make immersive aircraft work...
+
+You shouldn't have to, and this sounds like a different issue than OP has. Please make s new issue and share both client and server latest log.
+  >> comment by Culf-B 2026-02-17: Should probably have tested a bit more before posting my previous comment... Just running better aircraft works smoothly, but when adding Immersive Aircraft: Better Engines (v. 1.0.0 hotfix), I get the error. I can make a new issue and post logs if you still want it, but the issue might just be that I am running an older version of Better engines
+
+Edit
+A newer version of better engines does not fix the issue. Some versions just crash when starting the server, and others give the same error as the older version. I might create an issue on their repo
+##### Luke100000/ImmersiveAircraft #329 [closed] Takes multiple tries to mount the plane | comments=0 | created=2026-05-01 updated=2026-05-25 | labels=
+Hi!
+
+I'm playing on a modded server with a friend of mine, and we've noticed that it takes multiple tries to get on our planes. When I right-click the seat, I enter the plane but then I immediately get kicked off a split second after, and it takes a few tries (often times, like 10+ times) to finally mount the plane without getting kicked off. 
+
+Solution: **Ideally, the vehicle should allow me to mount it on one-click and I should stay in the plane.** 
+
+To try and fix this myself, I tried checking if this issue persists on other aircrafts. 
+- The issue persists with the biplane, scarlet biplane (from the man of many planes addon mod) and seems to persist with every vehicle in the mod
+- I tried rebinding my "mount" key to see if a different keybind could fix this issue and the issue still persists. 
+- I also tried seeing if this glitch persisted in a single-player world and it does continue, so this is not a server-side issue
+I'm using immersive aircraft v1.4.0 on Forge 1.20.1 47.4.10 with 58 other mods (including the create mod and valkyrien skies).
+
+##### DonBruce64/MinecraftTransportSimulator #2008 [closed] Game crashing when optifine or its replacements installed | comments=1 | created=2025-12-23 updated=2025-12-24 | labels=bug,duplicate
+[latest.log](https://github.com/user-attachments/files/24307049/latest.log)
+minecraft keeps crashing with immersive vehicles and optifine installed, i removed all other mods leaving these two and it still crashes when using anything related to optifine,using oculus instead of  optifine doesnt work either so i guess its not the optifine itself i guess?
+oh btw it works even with all my other mods as long as no shader related stuff installed,which is weird
+anyone know what was the problem?
+  >> comment by DonBruce64 2025-12-24: Same root cause as #2000.  Issue being that I have bad texture loading return calls.  Fix is on Discord if you want that before release day.
+##### DonBruce64/MinecraftTransportSimulator #1910 [closed] There's a crash when I try to use Embeddium | comments=1 | created=2025-05-07 updated=2025-05-12 | labels=notmyproblem,packard
+My game crashes when I try to use Embeddium. Log is here: https://mclo.gs/IYKXTD0
+  >> comment by SnailPerson 2025-05-12: uuuh
+```
+Mod File: Immersive Vehicles-1.16.5-22.17.0.jar
+	Failure message: Immersive Vehicles (formerly MTS) (mts) encountered an error
+ during the construct event phase net.minecraft.util.ResourceLocationException: 
+Non [a-z0-9/._-] character in path of location: mts:fordpickuptrucks.F-150_lariat_2015_black
+```
+
+a pack called "ford pickup trucks" is using wrong characters, which causes the crash. Remove the pack and try again.
+##### DonBruce64/MinecraftTransportSimulator #2159 [open] Instruments break in different ways when using any shaders. | comments=1 | created=2026-08-29 updated=2026-09-10 | labels=bug,backburner
+Running Immersive Vehicles 25.0.0 + Official Content Pack V29 on NeoForge 26.1.2.97 (mcinterface261), with Iris 1.11.3 + Sodium 0.9.1 and the BSL v10.1.3 shaders. In the P menu's instrument render options, Fast never renders instruments at all — shaders on or off, just a faint grey circle where they should be. Superfast and Slow both render instruments correctly with no shader loaded, but break as soon as shaders are enabled, each in a different way: Superfast renders the instruments stretched off the dash, tracking/following the camera instead of staying anchored to the vehicle; Slow causes visual bleed between entities — geometry/objects from one vehicle (or unrelated items like a fire extinguisher) appearing overlaid on or following another vehicle. This reproduces with only IV+OCP installed (no other mods) on a freshly placed vehicle. I've tried nearly every possible combination of options in the render/config menus with no luck. My log shows Missing program mts:mts/entity_translucent in override list from Iris, which may explain Fast's non-render, but doesn't account for Superfa
+  >> comment by DonBruce64 2026-09-10: Noted.  Latest.log likely won't be helpful as shaders are notoriously difficult to get to work right with buffer-batched based rendering.  Though SLOW rendering should be 100% shader-compatible with default rendering except the lights.  Strange that it isn't.
+##### DonBruce64/MinecraftTransportSimulator #1980 [closed] Immersive Vehicle Shader problem: PBR reflection of shader not working after applying this mode | comments=1 | created=2025-10-07 updated=2026-01-06 | labels=bug
+I'm not an English speaker, so I used a translator. Sentences may not be smooth.
+
+When this mode is applied, the reflection function of the shader is turned off.
+I went into the setup and made sure the reflection function was on, and I tried rebooting the game or turning the sader setting back off and on, but it didn't work out.
+I deleted the mod and when I see that the feature came back, it seems to conflict with this mod.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5ffcba62-6764-47e2-a05c-b6999b602450" />
+
+Shader reflection is working well.
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/c9ad15b5-7d7f-459c-9666-06c4c46d4ace" />
+
+Reflections turned off after applying this mode.
+
+However, the mode itself works fine, it just crashes with the shader.
+
+version : 1.20.1
+Graphic mode in use : embeddium 0.3.31, oculus 1.8.0 (or Mekalus 1.8.0.1)
+shader : nostalgia 5.1
+  >> comment by DonBruce64 2026-01-06: Addressed in 23.0.0.
+##### DonBruce64/MinecraftTransportSimulator #2185 [open] Immersive Vehicles-1.20.1-22.18.0  PoseStack on DEDICATED_SERVER error | comments=5 | created=2026-09-26 updated=2026-10-29 | labels=bug,needsreport
+Forge: net.minecraftforge:47.4.18[01:36:58] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+        Immersive Vehicles (formerly MTS) (mts) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+]
+        at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.4.18.jar%23400!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.4.18.jar%23400!/:?] {}
+        at java.util.Optional.ifPresent(Optional.java:178) ~[?:?] {re:mixin}
+        at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.4.18.jar%23400!/:?] {}
+        at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.4.18.jar%23400!/:?] {}
+        at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {re:mixin}
+        at net.minecr
+  >> comment by DonBruce64 2026-10-27: @dldev32  don't see Sodium in this report though?
+  >> comment by dldev32 2026-10-27: > 5\. [@dldev32](https://github.com/dldev32)  don't see Sodium in this report though?
+
+This is just a hypothesis. It’s based on the source—meaning that, somewhere, the code in the game’s renderer has been altered.
+  >> comment by DonBruce64 2026-10-27: Fair.  We'll just have to wait for a crash report from his server to see if that's the case.  If no report arrives, then no bug and no issue.
+##### DonBruce64/MinecraftTransportSimulator #2194 [closed] (Bug) Can't join my Immersive Vehicles server (Server has IV version 24.0.0, i have IV version 24.0.0) | comments=15 | created=2026-10-11 updated=2026-10-30 | labels=bug,invalid
+I know that this bug has been posted already. But, since it's a critical bug *or at least, i consider it a critical bug*, I'm posting it again, with more information about the bug
+
+-There's no Crash log that generates for what i saw
+-I can't join my IV server with an older computer from 2019, but i can with a newer computer from 2025
+-When i only had installed IV, Official Content Pack, Official Automotive Pack plus 2 other military mods and Timeless and Classic Zero, it worked just fine
+-When i added several other mods like NoChatRestriction, R.A.GE, IAV Parts Pack, Just Enough Items (JEI), and far mode mods, it started to fail when trying to join my server
+-When i tried to disable all the mods i had installed except the ones i already installed when it worked just fine, i only had enabled IV, Official Content Pack, Official Automotive Pack, those two other military mods that only add armor and NoChatResctriction, it still failed when joining my own server
+-I suspect that it's got to do with an incompatibility between Immersive Vehicles and NoChatResctriction. Which, if it's the cau
+  >> comment by Unknowuser707 2026-10-29: [launch-argument log line removed: it held a player name and account IDs]
+  >> comment by Unknowuser707 2026-10-30: Nevermind. I checked and i did not had the exact same version of [Immersive Vehicles] R.A.G.E - Best supercars, buses and cars to drive! installed on my client, than the version of the mod that's on my server. Since in my server, i had installed a beta, and on my client, i did not had installed the beta version. Hopefully that fixes things. And if it doesn't, I'll provide the latest.log
+  >> comment by Unknowuser707 2026-10-30: It turns out that the ENTIRE cause of this issue, was this one mod that i didn't had on the exact same version on my server. And because of that, i couldn't join on my 2019 PC. Alright then. Since the issue's fixed, i will close it, since it was just that i didn't checked well enough if i had the exact same version of [Immersive Vehicles] R.A.G.E - Best supercars, buses and cars to drive!, as the one that i have on my server
+##### DonBruce64/MinecraftTransportSimulator #2265 [open] Added native mob damage resistance + tacz fixes | comments=1 | created=2026-11-23 updated=2026-11-23 | labels=
+
+bx default, mts now transfers all mob damage to the vehicle, and takes the health of the vehicle as a reference of how much damage is dealt. For low health vehicles, 75% of damage is received and any damage bwlow 1 is ignored, for heavy vehicles above 600 HP, only 4% of damage is received and anything etc.
+Basically no more getting killed in the car by random shit.
+
+default values are set, but can be overridden per vehicle in motorised with 
+- "absorbedDamagePercent" 0-1.
+- "minDamageAbsorption": 1-9999
+- "explosionDmgPassPercentage" 0-1
+
+commit soon, I need to sleep
+
+also added mob_attacked, for hit sounds when a vehicle is attacked by a mob / player
+
+TAcz bullets not damaging vehicles has also been patched and hooked into the new system wo the same female reduction aoocurs
+  >> comment by SnailPerson 2026-11-23: @DonBruce64 
+
+https://github.com/user-attachments/assets/2708218a-f893-4aca-a302-f535a7807a93
+##### talhanation/smallships #54 [open] Incompatible with Shoulder Surfing - Replace Default Perspective | comments=0 | created=2026-10-06 updated=2026-10-06 | labels=
+When I have the "replace default perspective" option enabled, the 3rd person view for small ships is replaced with shoulder surfing's and im unable to zoom in or out using the scroll wheel. I reported this issue to shoulder surfing and it looks like compatibility would need to be added on your side. 
+You can refer to the other issue i created here:
+https://github.com/Exopandora/ShoulderSurfing/issues/477
+
+Forge 1.20.1 using Small Ships 2.0
+##### talhanation/smallships #57 [open] 2.0.1 (NeoForge 1.21.1): crash on startup, @Redirect conflict with Create: Train Perspective in Camera.setup | comments=0 | created=2026-10-12 updated=2026-10-12 | labels=
+Small Ships 2.0.1 crashes the client when Create: Train Perspective 1.1.1 is installed. 2.0.0-b2.1 worked fine with it.
+
+Both mods use @Redirect on Camera.setPosition(DDD)V in Camera.setup. Train Perspective applies first (priority 1100), so Small Ships’ redirect is skipped and then fails its injection check:
+@Redirect conflict. Skipping smallships-common.mixins.json:zooming.client.CameraMixin->@Redirect::smallships$centerCameraOnShip ... already redirected by create_train_perspective.mixins.json:CameraMixin->@Redirect::modifyPosition
+Critical injection failure: Redirector smallships$centerCameraOnShip ... failed injection check, (0/1) succeeded.
+Could you switch centerCameraOnShip to MixinExtras @WrapOperation (or at least make it require = 0)? That way it can coexist with other camera mods.
+NeoForge 21.1.250, Small Ships 2.0.1, Create: Train Perspective 1.1.1.
+

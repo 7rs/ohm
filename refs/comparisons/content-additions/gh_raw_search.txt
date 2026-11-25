@@ -1,0 +1,242 @@
+## 3dskinlayers | tr7zw/3d-skin-layers | Oculus | total=3
+  #266 [closed] EMF/ETF 1.20.1 Issues (2025-10-01)
+  #258 [closed] Что за ошибка? В майнкрафт заходит но мир создать не может (2025-08-11)
+  #40 [closed] Feature Request: MCXR Support (2022-12-23)
+## 3dskinlayers | tr7zw/3d-skin-layers | Embeddium | total=0
+## 3dskinlayers | tr7zw/3d-skin-layers | Punchy | total=0
+## 3dskinlayers | tr7zw/3d-skin-layers | ParCool | total=1
+  #165 [open] Incompatibility with ParCool (2024-07-30)
+## 3dskinlayers | tr7zw/3d-skin-layers | Entity Model Features | total=9
+  #303 [closed] Compatibility with FA Player Addon (2026-10-13)
+  #282 [closed] Crash at startup on Neoforge 1.21.1 (2025-12-11)
+  #259 [closed] [Bug] 1.21.1 Neoforge sus incompatible with Vampirism (2025-10-05)
+  #264 [closed] [1.18.2]conflict with ETF and EMF (2025-09-21)
+  #215 [closed] Can't start game on 1.21.4 (2025-02-07)
+  #199 [closed] (Fabric 1.21.1) Game completely crashes when opening inventory. (2024-11-22)
+## irons | iron431/Irons-Spells-n-Spellbooks | Oculus | total=48
+  #1288 [closed] [Bug] Crash on rendering Player Statue — `irons_lib:animations/statue_poses.animation.json: Unable to find animation file` (2026-11-23)
+  #1265 [closed] [Bug] Mod (or mod library) incompatible with Forge Config Screens 1.20.1 (2026-09-11)
+  #1225 [closed] [Bug] Irons Spells & Geckolib Wizard Armorset Crashes (2026-07-18)
+  #1210 [closed] Game crashes when Instant Mana Potion appears in inventory/creative tab. (Offending Mod is VMinus, update it to fix this issue.) (2026-06-29)
+  #1190 [closed] [Bug] Multiple Failed to load texture: (2026-05-28)
+  #1151 [closed] [Bug] The Necromancer caused the crash. (2026-04-30)
+## irons | iron431/Irons-Spells-n-Spellbooks | Embeddium | total=50
+  #1288 [closed] [Bug] Crash on rendering Player Statue — `irons_lib:animations/statue_poses.animation.json: Unable to find animation file` (2026-11-23)
+  #1285 [closed] [Bug] [1.20.1] Black Hole causes FPS drops due to using vanilla fluid check every tick (2026-11-19)
+  #1265 [closed] [Bug] Mod (or mod library) incompatible with Forge Config Screens 1.20.1 (2026-09-11)
+  #1210 [closed] Game crashes when Instant Mana Potion appears in inventory/creative tab. (Offending Mod is VMinus, update it to fix this issue.) (2026-06-29)
+  #909 [closed] [Bug] Inscription Table and Other tables Not appearing in creative or JEI (2026-06-08)
+  #1151 [closed] [Bug] The Necromancer caused the crash. (2026-04-30)
+## irons | iron431/Irons-Spells-n-Spellbooks | Distant Horizons | total=9
+  #1127 [closed] [Bug] Spell book mana resets on world load (2026-06-23)
+  #1198 [closed] [Bug] priest trade accept any written book (2026-06-12)
+  #686 [closed] [Bug] Some spell animations not playing in Multiplayer. (2026-02-03)
+  #895 [closed] [Bug] Crash when using shutdown spell on Skeleton while in water (2025-08-10)
+  #790 [closed] [Bug] Shield lets entitys through (2025-05-22)
+  #803 [closed] [Bug] the Root spell has som problem (2025-04-26)
+## irons | iron431/Irons-Spells-n-Spellbooks | TaCZ | total=8
+  #1165 [open] [Bug] Ticking entity UpgradeData.CodecHelper.getOrElseWithLegacy (2026-08-18)
+  #1231 [open] Pixel Error on Cultist Chestplate (2026-07-25)
+  #1198 [closed] [Bug] priest trade accept any written book (2026-06-12)
+  #909 [closed] [Bug] Inscription Table and Other tables Not appearing in creative or JEI (2026-06-08)
+  #1151 [closed] [Bug] The Necromancer caused the crash. (2026-04-30)
+  #827 [closed] [Bug] Buffed teleportation spells allow you to teleport through walls rather than on the side of them (2026-01-01)
+## irons | iron431/Irons-Spells-n-Spellbooks | Punchy | total=0
+## tlm | TartaricAcid/TouhouLittleMaid | Oculus | total=19
+  #1146 [open] [Bug] Periodic crashes related to ticking world (2026-11-16)
+  #1210 [open] [Bug] 车万女仆（Touhou Little Maid）模组的AI攻击逻辑空指针（NullPointerException）而崩溃（已解决） (2026-09-24)
+  #1135 [open] [Bug] 正则黑名单未处理非法正则表达式导致闪退与无法启动 (2026-05-23)
+  #1026 [closed] [Bug] 酒狐无法使用ai进行网络音乐机的播放 (2026-02-07)
+  #1001 [open] [Bug] maid will not use melee weapons (2026-01-08)
+  #951 [closed] [Bug] Game Crashes When Opening Maid's Furnace Backpack with EMI Installed (2025-12-08)
+## tlm | TartaricAcid/TouhouLittleMaid | Embeddium | total=21
+  #1146 [open] [Bug] Periodic crashes related to ticking world (2026-11-16)
+  #1210 [open] [Bug] 车万女仆（Touhou Little Maid）模组的AI攻击逻辑空指针（NullPointerException）而崩溃（已解决） (2026-09-24)
+  #1135 [open] [Bug] 正则黑名单未处理非法正则表达式导致闪退与无法启动 (2026-05-23)
+  #1126 [open] [Bug] 女仆滞留 `ATM挖矿维度` 玩家传送主世界崩溃 (2026-05-17)
+  #1090 [open] [Bug] 安装Celeritas时,鼠标移动到魂符时会崩溃 (2026-04-06)
+  #1026 [closed] [Bug] 酒狐无法使用ai进行网络音乐机的播放 (2026-02-07)
+## tlm | TartaricAcid/TouhouLittleMaid | Entity Model Features | total=8
+  #1143 [open] feat(tts): 新增小米 MiMo v2.5 TTS 模型语音合成与对话支持 (2026-06-25)
+  #1001 [open] [Bug] maid will not use melee weapons (2026-01-08)
+  #951 [closed] [Bug] Game Crashes When Opening Maid's Furnace Backpack with EMI Installed (2025-12-08)
+  #831 [closed] [Bug] game crashes when Maid killed a mob in magical attack mode with a book with Spectral Hammer in Iron's Spells 'n Spellbooks (2025-08-03)
+  #620 [closed] [Bug] java.lang.IllegalArgumentException: Failed to create model for touhou_little_maid:maid (2025-05-08)
+  #680 [closed] [Bug] (2025-03-05)
+## tlm | TartaricAcid/TouhouLittleMaid | TaCZ | total=35
+  #1230 [open] [Bug] (2026-11-13)
+  #1157 [open] [Bug] 26.1.2前瞻版本，女仆吃东西试图回血导致游戏崩溃。 (2026-07-03)
+  #1143 [open] feat(tts): 新增小米 MiMo v2.5 TTS 模型语音合成与对话支持 (2026-06-25)
+  #1144 [open] feat(ai): 新增 manage_item 物品管理工具 (2026-06-03)
+  #1080 [closed] 一些无法用一般方式调整的问题合集 (2026-04-04)
+  #1068 [closed] [Bug]与Corail's Tombstone、卓越前线冲突崩溃 (2026-04-04)
+## tlm | TartaricAcid/TouhouLittleMaid | Distant Horizons | total=4
+  #1146 [open] [Bug] Periodic crashes related to ticking world (2026-11-16)
+  #1198 [open] 当尝试使用其他玩家留下的空魂符收纳女仆时报错 (2026-08-14)
+  #1119 [closed] [Bug] 将存档从1.20.1迁移至1.21.1时 含有祭坛等女仆方块的区块加载会导致崩溃 (2026-05-06)
+  #895 [closed] [Bug] 五子棋棋盘下满后客户端崩溃退出 (2025-10-20)
+## iceandfire | AlexModGuy/Ice_and_Fire | Oculus | total=30
+  #5592 [open] [Bug]: World Border Dragon Nest Generation Crash (2026-03-31)
+  #5614 [open] [Bug]: Weezer material is not present on 1.20.1 with tinker's contrust installed (2026-03-19)
+  #5610 [open] [Bug]: Ghosts intermittently invisible with shaders (2026-02-19)
+  #5589 [open] [Bug]: Laggy when hovering over fairies with shaders (2025-11-28)
+  #5538 [open] [Bug]: Transparent Dragon (2025-08-02)
+  #4421 [closed] Seeing particles though solid blocks (2025-04-20)
+## iceandfire | AlexModGuy/Ice_and_Fire | Distant Horizons | total=6
+  #5641 [open] Use the WorldGenRegion for lake structure checks and pixie difficulty (2026-09-29)
+  #5503 [open] [Bug]: game crashes (NEOFORGE + SINYTRA CONNECTOR) (2025-05-19)
+  #5416 [open] [1.20.1] [Forge] [Version 2.1.13 beta 5] Crash when trying to generate a hydra cave (2024-12-07)
+  #5298 [open] [Bug]: TPS spikes when using it with Alex Caves 1.1.4 (2024-06-23)
+  #5278 [closed] [Bug]: Pixie Villages make the game crash (2024-05-14)
+  #4607 [closed] Dragons won't spawn in specified biomes or dimensions [1.16.5] Ver 2.1.102 (2022-08-04)
+## iceandfire | AlexModGuy/Ice_and_Fire | Embeddium | total=26
+  #5592 [open] [Bug]: World Border Dragon Nest Generation Crash (2026-03-31)
+  #5614 [open] [Bug]: Weezer material is not present on 1.20.1 with tinker's contrust installed (2026-03-19)
+  #5610 [open] [Bug]: Ghosts intermittently invisible with shaders (2026-02-19)
+  #5538 [open] [Bug]: Transparent Dragon (2025-08-02)
+  #5503 [open] [Bug]: game crashes (NEOFORGE + SINYTRA CONNECTOR) (2025-05-19)
+  #4421 [closed] Seeing particles though solid blocks (2025-04-20)
+## witherstorm | nonamecrackers2/crackers-wither-storm-mod | Oculus | total=57
+  #1498 [closed] [Suggestion]: Porting the mod to Fabric (2026-08-07)
+  #2611 [open] [Bug]: Phasometer has compatability issue with Valkyrien Skies (2026-06-14)
+  #2293 [open] [Bug]: Distant render layers are broken with oculus (2026-02-24)
+  #1421 [closed] [Bug]: SIGNIFICANT lag spikes (2026-01-14)
+  #2584 [closed] Orange Tractor Beams (2026-01-03)
+  #2655 [open] [Bug]: Wither Storm does not pick up formidibomb when latest Valkyrien Skies is installed (2025-12-31)
+## witherstorm | nonamecrackers2/crackers-wither-storm-mod | Embeddium | total=52
+  #2758 [closed] [Bug]: texture gaps (2026-08-11)
+  #2611 [open] [Bug]: Phasometer has compatability issue with Valkyrien Skies (2026-06-14)
+  #2684 [closed] [Suggestion]: StormRay (2026-02-27)
+  #2671 [closed] [Bug]: Applying Afterimage's image trails to Block Clusters results in completely opaque trails (2026-01-22)
+  #2584 [closed] Orange Tractor Beams (2026-01-03)
+  #2655 [open] [Bug]: Wither Storm does not pick up formidibomb when latest Valkyrien Skies is installed (2025-12-31)
+## witherstorm | nonamecrackers2/crackers-wither-storm-mod | Distant Horizons | total=10
+  #2685 [closed] I want to explain why Java is so terrible! (2026-02-27)
+  #2505 [open] [Bug]: Wither Storm Vanishes when you're far away from it using DH (2025-11-30)
+  #2257 [open] [Bug]: Game crashes and exits,re-entering this save game will not crash (2024-10-30)
+  #2235 [open] [Bug]: Distant Horizons Bug (2024-10-13)
+  #1856 [open] [Suggestion]: possible DH compat (2024-10-06)
+  #408 [closed] Mod incompatibility: Occultism (2024-05-31)
+## deeperdarker | KyaniteMods/DeeperAndDarker | Distant Horizons | total=1
+  #386 [closed] [bug] [compat] Dimension effects causes Distant Horizon to misread the dimension name and corrupt chunk caches (2024-11-06)
+## deeperdarker | KyaniteMods/DeeperAndDarker | Oculus | total=0
+## deeperdarker | KyaniteMods/DeeperAndDarker | Embeddium | total=1
+  #441 [open] (Forge 1.20.1) Game immediately does not load anything upon loading into the Otherside (2026-08-23)
+## endrem | Jack-Bagel/End-Remastered | Distant Horizons | total=0
+## endrem | Jack-Bagel/End-Remastered | Async Locator | total=0
+## endrem | Jack-Bagel/End-Remastered | Oculus | total=0
+## ae2 | AppliedEnergistics/Applied-Energistics-2 | Oculus | total=8
+  #8389 [closed] NullPointerException when loading AE2 configuration on server startup (2025-08-22)
+  #8189 [closed] Out of memory crashes  (2025-03-14)
+  #8134 [closed] Game Crashes after removing AE2 From my Modpack (2025-02-06)
+  #7416 [closed] Crafting Status not Clearing (2024-03-22)
+  #7277 [closed] Startup error (2024-01-15)
+  #7271 [closed] Crashing during mod load sequence 1.20.1 (2024-01-14)
+## ae2 | AppliedEnergistics/Applied-Energistics-2 | Distant Horizons | total=1
+  #8942 [closed] Inscriber recipe missing but only on server (2026-07-30)
+## ae2 | AppliedEnergistics/Applied-Energistics-2 | FastSuite | total=2
+  #8772 [closed] Issue with Fast Suite+ae2 crafting through wireless crafting terminal. (2026-10-28)
+  #8189 [closed] Out of memory crashes  (2025-03-14)
+## mekanism | mekanism/Mekanism | FastSuite | total=2
+  #8018 [closed] CME in universal cable recipe (2024-03-14)
+  #7960 [closed] Enhanced Jump doesn`t work (2024-03-09)
+## mekanism | mekanism/Mekanism | Oculus | total=15
+  #8518 [open] Turbine casing causes crash when placed on Valkiryen Skies ships (2025-11-24)
+  #8306 [closed] flamethrower with Oculus causes crash. (2025-01-24)
+  #7743 [closed] Mekasuit doesn't render with shaders (2024-05-26)
+  #8066 [closed] Atomic Disassembler Glow [1.20.1] (2024-04-25)
+  #8038 [closed] Mkenaism Tools crashes on 1.20.1 Refined Glowstone Armor not trimmable (2024-03-27)
+  #8034 [closed] Shaders break the player model (2024-03-19)
+## mekanism | mekanism/Mekanism | Distant Horizons | total=1
+  #8609 [closed] tacz hand animation broken with meka suit (2026-11-04)
+## waystones | TwelveIterations/Waystones | Distant Horizons | total=1
+  #1126 [closed] Natural Waystone activation invalid. (2026-03-06)
+## waystones | TwelveIterations/Waystones | Structure Layout | total=1
+  #1027 [closed] Failed to save chunk (2026-01-05)
+## waystones | TwelveIterations/Waystones | Oculus | total=7
+  #669 [closed] Broken Global Waystones Remain on Network (2026-02-18)
+  #704 [closed] game crashes every time i use waystone (2026-01-05)
+  #1011 [closed] Unable to teleport (2026-01-05)
+  #729 [closed] Rain in desert (2026-01-05)
+  #590 [closed] Game crashes when waystone is clicked (2026-01-05)
+  #902 [closed] When teleporting, the surrounding chunks become invisible (2026-01-05)
+## vanillabackport | ItsBlackGear/VanillaBackport | Oculus | total=2
+  #234 [closed] Freshly Animated not loading (Incompatibility with Every Compat) (2026-02-05)
+  #89 [open] Issue with Oculus, strange behaviour and crashing (2025-08-09)
+## vanillabackport | ItsBlackGear/VanillaBackport | Distant Horizons | total=1
+  #89 [open] Issue with Oculus, strange behaviour and crashing (2025-08-09)
+## vanillabackport | ItsBlackGear/VanillaBackport | Twilight Forest | total=3
+  #570 [open] Spears from Other Mods Revert to Walking Speed When Charging While Sprinting (2026-11-13)
+  #244 [closed] Twilight Forest's Bighorn Sheep messed up model and texture mapping (2026-02-05)
+  #229 [closed] Cannot get config value before config is loaded crash - 1.21.1 NeoForge (2026-02-01)
+## vanillabackport | ItsBlackGear/VanillaBackport | Aether | total=4
+  #504 [closed] New Update breaks EMI (2026-10-23)
+  #399 [open] Aether Quicksoil Unquickened (2026-07-26)
+  #229 [closed] Cannot get config value before config is loaded crash - 1.21.1 NeoForge (2026-02-01)
+  #9 [closed] [Compatibility] Neoforge 1.21.1 (2025-06-20)
+## botania | VazkiiMods/Botania | Oculus | total=8
+  #5036 [closed] Fix sampler definition in film_grain_particle.json (2026-08-01)
+  #3951 [open] Shader mods conflict with Botania's own usage of shaders, leading to missing renders (2025-07-22)
+  #4297 [open] Particals are invisible  (2024-06-13)
+  #4651 [closed] Visual bug with Manaseer (2024-05-25)
+  #4511 [closed] Minecraft 1.19.2 Game Launch Crash (2023-12-12)
+  #3912 [closed] Gaia is completely invisable  (2023-11-22)
+## botania | VazkiiMods/Botania | Distant Horizons | total=0
+## botania | VazkiiMods/Botania | Embeddium | total=9
+  #4930 [open] Loki's ring Selection and some rods are not compatible (2025-10-19)
+  #4580 [closed] [1.20.1] Various animations are broken with Sodium / Embeddium installed (2025-08-09)
+  #4744 [closed] i dont really know if its a issue (2024-08-31)
+  #4694 [open] Gaia traps look odd (2024-08-23)
+  #4613 [closed] Floating Flower render in Lexica Botanica clashes with Indium/Iris (2024-07-13)
+  #4297 [open] Particals are invisible  (2024-06-13)
+## ars | baileyholl/Ars-Nouveau | Oculus | total=37
+  #1943 [closed] Crash ars noveau with apex core (2025-12-26)
+  #1990 [open] server option to disallow toggling the alternate state for warp portals (2025-11-09)
+  #1889 [closed] Scry Crystal with Oculus not working outside of view range (2025-07-15)
+  #1893 [closed] fix: less invasive ClientChunkCache mixin (2025-07-15)
+  #1891 [closed] Scryers Oculus gui close immediatly when toggleRadialHud is set to off (2025-07-13)
+  #1827 [closed] [1.21.1 NeoForge] Crash when mine `mekanism:personal_barrel` or `apotheosis:ender_library`. (2025-06-11)
+## ars | baileyholl/Ars-Nouveau | Distant Horizons | total=1
+  #573 [closed] Crash every time I try to open up the codex from the Scribe's Table (2022-06-22)
+## ars | baileyholl/Ars-Nouveau | Embeddium | total=25
+  #2026 [closed] [1.21.1][NeoForge] Crash with Sodium/Embedium Dynamic Lights (2026-06-23)
+  #2165 [closed] too many entities are created once last player has left the server (2026-05-24)
+  #2159 [closed] starbuncle render crash (2026-05-13)
+  #1986 [closed] Latest Ars Nouveau varsion crashes my modpack (2025-12-26)
+  #1623 [closed] Rendering problems with Embeddium (white pixels in block stitch lines) (2025-12-05)
+  #1949 [closed] Mouse Scrolling Past Last Page Causes Crash (2025-09-28)
+## createaddition | mrh0/createaddition | Create 6 | total=134
+  #1202 [open] NeoForge Bug: Barbed Wires not being able to glue to moving contraptions. (2026-11-18)
+  #1182 [open] unlimited energy bug (2026-11-02)
+  #1201 [closed] crashed in server (2026-11-02)
+  #1193 [open] FE in accumulator vanishes when expanding specifically up (2026-09-23)
+  #1173 [closed] Accumulators don't carry redstone power (2026-09-23)
+  #1180 [closed] CC:Tweaked electric motor setSpeed bug (2026-09-23)
+## createaddition | mrh0/createaddition | Oculus | total=2
+  #904 [open] Oculus causes Blaze's burner texture with straw to render badly (2025-03-12)
+  #623 [closed] [1.20.1] liquid blaze burner texture missing (2023-08-06)
+## createaddition | mrh0/createaddition | Flywheel | total=52
+  #1184 [open] Large Alternator Variant (2026-07-18)
+  #1136 [closed] use Blaze burner with straw crash (2026-05-13)
+  #1020 [open] [1.21.1 NeoForge] Liquid blaze burner rendering crash when Flywheel backend is off (2025-12-22)
+  #1084 [closed] Fabric 1.20.1 Create 6.0.7 (2025-11-09)
+  #1063 [open] Entirely nonfunctional for Forge 1.20.1 (2025-09-10)
+  #899 [open] Not working with Create 6.0.1 (Crashing) (2025-04-07)
+## zombieawareness | Corosauce/ZombieAwareness | TaCZ | total=1
+  #136 [open] [Feature Proposal] Additional Sounds Configuration (2025-03-17)
+## zombieawareness | Corosauce/ZombieAwareness | Immersive Optimization | total=0
+## zombieawareness | Corosauce/ZombieAwareness | AI Improvements | total=0
+## spawnanimations | Tschipcraft/spawnanimations | Fresh Animations | total=4
+  #53 [open] Spiders invisible until player is a few blocks away from them (2026-05-12)
+  #25 [closed] Enderman/Spider eyes hovering before they are "spawned" (2025-08-06)
+  #37 [closed] Floating Custom Mob Heads (More Mobs), Armor, and Weapons (2025-03-21)
+  #17 [closed] Charged creeper glow is not hidden (2024-01-11)
+## spawnanimations | Tschipcraft/spawnanimations | Entity Model Features | total=1
+  #25 [closed] Enderman/Spider eyes hovering before they are "spawned" (2025-08-06)
+## spawnanimations | Tschipcraft/spawnanimations | Forge | total=9
+  #33 [open] Version 1.20.1 Forge, The mod is on but the mobs spawn normally not by digging up. (2026-08-31)
+  #62 [closed] [Forge] Impossible Version Compatibility Range (2026-08-06)
+  #57 [open] Conflict with Mob Control mod (2026-05-07)
+  #46 [closed] Vanilla mode working as Classic when Activation Distance is below 25 (2025-10-01)
+  #45 [closed] [Forge 1.20.1] Function load errors when Pehkui is not installed (2025-09-29)
+  #26 [closed] Incompatibility with Hostile Mobs Improve Over Time (2025-08-06)

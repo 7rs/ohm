@@ -1,0 +1,6 @@
+{
+  "survival": ["temperature and thirst", "body temperature", "hardcore survival", "realistic survival", "limbs", "overhaul survival", "mental health", "night terror", "poison", "blight", "toxic", "food spoilage", "hunger games", "exhaustion", "wetness"],
+  "scaling": ["difficulty mod", "harder", "more challenging", "increase difficulty", "mob scaling", "stronger mobs", "tougher enemies", "mob buffs", "enemy enhancement", "boss health", "playtime", "world difficulty", "danger", "escalating", "threat"],
+  "content": ["bosses", "boss fights", "hard dungeons", "endgame", "challenging", "epic", "titan", "warden", "monster hunter", "nightmare dimension", "underground", "parasites", "ruins", "fortress", "citadel"],
+  "enemy": ["hostile", "enemies", "new enemies", "horror", "stalker", "monster", "invader", "army", "warband", "pillager", "robot", "alien", "drone", "gunman", "bandits camp"]
+}

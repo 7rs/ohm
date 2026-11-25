@@ -1,0 +1,129 @@
+﻿[
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "PNN5h914",
+        "project_id":  "C7TiPPJz",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Content Pack - 1.20.1 - V29",
+        "version_number":  "29",
+        "changelog":  "# Official Content Pack - Version 29Â \n\n***\n\n## **ADDITIONS:**\n\n*   Updated to 1.21.1\n*   Added `crashSpeedMin` \u0026 `crashSpeedMax` to vehicles\n*   Added 5 new wood variants to MC172\n*   Added Russian translation\n*   Added Fr\\*nch translation\n*   Added huge wheel for future content\n*   Re-added the url thing on the side of the GMC box bed\n*   Added festive bell206\n*   Added Muddac to large, medium \u0026 small wheels\n*   Added blinker sound to the outside of cars\n*   Added Frost Accumulation to some cars\n*   Added Odometer function to the RPM car gauge\n*   Added interactive cockpit to Eclipse 500\n*   finally added cinderblocks to the GMC Brig\n*   finally added cinderblocks to the firetruck\n*   Added slots for custom steering wheel to cars\n*   Added slots for custom dash / bobblehead ornaments to cars\n*   Added speed based impact damage to aircraft\n*   Added Auxiliary battery slots to cars and aircraft\n*   Added totaled explosion sounds to ground vehicles\n*   Added camera roll to ground vehicles, AKA Camera tilts based on your driving\n*   Added police liveries to Mustang \u0026 Mercedes\n*   Added new random particle lifetime variation to many ocp particles\n*   Added woking police sirens to police cars (finally)\n*   Added police siren to mustang too gooogoo gaga\n\n## **CHANGES:**\n\n*   All ground vehicles now have their correct engine preinstalled, and the corresponding engine is part of the initial recipe\n*   Removed engine hours from car tachometer gauge\n*   adapted new isOpenTop functions \u0026 retired old soundPass systems\n*   add new soundPass system, cutting 30% of unnecessary sound code\n*   tweaked doors, hoods, flaps, windows etc. to dissapear on totaled vehicles\n*   completly overhauled Ford Mustang Engine sounds\n*   added chained wheels (not yet fictional)\n*   added a few new large wheel variants\n*   tweaked interior sounds to have proper ranges due to new soundPass system\n*   Optimized burnt / totaled textures, massively reducing pack disc size, cutting up to 20MB\n*   Tweaked things\n*   Changed normal wheels grip settings\n*   Overhauled damage smoke visuals for ground vehicles\n*   offset rear GMC block hitbox to reduce frequent terrain collisions\n*   tweaked GMC minimum crash damage tolerance\n*   Tweaked Mustang recipe\n*   Increased GMC Brigadier health\n*   Headlights now use a lit texture instead of pure white color when on\n*   changed salesign formatting from 0000$ to $0000\n*   Added seats by default to AA cannons\n*   Increased Propeller health\n*   Reduced frosting speeed\n\n## **FIXES:**\n\n*   fixed scout playing inside sounds when no roof is present\n*   fixed FT and firetruck not having totaled fire particles\n*   fixed both exhaust particles for PZL being bound to one single engine\n*   fix RH HR RHHRHRHR HRHRH RH R HRH RH RH wheel screeching cars make when standing still\n*   fixed quad model having an empty object\n*   fixed brigadier having skill issue with one block height increments\n*   fixed wierd red strobe light offset on Comanche\n*   fixed not being able to attach grille ornament to mustang\n*   fixed fire extinguisher being slightly offset\n*   fixed minor texture errors\n*   fixed faulty engine power clamp on mustang, making it impossible to mount the correct engnie\n*   fixed strobe lights strobing when a vehicle is totaled\n*   fixed doorwinnd playing isnide skyhawk during flight\n*   Fixed Mustang not accepting its own engine\n*   Fixed GMC and FIretruck not having cinder blocks when wheels are missing\n*   Fixed Bell206 freezing randomly when no enigne is installed\n*   Fixed Mustang freezing without enignein\n*   Fixed doorwind playing inside when doors are closed\n*   Fixed watertrail particles being spammed\n*   Fixed GMC colliding with blocks and getting destroyed quickly\n*   Fixed snail sculpture java model\n*   Fixed static merc raindrop particles",
+        "changelog_url":  null,
+        "date_published":  "2026-04-18T23:15:40.742198Z",
+        "downloads":  183784,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "3k1RwbAr",
+                          "hashes":  {
+                                         "sha512":  "b7af0f74b3ad2eed9ec8100ec84e27781e43717f470dee5ecdee9cc8c572468179e2f05425315e04cce839f6f324122e83dd092c6d7e7967c03922d56086a700",
+                                         "sha1":  "9307186fe7f109f0fcc8397bb4457cb956822b88"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/C7TiPPJz/versions/PNN5h914/MTS%20Official%20Pack-1.20.1-V29.jar",
+                          "filename":  "MTS Official Pack-1.20.1-V29.jar",
+                          "primary":  true,
+                          "size":  70997298,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "jUXaG8Wt",
+        "project_id":  "C7TiPPJz",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Content Pack - 1.20.1 - V28.2",
+        "version_number":  "28.2",
+        "changelog":  "# **OCP V28**\n\n***\n\n## **OCP - V28.2 (Hotfix2):**\n\n*   Â fixed faulty leftover heartcore ornament causing crash with the custom bench AGAIN\n*   Literally nothing else\n\n## **OCP - V28.1 (Hotfix1):**\n\n*   fixed 1.18 DS StoresÂ   \n    \\- reverted large wheel to 1.0 size  \n    \\- added german OCP translation  \n    \\- changed internal version stamp to 28  \n    \\- changed flatbed, wheel tow to flatbed tow  \n    \\- fixed break particles not appearing for explosives \u0026 bullets  \n    \\- fixed 1.12 fix unfixing 1.20 wheel models how even my god i hate that crusty ass version with its special needs  \n    \\- fixed faulty leftover heartcore ornament causing crash  \n    \\- added the octowheel ornament  \n    \\- added grille ornament with 4 variants  \n    \\- added an additional dark wheel variant  \n    \\- fixed texture oversights for Scout (thanks sint)  \n    \\- fixed texture oversights for Mercedes (thanks sint)  \n    \\- added handheld model for snail sculpture item  \n    \\- reduced large wheel size  \n    \\- added burnt textures to all totaled vehicles  \n    \\- added additional police liveries to mercedes and mustang  \n    \\- fixed doubled up door sounds on certain vehicles  \n    \\- (1.12) fixed messed up handheld wheel model textures  \n    \\- (1.12) fixed pratt \u0026 whitney bugged java model texture  \n    \\- (1.12) fixed wrong Java model for Quad engineÂ   \n    \\- (1.12) fixed 1.12 recipes being broken AGAIN  \n    \\- fixed forwarding damage on dump bed effectors  \n    \\- made scout bed invincible  \n    \\- added piston ornament\n\n***\n\n# **MAIN ADDITIONS \u0026 FIXES**\n\n***\n\n*   added uneven terrain rumbling to driving over uneven terrain\n    \n*   added bell 206 medium sized helicopter\n    \n*   added Quad / ATV bike\n    \n*   added new manual manual shifting to vehicles which make the shifter clickable\n    \n*   re-added engine restrictions for automobiles\n    \n*   fixed wheels sometimes creating perpetual drifting sounds\n    \n*   Â added a golden scout variant\n    \n*   added a confetti gun\n    \n*   added colourful smoke trail pods for planes\n    \n*   fixed bomblet rack animation error\n    \n",
+        "changelog_url":  null,
+        "date_published":  "2025-10-16T17:36:11.180528Z",
+        "downloads":  113235,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "OP4aCM1R",
+                          "hashes":  {
+                                         "sha512":  "ec5a2419c18f55e925d0a9afaaf06b5a044883b5235b128fc0b943e72d56dcaa77ab4d9c621fe19f6a08d3da3589802be90e1be0e723b090b68b8d5f257383ad",
+                                         "sha1":  "30ded8b8c1e7678be1f9db73d9366391ca198497"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/C7TiPPJz/versions/jUXaG8Wt/MTS%20Official%20Pack-1.20.1-V28.2.jar",
+                          "filename":  "MTS Official Pack-1.20.1-V28.2.jar",
+                          "primary":  true,
+                          "size":  89590985,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "client_and_server",
+        "id":  "PoGl8k8x",
+        "project_id":  "C7TiPPJz",
+        "author_id":  "YIUsTVQp",
+        "featured":  false,
+        "name":  "Official Content Pack - 1.20.1 - V28",
+        "version_number":  "V28",
+        "changelog":  "# OCP V28\n\n***\n\n*   added uneven terrain rumbling to driving over uneven terrain\n    \n*   added bell 206 medium sized helicopter\n    \n*   added Quad / ATV bike\n    \n*   added new manual manual shifting to vehicles which make the shifter clickable\n    \n*   re-added engine restrictions for automobiles\n    \n*   fixed wheels sometimes creating perpetual drifting sounds\n    \n*   Â added a golden scout variant\n    \n*   added a confetti gun\n    \n*   added colourful smoke trail pods for planes\n    \n*   fixed bomblet rack animation error\n    \n*   fixed rocket pod having way too high firerate\n    \n*   fixed faulty PZL37 Hitbox\n    \n*   fixed Detroit diesel fan not spinning\n    \n*   fixed âRenulatâ typo\n    \n*   fixed traffic signals gap with poles\n    \n*   fixed turn coordinators plane turning the wrong way\n    \n*   increaced m1919 bullet grouping distance on pzl11\n    \n*   fixed bullets flying under the crosshair center on pzl11\n    \n*   increased m1919 bullet speed to 290\n    \n*   fixed ft17 not being able to be damaged by penetrating shots\n    \n*   added tracer ricochet particles to OCP 7.62 bullets\n    \n*   added \"normal\" bullet impact holes for generic materials\n    \n*   reduced gears in Detroit diesel engine\n    \n*   added low engine starter pitch shift to indicate empty battery\n    \n*   fixed strobe effects not going away when battery is empty\n    \n*   added new crafting material: Infrared Sensor\n    \n*   added new crafting material: Hydraulic System\n    \n*   added new crafting material: Armored Plating\n    \n*   made mustang towable (again)\n    \n*   added five alternative rudder pedal sounds\n    \n*   added two new door opening \u0026 closing sounds\n    \n*   added rain droplet effects to flat vehicle surfaces\n    \n*   added frostAcc system that makes Bell206 frost over in cold biomes when engines are off\n    \n*   remodelled, retextured \u0026 overhauled the Comanche\n    \n*   added 6 new Comanche color variants\n    \n*   added interactive cockpit elements to Comanche\n    \n*   added an external controllable spotlight upgrade for the bell206\n    \n*   added an external hoist system for the bell206 that hoists players and cargo up and down\n    \n*   added emissive overlay to Skyhawk radio\n    \n*   increased PZL37 fuel capacity\n    \n*   added auxiliary tanks, used by Comanche \u0026 Vulcanair\n    \n*   added DME Instrument (distance to beacon instrument)\n    \n*   tweaked gloveboxes to flash slightly when looked at (credit: Laura)\n    \n*   fixed a bug where Vulcanair would spawn fire particles on 149 HP\n    \n*   added sale sign slots to cars and planes\n    \n*   added tow\\_conncetion group to vehicles\n    \n*   remodelled, retextured \u0026 overhauled the Vulcanair\n    \n*   added interactive cockpit elements to the Vulcanair\n    \n*   added 15 new Vulcanair color variants\n    \n*   Vulcanair can now equip a specialized camera part\n    \n*   added new 3d item models for wheels\n    \n*   added new 3d item models for barrels\n    \n*   added new 3d item models for crates\n    \n*   added new 3d item models for seats\n    \n*   added new 3d item models for engines\n    \n*   added new 3d item models for propellers\n    \n*   added a secret painting\n    \n*   made spraycans destroyable (+poof of paint dust!)\n    \n*   increased wing bending on PZL37\n    \n*   added ground dust to fast flying PZL37s\n    \n*   added ground dust to fast flying Trimotors\n    \n*   fixed \"Renualt\" typos\n    \n*   tweaked flare gun particles\n    \n*   tweaked mudAcc values\n    \n*   add animated object to mustang to indicate open or closed glovebox\n    \n*   added advanced body recoil system to FT.-17 (credit: Laura)\n    \n*   added advanced body roll system to all ground vehicles (credit cbc)\n    \n*   added windshield rain particles to all vehicles and aircraft\n    \n*   added windshield wipers to cars\n    \n*   added windshield wiper sounds\n    \n*   added new fancy light effects to active vehicle brake-lights\n    \n*   Added custom GUIs to crates, ammo-crates, gloveboxes, and the external bell47g crate\n    \n*   Added \"sliding\" animation to GMC box bed door\n    \n*   added AA base compatibility with transport ammo crates\n    \n*   added AA base description hinting at crate autoloader\n    \n*   added ambient electrical humming to most planes when their magneto is active\n    \n*   added different interior aircraft terrain rumble sounds based on smooth\u0026 rough terrain\n    \n*   added the very necessary snock.png\n    \n*   added a set new switch sounds\n    \n*   fixed AMCi4 not playing shifting sounds\n    \n*   tweaked car seat recipe\n    \n*   added interactible key / starters to automobiles\n    \n*   added new headlight light effects for automobiles\n    \n*   fixed driftmarks not appearing at 90Â° rotation relative to slipping direction (speed\u003evelocity)\n    \n*   fixed seat z-figthing on e500\n    \n*   added more dust effects for whitney jet engine\n    \n*   slightly increased trimotor fuel capacity\n    \n*   fixed Lycoming engine recipe\n    \n*   fixed rough window edges on ustang and scout\n    \n*   added new small, medium and large wheel model\n    \n*   added 8+ new large wheel variants\n    \n*   fixed offset scout wheel turning anim\n    \n*   added sale sign\n    \n*   increased trimotor fuel capacity\n    \n*   added differently coloured UI to coloured crates\n    \n*   added coloured UI to military crates\n    \n*   fixed crate opening bug\n    \n*   hid plane starter key hotboxes via anim if magneto is off\n    \n*   optimised colission groups on mustang, scout \u0026 gmc\n    \n*   added key insert sounds\n    \n*   added new wind sounds\n    \n*   added like at least 150 other sounds\n    \n*   increased the amount of crates that the scout can carry\n    \n*   updated amci4 engine sound\n    \n*   added inner windows rendering support (finally)\n    \n*   added interactive elements to most cars (clickable shifter, light switch, key etc)\n    \n*   increased ford mustang top speed\n    \n*   increased scout top speed\n    \n*   reduced pontoon sound spam\n    \n*   reduced suspension Sound volume on cars\n    \n*   updated some item icons\n    \n*   added 5 new scout variants\n    \n*   added 4 new GMC variants\n    \n*   added 3 new Mustang variants\n    \n*   added 2 new car seat variants\n    \n*   added ember particles to totalled burning vehicles\n    \n*   added convention car mirror decor part slot to cars\n    \n*   added 34 new mirror ornaments that you can dangle off of your rearview mirrors. Physics included (thanks blaze \u003c3)\n    \n*   added glovebox to GMC\n    \n*   added fire particles as a last stage warning before critical engine failure (temperature)\n    \n*   added explosion particles to overheating / exploding engines\n    \n*   increased sign stack size to 64\n    \n*   added description hint to editable signs\n    \n*   fixed car instruments having a white rim when lit up\n    \n*   fixed various texture errors\n    \n*   fixed various minor oversights\n    \n*   tweaked wheel size\n    \n*   probably added more but i forgor what\n    \n\n**Vehicles with interactible interiors:**\n\n*   Skyhawk\n*   Comanche\n*   Vulcanair\n*   Bell 206\n*   GMC\n*   Scout\n*   Mercedes\n*   Mustang\n*   Firetruck\n\n# MASSIVE THANKS TO:\n\n***\n\n*   **BlazeWolf1122** who contributed massively on the VM physics sice of things, on a level not even i comprehend. With his help, the Bell206 hoist and the mirror ornaments came to life with their dynamic swinging! Not only that, but he also helped in overhauling the scout engine sounds from the ground up, making them sound much crisper and up to morern OCP standards! Speaking of engines, he took all raw sounds i recorded for the new mercedes and shaped them into the smooth purring we know and love today.\n    \n*   **Laura Darkez \u0026 Cowboycosmic** for reliably helping me out with any outlandish, overly specific issues that only they could possibly solve! And of course, one can not forget the horrors of VariableModifier-black-magic they got me through in one piece. They also provided advanced body roll systems and cannon recoil systems, which have been widley applied to any ground vehilce OCP offers, which now feel much more responsive and \"weighted\" thanks to this little visual quirk! Thank you!\n    \n*   **Cactus** who once again provided his exuisite modelling skills to bring the new Helicopter \"Bell206\" from concept into reality. But it didnt stop there, no! The Vulcanair was not spared either, recieving a completley new model itself! And since we in germany say \"Alle guten Dinge sind drei\", the new Mercedes is of course modelled by yours truly, Cactus! Thank you for supporting OCP!\n*   **Henri** who joined OCPs efforts in 2025 and brought his real life piloting expertise to light by desiging the new Comanches and Vulcanairs interactiable cockpits and modelling and setting the various switch positions required for interactive cockpits to become believable and good looking!  \n    Additionally, he took the opportunity to record some juicy switch sounds right from the source!  \n      \n    \n*   **Viktorwood** who proved to be very talented in OCP texturing and helped me out a lot with my workload by giving the new Comanche and Vulcanair its base exterior texture. And the Quad model? Thats his work, initally a concept, but then ascended into OCP Valhalla, as a permanent addition to our vehicle cast!  \n      \n    \n*   **Sint** who is a formidably talented modeller and texturer, who only very recently joined the OCP develoment team, but brought plenty of help and changes with him. First off, all wheel models were redone by him, he helped in making several mirror ornament, adding several new liveries for various vehicles, helped in smaller areas of development and found a heap of texture errors and bugs everywhere! (That i had to clean up...)  \n      \n    \n*   **Oldbjorn the Canadian** who kindly provided raw sounds from his Quad bike for the new Quad.  \n      \n    \n*   **Nax/Koishi** who took aforementioned quad sounds and coded them into a purring and high quality engine sound which the quad would not sound as good without!  \n      \n    \n*   **RayNotRaymond** who himself stepped into one of his cockpits to get OCP some fresh switch and knob sounds, apart from plnety of real world advice and source of pleasant talk and feedback.  \n      \n    \n*   **Numb** who, last but not least, provided plenty of additional vehicle liveries, suggestions, bug reports and being a very kind and helpful individual in general! Apprechiate you!",
+        "changelog_url":  null,
+        "date_published":  "2025-08-24T13:22:11.658653Z",
+        "downloads":  22496,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "mvOddXDZ",
+                          "hashes":  {
+                                         "sha1":  "696d00a25fa3a08142632d95043759e19f2ee648",
+                                         "sha512":  "bf20c595b26f598093837f513e56fff87dc5a29087112d19e1b874c42066c420c108cebf0c02490c4a34317ddfb5b532c2d3865036e51e3f932fc450c64fb5a5"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/C7TiPPJz/versions/PoGl8k8x/MTS%20Official%20Pack-1.20.1-V28.jar",
+                          "filename":  "MTS Official Pack-1.20.1-V28.jar",
+                          "primary":  true,
+                          "size":  65828419,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    }
+]

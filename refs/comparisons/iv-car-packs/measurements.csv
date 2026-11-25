@@ -1,0 +1,48 @@
+pack,criterion,value,type,source
+GT CRAFT 2.1.2,vehicle JSONs,57,measured,jar assets/gtcraft/jsondefs/vehicles (data/vehicles-gt-2.1.2.txt)
+GT CRAFT 2.1.2,JDM / US / EU / other,42 / 5 / 9 / 1,measured,data/vehicle-classification.csv (brand in the name; Nismo moved to JDM)
+GT CRAFT 2.1.2,police liveries,0,measured,names-GT-2.1.2.tsv
+GT CRAFT 2.1.2,jar size and entries,"52.5 MB; 6,173 entries (multi-version jar for 1.16.5 to 26.1; Forge and NeoForge)",measured,CFWidget file list; jar
+GT CRAFT 2.1.2,declared dependency,IV (mts) 22.6.0 or newer,measured,META-INF/mods.toml
+GT CRAFT 2.1.2,dependency by reference,"OCP: 55 of 56 external references resolve in OCP V29 (crafting materials, sounds); 1 unresolved (mtsofficialpack:rocketbooch)",measured,data/pack-refs.txt
+GT CRAFT 2.1.2,Modrinth dependencies,IV and OCP both 'required',measured,Modrinth API version dependencies
+GT CRAFT 2.1.2,item icon textures missing,0 of 1584,measured,data/icons.txt
+GT CRAFT 2.1.2,vehicles with a survival recipe,57 of 57,measured,data/recipes-all.txt
+GT CRAFT 2.1.2,recipe sample,"R34: iron 39, gold 60, diamond 12, emerald 29 + OCP plating 36, screws 48, metal tube 12, hydraulics 3; AE86 Levin: iron 14, gold 22, diamond 4, emerald 10 + OCP materials",measured,data/recipes-sample.txt
+GT CRAFT 2.1.2,language files,en_us and ja_jp,measured,jar assets/gtcraft/language
+GT CRAFT 2.1.2,releases,"2.1 (2026-10-13), 2.1.1 (10-14), 2.1.2 (10-15); 2.0.1 (2025-08-25); 2.0 (2025-08-11)",measured,Modrinth and CurseForge APIs
+GT CRAFT 2.1.2,downloads,"CurseForge 191,586 total (2.0.1 1.20.1 file 72,382); Modrinth 66,607",claimed,platform counters
+GT CRAFT 2.1.2,community list,"still updated '--', not abandoned; 40+ original models, great detail, good physics; may look too realistic for Minecraft's style; 'fits well with GGVP (KMW)'",evaluated,data/community-pack-list.csv row 13
+GT CRAFT 2.1.2,changelog,"2.1: new suspension system based on KMW's design, new tuning UI, removed 1.0 models remade, 5 new models, recipes for all items added 'on a trial basis'",claimed,Modrinth changelog
+Kaminari Motor Works 2.6.1,vehicle JSONs,"199 (180 cars incl. 5 pretuned customs; 19 buses, trucks, boats, motorcycle, trailers)",measured,data/vehicles-kmw-2.6.1.txt
+Kaminari Motor Works 2.6.1,JDM / US / EU / other (cars only),107 / 28 / 29 / 16,measured,data/vehicle-classification.csv (other: Hyundai 6, Ssangyong 1, Lada 2, FSO, Holden, Peel, Proton, VMC, Eternal Venus)
+Kaminari Motor Works 2.6.1,police liveries,2,measured,names-KMW-2.6.1.tsv
+Kaminari Motor Works 2.6.1,jar size and entries,"176.3 MB; 9,088 entries (1.16.5 to 1.20.1 build)",measured,CFWidget file list; jar
+Kaminari Motor Works 2.6.1,declared dependency,IV (mts) 22.6.0 or newer,measured,META-INF/mods.toml
+Kaminari Motor Works 2.6.1,dependency by reference,"OCP: 11 of 11 OCP references resolve (headlight, circuit, plastic, screws, plating, horn); 2 sound references to a pack 'potatpacc' that is not installed (gear shift sounds, 28 uses)",measured,data/pack-refs.txt
+Kaminari Motor Works 2.6.1,item icon textures missing,2 of 1643,measured,data/icons.txt
+Kaminari Motor Works 2.6.1,vehicles with a survival recipe,192 of 199,measured,data/recipes-all.txt
+Kaminari Motor Works 2.6.1,recipe sample,"R34: assembled from parts (unibody blueprint, wheels, seats, suspension, RB26 engine, gearbox, differentials, transfer case) + OCP headlight 4 and plastic 12 + glass pane 4, wool 14, iron 72",measured,data/recipes-sample.txt
+Kaminari Motor Works 2.6.1,language files,none (names come from the JSON),measured,jar
+Kaminari Motor Works 2.6.1,releases,"2.6.1 (2025-05-20), 2.6.0 (2025-05-19), GVP 2.5.1 B1 (2025-03-26), GVP 2.5.0 (2024-06-30)",measured,CurseForge API
+Kaminari Motor Works 2.6.1,downloads,"CurseForge 442,919 total, mostly 1.12.2; the 1.16-20 file 3,938",claimed,platform counters
+Kaminari Motor Works 2.6.1,community list,"still updated 'No', abandoned 'Yes'; requires OCP; very large quantity, very good engine sound, refined handling; high poly count; 'vulnerable to frequent content removals due to inconsistent modelling standards'",evaluated,data/community-pack-list.csv row 14
+Craftspeed 1.7.5,vehicle JSONs,97 (20 are police liveries),measured,data/vehicles-craftspeed-1.7.5.txt
+Craftspeed 1.7.5,JDM / US / EU / other,38 / 18 / 39 / 2,measured,data/vehicle-classification.csv (Mazda3 moved to JDM; other: Hyundai i30 N x2)
+Craftspeed 1.7.5,jar size and entries,"101.6 MB; 31,724 entries (multi-version jar for 1.16.5 to 26.1; Forge and NeoForge)",measured,CFWidget file list; jar
+Craftspeed 1.7.5,declared dependency,none in mods.toml,measured,META-INF/mods.toml
+Craftspeed 1.7.5,dependency by reference,"IV core only; 1 sound reference to OCP (mtsofficialpack:horn_car); IV core itself references 1 OCP sound",measured,data/pack-refs.txt
+Craftspeed 1.7.5,item icon textures missing,4 of 6822,measured,data/icons.txt
+Craftspeed 1.7.5,vehicles with a survival recipe,84 of 97,measured,data/recipes-all.txt
+Craftspeed 1.7.5,recipe sample,R34: iron block 18 + redstone 10 + leather 5 + dye 2 + glass pane 5 (no OCP materials); AE86: no recipe list,measured,data/recipes-sample.txt
+Craftspeed 1.7.5,language files,none,measured,jar
+Craftspeed 1.7.5,README in the jar,"'in-development version ... various bugs can occur, like missing icons, visual glitches or some unwanted behaviour'",claimed,README.txt
+Craftspeed 1.7.5,releases,"1.7.5 (2026-08-08), 1.7.4 (2026-02-24), 1.7.3 (2026-01-24), 1.7.2 (2026-01-04)",measured,CurseForge API
+Craftspeed 1.7.5,downloads,"CurseForge 200,800 total (1.7.5 file 11.3K, 1.7.4 file 15.9K)",claimed,platform counters
+Craftspeed 1.7.5,community list,"updated, not abandoned; more than 50 real-world cars (tuners), high visual customization, arcade-ish yet good handling, active Discord; 1:1 scale, small bugs, weak instruments, some outdated sounds, unbalanced recipes / not survival friendly",evaluated,data/community-pack-list.csv row 9
+OCP V29,vehicle JSONs,17 (8 planes and helicopters, 1 tank, 2 trucks and cars; 5 with real-brand names),measured,data/vehicles-ocp-v29.txt
+OCP V29,jar size and entries,"67.7 MB; 3,731 entries",measured,Modrinth API; jar
+SVMP 3.7.3,vehicle JSONs,"48 (EU 25, JDM 8, US 0, other 15 incl. tanks and trailers)",measured,data/vehicle-classification.csv
+SVMP 3.7.3,item icon textures missing,124 of 1242,measured,data/icons.txt
+R.A.G.E 3.0 beta 2,vehicle JSONs,2,measured,data/vehicles-rage-3.0b2.txt
+All scanned pack jars,code,"only ForgePackLoader stubs (about 400 bytes each), no Mixin config",measured,jar entries

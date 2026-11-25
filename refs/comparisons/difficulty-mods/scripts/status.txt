@@ -1,0 +1,121 @@
+l2hostility|finalist|Scales by player progress (kills, dimension, biome, distance, death decay); traits include anti-gun ones from level 100 (configurable factors); needs L2 Library and L2 Complements
+majruszs-progressive-difficulty|finalist|Stages by progress (Nether, Ender Dragon) plus Undead Army raid; needs Majrusz Library; last 1.20.1 build 2024-04; 54 open of 160 listed issues, several 1.20.1 crashes
+hostile-mobs-improve-over-time|reviewed|Data pack wrapped as a mod (functions and scoreboard, per-player timer, config by /function); last build 2024-08; no config file
+scaling-health|reviewed|Author states it is no longer maintained; needs Silent Lib (2023); 108 open of 193 listed issues
+cea|excluded|(d) Fabric-only jar (fabric.mod.json, no mods.toml) although listed under Forge
+dynamic-difficulty|reviewed|Alpha channel only (2025-06)
+improved-mobs|finalist|Difficulty by time (default), attributes, equipment, block breaking, ladders, stealing; mostly server side; needs TenshiLib (2024-04)
+brutal-nightmare|reviewed|Data pack wrapped as a mod; needs FokusAPI and Reactify; settings by /function cw:menu/main
+threateningly-mobs|reviewed|Adds biomes and a dimension; the author warns against installing it into an existing save; beta
+mob-ai-tweaks|excluded|(d) Fabric-only jar although listed under Forge
+zg-mobs|reviewed|Blight-style elite mobs (inspired by Scaling Health); no public repository; overlaps L2Hostility
+darkmobs|reviewed|Tiny mob buff mod; last build 2024-03
+dangerous|reviewed|Tiny balancing mod; no repository
+chaos-core|reviewed|Data pack wrapped as a mod (2025-02)
+custom-mob-attributes|reviewed|Attribute editor, no progress scaling; 37 mixin classes
+global-mob-health-multiplier|reviewed|One global health multiplier
+dungeon-difficulty|reviewed|Location difficulty plus loot scaling (adds player power); open 1.20.1 issues: server freeze on chunk load (36), Lodestone crash (24)
+super-bosses|reviewed|Any hostile mob can spawn as a boss; tiny jar
+apotheosis|reviewed|Gear and enchanting overhaul that adds player power; needs Apothic Attributes (overlaps AttributeFix); outside the axis
+game-stages|reviewed|Library for stage gating; needs Bookshelf; not a difficulty mod by itself
+champions-unofficial|reviewed|On hold since 2026-11-24 (see mob-difficulty/comparison.md)
+harder-difficulty|reviewed|Data pack wrapped as a mod (2025-07)
+dynamic-progression-and-difficulty|reviewed|Beta (2024-02)
+vestiges-of-the-present|reviewed|Boss challenges that scale from other mods; 17.9 MB; 45 mixin classes; no installed-mod conflict
+tough-as-nails|finalist|Thirst and temperature; newest 1.20.1 build is beta 9.2.0.171 (2024-10) and needs GlitchCore (beta); 66 open of 152 listed issues
+cold-sweat|finalist|Temperature (plus items and blocks); no dependency; 6 open of 190 listed issues; active
+thirst-was-taken|finalist|Thirst only; 1.4.0 (2025-06); 140 open of 189 listed issues
+thirst-was-reclaimed|finalist|Thirst only, successor line of Thirst Was Taken (same mod id thirst: do not install both); 3.0.5 (2026-09); 3 open of 45 listed
+homeostatic|finalist|Temperature and thirst in one mod; stable code claim; needs WhiteNoise; 25 open of 113
+survive|reviewed|Thirst, sleep and more; needs UnionLib
+legendary-survival-overhaul|finalist|Temperature, thirst, limbs, hearts in one mod; 28 open of 33 listed issues
+hardcore-survival|reviewed|Alpha, unfinished by its own words
+iguanatweaks-reborn|reviewed|Large gameplay overhaul; 123 mixin classes; needs InsaneLib and Max Health Fix
+firstaid|finalist|Body-part health system; single 1.20.1 build 1.1 (2024-07); 98 open of 181 listed issues; TaCZ hit-location needs an add-on
+tacz-bleeding|finalist|Bleeding on physical damage (5 %), bandage; no TaCZ class reference (generic); 1.7 (2026-11)
+sanity-descent-into-madness|reviewed|Last build 2023-07
+serene-seasons|reviewed|Seasons; needs GlitchCore (beta); not a difficulty mod by itself
+ecliptic-seasons|reviewed|Seasons; 66 mixin classes, 15 classes shared with installed mods
+peak-stamina|reviewed|Stamina bar; overlaps ParCool stamina
+project-atmosphere|reviewed|Dynamic weather and temperature; overlaps Weather Refined and the shader clouds; needs Simple Clouds (beta) and Gabou's Libs
+natural-temperature|reviewed|Changes biome placement and temperature (worldgen)
+metabolism|reviewed|Last build 2024-01
+alexs-mediumcore|reviewed|Last build 2024-04; death rule
+fungal-infectionspore|reviewed|111 MB; infection of the world; mods.toml range [1.20,1.20.1) excludes 1.20.1 (read; not run)
+sculk-horde|reviewed|End-game sculk invasion; 14.8 MB; 3 open of 116 listed issues
+contagion|reviewed|Zombie infection; overlaps Clanging Howl infection and Zombie Awareness
+hardcore-torches|reviewed|Torches burn out
+danger-close|reviewed|Torches deal damage; needs MonoLib
+no-mindless-shooting|finalist|TaCZ gunfire builds noise and triggers hordes or mob spawns; config for threshold, radius, silencers, spawn list; 2.3.0 (2026-08); 10 TaCZ class references resolve in 1.1.8-hotfix2 and 1.2.0-hotfix
+nyctophobia|reviewed|Worldgen (dark biomes); needs TerraBlender
+primity|reviewed|Slows early progression; needs Kotlin for Forge and YACL
+sleep-tight|reviewed|Sleep overhaul; needs Moonlight
+frozify|reviewed|Temperature; 2025-10
+l_enders-cataclysm|finalist|Difficult dungeons and bosses; 70.5 MB; needs Lionfish API; L2Hostility ships config for its mobs
+mowzies-mobs|finalist|Bosses and creatures; 34.4 MB; GeckoLib only
+bosses-of-mass-destruction-forge|reviewed|Four bosses; last build 2024-01; needs Cerbon's API; 14 open of 26 listed
+legendary-monsters|finalist|Bosses of three tiers; 42.9 MB; server side optional; no dependency
+eeeab-s-mobs|reviewed|Beta channel only; no dependency
+borninchaos|reviewed|Aggressive mobs with abilities; GeckoLib only
+aquamirae|reviewed|Ship graveyard and sea monsters; needs Obscure API (not installed)
+mutant-monsters|finalist|Mutant variants of vanilla mobs; Puzzles Lib already installed; 58 open of 125 listed
+meet-your-fight|reviewed|Bosses; Curios only; 1 open of 21 listed
+bossesrise|reviewed|Souls-like bosses; Overwrite of GeoModel.applyMolangQueries clashes with AllTheLeaks
+mariums-soulslike-weaponry|reviewed|Weapons and bosses; 52 MB; Inject on KeyMapping.m_90837_ that Key Binding Patch overwrites
+goety|reviewed|Necromancy and dark rituals; overlaps Iron's Spells; 91 MB
+sons-of-sins|reviewed|Boss and mobs; 5 MB; no dependency
+qliphoth-awakening|reviewed|Bosses; needs FDLib
+terramity|reviewed|Terraria-like bosses and weapons; last build 2025-01
+the-graveyard-forge|reviewed|Graveyard biome, mobs, bosses; needs Villager Trading Plus
+wither-reincarnated|reviewed|Wither rework; overlaps True Ending style overhauls
+edf-remastered|reviewed|Ender Dragon difficulty; overlaps True Ending; last build 2023-08; the downloaded zip failed to read
+alternative_twilight|reviewed|Adds mechanisms to Twilight Forest bosses; 0.1 MB; 16 mixin classes
+illager-invasion|finalist|New illagers and raid additions; Puzzles Lib already installed; last build 2025-02
+savage-and-ravage|reviewed|Illager and raid upgrades; needs Blueprint
+adventofascension|excluded|(a) Total conversion (133 MB, dimensions); not downloaded
+divinerpg|excluded|(a) Total conversion (dimensions and 115 mobs); not downloaded
+eldritch-end|excluded|(d) The jar has only fabric.mod.json although the file is named FORGE
+incendium|reviewed|Nether overhaul as a data pack wrapped as a mod; 2024-05
+when-dungeons-arise|reviewed|Structures with hostile mobs; 8.4 MB; overlaps Dungeons and Taverns style content
+iceandfire-ce|reviewed|On hold since 2026-11-24 (see content-additions)
+epic-fight|reviewed|Combat overhaul for the player (not difficulty); 39 mixin classes, 15 shared
+monster-expansion|reviewed|Large monsters; 17.6 MB
+ultris|reviewed|Data pack wrapped as a mod (2023-11)
+stalwart-dungeons|reviewed|Hard dungeons; last build 2023-08
+dungeon-now-loading|reviewed|Dungeons; 81 MB; 48 mixin classes, 17 shared
+tacz_more_level|reviewed|Armed NPCs, weapon quality tiers, armor, bosses; second gun-enemy system next to Simple Enemy and adds player power; 562 TaCZ-string hits; class references resolve
+insurgents|reviewed|AI with firearms but ships no guns; no TaCZ class reference; overlaps Simple Enemy
+hostile-humans|reviewed|Melee and armed humans in structures; 13 mixin classes
+immersive-pillagers|reviewed|Pillager hordes and camps; 0.7 MB; overlaps Simple Enemy events and Illager mods
+undead-unleashed|reviewed|New undead enemies; 1.4 MB; no dependency; no repository
+variants-and-ventures|reviewed|Mob variants (mostly visual and spawn variety); needs Resourceful Lib
+more-mob-variants|reviewed|Cosmetic variants; no difficulty effect
+zombies-reworked|reviewed|Zombie rework; needs Clockwork Lib
+mebahels-zombie-horde|excluded|(d) Fabric-only jar (needs Fabric API)
+undead-nights|reviewed|Horde nights; overlaps Zombie Awareness hordes and Enhanced Celestials 2
+the-hordes|reviewed|Hordes and zombie infection; needs Atlas Lib; overlaps Zombie Awareness and Clanging Howl; 81 open of 175 listed
+apocolypseaddon|reviewed|Server-side waves, hordes, blood moons, day scaling; overlaps Enhanced Celestials 2 and Zombie Awareness
+raided|reviewed|Raid expansion; last build 2025-09
+mischief-illagers|reviewed|Illager add-on; GeckoLib only
+it-takes-a-pillage|reviewed|Pillager civilization; 2024-07
+fangs-n-claws|reviewed|New enemies; 3 mixin classes
+cryptic-foes|reviewed|New enemies; 8 mixin classes
+creatures-expanded|reviewed|New mobs; GeckoLib only
+monsterplus|reviewed|New mobs; 2024-08
+mutants-and-zombies|reviewed|Mutant and zombie mobs; needs Advanced Wall Climber API
+luminous-monsters|reviewed|16 zombie and skeleton variants
+zombie-variants|reviewed|Biome zombie variants; needs Architectury API
+mebahels-creatures-dwarven-automatons|excluded|(d) Fabric-only jar (needs Mebahel's API fabric builds)
+treasures-of-the-dead|reviewed|Pirate enemies and structures
+creeper-overhaul|reviewed|Creeper visual and behavior change; needs Resourceful Config and Lib
+skeleton-ai-fix|reviewed|Fixes skeleton strafing (a behavior fix, not a difficulty rise); Modrinth lists Forge Config API Port but the Forge mods.toml needs no mod
+mo-zombies-wave|reviewed|Beta 2023-07
+ender-zoology|reviewed|Ender-themed monsters; Puzzles Lib installed; last 2024-09
+arphex|reviewed|Arthropod horror mobs; GeckoLib only; 15.5 MB
+dontcry|reviewed|Stalker mobs; 102 MB
+the-knocker|reviewed|Stalker mob
+obsessed|reviewed|Stalker mob
+tacz-npcs|reviewed|Rejected 2026-11-24 (one gun-enemy system only)
+simple-enemy|reviewed|Installed
+last-of-us-zombie-apocalypse|reviewed|2023-11
+zombiegamereborn|reviewed|Zombie AI with TaCZ hooks (7 class references); 22 mixin classes; 14.7k downloads

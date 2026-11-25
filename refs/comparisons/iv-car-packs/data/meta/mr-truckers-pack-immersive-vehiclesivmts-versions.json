@@ -1,0 +1,39 @@
+﻿{
+    "game_versions":  [
+                          "1.20.1"
+                      ],
+    "loaders":  [
+                    "forge"
+                ],
+    "environment":  "client_and_server",
+    "id":  "8djVqDmI",
+    "project_id":  "dcYuN1Ua",
+    "author_id":  "JE8vOQ0m",
+    "featured":  false,
+    "name":  "Truckers Pack [Immersive Vehicles/IV/MTS] 1",
+    "version_number":  "Truckers_Pack_0.5-1.20.1",
+    "changelog":  "",
+    "changelog_url":  null,
+    "date_published":  "2026-08-19T06:28:34.937526Z",
+    "downloads":  702,
+    "version_type":  "release",
+    "status":  "listed",
+    "requested_status":  null,
+    "files":  [
+                  {
+                      "id":  "LMXOX1eP",
+                      "hashes":  {
+                                     "sha512":  "517f5a0439a90abbd53510af59de3869394a2c7122cb4170abb44726506acf3745769298054eb810d86820bafa7cae276a373216215e20c2e4173b879d25e82c",
+                                     "sha1":  "8228190dd24b4d69970f4041167d3887b1d0c1c3"
+                                 },
+                      "url":  "https://cdn.modrinth.com/data/dcYuN1Ua/versions/8djVqDmI/TruckPack_0.5-1.20.1.jar",
+                      "filename":  "TruckPack_0.5-1.20.1.jar",
+                      "primary":  true,
+                      "size":  46935713,
+                      "file_type":  null
+                  }
+              ],
+    "dependencies":  [
+
+                     ]
+}

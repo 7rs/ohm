@@ -1,0 +1,200 @@
+pack	file	name	variants	type
+general_pretuned_cars	cars/mazda_rx7_fd_potat	Habibi's Custom RX-7	1	tow_bumper
+general_pretuned_cars	cars/mazda_rx8_hashimkum	Mazda RX-8 Customized from Prostreet	1	tow_bumper
+general_pretuned_cars	cars/nissan_350z_rachel	Rachel's Green Fairlady Z(body kit modeled by HashimilsaPotato)	1	tow_bumper
+general_pretuned_cars	cars/toyota_celica_potat	Habibi's Sporty Prius	1	tow_bumper
+general_pretuned_cars	cars/vaz2107_custom	A Cardboard decorated CAR	1	tow_bumper
+gvp	boats/kawasaki_js440	Kawasaki JS-440 Jet Ski	1	MOTO
+gvp	boats/srn4_mk3	Saunders-Roe Nautical 4 Mk.III Hovercraft [Creative Only]	1	
+gvp	buses/fuso_rp118	Mitsubishi FUSO RP118	1	
+gvp	buses/isuzu_erga_2sg_hl2anbd	ISUZU Erga 2015 Hybrid (2SG-HL2ANBD)	1	
+gvp	buses/leyland_olympian_al134	Leyland Olympian 11.3M (Alexander RH)	1	
+gvp	buses/mercedes_benz_citaro_o530	Mercedes Benz Citaro O530 3 Door	1	
+gvp	buses/mercedes_benz_citaro_o5302d	Mercedes Benz Citaro O530 2 Doors	1	
+gvp	buses/mercedes_benz_citaro_o5302dr	Mercedes Benz Citaro O530 2 Doors RHD	1	
+gvp	cars/acura_mdx_yd1	Acura MDX (YD1)	1	tow_bumper
+gvp	cars/acura_nsx	Acura NSX 1990	1	tow_bumper
+gvp	cars/astonmartin_valkyrie	Aston Martin Valkyrie	1	tow_bumper
+gvp	cars/audi_a6_c8a	Audi A6 Avant 55TFSI-Quattro (C8)	1	tow_bumper
+gvp	cars/audi_b2_quattro	Audi Sport Quattro S1 (B2)	1	tow_bumper
+gvp	cars/audi_r8_v10	Audi R8 5.2 FSI Quattro (Type 42)	1	
+gvp	cars/bmw_e36cp_318ti	BMW 3-Series Compact 318ti(E36)	1	tow_bumper
+gvp	cars/bmw_e46_m3	BMW 3-Series M3 (E46)	1	tow_bumper
+gvp	cars/bmw_e46_m3gtr	BMW 3-Series M3-GTR Straßenversion(E46)	1	tow_bumper
+gvp	cars/cadillac_one_tk	Cadillac One 'The Beast' (Top Kick)	1	tow_bumper
+gvp	cars/chevrolet_150_sedan	Chevrolet One-Fifty 1956(A-Body)	1	tow_bumper
+gvp	cars/chevrolet_camaro_ss67	1967 Chevrolet Camaro SS	1	tow_bumper
+gvp	cars/chevrolet_caprice_4s	Chevrolet Caprice Classic(1991)	1	tow_bumper
+gvp	cars/chevrolet_caprice_4s_9c6	Chevrolet Caprice 9C6 Taxi Package(1991)	1	tow_bumper
+gvp	cars/chevrolet_cobalt_ss	Chevrolet Cobalt SS (SC)	1	tow_bumper
+gvp	cars/chevrolet_impala_b_ss	Chevrolet Impala SS(B-Body)	1	tow_bumper
+gvp	cars/chevrolet_s10_235	Chevrolet S10 1993(GMT235)	1	tow_bumper
+gvp	cars/daihatsu_midget_tuktuk	Daihatsu Midget TukTuk (Thailand)	1	
+gvp	cars/datsun_100ac	Datsun 100A Coupe	1	tow_bumper
+gvp	cars/dodge_challenger_srthc	Dodge Challenger SRT Hellcat	1	tow_bumper
+gvp	cars/dodge_charger_68rt	Dodge Charger R/T 1968	1	tow_bumper
+gvp	cars/dodge_charger_69rt	Dodge Charger R/T 1969	1	tow_bumper
+gvp	cars/dodge_charger_ld_srthc	Dodge Charger SRT Hellcat 2015(LD)	1	tow_bumper
+gvp	cars/dodge_dynasty_v6	Dodge Dynasty Base (C-Body)	1	tow_bumper
+gvp	cars/eagle_talon_2g_tsi	Eagle Talon TSi-AWD 2G(PJ Body)	1	tow_bumper
+gvp	cars/eternal_venus	§6§l§nETERNAL VENUS	1	tow_bumper
+gvp	cars/ferrari_308gtb	Ferrari 308GT Berlinetta	1	
+gvp	cars/ferrari_testarossa	Ferrari Testarossa F110	1	tow_bumper
+gvp	cars/ford_crownvictoria	Ford Crown Victoria (LX EN114)	1	tow_bumper
+gvp	cars/ford_crownvictoria_lwb	Ford Crown Victoria Long Wheel Base (Fleet EN114)	1	tow_bumper
+gvp	cars/ford_crownvictoria_p71	Ford Crown Victoria Police Interceptor(P71 EN114)	1	tow_bumper
+gvp	cars/ford_f250_xlt	Ford F-250 XLT	1	tow_bumper
+gvp	cars/ford_focus_c170_5d16	Ford Focus 1.6 (C170 5-Doors Hatch)	1	tow_bumper
+gvp	cars/ford_mustang_s197_gt	Ford Mustang GT (S197)	1	tow_bumper
+gvp	cars/ford_mustang_s197_v6	Ford Mustang Base (S197)	1	tow_bumper
+gvp	cars/ford_superduty_f350	Ford Super Duty F-350(PHN131)	1	MOTO
+gvp	cars/ford_superduty_f350srw	Ford Super Duty F-350 SRW(PHN131)	1	MOTO
+gvp	cars/fso_polonez_1500	FSO Polonez 1978	1	tow_bumper
+gvp	cars/holden_torana_lx_a9x	Holden Torana SS A9X (LX)	1	tow_bumper
+gvp	cars/honda_accord_sm_h	Honda Accord SM Hatch 1976(Euro Market)	1	
+gvp	cars/honda_civic_eg6	Honda Civic SiR-II(EG6)	1	tow_bumper
+gvp	cars/honda_civic_ej6	Honda Civic EJ6 Hatch (USDM)	1	tow_bumper
+gvp	cars/honda_civic_ej8	Honda Civic EX EJ8 (USDM)	1	tow_bumper
+gvp	cars/honda_civic_ek3f	Honda Civic Ferio SiR EK3	1	tow_bumper
+gvp	cars/honda_civic_ek9r	Honda Civic EK9 Type R	1	tow_bumper
+gvp	cars/honda_civic_fd2r	Honda Civic FD2 Type R	1	tow_bumper
+gvp	cars/honda_civic_fe	Honda Civic EX (FE1)	1	tow_bumper
+gvp	cars/honda_civic_fel	Honda Civic EX USDM(FE1)	1	tow_bumper
+gvp	cars/honda_nsx	Honda NSX Type-R 1990	1	tow_bumper
+gvp	cars/honda_prelude_ba3_20	Honda Prelude 2.0 (BA3)	1	tow_bumper
+gvp	cars/honda_s800c	Honda S800 Roadster Coupe	1	
+gvp	cars/hyundai_accent_x3c	Hyundai Accent Coupe(X3)	1	tow_bumper
+gvp	cars/hyundai_genesis_coupe_dkfl20	Hyundai Genesis Coupe 2.0T R-Spec(DK)	1	tow_bumper
+gvp	cars/hyundai_genesis_coupe_dkfl38	Hyundai Genesis Coupe 3.8 R-Spec(DK)	1	tow_bumper
+gvp	cars/hyundai_sonata_nf	Hyundai Sonata F24(2004)	1	tow_bumper
+gvp	cars/hyundai_sonata_nf_v6	Hyundai Sonata GL(2004)	1	tow_bumper
+gvp	cars/hyundai_tiburon_gk_gt	Hyundai Tiburon GT V6(GK)	1	tow_bumper
+gvp	cars/iveco_daily_2_bus	IVECO Daily II (Mini bus)	1	tow_bumper
+gvp	cars/jeep_cherokee_xj	Jeep Cherokee 4.0(XJ)	1	tow_bumper
+gvp	cars/lada_2107	Lada Riva (21074)	1	tow_bumper
+gvp	cars/lada_2110	Lada 110 (2110)	1	tow_bumper
+gvp	cars/lamborghini_gallardo_lp5604	Lamborghini Gallardo (LP560-4)	1	
+gvp	cars/lancia_delta_hfi	Lancia Delta HF Integrale Evoluzione II	1	tow_bumper
+gvp	cars/lotus_elan_m100	Lotus Elan M100 Turbo SE	1	tow_bumper
+gvp	cars/mazda_mx5_na	Mazda/Eunos Roadster MX-5 NA	1	tow_bumper
+gvp	cars/mazda_rx7_fb	Mazda Savanna RX-7 (SA22C)	1	tow_bumper
+gvp	cars/mazda_rx7_fc	Mazda Savannah RX-7 FC	1	tow_bumper
+gvp	cars/mazda_rx7_fd	Efini RX-7 Type-R (Series 6)	1	tow_bumper
+gvp	cars/mazda_rx7_fdb	Mazda RX-7 R1 (Series 6 US)	1	tow_bumper
+gvp	cars/mazda_rx7_fdr	Mazda RX-7 Type-A SpiritR (Series 8)	1	tow_bumper
+gvp	cars/mazda_rx8	Mazda RX-8	1	tow_bumper
+gvp	cars/mercedes_300sl_gullwing	Mercedes 300SL (Gullwing)	1	tow_bumper
+gvp	cars/mercedes_glc_300	Mercedes GLC Class 300 (X253)	1	tow_bumper
+gvp	cars/mercedes_glc_300_4matic	Mercedes GLC Class 300 4Matic(X253)	1	tow_bumper
+gvp	cars/mercedes_sclass_z223m	Mercedes S-Class Maybach S680 (Z223)	1	tow_bumper
+gvp	cars/mercedes_sprinter_ncv3lwb	Mercedes-Benz Sprinter 319CDi (NCV3-LWB)	1	tow_bumper
+gvp	cars/mercury_mountaineer_u152	Mercury Mountaineer AWD V8(U152)	1	tow_bumper
+gvp	cars/mitsubishi_eclipse_d22a_gsr4	Mitsubishi Eclipse GSR4 (D22A)	1	tow_bumper
+gvp	cars/mitsubishi_eclipse_d33a_gst	Mitsubishi Eclipse GST D33A(PJ Body)	1	tow_bumper
+gvp	cars/mitsubishi_eclipse_d33a_gsx	Mitsubishi Eclipse GSX D33A(PJ Body)	1	tow_bumper
+gvp	cars/mitsubishi_eclipse_d52a_gts	Mitsubishi Eclipse GTS D52A(ST-22)	1	tow_bumper
+gvp	cars/mitsubishi_eclipse_dk2a	Mitsubishi Eclipse GT 4G(DK2A)	1	tow_bumper
+gvp	cars/mitsubishi_gtos1_vr4	Mitsubishi GTO VR4 (Z16A)	1	tow_bumper
+gvp	cars/mitsubishi_gtos2_mr	Mitsubishi GTO MR Series2 (Z15A)	1	tow_bumper
+gvp	cars/mitsubishi_gtos2_sr	Mitsubishi GTO SR Series2 (Z15A)	1	tow_bumper
+gvp	cars/mitsubishi_gtos2_vr4	Mitsubishi GTO VR4 Series2 (Z16A)	1	tow_bumper
+gvp	cars/mitsubishi_gtos3_mr	Mitsubishi GTO MR Series3 (Z15A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_a172a_gl	Mitsubishi Lancer GL(A172A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_a175a_gsr	Mitsubishi Lancer 1800GSR(A175A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_cb7a_mxv6	Mitsubishi Lancer MX Saloon-S (CB7A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_evo10	Mitsubishi Lancer GSR Evolution 10(CZ4A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_evo3	Mitsubishi Lancer GSR Evolution III(CE9A)	1	tow_bumper
+gvp	cars/mitsubishi_lancer_evo8	Mitsubishi Lancer Evolution VIII	1	tow_bumper
+gvp	cars/mitsubishi_mirage_cyborg_zr97	Mitsubishi Mirage Cyborg ZR 1997	1	tow_bumper
+gvp	cars/mitsubishi_pajero_sport_2016	2016 Mitsubishi Pajero Sport	1	tow_bumper
+gvp	cars/nissan_400z	Nissan Fairlady 400Z (RZ34)	1	tow_bumper
+gvp	cars/nissan_almera_n17	Nissan Almera 1.2(N17)	1	tow_bumper
+gvp	cars/nissan_cefiro_a31_ctr	Nissan Cefiro Comfort Town-Ride w DUET-SS (A31)	1	tow_bumper
+gvp	cars/nissan_cefiro_a31_sc	Nissan Cefiro Sport Cruising w Hicas (A31)	1	tow_bumper
+gvp	cars/nissan_e10c	Nissan Cherry E10 Coupe	1	tow_bumper
+gvp	cars/nissan_fairlady_s130	Nissan Fairlady Z (S130)	1	tow_bumper
+gvp	cars/nissan_fairlady_s30	Nissan Fairlady Z (S30)	1	tow_bumper
+gvp	cars/nissan_fairlady_z31	Nissan Fairlady Z 300ZX Turbo (Z31)	1	tow_bumper
+gvp	cars/nissan_fairlady_z312	Nissan Fairlady Z 300ZX Turbo 2+2 (Z31 LWB)	1	tow_bumper
+gvp	cars/nissan_fairlady_z32	Nissan Fairlady Z 300ZX Version S(Z32)	1	tow_bumper
+gvp	cars/nissan_fairlady_z322	Nissan Fairlady Z 300ZX Version R (Z32 LWB)	1	tow_bumper
+gvp	cars/nissan_fairlady_z33	Nissan Fairlady Z (Z33)	1	tow_bumper
+gvp	cars/nissan_figaro	Nissan Figaro Autumn	1	tow_bumper
+gvp	cars/nissan_gtr_r35	Nissan GTR (R35)	1	tow_flatbed_load
+gvp	cars/nissan_silvia_s12	Nissan Silvia S12	1	tow_bumper
+gvp	cars/nissan_silvia_s13_180sx_tx	Nissan Silvia S13 Fastback Type-X (180SX)	1	tow_bumper
+gvp	cars/nissan_silvia_s13_200sx	Nissan 200SX (S13)	1	tow_bumper
+gvp	cars/nissan_silvia_s13_240sx	Nissan 240SX (S13)	1	tow_bumper
+gvp	cars/nissan_silvia_s13k	Nissan Silvia K's (S13)	1	tow_bumper
+gvp	cars/nissan_silvia_s13q	Nissan Silvia Q's (S13)	1	tow_bumper
+gvp	cars/nissan_silvia_s14k1	Nissan Silvia K's Type S (S14)	1	tow_bumper
+gvp	cars/nissan_silvia_s14k2	Nissan Silvia K's Type S (S14 Late)	1	tow_bumper
+gvp	cars/nissan_silvia_s15r	Nissan Silvia Spec R (S15)	1	tow_bumper
+gvp	cars/nissan_skyline_c10_2000gt-r	Nissan Skyline C10 2000GT-R	1	tow_bumper
+gvp	cars/nissan_skyline_enr34_gtf	Nissan Skyline 25GT-Four 4Door (ENR34)	1	tow_bumper
+gvp	cars/nissan_skyline_er34_gtt	Nissan Skyline 250GT-T 4Door (ER34)	1	tow_bumper
+gvp	cars/nissan_skyline_r32_gtr	Nissan Skyline GT-R (BNR32)	1	tow_bumper
+gvp	cars/nissan_skyline_r33_gtr	Nissan Skyline GT-R V-Spec (BCNR33)	1	tow_bumper
+gvp	cars/nissan_skyline_r34_gtr	Nissan Skyline GT-R V-Spec (BNR34)	1	tow_bumper
+gvp	cars/nissan_skyline_rv37_400r	Nissan Skyline RV-37 400R	1	tow_bumper
+gvp	cars/nissan_skyline_v35c	Nissan Skyline 350GT (V35)	1	tow_bumper
+gvp	cars/nissan_versa_n17	Nissan Versa 1.6 SV(N17)	1	tow_bumper
+gvp	cars/oldsmobile_cutlass_supreme_w	OldsMobile Cutlass Supreme coupe (W-Body)	1	tow_bumper
+gvp	cars/peel_p50	Peel P50	1	smoke
+gvp	cars/polestar2	Polestar 2 Standard Spec	1	
+gvp	cars/pontiac_bonneville_h_sse	Pontiac Bonneville SSE (H-Body)	1	tow_bumper
+gvp	cars/pontiac_gto_65	Pontiac GTO 1965(A-Body)	1	tow_bumper
+gvp	cars/porsche_911e	Porsche 911E	1	
+gvp	cars/porsche_taycan_tsc	Porsche Taycan Cross Turbo-S Turismo	1	
+gvp	cars/proton_satria_neocps	Proton Satria Neo CPS	1	tow_bumper
+gvp	cars/rollsroyce_phantom8	RollsRoyce Phantom VIII SWB	1	tow_bumper
+gvp	cars/rollsroyce_phantom8_seriesii	RollsRoyce Phantom VIII Series II	1	tow_bumper
+gvp	cars/saab_900c_turbo	SAAB 900 Turbo (Classic)	1	tow_bumper
+gvp	cars/skoda_110r	Skoda 110R Coupe	1	
+gvp	cars/ssangyong_rodius	Ssangyong Rodius	1	tow_bumper
+gvp	cars/subaru_impreza_gd_sti1	Subaru Impreza WRX STI(GD Initial Production Model)	1	tow_bumper
+gvp	cars/subaru_levorg_vn_stir	Subaru Levorg STi Sport-R (VN)	1	tow_bumper
+gvp	cars/subaru_outback_bp_25i	Subaru Outback 2.5i 2007(BP)	1	tow_bumper
+gvp	cars/subaru_outback_bp_25il	Subaru Outback 2.5i Limited 2007(BP)	1	tow_bumper
+gvp	cars/subaru_outback_bp_30r	Subaru Outback 3.0R 2007(BP)	1	tow_bumper
+gvp	cars/toyota_camry_v40ce	Toyota Camry CE (XV40 US)	1	tow_bumper
+gvp	cars/toyota_camry_v40g	Toyota Camry 2.4 G (XV40)	1	tow_bumper
+gvp	cars/toyota_carinaii	Toyota Carina II DX (AT151)	1	tow_bumper
+gvp	cars/toyota_celica_7gts	Toyota Celica ZZT231 GTS 	1	tow_bumper
+gvp	cars/toyota_celica_t185_gt4wb	Toyota Celica ST185 GT-FOUR Widebody	1	tow_bumper
+gvp	cars/toyota_celicaxx_2800gt	Toyota Celica XX 2800GT	1	tow_bumper
+gvp	cars/toyota_chaser_x100av4	Toyota Chaser Avante Four (X100)	1	tow_bumper
+gvp	cars/toyota_chaser_x100tv	Toyota Chaser Tourer V (X100)	1	tow_bumper
+gvp	cars/toyota_corolla_ae111	Toyota Corolla AE111 GLi sedan	1	tow_bumper
+gvp	cars/toyota_corolla_ae82	Toyota Corolla AE82 GT sedan	1	tow_bumper
+gvp	cars/toyota_corolla_ae86	Toyota Corolla GT-S (AE86)	1	tow_bumper
+gvp	cars/toyota_corolla_levin_ae86	Toyota Corolla Levin AE86 GT-APEX	1	tow_bumper
+gvp	cars/toyota_crown_s220_rs	Toyota Crown 3.5 RS Hybrid (GWS224)	1	tow_bumper
+gvp	cars/toyota_crown_s220_turbos	Toyota Crown 2.0 Turbo S(ARS220)	1	tow_bumper
+gvp	cars/toyota_hiace_h200lwb	Toyota HiAce Commuter(H200)	1	tow_bumper
+gvp	cars/toyota_hiace_h200lwb_l	Toyota HiAce Commuter(H200) Lefthand	1	tow_bumper
+gvp	cars/toyota_hilux_an130	2016 Toyota Hilux	1	tow_bumper
+gvp	cars/toyota_innova_an40	Toyota Innova 2.0E (TGN40)	1	tow_bumper
+gvp	cars/toyota_markii_x90_grande25	Toyota Mark II Grande 2.5 (X90)	1	tow_bumper
+gvp	cars/toyota_markii_x90_groire	Toyota Mark II Groire D (X90)	1	tow_bumper
+gvp	cars/toyota_prius_xw30	Toyota Prius XW30	1	tow_bumper
+gvp	cars/toyota_sprinter_ae86	Toyota Sprinter Trueno AE86 GT-APEX	1	tow_bumper
+gvp	cars/toyota_supra_a70	Toyota Supra A70	1	tow_bumper
+gvp	cars/toyota_supra_a80rz	Toyota Supra 3000GT-RZ(A80)	1	tow_bumper
+gvp	cars/toyota_supra_a80sz	Toyota Supra 3000GT-SZ(A80)	1	tow_bumper
+gvp	cars/vauxhall_calibra_20i	Vauxhall Calibra 2.0i	1	tow_bumper
+gvp	cars/vmc_turbotronic_2500	V.M.C 2500 Turbotronic	1	tow_bumper
+gvp	cars/vw_jetta_a5_16e	Volkswagen Jetta 1.6 FSi(A5)	1	tow_bumper
+gvp	cars/vw_jetta_a5_20gli	Volkswagen Jetta GLi Fahrenheit(A5)	1	tow_bumper
+gvp	cars/vw_jetta_a5_25	Volkswagen Jetta 2.5(A5)	1	tow_bumper
+gvp	motorcycles/kawasaki_vulcan_vn750	Kawasaki Vulcan 750	1	MOTO
+gvp	others/engine_stand	Engine stand	1	
+gvp	others/mat	Mat	1	
+gvp	trailers/trailer_long_bed	Standard Trailer Flatbed (Long)	1	trailer_fifthwheel
+gvp	trailers/trailer_long_box	Standard Trailer (Long)	1	trailer_fifthwheel
+gvp	trucks/chevrolet_npr	Chevrolet NPR 2006 [Boxtruck]	1	tow_bumper
+gvp	trucks/grumman_llv	Grumman LLV	1	
+gvp	trucks/isuzu_elf_npr	ISUZU ELF NPR 2006 [Boxtruck]	1	tow_bumper
+gvp	trucks/man_f90_1a	MAN F90 (Tractor Unit)	1	trailer_fifthwheel
+gvp	trucks/peterbilt_379	Peterbilt 379 (Aero Sleeper)	1	trailer_fifthwheel
+gvp	trucks/peterbilt_379dcl	Peterbilt 379 (LWB Daycab)	1	trailer_fifthwheel

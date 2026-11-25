@@ -1,0 +1,193 @@
+﻿[
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "server_only",
+        "id":  "8RnEiCxv",
+        "project_id":  "U9grspy8",
+        "author_id":  "TEGMoymp",
+        "featured":  false,
+        "name":  "(1.16.5-26.1) R.A.G.E 3.0 Beta 2",
+        "version_number":  "V3.0beta2",
+        "changelog":  "![beta2](https://i.postimg.cc/fT8QxwJZ/beta2-pic.png)\n**CHANGELOG:**\n\n**TWEAKS:**\n\n-Changed some prices for parts\n\n-Edited size of icons for brakes\n\n-Edited doors icons\n\n**ADDED:**\n\n-Some unreleased in previous beta tuning for Datsun 100A\n\n-A lot of tuning for Volkswagen Golf I\n\n-Sports wheel and Stock wheel, they are needed for aftermarket rims, i will add more aftermarket wheels in next betas\n\n-First aftermarket rim - TE37 with some colors, there will be even more in the future\n\n-Added cans with cupholder",
+        "changelog_url":  null,
+        "date_published":  "2026-08-13T12:54:01.327247Z",
+        "downloads":  8321,
+        "version_type":  "beta",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "it1lBuGq",
+                          "hashes":  {
+                                         "sha1":  "1d46b5e4837aa9bfdf5331f0069bd8f5534f66ec",
+                                         "sha512":  "362593b1ca8722fd58c4654cac3c8fed1e3010504b1c5a3ea82f63834298e7eb04766fd1b423f3d6a463f91bfcfa60ca6e0ad09cfccaf22956e91fc05a594ace"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/U9grspy8/versions/8RnEiCxv/R.A.G.E%203.0_beta2_1.16.5-26.1.jar",
+                          "filename":  "R.A.G.E 3.0_beta2_1.16.5-26.1.jar",
+                          "primary":  true,
+                          "size":  15129092,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1",
+                              "1.21.1",
+                              "26.1"
+                          ],
+        "loaders":  [
+                        "forge",
+                        "neoforge"
+                    ],
+        "environment":  "server_only",
+        "id":  "dAA2ZhVr",
+        "project_id":  "U9grspy8",
+        "author_id":  "TEGMoymp",
+        "featured":  false,
+        "name":  "(1.16.5-26.1) R.A.G.E 3.0 Beta 1 Hotfix",
+        "version_number":  "V3.0beta1fix",
+        "changelog":  "![beta1](https://i.postimg.cc/2SSk8gFv/r-a-g-e-beta-pic.png)\n\n**CHANGELOG:**\n\n**BUGFIXES:**\n\n-Fixed cupholder crash\n\n-Fixed reverse lights\n\n**TWEAKS:**\n\n-Suspension now works less\n\n-Changed engine gear ratios\n\n-Changed steering parameters\n\n-Increased fuel capacity\n\n-Changed icon in mods tab ingame (before it was R.A.G.E II from 2023 :skull:)",
+        "changelog_url":  null,
+        "date_published":  "2026-07-14T16:11:37.563083Z",
+        "downloads":  3285,
+        "version_type":  "beta",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "KXVvjWYY",
+                          "hashes":  {
+                                         "sha512":  "7b93c00e315419f92cb15d2d3bc30a77ab400cb93157e7ecef9622cf90baa4dd2529cac9f135bebf113b1ac2cf19ac62e24916b8da497107095e6991a6762184",
+                                         "sha1":  "13cf8da661b3c500f5786b860183b9eff843a5aa"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/U9grspy8/versions/dAA2ZhVr/R.A.G.E%203.0_beta1_hotfix_1.16.5-26.1.jar",
+                          "filename":  "R.A.G.E 3.0_beta1_hotfix_1.16.5-26.1.jar",
+                          "primary":  true,
+                          "size":  14322519,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "server_only",
+        "id":  "OeFDzqR2",
+        "project_id":  "U9grspy8",
+        "author_id":  "TEGMoymp",
+        "featured":  false,
+        "name":  "(1.20.1) R.A.G.E-V2.3",
+        "version_number":  "2.3",
+        "changelog":  "-Fixed icons",
+        "changelog_url":  null,
+        "date_published":  "2025-10-02T17:10:21.949341Z",
+        "downloads":  19058,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "9oTSGwrN",
+                          "hashes":  {
+                                         "sha1":  "43db48d0968231ed15381d42664d4493c777f9f6",
+                                         "sha512":  "8e11cf8496b9984cfe1a57e192957b7c409237f287111b00b3996f7f531604e4d12de4178f94287fd770d74e0a50c939170f2d6b14f48997810d445ad19e8bf9"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/U9grspy8/versions/OeFDzqR2/R.A.G.E-V2.3_1.20.1.jar",
+                          "filename":  "R.A.G.E-V2.3_1.20.1.jar",
+                          "primary":  true,
+                          "size":  28114264,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    },
+    {
+        "game_versions":  [
+                              "1.16.5",
+                              "1.18.2",
+                              "1.19.2",
+                              "1.20.1"
+                          ],
+        "loaders":  [
+                        "forge"
+                    ],
+        "environment":  "server_only",
+        "id":  "nAySc0re",
+        "project_id":  "U9grspy8",
+        "author_id":  "TEGMoymp",
+        "featured":  false,
+        "name":  "(1.16.5+) R.A.G.E-V2.3",
+        "version_number":  "2.3",
+        "changelog":  "-Added Fiat Tipo",
+        "changelog_url":  null,
+        "date_published":  "2025-03-09T00:08:12.493602Z",
+        "downloads":  15639,
+        "version_type":  "release",
+        "status":  "listed",
+        "requested_status":  null,
+        "files":  [
+                      {
+                          "id":  "MiMdFCh6",
+                          "hashes":  {
+                                         "sha1":  "023eaaa1d73a2ac9b9510608ecc8c8f000fc1a72",
+                                         "sha512":  "42e91de06cc3916afba7c1662d23819b152f2ad08edee09811244fc65af02ba8426deb596385b0bbbce74eeaa3c276ea552acb44f8c37994cf6fafd7e868bba5"
+                                     },
+                          "url":  "https://cdn.modrinth.com/data/U9grspy8/versions/nAySc0re/R.A.G.E-V2.3_1.16.5.jar",
+                          "filename":  "R.A.G.E-V2.3_1.16.5.jar",
+                          "primary":  true,
+                          "size":  27819462,
+                          "file_type":  null
+                      }
+                  ],
+        "dependencies":  [
+                             {
+                                 "version_id":  null,
+                                 "project_id":  "BCzBuhJ5",
+                                 "file_name":  null,
+                                 "dependency_type":  "required"
+                             }
+                         ]
+    }
+]

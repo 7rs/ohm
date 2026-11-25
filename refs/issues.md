@@ -4,7 +4,7 @@ Problems found so far in installed mods. Status: `open` is known and unresolved,
 
 ## General
 
-- Nothing was tested in-game, and no FPS or TPS was measured. Measure with `spark` before tuning further. (`unverified`)
+- Nothing was tested in-game, and no FPS or TPS was measured. Measure with `spark` before tuning further. The procedure is in `docs/benchmark.md`; spark is not in the pack and goes only into a test instance. (`unverified`)
 - Source or jars were read only for Distant Horizons, Chloride, Solix, Immersive Optimization, Entity Culling, Gnetum, Kerria, Ixeris, Harium, ModernFix and Embeddium (not the exact pinned tag). The defaults of ImmediatelyFast, BadOptimizations, AI Improvements, Clumps, Let Me Despawn, Dynamic FPS, Oculus and Optimized Block Entities rest on the authors' descriptions. (`unverified`)
 - Read for the 2026-11-22 additions: FastSuite (branch 1.20 source, top of changelog is 5.1.2), Weather Refined (Forge 1.20.1 source), CreateBetterFPS (`mods.toml` and mixin config of the pinned jar), ModernFix 5.27.91 (pinned jar: `dynamic_dfu` is on by default and `config/modernfix-mixins.properties` does not override it). The effect of every added mod is not measured. (`unverified`)
 - Memory and JVM arguments cannot ship in an `.mrpack`. Set them in the launcher. (`by design`)

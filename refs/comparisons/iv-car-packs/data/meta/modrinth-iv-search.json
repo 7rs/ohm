@@ -1,0 +1,2108 @@
+﻿[
+    {
+        "project_id":  "BCzBuhJ5",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "immersive-vehicles",
+        "author":  "Mr_Mulle",
+        "author_id":  "YIUsTVQp",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Immersive Vehicles",
+        "description":  "Library for realistic cars, planes, decor, and guns for Minecraft!",
+        "categories":  [
+                           "decoration",
+                           "equipment",
+                           "food",
+                           "forge",
+                           "game-mechanics",
+                           "neoforge",
+                           "storage",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  903520,
+        "follows":  306,
+        "icon_url":  "https://cdn.modrinth.com/data/BCzBuhJ5/46b075dd39cd6d6164ca23069cda321d9c1ac367_96.webp",
+        "date_created":  "2023-04-20T17:53:54.663602+00:00",
+        "date_modified":  "2026-05-31T19:24:32.986476+00:00",
+        "latest_version":  "xBHmZvmC",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/919907125cb29e120ec69ba83fe318868c050251_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/5c2f9aba3b52094121f66d6c392a517754e81367_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/b769ff1855a28280e5ed52b65e27b66eb29813de_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/f87be3d5662f934bfb38aad346b6685ec1d4ec1e_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/4de3ad7877c09c4e7114428b01e16385b7750a2a_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/75206c15203cd30ec6cb224e27523e1bee412584_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/4dc563ede70c7b55f8c29d5bcffe846ad3b4f827_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/5f13047596e0798692ba68f42182dffc62c0c943_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/595aef873ea31018db4f357aa351bc64294c9d1b_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/1253f041e59f772a1c99ac55ab5d103abe0220ba_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/7a4152fbe54e08ccf5ceeaf5a50e89eca30d8f4a_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/49a4645a1d7b8721cb1e56e7462592962f07c890_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/9eb7dd9f9c1c4317e877ab7c02881230ce4a2e84_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/870379d8b7ba84654bde3872ca7e5f8248e8ab44_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/75bbb2f63814aeafd695cbfbe2d689dc1a9508b2_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/b579921c2839f04ee36523527f5238c5789a8219_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/ecd3293738c650bab8e742884e28003f72652a09_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/6821735ea19e6e4af92a77c735ed8c1f5ef824ae_350.webp",
+                        "https://cdn.modrinth.com/data/BCzBuhJ5/images/bd359675d138273d39c015ead034b4a00832652d_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/BCzBuhJ5/images/a6be29c56400d778b8edbacc5d2a7960c032a78f_350.webp",
+        "color":  3491103
+    },
+    {
+        "project_id":  "C7TiPPJz",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "immersive-vehicles-official-content-pack",
+        "author":  "Mr_Mulle",
+        "author_id":  "YIUsTVQp",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Immersive Vehicles - Official Content Pack [OCP] - Planes \u0026 Cars",
+        "description":  "Official Content Pack with planes, cars, tanks, helicopters and trucks for the Immersive Vehicles mod!",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation",
+                           "utility"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation",
+                                   "utility"
+                               ],
+        "versions":  [
+                         "1.12",
+                         "1.12.1",
+                         "1.12.2",
+                         "1.16",
+                         "1.16.1",
+                         "1.16.2",
+                         "1.16.3",
+                         "1.16.4",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  611550,
+        "follows":  223,
+        "icon_url":  "https://cdn.modrinth.com/data/C7TiPPJz/f988e76b9d31daae0b2b3a8fcafd37cb220f4bb3_96.webp",
+        "date_created":  "2023-04-09T08:11:20.953526+00:00",
+        "date_modified":  "2026-04-18T23:16:36.685782+00:00",
+        "latest_version":  "PNN5h914",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/2258ffff6152a190cb2014c0868fd15575c7901c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/3e982b71b5b9d1711a01fd4d30ae1795421e61ff_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/ea5e99ab70468a5e70288a5a0d4e6307b67290e8_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/2a332b84c242488c9f326d4f63a53b61719fbece_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/f67826232b351f53881bc138c949003aaf6ebdee_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/d1fcc84f9f47586940140c2f215e4edf0f2a4559_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/6229b859cecc016dc720dec0827c0c1df57ca965_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/88e9644bbce233e508dca7e3a702490727e3e43c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/8daec397d6bc946d12d99902dca998325577f69e_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/66486d23f8c3eb75206dac89252acbd92ae682ac_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/69ccf8afe6220eda8dbdf807b133a03c611dd8d5_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/84bfeb30445be47e5aaed4a460ff64cf6e03ce12_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/0303d032883879093e54568db3a1479320cb46f7_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/d5f6bfdadabd99e28594830a55eaf3f1ac40f93c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/a4f5b194eb1caafbf91eabd468cdea34543e38b1_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/3bf0eb35e4f41d667a5ec0ba87c38ff9eeefa1f2_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/352e35fa09777becf00f1d6bd1c091ef486bb32c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/52e17d76ffe9ea29c6ce21fc0fdd3dd270d177f8_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/f5863214ac9da2c9a95d47fbdb1aa4e25efa82c6_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/9d7da9b6d90b6f20dad54ae49aaaa52e05278cd5_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/1d811758439e5ec0390ca91c31d1775d159dffc1_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/1194ffe235fb0c6b9b2977fc7f79f9c207eba481_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/7defca0f77a20c9c5c4ef82d4100fd8157993711_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/26eb719fa88f0ed4d5cb4deb9f902c7cee1e75c0_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/4f8bf20a84190c7a33b0d131abc8f5f95c8e17e6_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/252f4d4f601a07d5d9c0d4f516dd19d3e0a19bc4_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/2dc9eb573324b19158f766ce1271cc12a91f8023_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/b15d0419c25c35d1632adb3fac7546670dc771f8_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/55881ac0854714c20ee663e8e68e71d952f0425b_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/822e8f31b056352a1650afa1e0410ac4e9e001d3_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/311f581f3757c5e6bf123a23365a638f5c30f9e2_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/cefa9214253cc3746c7821189df60435cd5893c0_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/21a9fdd4f5ada5145eb7952d8ffdd040e1c5d16c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/d1d1bc385e07582f9eb2c7068f504834df690860_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/539e728c5328a80cf5793bd9a2fc5dc2b75126b3_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/4241b43cd0e256480b29d771f7bd0e08d9451f8c_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/4c0cff97b5bcf3efc880d5ab08b66deb9a7cb8ec_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/97cd64475768d6d74fb97ef09846b5e1c1971431_350.webp",
+                        "https://cdn.modrinth.com/data/C7TiPPJz/images/42f3e80903e0030b2287fa58b61973ebc1fd27d2_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/C7TiPPJz/images/72acaa67783eec04ad827730f3e48fee896745a9_350.webp",
+        "color":  2955038
+    },
+    {
+        "project_id":  "qqbbPaeB",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "unu-parts-pack",
+        "author":  "DrprofLuigi",
+        "author_id":  "R1flRC1I",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "UNU Parts Pack [MTS/IV]",
+        "description":  "A Quality Parts Library for various vehicle-based packs for MTS.",
+        "categories":  [
+                           "decoration",
+                           "forge",
+                           "library",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "forge",
+                                   "library",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.19.3",
+                         "1.19.4",
+                         "1.20.1",
+                         "1.20.2",
+                         "1.20.3",
+                         "1.20.4",
+                         "1.20.5",
+                         "1.20.6",
+                         "1.21.1",
+                         "1.21.10",
+                         "1.21.11",
+                         "1.21.2",
+                         "1.21.3",
+                         "1.21.4",
+                         "1.21.5",
+                         "1.21.6",
+                         "1.21.7",
+                         "1.21.8",
+                         "1.21.9"
+                     ],
+        "downloads":  162588,
+        "follows":  8,
+        "icon_url":  "https://cdn.modrinth.com/data/qqbbPaeB/d37fff1a930f95420dd2ae2b1182592005cff786_96.webp",
+        "date_created":  "2023-07-09T03:32:46.668342+00:00",
+        "date_modified":  "2026-11-12T00:24:28.605739+00:00",
+        "latest_version":  "fgyPi6I9",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/qqbbPaeB/images/cfe5458acdf8980ca0881d2cc7ee8f9317a0a37f_350.webp",
+                        "https://cdn.modrinth.com/data/qqbbPaeB/images/c05e26017dba5ebe26cc6bc454952fb5ebf6f66f_350.webp",
+                        "https://cdn.modrinth.com/data/qqbbPaeB/images/356eaed97de7c33f29b53e6bc7bf0c9eab6e8c5e_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/qqbbPaeB/images/7f06ea3392c7ad250593aa7d10d73dd2ba26370c_350.webp",
+        "color":  306348
+    },
+    {
+        "project_id":  "OP76SB7W",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "immersive-vehicles-official-automobile-pack",
+        "author":  "Mr_Mulle",
+        "author_id":  "YIUsTVQp",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "IV - Official Automobile Pack [OAmP] - Cars \u0026 Sport Cars",
+        "description":  "An expansion pack for Immersive Vehicles, focussing on adding various vanilla styled cars, both old and new cars!",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation",
+                           "utility"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation",
+                                   "utility"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  145133,
+        "follows":  76,
+        "icon_url":  "https://cdn.modrinth.com/data/OP76SB7W/7a54343f183fd65069ad268774aac1ab62d31766_96.webp",
+        "date_created":  "2025-12-14T03:10:28.723184+00:00",
+        "date_modified":  "2026-04-16T03:23:06.703097+00:00",
+        "latest_version":  "Er1webCv",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/ee85beb0b47eb7d70167783ebcdf830838ccbb27_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/60a9641dbe1c4d67712e73d5ce459e28474b8eb9_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/6b135f6cb658ad3471d130dcb7f8954faf7859aa_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/2953ec6cfb415b20caaafac96fec299ee714f5eb_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/42b6ffe74e0cbb1feefda3108fff9f27a82bfd0b_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/817da3cdb51b7b58a02616a49bf1fa7cdeef2a10_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/dd3f44e870a1490e874ac6b67a40a9a0fa07a413_350.webp",
+                        "https://cdn.modrinth.com/data/OP76SB7W/images/f3af399834faef0f658a4de85f7a4f0e62360224_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/OP76SB7W/images/4f8bd8886b5f1e89b78484ab92ed284ba511e100_350.webp",
+        "color":  3166060
+    },
+    {
+        "project_id":  "ZEuuehCF",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "ivmts-q.m.p-qawsed-military-pack",
+        "author":  "ritpennachio",
+        "author_id":  "ivBnscLN",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[IV/MTS]Q.M.P [Qawsed Military pack]",
+        "description":  "Military vehicles content pack.",
+        "categories":  [
+                           "equipment",
+                           "forge",
+                           "game-mechanics",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "equipment",
+                                   "forge",
+                                   "game-mechanics",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  89081,
+        "follows":  34,
+        "icon_url":  "https://cdn.modrinth.com/data/ZEuuehCF/442599e8973e801071b710ac1070a3c8c7862fd7_96.webp",
+        "date_created":  "2025-09-27T22:35:33.875736+00:00",
+        "date_modified":  "2026-08-31T21:33:34.584640+00:00",
+        "latest_version":  "zft0KUAD",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "unsupported",
+        "environment":  [
+                            "client_only"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/03c02588301e1faa21878b777bc0b67bd0ecf84c_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/da12f10a0106cfc2ab23257ed69d27be76d73f89_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/516a43dbb09df51d797ad1cf9c15550a7db6d34b_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/5e1cd3ad04b2167fb0065a8912c7d745bfe8531b_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/2cf2d3424a1dfc34b3deef79b765cd5962b443dc_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/e01016288ba91a185ec8ed57f48d50c88ab71875_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/da3dab09f7053ea755b061f68b286e61f38dac42_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/90e37502e1125f308b8096e2772b22e1590ad5bc_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/f2dfa2b09bed4acb70b308e8ae79f5edd25f7e4d_350.webp",
+                        "https://cdn.modrinth.com/data/ZEuuehCF/images/802fcc18edcd11590d10678157dc286021af5d56_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  5591860
+    },
+    {
+        "project_id":  "x99uA7Bu",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "iav",
+        "author":  "Franz_Junker",
+        "author_id":  "d6GLzHDw",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[Immersive Vehicles] IAV Parts pack",
+        "description":  "The Industrial Association of Vehicle Manufacturers is a collaborative parts pack for Immersive vehicles, adding a wide array of parts, and unique crafting with custom recipies for Immersive Engineering.",
+        "categories":  [
+                           "forge"
+                       ],
+        "display_categories":  [
+                                   "forge"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  85475,
+        "follows":  3,
+        "icon_url":  "https://cdn.modrinth.com/data/x99uA7Bu/33f56c7a566aa816dff4f0c1a7b23b502806d58f_96.webp",
+        "date_created":  "2025-10-15T20:35:46.139816+00:00",
+        "date_modified":  "2025-10-09T22:18:08.578268+00:00",
+        "latest_version":  "OqHpsCYj",
+        "license":  "CC-BY-4.0",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  9190460
+    },
+    {
+        "project_id":  "BPmM9RTx",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "veb-aws",
+        "author":  "Franz_Junker",
+        "author_id":  "d6GLzHDw",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[Immersive Vehicles/IV/MTS] VEB Automobilwerke Schwikau",
+        "description":  "This is an extention to Immersive Vehicles, working to add (mostly) soviet-era vehicles.",
+        "categories":  [
+                           "decoration",
+                           "equipment",
+                           "forge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "equipment",
+                                   "forge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  82973,
+        "follows":  19,
+        "icon_url":  "https://cdn.modrinth.com/data/BPmM9RTx/ea59285087e99bfe8c326b9049a46e764ca0afe5_96.webp",
+        "date_created":  "2025-10-15T20:36:41.086661+00:00",
+        "date_modified":  "2025-10-09T21:47:14.765808+00:00",
+        "latest_version":  "lUAacLNx",
+        "license":  "CC-BY-4.0",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/da4f120508e76cca4be13d46a8d174049e70eb9a_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/47d8dcfe4e82ca2e0a2b66a0c80edf51fc17228c_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/47424cce3db4bc28945748d88e7602effcf15631_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/ce19de9d12f4305b7587c47097e0be4e1928b9a6_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/332d17e0fc60b9ba6cc5ba6da17b4abd29811336_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/520b775d509681aa0c1cc101d7703d1e84b688d5_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/d5231166421cfb162d8af185e68693e6798e2a40_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/24efebf845d1de51191913d8c5ade0753940289c_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/62252cfa4a60653370c26ff720a8b9b7457e09e4_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/05db9e7bb13e970cc3a5096da81cf15432621bdc_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/a15e5cefa7d8bc67f2f10815c04447d65c245b49_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/2ebcd15723c49226537e08e40cdc67fbff1dbd63_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/37a2923c3f044a528ea43d5208f4e1d75038fcba_350.webp",
+                        "https://cdn.modrinth.com/data/BPmM9RTx/images/fa7e73d1b86dc3393551b56cf480182c31e82925_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/BPmM9RTx/images/a3f8c7bc2e32cb7015435b5f02ec3eb4789e1520_350.webp",
+        "color":  4076849
+    },
+    {
+        "project_id":  "POSZjYIb",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "unu-civilian-pack",
+        "author":  "DrprofLuigi",
+        "author_id":  "R1flRC1I",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "UNU Civilian Pack [MTS/IV] [IR]",
+        "description":  "Quality Civilian cars, trucks, trains, and planes from UNU!",
+        "categories":  [
+                           "decoration",
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.19.3",
+                         "1.19.4",
+                         "1.20.1",
+                         "1.20.2",
+                         "1.20.3",
+                         "1.20.4",
+                         "1.20.5",
+                         "1.20.6",
+                         "1.21.1"
+                     ],
+        "downloads":  74199,
+        "follows":  17,
+        "icon_url":  "https://cdn.modrinth.com/data/POSZjYIb/140f8997a4e0d3c8082489ef1fe358dbacc4b0fd_96.webp",
+        "date_created":  "2023-07-09T03:33:15.919023+00:00",
+        "date_modified":  "2026-11-12T00:25:05.789357+00:00",
+        "latest_version":  "KG1Ys1x2",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/POSZjYIb/images/cf9b19194cb584740d4a2be81eb2e5d00350f5ff_350.webp",
+                        "https://cdn.modrinth.com/data/POSZjYIb/images/43863488c89469cd3d3a9697aa1f780ba58df506_350.webp",
+                        "https://cdn.modrinth.com/data/POSZjYIb/images/881843cf2086651a7c7442a7499af11fa1a225a6_350.webp",
+                        "https://cdn.modrinth.com/data/POSZjYIb/images/8092f6e8ee162a486f0270c51aa36e568d3c1b5b_350.webp",
+                        "https://cdn.modrinth.com/data/POSZjYIb/images/c215b1a16ba07e7df68ccdd968a4c8f567a4e74b_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/POSZjYIb/images/6ba5079c71adef936c439a747562caebf7d5f569_350.webp",
+        "color":  8524308
+    },
+    {
+        "project_id":  "n1cr3YKZ",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "gt-craft-ivmts",
+        "author":  "VellEagle",
+        "author_id":  "LZ4UzbMg",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "GT CRAFT [IV/MTS]",
+        "description":  "Content pack to add 90\u0027s sports cars.",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1"
+                     ],
+        "downloads":  66505,
+        "follows":  43,
+        "icon_url":  "https://cdn.modrinth.com/data/n1cr3YKZ/99cb7ff81dcb7c76c4a64465cb92e89e39689b49_96.webp",
+        "date_created":  "2023-12-26T23:35:57.542184+00:00",
+        "date_modified":  "2026-10-15T17:32:49.896573+00:00",
+        "latest_version":  "ssj2yoeI",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/8070bcb9a70919f91e94d5305e3cbe572df036f3_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/4aab06a67407a9d5af30329849ccfd271523b68a_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/c9a3043c32df515b30f881f0452cdd0f5fadb47f_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/1e0a6ee7cbb075734e367059019fada2df9a5675_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/50ad78d891e087f3606da08558a23971f9a8a33c_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/e4bb977a4ef0f845709f3376356c8c3bde145a9c_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/69059987d6aea48546d6562c67f94e0865006138_350.webp",
+                        "https://cdn.modrinth.com/data/n1cr3YKZ/images/34c904df1268eda0f44c5e0073dab655fe320c4f_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/n1cr3YKZ/images/108d3979965b338a1329333a1998a3bdd03b1e11_350.webp",
+        "color":  263172
+    },
+    {
+        "project_id":  "pRywjJox",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "unu-military-pack",
+        "author":  "DrprofLuigi",
+        "author_id":  "R1flRC1I",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "UNU Military Vehicles [MTS/IV] [IR]",
+        "description":  "Quality Military Trucks, Planes, and Weapons!",
+        "categories":  [
+                           "decoration",
+                           "equipment",
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.19.3",
+                         "1.19.4",
+                         "1.20.1",
+                         "1.20.2",
+                         "1.20.3",
+                         "1.20.4",
+                         "1.20.5",
+                         "1.20.6",
+                         "1.21.1",
+                         "1.21.10",
+                         "1.21.11",
+                         "1.21.2",
+                         "1.21.3",
+                         "1.21.4",
+                         "1.21.5",
+                         "1.21.6",
+                         "1.21.7",
+                         "1.21.8",
+                         "1.21.9"
+                     ],
+        "downloads":  54502,
+        "follows":  8,
+        "icon_url":  "https://cdn.modrinth.com/data/pRywjJox/f72677bebf97ae9b3bd8da5dd0cb2b0a7ee3f146_96.webp",
+        "date_created":  "2024-03-24T06:37:04.390132+00:00",
+        "date_modified":  "2026-11-12T00:25:20.375305+00:00",
+        "latest_version":  "wxCbRwZT",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server",
+                            "client_or_server_prefers_both"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/pRywjJox/images/d564a37434f70e76af1b11e7107ab1211cf143c6_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  1908752
+    },
+    {
+        "project_id":  "Dr4Ms3g7",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "pwic",
+        "author":  "YUHANteam",
+        "author_id":  "5S0UEZbZ",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[IV/MTS] P:WIC [Project: World in Conflict]",
+        "description":  "Military vehicles content pack.",
+        "categories":  [
+                           "equipment",
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "equipment",
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  53870,
+        "follows":  17,
+        "icon_url":  "https://cdn.modrinth.com/data/Dr4Ms3g7/f7fb502e43abf05a001173be59120cb2ef1070f7_96.webp",
+        "date_created":  "2025-05-11T16:54:39.413209+00:00",
+        "date_modified":  "2026-08-01T18:57:21.124200+00:00",
+        "latest_version":  "tP3lLjfi",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/Dr4Ms3g7/images/967d9fff855783a4a20f935cc87da4b8098a2051_350.webp",
+                        "https://cdn.modrinth.com/data/Dr4Ms3g7/images/c5eac7e0091f6efc65e13fad12835b0a36a9e1bb_350.webp",
+                        "https://cdn.modrinth.com/data/Dr4Ms3g7/images/9da462339772be18dbbe8d641ab4e13fa1eb7dae_350.webp",
+                        "https://cdn.modrinth.com/data/Dr4Ms3g7/images/427d7a050e1463da2a17ea6465402a17277a6cdf_350.webp",
+                        "https://cdn.modrinth.com/data/Dr4Ms3g7/images/38df77a55e72fac55669bf6922c5c17cf516dc67_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  2892066
+    },
+    {
+        "project_id":  "U9grspy8",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "immersive-vehicles-r.a.g.e",
+        "author":  "viktorwood",
+        "author_id":  "TEGMoymp",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[Immersive Vehicles] R.A.G.E - Best cars to drive!",
+        "description":  "A pack that will add different cars to your Minecraft",
+        "categories":  [
+                           "equipment",
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "equipment",
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1"
+                     ],
+        "downloads":  53016,
+        "follows":  28,
+        "icon_url":  "https://cdn.modrinth.com/data/U9grspy8/59aa09e34337854d240f49ba54fb6424badd9dc6_96.webp",
+        "date_created":  "2023-06-09T16:47:20.488383+00:00",
+        "date_modified":  "2026-08-13T12:54:00.380450+00:00",
+        "latest_version":  "8RnEiCxv",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "unsupported",
+        "server_side":  "required",
+        "environment":  [
+                            "server_only"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/U9grspy8/images/d2a9f8514a8b13cf236e3c4fcaa1f442231a2927_350.webp",
+                        "https://cdn.modrinth.com/data/U9grspy8/images/62da9516e7eda9015f925a16027e3612dbfdd7ab_350.webp",
+                        "https://cdn.modrinth.com/data/U9grspy8/images/84a9a7466a1283c4ac6a84834cee0a251b80b31a_350.webp",
+                        "https://cdn.modrinth.com/data/U9grspy8/images/f0336134803c54c6af2a550beb1b0ba281c611c8_350.webp",
+                        "https://cdn.modrinth.com/data/U9grspy8/images/ba60d592d5138e022bf785563d7c0e50460ed2d2_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  460551
+    },
+    {
+        "project_id":  "sxgM8KDu",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "cmatransportpack",
+        "author":  "mrrolmine",
+        "author_id":  "JE8vOQ0m",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "C.M.A [Immersive Vehicles/IV/MTS] Citizens Military Aviation Tra",
+        "description":  "Pack for Immersive vehicles for version 1.12.2 1.16.5 1.20.1 adding military and civilian equipment, cars, planes, helicopters, motorcycles, bicycles, EVERYTHING you want!",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  51878,
+        "follows":  25,
+        "icon_url":  "https://cdn.modrinth.com/data/sxgM8KDu/e14e8b90e113534b5b03f6a4b365b232b43115c1_96.webp",
+        "date_created":  "2026-04-12T21:45:24.312440+00:00",
+        "date_modified":  "2026-04-18T05:32:10.197161+00:00",
+        "latest_version":  "CRqzudD6",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/82cac82a2470129577b1f275360d4831cba65126_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/55874bd5c7537cd46618b19908a80485929a5872_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/43c3ad25f4a941bfd4f2cd5e95567f1ddbe538b5_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/52bbd9f98494a4d7e3caf4b928b14fff13270448_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/8589fdb127aaeeacb8f3585e694d45b69105a021_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/7b0e8fb7231254e50d4ed983f3bb3c4841fb777b_350.webp",
+                        "https://cdn.modrinth.com/data/sxgM8KDu/images/9f194dbb9ba33c28ecd55252b961ecb2e06a4dce_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  5337531
+    },
+    {
+        "project_id":  "BZQyVKg6",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "saltyfish-vehicle",
+        "author":  "saltyfish",
+        "author_id":  "742gYt1j",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "SaltyFish Vehicle [Immersive Vehicles content pack]",
+        "description":  "an addon pack for immersive vehicle",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  35887,
+        "follows":  20,
+        "icon_url":  "https://cdn.modrinth.com/data/BZQyVKg6/918b1dd1fe4e043e69f43af59544b1bf7d694d8b_96.webp",
+        "date_created":  "2024-09-15T18:08:07.116497+00:00",
+        "date_modified":  "2026-04-13T13:42:35.922550+00:00",
+        "latest_version":  "rUUz9G1n",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/BZQyVKg6/images/4247efc2a299576649dabda9bbdb8b3e51639f37_350.webp",
+                        "https://cdn.modrinth.com/data/BZQyVKg6/images/94b8ccb1a3a3ea8e250c80a31ef68e25290163c2_350.webp",
+                        "https://cdn.modrinth.com/data/BZQyVKg6/images/bdc0ba827a8d8b91af051f61fb0e9a868138d094_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  5198415
+    },
+    {
+        "project_id":  "FHUQMszP",
+        "project_type":  "modpack",
+        "all_project_types":  [
+                                  "modpack"
+                              ],
+        "slug":  "superb-warfare-expanded",
+        "author":  "simonhorak",
+        "author_id":  "WXVUQv8M",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Superb Warfare expanded",
+        "description":  "Modern military modpack featuring realistic guns, vehicles, helicopters, tanks, and immersive tactical combat.",
+        "categories":  [
+                           "adventure",
+                           "challenging",
+                           "combat",
+                           "forge",
+                           "multiplayer",
+                           "neoforge",
+                           "technology"
+                       ],
+        "display_categories":  [
+                                   "combat",
+                                   "multiplayer",
+                                   "technology"
+                               ],
+        "versions":  [
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  27632,
+        "follows":  9,
+        "icon_url":  "https://cdn.modrinth.com/data/FHUQMszP/2605d7a347e0e66f1a1220ecd8a93d0a1a75db73_96.webp",
+        "date_created":  "2026-05-28T18:58:59.261357+00:00",
+        "date_modified":  "2026-11-16T14:41:58.429653+00:00",
+        "latest_version":  "nsiqIEOO",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "unsupported",
+        "environment":  [
+                            "client_only"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/2170f0c7ed2e5b3d9dc90f5cc556bd655ce7990c_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/12a1ad988c40f7f2b22df2c468ffcfeefce6ae90_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/588379b3ceef9ec667c7f27bb98da779d3bf3954_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/dda7437c335e29fe81349d23aa7c90cb66d7432e_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/d2d114921221590bf09850026fb441f54d11470c_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/0809ff5926d0a9719b1c2699714f3c0a0c86e219_350.webp",
+                        "https://cdn.modrinth.com/data/FHUQMszP/images/b24d403d51898c766714b4a7c18f5d76bc8f94e6_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/FHUQMszP/images/b42b260b6a521a51f787ea3438220e37c2719ae7_350.webp",
+        "color":  12108482
+    },
+    {
+        "project_id":  "JBfHPeZC",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "svmp",
+        "author":  "Sph4se",
+        "author_id":  "QOD2Xv35",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[MTS/IV] Sphase Vehicle Mashup Pack (SVMP)",
+        "description":  "A bunch of random vehicles with fun customization and functionalities.",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation",
+                           "utility"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1"
+                     ],
+        "downloads":  24601,
+        "follows":  10,
+        "icon_url":  "https://cdn.modrinth.com/data/JBfHPeZC/b8de75bcd5e7304f8cfbbc3b4417e37c81577d58_96.webp",
+        "date_created":  "2023-06-10T22:17:22.138580+00:00",
+        "date_modified":  "2026-04-16T21:08:32.476680+00:00",
+        "latest_version":  "LKA6xzYY",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/b48ae5412217d5f78f15134c7081e5aee2141e60_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/74b1069b7f51dd931688cd03039f58c67531bd81_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/0a2e13f5498b9abe90d4618cbbcfbbe876821e2f_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/28b98681f4f565274ff910f1c8300451d25cc604_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/09f44467f86909db39bf3cc1cda7e9addfef086e_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/5d81b6e9ba9e431b1a78b138b7fdf9658fd262e8_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/8e467064327ddb28e41c843d6d8ac6d6edff9f7c_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/b54c0bdc24af5079bc73ddebae5c5d3e7765ec15_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/c0f0f0115c885ae52e88b122e5ca7b99218c6314_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/12110ff5787146414c83bf7b0fa415a87a45bbb5_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/7c82d466ec0e4005d10604681dcd4c184f6c4926_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/cf792bc9a1ad4acbf26b2eaa3e64c001bf3d76ac_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/6be2f0e9da4e497902d559c8d914c0d4d5d4d342_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/a2ec10b601617967518987bdb2a5eb0c5fb1db01_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/ca48d1a23563919b51f5ed87455f01044b11a18b_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/6358bd777cebe403ffe862779350adc2ba6a8060_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/1fa2cab71d0a7c0f344b44b94fe42834768a2523_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/aa0e20368b37d306f5c9fb0df00784fbc35c33b2_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/cfbe6eefb07bdd86c80cd13a046fc0421e0f70be_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/be3cfb5ad820ee3f0f1a3b55443153f6f1d9a6af_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/48d756f46ec9f2bffdaf4c42098f651b95784082_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/96f976fd318a6f1c2840b715725dda7e76fe651f_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/f54d7cb7f96d7379a35cbe016fb2739942715ff6_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/ee304a3f9b4889400d94020d6229825c7777f62f_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/48c261a6f29f3eba0e3e526b33a2b6437616685f_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/e6419d659789342998365ae4403ad7e4769b4062_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/9a3f6e621a7d426e427dca6bbe36097d9e7581c6_350.webp",
+                        "https://cdn.modrinth.com/data/JBfHPeZC/images/0baa37f67838b3ed0bc58f0b7906b4b966b997e2_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/JBfHPeZC/images/475c6ed3c9e16d70802e60a9aa5c351ff8a7eedb_350.webp",
+        "color":  1462651
+    },
+    {
+        "project_id":  "tlgmtCcj",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "acme-heavy-industries-pack",
+        "author":  "con_man180",
+        "author_id":  "4dxOM2hE",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[MTS/IV]ACME Heavy Industries Pack",
+        "description":  "A pack for Immersive Vehicles aimed at developing cutting edge vehicles",
+        "categories":  [
+                           "forge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "technology",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  21231,
+        "follows":  2,
+        "icon_url":  "https://cdn.modrinth.com/data/tlgmtCcj/8b8b1d0fc63b8d527c3a6cf8bafb4c5b513d7aef_96.webp",
+        "date_created":  "2025-06-25T12:11:59.125791+00:00",
+        "date_modified":  "2025-08-25T03:43:41.470169+00:00",
+        "latest_version":  "gj1ddmO8",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/tlgmtCcj/images/c325661026c189805f82d1ca2543ba19ac910b13_350.webp",
+                        "https://cdn.modrinth.com/data/tlgmtCcj/images/0d55c3da35293ccbd169991eb235dc61e5159174_350.webp",
+                        "https://cdn.modrinth.com/data/tlgmtCcj/images/aa2b02db2619ac25e76a687ee3e94d3647eba716_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  8618883
+    },
+    {
+        "project_id":  "LNXUISCr",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "repaircarpack",
+        "author":  "mrrolmine",
+        "author_id":  "JE8vOQ0m",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Repair Car Pack [Immersive Vehicles/IV/MTS]",
+        "description":  "Pack for Immersive vehicles for Customize your car however you like, with a wide range of tuning and parts available!",
+        "categories":  [
+                           "forge",
+                           "neoforge"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  16513,
+        "follows":  14,
+        "icon_url":  "https://cdn.modrinth.com/data/LNXUISCr/ffceaf4bf842f940a77dbd1f9c624c0fe89341a2_96.webp",
+        "date_created":  "2026-04-12T21:45:05.860722+00:00",
+        "date_modified":  "2026-04-18T05:29:43.548462+00:00",
+        "latest_version":  "4w6gstBi",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/LNXUISCr/images/893ef72e365164006a2490e74f05ea7a5866745d_350.webp",
+                        "https://cdn.modrinth.com/data/LNXUISCr/images/a960758acf2acc35b83ac80c4348908023912c90_350.webp",
+                        "https://cdn.modrinth.com/data/LNXUISCr/images/eb14279922a520652b5164041969b80aff4ae9fd_350.webp",
+                        "https://cdn.modrinth.com/data/LNXUISCr/images/46e028ea9ba60fcea40fe3f7b6f6dd1eb8f5b78f_350.webp",
+                        "https://cdn.modrinth.com/data/LNXUISCr/images/4777acef2f96328af28cac63af44e70c97c37200_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  1576468
+    },
+    {
+        "project_id":  "CZ3ufQOG",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "vells-modern-warfare-ivmts",
+        "author":  "VellEagle",
+        "author_id":  "LZ4UzbMg",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Vell\u0027s Modern Warfare [IV/MTS]",
+        "description":  "IV/MTS Military content pack focusing on modern weapons by VellEagle.",
+        "categories":  [
+                           "equipment",
+                           "forge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "equipment",
+                                   "forge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  11321,
+        "follows":  11,
+        "icon_url":  "https://cdn.modrinth.com/data/CZ3ufQOG/43a74bb2a7bfb8cd91a031c2ec3ef57890124bff_96.webp",
+        "date_created":  "2025-10-01T00:53:25.959452+00:00",
+        "date_modified":  "2025-12-06T05:27:26.062458+00:00",
+        "latest_version":  "uZrNb7ly",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/CZ3ufQOG/images/310fee9a5ba95b6f71e78ce5e41d5a61f20dc3b6_350.webp",
+                        "https://cdn.modrinth.com/data/CZ3ufQOG/images/22b58d20e892b1bd0d72f070a412a35d76905c67_350.webp",
+                        "https://cdn.modrinth.com/data/CZ3ufQOG/images/3873c7c5182a2f0aa9e066a15283fd9405aa9b0f_350.webp",
+                        "https://cdn.modrinth.com/data/CZ3ufQOG/images/b9b4a4604dec79f74d744d89e8d8c09678c7455e_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/CZ3ufQOG/images/21f5c33303d2ddcc22c53a6f6751b6b0bd3a8823_350.webp",
+        "color":  263172
+    },
+    {
+        "project_id":  "mKIWBS44",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "trin-civil-pack",
+        "author":  "TheOddlySeagull",
+        "author_id":  "QDW5g9Oa",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Trin Civil Pack - Cars and Trucks for Immersive Vehicles",
+        "description":  "Adds custom cars, trucks, race cars, and more to minecraft!",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  10953,
+        "follows":  6,
+        "icon_url":  "https://cdn.modrinth.com/data/mKIWBS44/8054fdc091e75973eb4d404b53ef70910697611c_96.webp",
+        "date_created":  "2026-04-24T01:59:17.883753+00:00",
+        "date_modified":  "2026-04-07T15:22:06.588214+00:00",
+        "latest_version":  "VIkviytB",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  10727084
+    },
+    {
+        "project_id":  "aSL6bezT",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "one-in-the-chamber",
+        "author":  "cbcosmic",
+        "author_id":  "sD3HgKRg",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "One in the Chamber [MTS/IV] Quick and Powerful Guns!",
+        "description":  "Content pack for Immersive Vehicles featuring an arrangement of firearms.",
+        "categories":  [
+                           "forge",
+                           "neoforge"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  8333,
+        "follows":  3,
+        "icon_url":  "https://cdn.modrinth.com/data/aSL6bezT/726af11e53ba6d214fe6be8fdc3372f688595352_96.webp",
+        "date_created":  "2026-05-04T21:06:57.731477+00:00",
+        "date_modified":  "2026-04-25T00:04:57.384914+00:00",
+        "latest_version":  "LRzQM4tC",
+        "license":  "GPL-3.0-only",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/aSL6bezT/images/bd39e718b09f641c7b8e5395f9e5dd8918cdb681_350.webp",
+        "color":  263172
+    },
+    {
+        "project_id":  "eLeWELrE",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "trin-part-pack",
+        "author":  "TheOddlySeagull",
+        "author_id":  "QDW5g9Oa",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Trin Part Pack - custom parts for Immersive Vehicles",
+        "description":  "Adds many parts, decors, and more, to customize, tune, or improve your Immersive Vehicle cars and trucks from all packs!",
+        "categories":  [
+                           "forge",
+                           "library",
+                           "neoforge",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  7752,
+        "follows":  5,
+        "icon_url":  "https://cdn.modrinth.com/data/eLeWELrE/84f169c478e30aebe2d90e289d5b30c00a08db40_96.webp",
+        "date_created":  "2026-04-24T01:58:53.457457+00:00",
+        "date_modified":  "2026-10-14T21:19:26.726167+00:00",
+        "latest_version":  "nhdHr4ff",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/eLeWELrE/images/ed2e7dc13368d604abfdda7f83e3379665e4d3e8_350.webp",
+                        "https://cdn.modrinth.com/data/eLeWELrE/images/6f49a3bb45075c773862fe82cbe6462f609c4982_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/eLeWELrE/images/1102264ba59abc64ba39ab8b04bb8e5c039de7fe_350.webp",
+        "color":  10002590
+    },
+    {
+        "project_id":  "cMSS5qs1",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "beyond-horizons-iv-compat-addon",
+        "author":  "Sausage-Dawg",
+        "author_id":  "LY1KYWm1",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "BEYOND HORIZONS (IV COMPAT)",
+        "description":  "Beyond Horizons IV adds full long-distance rendering for Immersive Vehicles (IV)",
+        "categories":  [
+                           "forge",
+                           "game-mechanics",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "game-mechanics",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  3722,
+        "follows":  11,
+        "icon_url":  "https://cdn.modrinth.com/data/cMSS5qs1/ec0f1913606988c48332395adaf3535a7720a7c1_96.webp",
+        "date_created":  "2025-11-28T03:04:55.009359+00:00",
+        "date_modified":  "2026-01-06T12:40:12.519212+00:00",
+        "latest_version":  "bLDAG1sL",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/cMSS5qs1/images/ca8eaadca8f50c2922df6fcba1b9bb0bfb80a85e_350.webp",
+                        "https://cdn.modrinth.com/data/cMSS5qs1/images/ee731d0a1b2a186a825d196c8ea832e2dd6a01c4_350.webp",
+                        "https://cdn.modrinth.com/data/cMSS5qs1/images/47436b68ac66fb37b595c275675329213ccbd574_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  11828063
+    },
+    {
+        "project_id":  "wusYFNl0",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "computerized-vehicles",
+        "author":  "TechTastic",
+        "author_id":  "RxrcXaKz",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Computerized Vehicles",
+        "description":  "An integration addon for Immersive Vehicles and computer mods!",
+        "categories":  [
+                           "forge",
+                           "game-mechanics",
+                           "neoforge",
+                           "technology",
+                           "transportation",
+                           "utility"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "technology",
+                                   "transportation",
+                                   "utility"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  3007,
+        "follows":  4,
+        "icon_url":  "https://cdn.modrinth.com/data/wusYFNl0/8c61bee06f2d600c7fe91edff7dcf04d0b051f6f.png",
+        "date_created":  "2025-10-15T21:20:14.429188+00:00",
+        "date_modified":  "2025-10-25T14:41:05.444951+00:00",
+        "latest_version":  "lYmkZkVZ",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  3622689
+    },
+    {
+        "project_id":  "9V8sjlj3",
+        "project_type":  "modpack",
+        "all_project_types":  [
+                                  "modpack"
+                              ],
+        "slug":  "immersive-driving",
+        "author":  "TheModpackMaker",
+        "author_id":  "PsB8O50Y",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Immersive Driving",
+        "description":  "Immersive Vehicles Brought to Life",
+        "categories":  [
+                           "adventure",
+                           "forge",
+                           "multiplayer",
+                           "technology"
+                       ],
+        "display_categories":  [
+                                   "adventure",
+                                   "multiplayer",
+                                   "technology"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  2193,
+        "follows":  1,
+        "icon_url":  "https://cdn.modrinth.com/data/9V8sjlj3/feed16dce75b444c65e90db75a3b2fb700bf1274_96.webp",
+        "date_created":  "2025-11-07T14:34:31.741453+00:00",
+        "date_modified":  "2025-11-07T01:38:03.616502+00:00",
+        "latest_version":  "k9l5G4pL",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/751ea0f385ca33f27acaa56f38252ad807086502_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/f4b4968585a78208dd38d6498bf05d17738a899d_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/19bd2d031d0e6ab3b0058ef2c2a910f8e663567b_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/d474641f90d5d3c36f27cd01c968a4ee0d98c37b_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/606d5cb66a38bb4f1cfbeda3ad337289709219b2_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/96050fd664345637b95ede61d88f5c0c5d36f5a3_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/4b92d76036c0af69d7a49731c9936c303279bc85_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/e885ea0486ac439991a59b490d237affcc0fe5ca_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/3d10989409d533cc575d20c38905889491ae3cec_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/ab541cf96aa86ae407a07930f95ff13ff6e6c976_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/0484ccb192c1a0d2dcff27f982b0489b47dd17e9_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/93ec049da01b11b85f5f93ece7952d9568ee6d0d_350.webp",
+                        "https://cdn.modrinth.com/data/9V8sjlj3/images/3e5c7c70b71166952c4a50a51347bcf84cee3757_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  2827555
+    },
+    {
+        "project_id":  "p9FJLLVf",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "sharpzs-garage-system",
+        "author":  "jacobsharpz",
+        "author_id":  "cPNPIu5j",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Sharpz\u0027s Garage System",
+        "description":  "This mod adds garages to Immersive Vehicles",
+        "categories":  [
+                           "economy",
+                           "forge",
+                           "game-mechanics",
+                           "management",
+                           "storage",
+                           "technology",
+                           "transportation",
+                           "utility"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "game-mechanics",
+                                   "management",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1",
+                         "1.20.2",
+                         "1.20.3",
+                         "1.20.4",
+                         "1.20.5",
+                         "1.20.6"
+                     ],
+        "downloads":  1911,
+        "follows":  11,
+        "icon_url":  "https://cdn.modrinth.com/data/p9FJLLVf/8f938f8bf1dfcbdbf9224d2ab405a639d23b2620_96.webp",
+        "date_created":  "2026-01-06T20:08:09.025176+00:00",
+        "date_modified":  "2026-02-12T17:46:51.633124+00:00",
+        "latest_version":  "El8EFarK",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  14601414
+    },
+    {
+        "project_id":  "WrHFG2Lp",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "ride-together-mca-immersive-vehicles",
+        "author":  "Rayooo",
+        "author_id":  "pVG2kEm9",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Ride Together (MCA + Immersive Vehicles)",
+        "description":  "Automatically lets Minecraft Comes Alive Reborn companions ride with you in Immersive Vehicles instead of running behind your vehicle.",
+        "categories":  [
+                           "forge",
+                           "mobs",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "mobs",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  1824,
+        "follows":  4,
+        "icon_url":  "https://cdn.modrinth.com/data/WrHFG2Lp/3f480254c1fbae6059325c538efd17c3dbb687e6_96.webp",
+        "date_created":  "2026-07-08T21:03:54.905274+00:00",
+        "date_modified":  "2026-07-07T14:12:12.074412+00:00",
+        "latest_version":  "gSa86zcB",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/WrHFG2Lp/images/95730a2d32498181e051ab96520f6a1ff79aed93_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  2368282
+    },
+    {
+        "project_id":  "dcYuN1Ua",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "truckers-pack-immersive-vehiclesivmts",
+        "author":  "mrrolmine",
+        "author_id":  "JE8vOQ0m",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Truckers Pack [Immersive Vehicles/IV/MTS]",
+        "description":  "Truckers pack is an Immersive Vehicles addon that adds modern trucks and trailers.",
+        "categories":  [
+                           "forge",
+                           "neoforge"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1",
+                         "26.1.1",
+                         "26.1.2"
+                     ],
+        "downloads":  1637,
+        "follows":  1,
+        "icon_url":  "https://cdn.modrinth.com/data/dcYuN1Ua/658c344be1d103c7beebde258a53b431fb2a1102_96.webp",
+        "date_created":  "2026-10-15T18:03:03.168218+00:00",
+        "date_modified":  "2026-08-19T06:35:42.116960+00:00",
+        "latest_version":  "8djVqDmI",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/dcYuN1Ua/images/0c0c7637208ac8673f7fbd6097e1f8ae833837b9_350.webp",
+                        "https://cdn.modrinth.com/data/dcYuN1Ua/images/4000b34349877f1d149022350fc4ae5fc6468f6d_350.webp",
+                        "https://cdn.modrinth.com/data/dcYuN1Ua/images/e2247db83380bc39d8b43bd7fe3244e8f3959810_350.webp",
+                        "https://cdn.modrinth.com/data/dcYuN1Ua/images/661c1210514d03e438122f5d257de15858016a78_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  6915144
+    },
+    {
+        "project_id":  "NQWTwWP0",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "estrogen-away",
+        "author":  "TechTastic",
+        "author_id":  "RxrcXaKz",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "[IV/MTS] Estrogen Away!",
+        "description":  "Allows Immersive Vehicles bullets to change the gender of everything within its blast radius!",
+        "categories":  [
+                           "cursed",
+                           "forge",
+                           "magic",
+                           "technology",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "cursed",
+                                   "forge",
+                                   "technology",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  989,
+        "follows":  4,
+        "icon_url":  "https://cdn.modrinth.com/data/NQWTwWP0/42365353972663ee149d3cbd5a6e6347b2c46ff8_96.webp",
+        "date_created":  "2025-10-29T03:46:23.603991+00:00",
+        "date_modified":  "2025-10-24T14:02:00.950861+00:00",
+        "latest_version":  "7J4y6gOL",
+        "license":  "MIT",
+        "client_side":  "unsupported",
+        "server_side":  "required",
+        "environment":  [
+                            "server_only"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  5204071
+    },
+    {
+        "project_id":  "oAF2nuN1",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "moonspire-metro-motors",
+        "author":  "Moonspire",
+        "author_id":  "tcI4ShtP",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Moonspire Metro Motors",
+        "description":  "Immersive Vehicles\u0027 origional bus!",
+        "categories":  [
+                           "forge"
+                       ],
+        "display_categories":  [
+                                   "forge"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  980,
+        "follows":  1,
+        "icon_url":  "https://cdn.modrinth.com/data/oAF2nuN1/4ceed47e740ae5c4a39eec7c329c8f52e41d22bf.png",
+        "date_created":  "2026-07-13T21:25:20.354172+00:00",
+        "date_modified":  "2026-07-03T18:42:31.322157+00:00",
+        "latest_version":  "tK5kM1fJ",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/oAF2nuN1/images/da97576872f7b250a5f4f7104d1c73eed1bc8068_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/oAF2nuN1/images/9bef35886adf8e90c07e1cee43042a5f70e0af08_350.webp",
+        "color":  4270650
+    },
+    {
+        "project_id":  "jRaaZxNz",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "zero-ordinary-vehicles",
+        "author":  "mxzs666",
+        "author_id":  "zXp9FRXD",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Zero Ordinary Vehicles",
+        "description":  "MTS/IV content pack focused on historical armored vehicles (WW1-WW2 Era)",
+        "categories":  [
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.16.5",
+                         "1.20.1",
+                         "1.21.1",
+                         "26.1"
+                     ],
+        "downloads":  755,
+        "follows":  2,
+        "icon_url":  "https://cdn.modrinth.com/data/jRaaZxNz/e7986c74278ebac2629d967d3dda82117c876483_96.webp",
+        "date_created":  "2026-10-01T17:35:52.327294+00:00",
+        "date_modified":  "2026-09-05T07:11:38.600526+00:00",
+        "latest_version":  "EQOZZXwo",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/jRaaZxNz/images/f6d6ca5adf88dc7fad9d6aae225f13a00b348342_350.webp"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/jRaaZxNz/images/a3ecda585513cfa7ac20562b598ad5713df46a28_350.webp",
+        "color":  16777215
+    },
+    {
+        "project_id":  "mX5HOMPS",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "iv-seat-protect",
+        "author":  "shzszhs001",
+        "author_id":  "urSkwY8Q",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "IV Seat Protect",
+        "description":  "Provides configurable damage protection for selected Q.M.P Vehicle Pack seats for Immersive Vehicles.",
+        "categories":  [
+                           "forge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  717,
+        "follows":  0,
+        "icon_url":  "https://cdn.modrinth.com/data/mX5HOMPS/7b017528f4793b022ec718ae93dd59144440a2f0_96.webp",
+        "date_created":  "2026-07-28T14:27:34.107338+00:00",
+        "date_modified":  "2026-07-31T02:43:48.895174+00:00",
+        "latest_version":  "Q1mlQC2u",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  2961718
+    },
+    {
+        "project_id":  "yOxNUxrc",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "polish-crossing-decor-iv",
+        "author":  "Negev_Master",
+        "author_id":  "Ije2Q27s",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Polish Crossing Decor (IV)",
+        "description":  "This is a content pack for the mod Immersive Vehicles that adds Polish crossing gates, signals and others.",
+        "categories":  [
+                           "decoration",
+                           "forge",
+                           "neoforge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "forge",
+                                   "neoforge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.20.1",
+                         "1.21.1"
+                     ],
+        "downloads":  318,
+        "follows":  1,
+        "icon_url":  "https://cdn.modrinth.com/data/yOxNUxrc/aeb8b078a58022a73c0c3b697fd21e55c952a007_96.webp",
+        "date_created":  "2026-10-15T21:43:49.206625+00:00",
+        "date_modified":  "2026-08-30T13:09:05.311789+00:00",
+        "latest_version":  "wTezAT76",
+        "license":  "GPL-3.0-only",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/yOxNUxrc/images/39de4f85d7e68f6b6a0eea079668b9ba1ff61f7a_350.webp",
+                        "https://cdn.modrinth.com/data/yOxNUxrc/images/8eec4935de2e07d42c4658f0fd8700c5845bf2ae_350.webp"
+                    ],
+        "featured_gallery":  null,
+        "color":  13684944
+    },
+    {
+        "project_id":  "xTPWAPXY",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod",
+                                  "resourcepack"
+                              ],
+        "slug":  "junctions-of-ruun",
+        "author":  "Moonspire",
+        "author_id":  "tcI4ShtP",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "Junctions of Ruun",
+        "description":  "A vast swath of custom signange for MTS/IV",
+        "categories":  [
+                           "decoration",
+                           "forge",
+                           "minecraft",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "decoration",
+                                   "forge",
+                                   "minecraft",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.12.2",
+                         "1.16.5",
+                         "1.18.2",
+                         "1.19.2",
+                         "1.20.1"
+                     ],
+        "downloads":  261,
+        "follows":  0,
+        "icon_url":  "https://cdn.modrinth.com/data/xTPWAPXY/da689ffe3212e4b4b32c73bde372b2799d54536d_96.webp",
+        "date_created":  "2026-07-09T13:11:59.918418+00:00",
+        "date_modified":  "2026-07-03T04:11:21.426291+00:00",
+        "latest_version":  "LutzS4Ue",
+        "license":  "LicenseRef-All-Rights-Reserved",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+                        "https://cdn.modrinth.com/data/xTPWAPXY/images/300e564527280fd1750089547ee4289693574916_350.webp",
+                        "https://cdn.modrinth.com/data/xTPWAPXY/images/e81d4dadff8e27fb539db18a59587c438784926c.png"
+                    ],
+        "featured_gallery":  "https://cdn.modrinth.com/data/xTPWAPXY/images/af3721bb2e252e13c616161415a23c4503eaed0f_350.webp",
+        "color":  6441484
+    },
+    {
+        "project_id":  "XXioW7B8",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "iv-door-control",
+        "author":  "shzszhs001",
+        "author_id":  "urSkwY8Q",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "IV Door Control",
+        "description":  "Provide a configurable option for enabling or disabling automatic door closing in Immersive Vehicles.",
+        "categories":  [
+                           "forge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  148,
+        "follows":  0,
+        "icon_url":  "https://cdn.modrinth.com/data/XXioW7B8/144d87356d57f7f4f7ad25c9c95defa0431c6fc1_96.webp",
+        "date_created":  "2026-08-02T00:42:00.283724+00:00",
+        "date_modified":  "2026-07-27T13:01:17.642584+00:00",
+        "latest_version":  "s5W5Zjh9",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  13717804
+    },
+    {
+        "project_id":  "rJGIMcT9",
+        "project_type":  "mod",
+        "all_project_types":  [
+                                  "mod"
+                              ],
+        "slug":  "iv-target-control",
+        "author":  "shzszhs001",
+        "author_id":  "urSkwY8Q",
+        "organization":  null,
+        "organization_id":  null,
+        "title":  "IV Target Control",
+        "description":  "Adds configurable target filtering for NPC-controlled weapons in Immersive Vehicles.",
+        "categories":  [
+                           "forge",
+                           "transportation"
+                       ],
+        "display_categories":  [
+                                   "forge",
+                                   "transportation"
+                               ],
+        "versions":  [
+                         "1.20.1"
+                     ],
+        "downloads":  137,
+        "follows":  0,
+        "icon_url":  "https://cdn.modrinth.com/data/rJGIMcT9/e74980243a6197ac10dd5afa590cb0c5bcada09d_96.webp",
+        "date_created":  "2026-08-20T04:20:10.085897+00:00",
+        "date_modified":  "2026-08-02T01:24:47.033365+00:00",
+        "latest_version":  "CjzUkabp",
+        "license":  "MIT",
+        "client_side":  "required",
+        "server_side":  "required",
+        "environment":  [
+                            "client_and_server"
+                        ],
+        "disclosure_types":  [
+
+                             ],
+        "gallery":  [
+
+                    ],
+        "featured_gallery":  null,
+        "color":  1780255
+    }
+]

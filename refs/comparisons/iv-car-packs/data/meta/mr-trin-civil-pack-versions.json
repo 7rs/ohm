@@ -1,0 +1,49 @@
+﻿{
+    "game_versions":  [
+                          "1.20.1",
+                          "1.21.1",
+                          "26.1",
+                          "26.1.1",
+                          "26.1.2"
+                      ],
+    "loaders":  [
+                    "forge",
+                    "neoforge"
+                ],
+    "environment":  "client_and_server",
+    "id":  "VIkviytB",
+    "project_id":  "mKIWBS44",
+    "author_id":  "QDW5g9Oa",
+    "featured":  false,
+    "name":  "First Ignition Update",
+    "version_number":  "4.5.0",
+    "changelog":  "\u003c!-- Release notes generated using configuration in .github/release.yml at master --\u003e\n\n## What\u0027s Changed\n### New Features\n* Updated Trin Footpather so it could either take a back seat or crates.\n* Updated Trin Civil Pack to have both 1.20.1 and 1.21.1 neoforge minecraft support.\n* All Models - Removal of double paint buckets in favor of simple buckets in recipes.\n* All Models - Added default fuel level.\n\n\n**Full Changelog**: https://github.com/TheOddlySeagull/Trin-Civil-Pack-V3-V4/compare/v4.4.0...4.5.0",
+    "changelog_url":  null,
+    "date_published":  "2026-04-07T15:22:12.402920Z",
+    "downloads":  9134,
+    "version_type":  "release",
+    "status":  "listed",
+    "requested_status":  null,
+    "files":  [
+                  {
+                      "id":  "hpR8MozU",
+                      "hashes":  {
+                                     "sha512":  "de710d6d2c2c9423a4888f66521174c309551eb0a67be1f4952419182ed5937013778a030b4e1ce57e8d87e5ed597ece27aca3607e4f7e1f83f37937bb8bccf8",
+                                     "sha1":  "7092a67c21b59372e81177b250a75082fc84d2ff"
+                                 },
+                      "url":  "https://cdn.modrinth.com/data/mKIWBS44/versions/VIkviytB/Trin%20Civil%20Pack-1.20.1-4.5.0.jar",
+                      "filename":  "Trin Civil Pack-1.20.1-4.5.0.jar",
+                      "primary":  true,
+                      "size":  60476429,
+                      "file_type":  null
+                  }
+              ],
+    "dependencies":  [
+                         {
+                             "version_id":  null,
+                             "project_id":  "BCzBuhJ5",
+                             "file_name":  null,
+                             "dependency_type":  "required"
+                         }
+                     ]
+}

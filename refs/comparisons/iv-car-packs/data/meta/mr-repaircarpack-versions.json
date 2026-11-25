@@ -1,0 +1,39 @@
+﻿{
+    "game_versions":  [
+                          "1.20.1"
+                      ],
+    "loaders":  [
+                    "forge"
+                ],
+    "environment":  "client_and_server",
+    "id":  "4w6gstBi",
+    "project_id":  "LNXUISCr",
+    "author_id":  "JE8vOQ0m",
+    "featured":  false,
+    "name":  "Repair Car Pack Lancer Evo VIII (1.20.1)",
+    "version_number":  "EvoVIII-(1.20.1)",
+    "changelog":  "",
+    "changelog_url":  null,
+    "date_published":  "2026-04-01T12:32:10.541307Z",
+    "downloads":  8487,
+    "version_type":  "release",
+    "status":  "listed",
+    "requested_status":  null,
+    "files":  [
+                  {
+                      "id":  "ZMpfSbGn",
+                      "hashes":  {
+                                     "sha512":  "731cb466344c0d613c69fb61e401ca42973bfb8d371a7ea3a0574729f5c731906df099ad6a943da410a3fbdefdb316b9e1af445ef7ead0c7e4f8ee4c1960982e",
+                                     "sha1":  "aef653ba293b73880f6e15cf2e74234bf3c75725"
+                                 },
+                      "url":  "https://cdn.modrinth.com/data/LNXUISCr/versions/4w6gstBi/Repair_LancerEvoVIII_Pack-1.20.1.jar",
+                      "filename":  "Repair_LancerEvoVIII_Pack-1.20.1.jar",
+                      "primary":  true,
+                      "size":  66581789,
+                      "file_type":  null
+                  }
+              ],
+    "dependencies":  [
+
+                     ]
+}

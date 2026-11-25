@@ -1,0 +1,7 @@
+﻿GT-2.1.2: vehicle jsons=57 with non-empty first materialList=57 (no general block=0) median total item count=159; e.g. no recipe: 
+GT-2.0.1(1.20.1): vehicle jsons=12 with non-empty first materialList=12 (no general block=0) median total item count=30; e.g. no recipe: 
+CS-1.7.5: vehicle jsons=97 with non-empty first materialList=84 (no general block=0) median total item count=40; e.g. no recipe: 1967fordmustang.json, 997.json, ae86.json, amggt.json, delta.json, e36.json
+KMW-2.6.1: vehicle jsons=199 with non-empty first materialList=192 (no general block=0) median total item count=105; e.g. no recipe: mazda_rx7_fd_potat.json, mazda_rx8_hashimkum.json, nissan_350z_rachel.json, toyota_celica_potat.json, vaz2107_custom.json, srn4_mk3.json
+SVMP-3.7.3: vehicle jsons=48 with non-empty first materialList=43 (no general block=0) median total item count=40; e.g. no recipe: 260.json, campo.json, campop.json, voscarrion.json, vosexplorer.json
+OCP-V29: vehicle jsons=17 with non-empty first materialList=17 (no general block=0) median total item count=152; e.g. no recipe: 
+OAmP-V3: vehicle jsons=8 with non-empty first materialList=6 (no general block=0) median total item count=169; e.g. no recipe: vwbus.json, ecoline.json
