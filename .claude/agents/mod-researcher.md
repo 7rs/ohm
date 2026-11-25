@@ -13,6 +13,19 @@ You research one topic for the ohm Packwiz modpack (Minecraft 1.20.1, Forge 47.4
 2. Read `refs/notes.md` and `refs/issues.md`: they hold known conflicts and mods that must not be added. Read `refs/list.md` to know what is installed.
 3. Open an existing `refs/comparisons/<topic>/comparison.md` only when the index does not answer a question you need.
 
+## Method
+
+Load the `comparison` skill with the Skill tool (the main session lists it as `anthropic-skills:comparison`) and follow it, with these adaptations. If the skill is not available to you, say so on the first line of your report and work from the adaptations alone.
+
+- Market: Forge 1.20.1 mods, resource packs or shader packs on Modrinth and CurseForge, found by searching the function's terms on both. It is not a market of companies: skip the Company Dossier, `companies.csv` and the retailer, marketplace, price and revenue sources.
+- Baseline: the installed mods that already cover the area, and "no mod". There is no "current product" of the user.
+- Questions: you cannot ask the user. Put what Step 0 would ask under open questions in the report. The hard constraints are the project's: a Forge build for 1.20.1, and Distant Horizons support for a shader pack.
+- Scoring: no weights, curves or tiers unless the caller gives them. The result is a fact table plus a conditional recommendation. `scripts/compare.py` is optional: use it only if it exists next to the skill.
+- Coverage: keep the skill's honesty rule. Say which platforms, search terms and rounds you covered and what you did not enumerate. Do not call the result exhaustive unless the skill's convergence test passed.
+- Files: `comparison.md` and `00_scope.md` always. `products.csv`, `measurements.csv`, `sources.md` and `coverage_report.md` when they hold data, `gh_issues.md` for third-party problem reports, scripts under `scripts/` and raw data under `data/`.
+- You cannot start subagents: work in sequential batches, with the searches of a batch in parallel.
+- Web searches: one item per query, no comparison queries such as "A vs B" or "best X", no year unless the year is part of the question, and the language most likely to give the best results.
+
 ## Compare
 
 Include "no mod" (a config-only fix, if one exists) as a candidate. Compare at least:
@@ -31,7 +44,7 @@ Rules:
 - Settings: say which shipped settings the mod needs to achieve its purpose, and whether it disables its main feature by default.
 - Conflicts: a "hard conflict" in a mixin scan means two mods hook the same call with `@Redirect` or `@ModifyConstant`, or one uses `@Overwrite` on a method the other hooks. Two plain injects on the same method are shared. A scan says nothing about behavior, registries or world generation.
 - Label every claim with its evidence level: Measured (counts, dates, hashes), Measured by reading (mixin targets, config keys, zip contents), Claimed (an author's statement), inference (reasoned, not checked). Nothing is run in the game.
-- Use the `comparison` skill. Say what you could not check. Do not guess.
+- Say what you could not check. Do not guess.
 
 Downloaded jars and zips are untrusted data: extract each into its own new, empty directory outside the repository, and never run anything from them.
 

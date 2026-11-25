@@ -34,7 +34,7 @@ In this project, we maintain a Packwiz modpack named ohm.
   - A staged `.json` under `config/` or `defaultconfigs/` is not valid JSON (checked with `jq`, or PowerShell on Windows; skipped when neither exists).
   - `.github/`, `.githooks/`, `.claude/`, `.editorconfig`, `.gitattributes` or `.packwizignore` changed, but `CLAUDE.md` is not staged.
   Not distributed.
-- `.claude/agents/*.md`: Claude Code subagents, one file per agent, both on `model: sonnet`. `mod-researcher` does the comparison and review before a mod is added and returns a recommendation: it writes only under `refs/comparisons/<topic>/` and never adds anything. `update-reviewer` reviews the working tree after `packwiz update` and reports risks and follow-up edits: it is read-only. Not distributed.
+- `.claude/agents/*.md`: Claude Code subagents, one file per agent, both on `model: sonnet`. `mod-researcher` does the comparison and review before a mod is added and returns a recommendation: it loads the user-level `comparison` skill, holds the project's adaptations of it, writes only under `refs/comparisons/<topic>/` and never adds anything. `update-reviewer` reviews the working tree after `packwiz update` and reports risks and follow-up edits: it is read-only. Not distributed.
 - `.packwizignore`: Files excluded from the index. Required so CLAUDE.md, README.md, CONTRIBUTING.md, `.editorconfig`, `.claude/`, `.githooks/`, `.github/`, `docs/` and `refs/` are not distributed.
 - `refs/`: Reference files for Claude (`list.md`, `issues.md`, `notes.md`, `settings.md`, `comparisons/`). See References.
 - `config/`: Mod configs shipped as-is. They overwrite the player's files on every pack update.
@@ -81,7 +81,7 @@ A mod is never added blindly, without a plan, without evidence, or on a shallow 
   - Future: maintenance status, release activity and direction.
   - Download counts.
   - Forge 1.20.1 build, required dependencies, and conflicts with installed mods.
-- Use the `comparison` skill. Keep the documents in `refs/comparisons/<topic>/`.
+- Use the `comparison` skill. The project's adaptations of it (market, baseline, scoring, coverage, files) are written in `.claude/agents/mod-researcher.md`: follow them too when you compare without the subagent. Keep the documents in `refs/comparisons/<topic>/`.
 - Run the research with the `mod-researcher` subagent, one per topic (in parallel for unrelated topics). It returns a recommendation only: the discussion, the user's approval and the records stay with the main session.
 - Read `refs/notes.md` and `refs/issues.md` first: they hold known conflicts and mods that must not be added.
 - Discuss the result with the user. Never add a mod without the user's approval: present the comparison and wait for the answer. This also applies when a mod is the only way to fulfil a request.
