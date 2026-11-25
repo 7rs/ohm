@@ -53,6 +53,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 | [iv-car-packs](#iv-car-packs) | 11-24 | Craftspeed plus GT CRAFT | GT CRAFT added; Craftspeed removed 11-26 |
 | [mob-difficulty](#mob-difficulty) | 11-24 | Simple Enemy, Enhanced Celestials 2, Clanging Howl | Added |
 | [difficulty-mods](#difficulty-mods) | 11-25 | L2Hostility, Cold Sweat, Cataclysm, No Mindless Shooting | Pending, not added |
+| [ultra-high-res-screenshot](#ultra-high-res-screenshot) | 11-25 | HiResShot after a scratch-instance test; Forgeshot as fallback | Pending, not added |
 
 ## Rendering and display
 
@@ -124,6 +125,17 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 ### flywheel-shader-compat
 
 - Candidate: Iris & Oculus Flywheel Compat. Colorwheel 1.3.2 declares it `incompatible`. Never add it. (Ocuwheel was already checked on 2026-11-22; see `refs/notes.md`.)
+
+### ultra-high-res-screenshot
+
+- Question: a mod for screenshots larger than the window (8K and up) that works with Oculus 1.8.0 shader packs and Distant Horizons 3.3.3. Seven candidates plus "no mod"; 0 hard conflicts for all seven against the 136 installed jars (Mixin scan). Not exhaustive: CurseForge was not crawled.
+- Result: HiResShot 0.0.1 (client, key F9, Cloth Config installed) is the pick, after a test in a scratch instance. Forgeshot 1.0 is the fallback. Pending the user; nothing added.
+- Why: Oculus and Distant Horizons size their buffers from the main render target, so only a mod that resizes the main target is expected to work with shaders (HiResShot, Forgeshot, Power Screenshot's normal command). BigShot and Pixelshot's default path render into a separate target and are reported to give black, blue or cropped images with Iris (BigShot's report includes DH). Picture Mode is isometric only; Snapmatica has an open render-thread freeze report with DH.
+- Limits: HiResShot checks the GPU texture limit and prints a chat error; the others do not (a crash is expected, inference). Estimated GPU memory with a shader pack: about 3 to 5 GiB at 8K, 12 to 19 GiB at 15360x8640. No mod makes real detail beyond the GPU limit reliable with shaders; Pixelshot's tiled mode is the only route and is unproven with Oculus.
+- Risks: HiResShot has one release, one author and no commit since 2026-01-17; nobody reported it with Oculus or DH. It calls `Iris.reload()` after each shot. Its CPU_UPSCALE mode is bicubic, not detail, and uses the Java heap.
+- Settings: the defaults already work (F9, REAL_TIME, multiplier 4, `realtimeDelay` 20, GUI and player hidden). Ship nothing; a player may raise `realtimeDelay` to 40-60 if shots look dark.
+- Constraints: Power Screenshot and Pixelshot (F8) clash with Punchy!'s main-menu key; Forgeshot (F6) clashes with Punchy!'s `save_session`. Do not add a second capture mod beside HiResShot. RenderScale is not installed (`refs/notes.md` lists it as a candidate); with HiResShot it has 0 hard conflicts but both touch `Window` size and Oculus's `RenderTargets.resizeIfNeeded`, untested.
+- Evidence: `comparison.md`, `data/memory_estimate.csv`, `gh_issues.md`, `coverage_report.md`.
 
 ## Startup, loading and world
 

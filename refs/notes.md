@@ -205,3 +205,14 @@ The user asked which optimization viewpoints are thin and chose desk-theory firs
 - Not recommended: HariEntity (modId `harimt`, 2.0.1 alpha). `@Overwrite` on `EntitySection.add` and `remove` (Harium injects there) and on `ClassInstanceMultiMap.find` (AsyncParticles wraps it); it ticks entities in parallel and ships a Vulkan compute collision path that is on by default (`enableGpuCollision`, LWJGL Vulkan inside the 2.0.1 jar); its changelog says the client launch is untested. Hooks `ServerLevel.tick` like Immersive Optimization.
 - Deferred until a dedicated server exists (the user, 2026-11-25): HariPlayer 2.0 (VMP fork, server only; `@Overwrite` on `PalettedContainer` lock methods that FerriteCore and Harium also overwrite, on `ClassInstanceMultiMap` like Harium, and on `Ingredient.test`, which ModernFix hooks), Krypton Reno 26.1.1 (network), Create: Threaded Trains 1.20.1-1.0.0 (server required; Steam 'n' Rails is installed), pregeneration with Chunky or similar (an admin step, not part of the pack), ServerCore 1.5.2 (not read), parallel chunk work (C2ME family was rejected for Twilight Forest). Look at them together with spark MSPT on that server.
 - Not needed: Smooth Boot (ModernFix disables its own `thread_priorities` rule when Smooth Boot or ThreadTweak is present, so the two do the same job; ModernFix is installed).
+
+## Reviewed 2026-11-25: ultra-high-resolution screenshots (not added, decision pending)
+
+Evidence and the full ledger: `refs/comparisons/ultra-high-res-screenshot/`; summary in `refs/comparisons/index.md`.
+
+- Pick if the user wants it: HiResShot 0.0.1 (client, key F9, needs Cloth Config, which is installed), after a test in a scratch instance. Fallback: Forgeshot 1.0. Set `side = "client"` (no jar declares `clientSideOnly`). Ship no config: the defaults work; a per-player `realtimeDelay` of 40-60 helps if shots look dark.
+- Do not add: BigShot and Pixelshot (render into a separate target; black, blue or cropped images with Iris, and BigShot's report includes Distant Horizons), Snapmatica (open render-thread freeze with Distant Horizons), Picture Mode (isometric only), Power Screenshot (F8 clashes with Punchy!; skybox mode has an open black-image report with Iris).
+- Key clashes with Punchy!: F8 (main menu) and Forgeshot's F6 (`save_session`). Key Binding Patch fires every binding on a shared key. HiResShot's F9 is free.
+- Install at most one capture mod. Avoid HiResShot's INSTANT and CPU_UPSCALE modes (CPU_UPSCALE is bicubic and uses the Java heap).
+- RenderScale is still not installed. It gives anti-aliased window-sized shots, not bigger files (its README points to Fabrishot). If both are ever installed, test them together: both touch `Window` size and Oculus's `RenderTargets.resizeIfNeeded`.
+- Not verified: anything at run time (GPU model, `GL_MAX_TEXTURE_SIZE`, how the five shader packs look at 4x, DH 3.3.3 with a main-target resize; DH issue 850 was a similar resize bug, closed).

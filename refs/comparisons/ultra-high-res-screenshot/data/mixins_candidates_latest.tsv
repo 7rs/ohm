@@ -1,0 +1,132 @@
+jar	nested	mixin_class	target_class	kind	method_patterns	at_values	at_targets	java_method
+1.0.1/BigShot-forge-1.20.1-1.0.1.jar		com.blamejared.bigshot.mixin.MixinLevelRenderer	net.minecraft.client.renderer.LevelRenderer	CLASS				
+1.0.1/BigShot-forge-1.20.1-1.0.1.jar		com.blamejared.bigshot.mixin.MixinLevelRenderer	net.minecraft.client.renderer.LevelRenderer	Inject	shouldShowEntityOutlines	HEAD		shouldShowEntityOutlines
+1.0.1/BigShot-forge-1.20.1-1.0.1.jar		com.blamejared.bigshot.mixin.MixinMinecraft	net.minecraft.client.Minecraft	CLASS				
+1.0.1/BigShot-forge-1.20.1-1.0.1.jar		com.blamejared.bigshot.mixin.MixinMinecraft	net.minecraft.client.Minecraft	Inject	useShaderTransparency	HEAD		useShaderTransparency
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.AccessorWindow	com.mojang.blaze3d.platform.Window	CLASS				
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.AccessorWindow	com.mojang.blaze3d.platform.Window	Accessor	setWidth			setWidth
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.AccessorWindow	com.mojang.blaze3d.platform.Window	Accessor	setHeight			setHeight
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.AccessorWindow	com.mojang.blaze3d.platform.Window	Accessor	setFramebufferWidth			setFramebufferWidth
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.AccessorWindow	com.mojang.blaze3d.platform.Window	Accessor	setFramebufferHeight			setFramebufferHeight
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.MixinMinecraft	net.minecraft.client.Minecraft	CLASS				
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.MixinMinecraft	net.minecraft.client.Minecraft	Inject	runTick	INVOKE	Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V	onPreRender
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.MixinMinecraft	net.minecraft.client.Minecraft	Inject	runTick	INVOKE	Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V	onPostRender
+1.0/forgeshot-mc1.20.1-1.0.jar		com.lucasmellof.forgeshot.mixins.MixinMinecraft	net.minecraft.client.Minecraft	ModifyArg	resizeDisplay	INVOKE	Lcom/mojang/blaze3d/platform/Window;setGuiScale(D)V	onResizeDisplay
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	CLASS				
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	transparencyChain			getTransparencyChain
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	entityEffect			getEntityEffect
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	entityTarget			getEntityTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	translucentTarget			getTranslucentTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	particlesTarget			getParticlesTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	weatherTarget			getWeatherTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	cloudsTarget			getCloudsTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.LevelRendererAccessor	net.minecraft.client.renderer.LevelRenderer	Accessor	itemEntityTarget			getItemEntityTarget
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	CLASS				
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	framebufferWidth			setFramebufferWidth
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	framebufferHeight			setFramebufferHeight
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	width			setWidth
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	height			setHeight
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	framebufferWidth			getFramebufferWidth
+HiResShot-Forge-1.20.1-0.0.1/hiresshot-Forge-1.20.1-0.0.1.jar		com.dhj.hiresshot.mixin.WindowAccessor	com.mojang.blaze3d.platform.Window	Accessor	framebufferHeight			getFramebufferHeight
+1.0.1/PowerScreenshot-Minecraft1.20.1-Forge-1.0.1.jar		com.xkball.panoramic_screenshot.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.0.1/PowerScreenshot-Minecraft1.20.1-Forge-1.0.1.jar		com.xkball.panoramic_screenshot.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	render	RETURN		afterRender
+1.0.1/PowerScreenshot-Minecraft1.20.1-Forge-1.0.1.jar		com.xkball.panoramic_screenshot.mixin.WindowMixin	com.mojang.blaze3d.platform.Window	CLASS				
+1.2.1-1.19.2-forge/panoramica_forge_1.2.1_MC_1.19-1.19.2.jar		de.keksuccino.panoramica.mixin.client.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.2.1-1.19.2-forge/panoramica_forge_1.2.1_MC_1.19-1.19.2.jar		de.keksuccino.panoramica.mixin.client.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	getFov	HEAD		onGetFOV
+1.2.1-1.19.2-forge/panoramica_forge_1.2.1_MC_1.19-1.19.2.jar		de.keksuccino.panoramica.mixin.client.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	shouldRenderBlockOutline	HEAD		onIsDrawBlockOutline
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.forgelike.mixin.EffectInstanceMixin	net.minecraft.client.renderer.EffectInstance	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.forgelike.mixin.EffectInstanceMixin	net.minecraft.client.renderer.EffectInstance	WrapOperation	<init>	NEW	net/minecraft/resources/ResourceLocation	useModernShaderLocationBehaviour$jsonRead
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.forgelike.mixin.EffectInstanceMixin	net.minecraft.client.renderer.EffectInstance	WrapOperation	getOrCreate	NEW	net/minecraft/resources/ResourceLocation	useModernShaderLocationBehaviour$shaderRead
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.forgelike.mixin.impl.MinecraftMixin	net.minecraft.client.Minecraft	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.forgelike.mixin.impl.MinecraftMixin	net.minecraft.client.Minecraft	WrapOperation	runTick	INVOKE	Lcom/mojang/blaze3d/pipeline/RenderTarget;blitToScreen(II)V	onScreenBlit
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.CameraMixin	net.minecraft.client.Camera	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.CameraMixin	net.minecraft.client.Camera	Inject	setup	TAIL		setupPMRotation
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.ClientLevelMixin	net.minecraft.client.multiplayer.ClientLevel	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.FrustumMixin	net.minecraft.client.renderer.culling.Frustum	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.FrustumMixin	net.minecraft.client.renderer.culling.Frustum	Inject	offsetToFullyIncludeCameraCube	HEAD		bypassOffsettingIfInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererAccessor	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererAccessor	net.minecraft.client.renderer.GameRenderer	Invoker	loadEffect			invokeSetPostEffect
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	getFov	HEAD		replaceFOVWithDeltaTicks
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	getProjectionMatrix	HEAD		setupPMMatrices
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	WrapOperation	renderLevel	INVOKE	Ljava/lang/Math;max(DD)D	bypassFOVComparisonInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	bobView|bobHurt	HEAD		cancelBobbingInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	WrapOperation	renderLevel	INVOKE	Lcom/mojang/blaze3d/systems/RenderSystem;clear(IZ)V	doNotClearDepthTextureInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	renderItemInHand	HEAD		hideHandInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GuiHudMixin	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GuiHudMixin	net.minecraft.client.renderer.GameRenderer	ModifyExpressionValue	render	MIXINEXTRAS:EXPRESSION		hideHudInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.GuiHudMixin	net.minecraft.client.renderer.GameRenderer	WrapOperation	render	INVOKE	Lnet/minecraft/client/gui/components/toasts/ToastComponent;render(Lnet/minecraft/client/gui/GuiGraphics;)V	hideToastsInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixin	net.minecraft.client.renderer.LevelRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixin	net.minecraft.client.renderer.LevelRenderer	Inject	renderSky	HEAD		hideSkyInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixin	net.minecraft.client.renderer.LevelRenderer	WrapOperation	renderLevel	INVOKE	Lnet/minecraft/client/Options;getCloudsType()Lnet/minecraft/client/CloudStatus;	hideCloudsInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixinVanilla	net.minecraft.client.renderer.LevelRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixinVanilla	net.minecraft.client.renderer.LevelRenderer	ModifyExpressionValue	setupRender	MIXINEXTRAS:EXPRESSION		checkIfPMZoomChanged
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixinVanilla	net.minecraft.client.renderer.LevelRenderer	Inject	setupRender	FIELD	Lnet/minecraft/client/renderer/LevelRenderer;prevCamRotY:D	storeLastPMZoom
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.LevelRendererMixinVanilla	net.minecraft.client.renderer.LevelRenderer	ModifyExpressionValue	setupRender	MIXINEXTRAS:EXPRESSION		disableSmartCullInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.NativeImageAccessor	com.mojang.blaze3d.platform.NativeImage	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.NativeImageAccessor	com.mojang.blaze3d.platform.NativeImage	Accessor	pixels			getPixels
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.PauseScreenMixin	net.minecraft.client.gui.screens.PauseScreen	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.PauseScreenMixin	net.minecraft.client.gui.screens.PauseScreen	Inject	createPauseMenu	TAIL		addPMButtonToPauseMenu
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.PostChainAccessor	net.minecraft.client.renderer.PostChain	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.PostChainAccessor	net.minecraft.client.renderer.PostChain	Accessor	passes			getPasses
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.RenderSystemMixin	com.mojang.blaze3d.systems.RenderSystem	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.RenderSystemMixin	com.mojang.blaze3d.systems.RenderSystem	ModifyVariable	setShaderFogStart	HEAD		applyPMFogModifierStart
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.RenderSystemMixin	com.mojang.blaze3d.systems.RenderSystem	ModifyVariable	setShaderFogEnd	HEAD		applyPMFogModifierEnd
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.TooltipAccessor	net.minecraft.client.gui.components.Tooltip	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.TooltipAccessor	net.minecraft.client.gui.components.Tooltip	Accessor	message			getMessage
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.journeymap.HudOverlayHandlerMixin	journeymap.client.event.handlers.HudOverlayHandler	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.journeymap.HudOverlayHandlerMixin	journeymap.client.event.handlers.HudOverlayHandler	Inject	preOverlay	HEAD		hideJMInPM$posePre
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.journeymap.HudOverlayHandlerMixin	journeymap.client.event.handlers.HudOverlayHandler	Inject	postOverlay	HEAD		hideJMInPM$posePost
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.journeymap.HudOverlayHandlerMixin	journeymap.client.event.handlers.HudOverlayHandler	Inject	onRenderOverlayDebug	HEAD		disableJMDebugStatsInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.journeymap.HudOverlayHandlerMixin	journeymap.client.event.handlers.HudOverlayHandler	Inject	onRenderOverlay	HEAD		hideJMInPM$render
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.nt.PauseWidgetsMixin	mod.adrenix.nostalgic.client.gui.screen.vanilla.pause.PauseWidgets	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.nt.PauseWidgetsMixin	mod.adrenix.nostalgic.client.gui.screen.vanilla.pause.PauseWidgets	Inject	<init>	TAIL		getScreenForAddingButtons
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.nt.PauseWidgetsMixin	mod.adrenix.nostalgic.client.gui.screen.vanilla.pause.PauseWidgets	Inject	init	HEAD		addPMButtonToPauseMenu
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.DefaultChunkRendererMixin	me.jellysquid.mods.sodium.client.render.chunk.DefaultChunkRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.DefaultChunkRendererMixin	me.jellysquid.mods.sodium.client.render.chunk.DefaultChunkRenderer	Inject	getVisibleFaces	HEAD		bypassVisibleFacesCheckInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.RenderSectionManagerMixin	me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.RenderSectionManagerMixin	me.jellysquid.mods.sodium.client.render.chunk.RenderSectionManager	Inject	shouldUseOcclusionCulling	RETURN		disableSmartCullInPM
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.SodiumWorldRendererMixin	me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer	CLASS				
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.SodiumWorldRendererMixin	me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer	ModifyExpressionValue	setupTerrain	MIXINEXTRAS:EXPRESSION		checkIfPMZoomChanged
+1.1.8+1.20.1-forge/picturemode-forge-1.1.8+1.20.1.jar		mod.icanttellyou.picturemode.mixin.compat.sodium.SodiumWorldRendererMixin	me.jellysquid.mods.sodium.client.render.SodiumWorldRenderer	Inject	setupTerrain	FIELD	Lme/jellysquid/mods/sodium/client/render/SodiumWorldRenderer;lastFogDistance:F	storeLastPMZoom
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	CLASS				
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	ModifyVariable	renderLevel	STORE		renderLevel$0
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	WrapOperation	renderLevel	INVOKE	Lnet/minecraft/client/renderer/GameRenderer;getProjectionMatrix(D)Lorg/joml/Matrix4f;	renderLevel$1
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	isPanoramicMode	HEAD		isPanoramicMode
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.LevelRendererMixin	net.minecraft.client.renderer.LevelRenderer	CLASS				
+v20.1.0-1.20.1-Forge/Pixelshot-v20.1.0-1.20.1-Forge.jar		fuzs.pixelshot.mixin.client.LevelRendererMixin	net.minecraft.client.renderer.LevelRenderer	Inject	renderClouds	HEAD		renderClouds
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.CameraMixin	net.minecraft.client.Camera	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.CameraMixin	net.minecraft.client.Camera	Inject	setup	HEAD		snapmatica$freecam
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.CameraMixin	net.minecraft.client.Camera	Inject	setup	RETURN		snapmatica$pupilOffset
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.CloudTimeMixin	net.minecraft.client.renderer.LevelRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.EntityExposureMixin	net.minecraft.client.renderer.entity.EntityRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.EntityRendererMixin	net.minecraft.client.renderer.entity.EntityRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.EntityRendererMixin	net.minecraft.client.renderer.entity.EntityRenderer	Inject	renderNameTag	HEAD		snapmatica$hideLabelDuringCapture
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.ExposureInputMixin	net.minecraft.client.player.Input	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererInvoker	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererInvoker	net.minecraft.client.renderer.GameRenderer	Invoker	getProjectionMatrix			snapmatica$worldProjection
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	getFov(Lnet/minecraft/client/Camera;FZ)D	RETURN		snapmatica$applyFocalLength
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	getProjectionMatrix(D)Lorg/joml/Matrix4f;	RETURN		snapmatica$pupilShearDrawn
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	renderLevel	INVOKE	Lnet/minecraft/client/Camera;getXRot()F	snapmatica$rollView
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	bobView	HEAD		snapmatica$noBobInFreecam
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	render(FJZ)V	INVOKE	Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/vertex/PoseStack;)V	snapmatica$suppressHandBeforeCapture
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.GameRendererMixin	net.minecraft.client.renderer.GameRenderer	Inject	render(FJZ)V	INVOKE	Lnet/minecraft/client/renderer/GameRenderer;renderLevel(FJLcom/mojang/blaze3d/vertex/PoseStack;)V	snapmatica$captureAfterComposite
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.HeldItemRendererMixin	net.minecraft.client.renderer.ItemInHandRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.InGameHudMixin	net.minecraft.client.gui.Gui	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.InGameHudMixin	net.minecraft.client.gui.Gui	Inject	renderHotbar	HEAD		snapmatica$hideHotbar
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.InGameHudMixin	net.minecraft.client.gui.Gui	Inject	renderCrosshair	HEAD		snapmatica$hideCrosshair
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.IrisTimerMixin	net.irisshaders.iris.uniforms.SystemTimeUniforms$Timer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.IrisTimerMixin	net.irisshaders.iris.uniforms.SystemTimeUniforms$Timer	ModifyVariable	beginFrame	HEAD		snapmatica$driveAnimationClock
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.MouseMixin	net.minecraft.client.MouseHandler	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.MouseMixin	net.minecraft.client.MouseHandler	Inject	onScroll	HEAD		snapmatica$onMouseScroll
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.MouseMixin	net.minecraft.client.MouseHandler	Inject	turnPlayer	HEAD		snapmatica$freecamLook
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.MouseMixin	net.minecraft.client.MouseHandler	Inject	onPress	HEAD		snapmatica$blockClicksInFreecam
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.ParticleTimeMixin	net.minecraft.client.particle.ParticleEngine	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.ParticleTimeMixin	net.minecraft.client.particle.ParticleEngine	Inject	tick	HEAD		snapmatica$holdForExposure
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.PlayerEntityRendererMixin	net.minecraft.client.renderer.entity.player.PlayerRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.PlayerEntityRendererMixin	net.minecraft.client.renderer.entity.player.PlayerRenderer	Inject	renderNameTag	HEAD		snapmatica$hidePlayerLabelDuringCapture
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.WorldRendererMixin	net.minecraft.client.renderer.LevelRenderer	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.WorldRendererMixin	net.minecraft.client.renderer.LevelRenderer	Inject	renderHitOutline(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/entity/Entity;DDDLnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V	HEAD		snapmatica$hideOutlineDuringCapture
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.WorldTimeMixin	net.minecraft.world.level.Level	CLASS				
+1.3.5+forge-1.20.1/snapmatica-1.3.5+forge-1.20.1.jar		dev.shunti.snapmatica.client.mixin.WorldTimeMixin	net.minecraft.world.level.Level	Inject	getDayTime	HEAD		snapmatica$exposureClock

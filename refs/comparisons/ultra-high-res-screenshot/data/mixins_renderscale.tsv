@@ -1,0 +1,28 @@
+jar	nested	mixin_class	target_class	kind	method_patterns	at_values	at_targets	java_method
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinDebugScreenOverlay	net.minecraft.client.gui.components.DebugScreenOverlay	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinDebugScreenOverlay	net.minecraft.client.gui.components.DebugScreenOverlay	Inject	getGameInformation	RETURN		renderScale$addScale
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	reloadShaders|close	HEAD		renderScale$closeLegacyShaders
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	render	HEAD		renderScale$updateDynamicScale
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	render	RETURN		renderScale$autotestFrameRendered
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	renderLevel	HEAD		takeOver
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinGameRenderer	net.minecraft.client.renderer.GameRenderer	Inject	renderLevel	RETURN		handBack
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinLevelRenderer	net.minecraft.client.renderer.LevelRenderer	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinLevelRenderer	net.minecraft.client.renderer.LevelRenderer	Inject	initOutline	RETURN		onLoadEntityOutlineShader
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinLevelRenderer	net.minecraft.client.renderer.LevelRenderer	Inject	resize	RETURN		onOnResized
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinPostChain	net.minecraft.client.renderer.PostChain	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinPostChain	net.minecraft.client.renderer.PostChain	Redirect	resize	INVOKE	Lcom/mojang/blaze3d/pipeline/RenderTarget;resize(IIZ)V	resize
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinPostChain	net.minecraft.client.renderer.PostChain	Inject	updateOrthoMatrix	TAIL		onUpdateOrthoMatrix
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinRenderTarget	com.mojang.blaze3d.pipeline.RenderTarget	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinRenderTarget	com.mojang.blaze3d.pipeline.RenderTarget	Redirect	setFilterMode	INVOKE	Lcom/mojang/blaze3d/platform/GlStateManager;_texParameter(III)V	onSetTexFilter
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	ModifyReturnValue	getWidth	RETURN		renderScale$scaleWidth
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	ModifyReturnValue	getHeight	RETURN		renderScale$scaleHeight
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	ModifyReturnValue	getGuiScale	RETURN		renderScale$modifyGuiScale
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	Inject	onFramebufferResize	RETURN		renderScale$onFramebufferResize
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.MixinWindow	com.mojang.blaze3d.platform.Window	Inject	refreshFramebufferSize	RETURN		renderScale$refreshFramebufferSize
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.accessors.MixinMinecraftAccessor	net.minecraft.client.Minecraft	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.compat.iris.MixinIris	net.irisshaders.iris.Iris	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.compat.iris.MixinIris	net.irisshaders.iris.Iris	Inject	reload	TAIL		reload
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.compat.iris.MixinOculusRenderTargets	net.irisshaders.iris.targets.RenderTargets	CLASS				
+renderscale-2.0.0-beta.1-forge+1.20.1.jar		dev.zelo.renderscale.mixin.compat.iris.MixinOculusRenderTargets	net.irisshaders.iris.targets.RenderTargets	Inject	resizeIfNeeded	HEAD		renderScale$invalidateReplacedDepthTarget

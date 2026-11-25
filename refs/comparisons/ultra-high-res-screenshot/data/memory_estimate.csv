@@ -1,0 +1,31 @@
+case,pixels_MP,pack,shader_buffers_GiB (main+alt),other_GiB,total_GPU_GiB,cpu_readback_RGBA_GiB,forgeshot_RGB_directbuffer_GiB
+1080p window,2.1,no shader pack,0,0.04,0.04,0.01,0.01
+1080p window,2.1,BSL 10.1 (7 declared),0.15,0.04,0.19,0.01,0.01
+1080p window,2.1,Complementary r5.10 (14 declared),0.25,0.04,0.29,0.01,0.01
+1080p window,2.1,I Like Vanilla 1.5.0b (11 declared),0.18,0.04,0.22,0.01,0.01
+1080p window,2.1,Mellow 3.5 (5 declared),0.08,0.04,0.12,0.01,0.01
+1080p window,2.1,Solas 3.9 (7 declared),0.19,0.04,0.22,0.01,0.01
+4K,8.3,no shader pack,0,0.15,0.15,0.03,0.02
+4K,8.3,BSL 10.1 (7 declared),0.62,0.15,0.77,0.03,0.02
+4K,8.3,Complementary r5.10 (14 declared),1.02,0.15,1.17,0.03,0.02
+4K,8.3,I Like Vanilla 1.5.0b (11 declared),0.71,0.15,0.87,0.03,0.02
+4K,8.3,Mellow 3.5 (5 declared),0.31,0.15,0.46,0.03,0.02
+4K,8.3,Solas 3.9 (7 declared),0.74,0.15,0.9,0.03,0.02
+8K,33.2,no shader pack,0,0.62,0.62,0.12,0.09
+8K,33.2,BSL 10.1 (7 declared),2.47,0.62,3.09,0.12,0.09
+8K,33.2,Complementary r5.10 (14 declared),4.08,0.62,4.7,0.12,0.09
+8K,33.2,I Like Vanilla 1.5.0b (11 declared),2.84,0.62,3.46,0.12,0.09
+8K,33.2,Mellow 3.5 (5 declared),1.24,0.62,1.85,0.12,0.09
+8K,33.2,Solas 3.9 (7 declared),2.97,0.62,3.58,0.12,0.09
+15360x8640,132.7,no shader pack,0,2.47,2.47,0.49,0.37
+15360x8640,132.7,BSL 10.1 (7 declared),9.89,2.47,12.36,0.49,0.37
+15360x8640,132.7,Complementary r5.10 (14 declared),16.31,2.47,18.79,0.49,0.37
+15360x8640,132.7,I Like Vanilla 1.5.0b (11 declared),11.37,2.47,13.84,0.49,0.37
+15360x8640,132.7,Mellow 3.5 (5 declared),4.94,2.47,7.42,0.49,0.37
+15360x8640,132.7,Solas 3.9 (7 declared),11.87,2.47,14.34,0.49,0.37
+16384x16384,268.4,no shader pack,0,5.0,5.0,1.0,0.75
+16384x16384,268.4,BSL 10.1 (7 declared),20.0,5.0,25.0,1.0,0.75
+16384x16384,268.4,Complementary r5.10 (14 declared),33.0,5.0,38.0,1.0,0.75
+16384x16384,268.4,I Like Vanilla 1.5.0b (11 declared),23.0,5.0,28.0,1.0,0.75
+16384x16384,268.4,Mellow 3.5 (5 declared),10.0,5.0,15.0,1.0,0.75
+16384x16384,268.4,Solas 3.9 (7 declared),24.0,5.0,29.0,1.0,0.75

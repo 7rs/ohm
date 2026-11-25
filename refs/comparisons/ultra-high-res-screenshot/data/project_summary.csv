@@ -1,0 +1,18 @@
+slug,title,modrinth_project_downloads,forge_1.20.1_files,forge_1.20.1_file_downloads,last_forge_1.20.1_version,last_forge_1.20.1_date,last_type,first_forge_1.20.1_date,modrinth_updated,modrinth_client_side,modrinth_server_side,license,source_url,curseforge_total_downloads,curseforge_latest_1.20.1_file,curseforge_latest_1.20.1_date
+bigshot,Bigshot,414437,1,5987,1.0.1,2023-12-07,release,2023-12-07,2025-12-18,required,unsupported,MIT,https://github.com/jaredlll08/bigshot,185380,BigShot-forge-1.20.1-1.0.1.jar,2023-12-07
+forgeshot,Forgeshot,413871,1,7865,1.0,2024-01-23,release,2024-01-23,2026-10-18,required,unsupported,MIT,https://github.com/AstraCoders/Forgeshot,283172,forgeshot-mc1.20.1-1.0.jar,2024-01-23
+pixelshot,Pixelshot,26924,1,680,v20.1.0-1.20.1-Forge,2026-05-21,release,2026-05-21,2026-09-20,required,unsupported,MPL-2.0,https://github.com/Fuzss/pixelshot,44482,Pixelshot-v20.1.0-1.20.1-Forge.jar,2026-05-21
+hiresshot,HiResShot,2974,1,1127,HiResShot-Forge-1.20.1-0.0.1,2026-01-01,release,2026-01-01,2026-01-11,required,unsupported,MIT,https://github.com/DHJComical/HiResShot,3296,hiresshot-Forge-1.20.1-0.0.1.jar,2026-01-01
+panoramic-screenshot,Power Screenshot,5919,2,552,1.0.1,2026-03-24,release,2026-02-11,2026-06-27,required,unsupported,LGPL-3.0-or-later,https://github.com/xkball/PanoramicScreenshot,121293,PowerScreenshot-Minecraft1.20.1-Forge-1.0.1.jar,2026-03-24
+picture-mode,Picture Mode,245879,18,11746,1.1.8+1.20.1-forge,2026-11-10,release,2026-01-21,2026-11-10,required,unsupported,LGPL-3.0-only,https://codeberg.org/icanttellyou/PictureMode,85014,picturemode-forge-1.1.8-1.20.1.jar,2026-11-10
+snapmatica,Snapmatica,1707,4,74,1.3.5+forge-1.20.1,2026-09-25,release,2026-09-22,2026-09-25,required,unsupported,MIT,https://github.com/shuntilettuce/photographica,,,
+panoramica,Panoramica,50115,1,24932,1.2.1-1.19.2-forge,2025-08-24,release,2025-08-24,2025-08-24,required,unsupported,LicenseRef-DSMSL,https://github.com/Keksuccino/Panoramica,,,
+renderscale,RenderScale,2213123,4,162554,2.0.0-beta.1-forge+1.20.1,2026-10-17,beta,2025-01-05,2026-10-17,required,unsupported,MIT,https://github.com/Zolo101/RenderScale,,,
+superresolution,Super Resolution,977116,16,408173,1.20.1-0.9.2-alpha.2+gl-forge,2026-10-03,alpha,2025-05-24,2026-10-03,required,unsupported,GPL-3.0-or-later,https://github.com/IReallyWantToSleep/superresolution,,,
+exposure,Exposure,15086639,44,6355316,1.9.24,2026-11-09,release,2023-11-22,2026-11-09,required,required,MIT,https://github.com/mortuusars/Exposure,,,
+camerapture,Camerapture,2113173,12,277411,1.10.12+mc1.20.1-forge,2026-01-24,release,2024-12-12,2026-09-18,required,required,MIT,https://github.com/chrrs/camerapture,,,
+picturecam,PictureCam,2751,2,1853,1.0.1,2025-12-22,release,2025-12-13,2026-06-21,required,required,LicenseRef-All-Rights-Reserved,,,,
+cameracraft,CameraCraft,10063,2,4021,2.1,2026-08-24,release,2026-02-25,2026-08-24,required,required,LicenseRef-All-Rights-Reserved,,,,
+free-camera,Free Camera,29320,1,2800,2.2.0-forge-1.20.1,2026-05-19,release,2026-05-19,2026-07-26,required,unsupported,MIT,https://github.com/Cukkoo12/free-camera,,,
+replaymod,ReplayMod,19638700,0,0,,,,,2026-10-18,required,unsupported,GPL-3.0-or-later,https://github.com/ReplayMod/ReplayMod,,,
+wiki-zoomer,Wiki Zoomer,16117,1,1962,1.3.0,2023-11-04,release,2023-11-04,2023-11-04,required,required,LGPL-3.0-only,https://github.com/AlexModGuy/WikiZoomer,,,
