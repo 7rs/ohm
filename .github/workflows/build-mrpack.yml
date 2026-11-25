@@ -11,6 +11,7 @@ on:
       - resourcepacks/**
       - shaderpacks/**
       - .packwizignore
+      - scripts/**
       - .github/workflows/build-mrpack.yml
   pull_request:
   workflow_dispatch:
@@ -47,30 +48,14 @@ jobs:
           cache: false
 
       - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@${PACKWIZ_VERSION}
+        run: |
+          go install github.com/packwiz/packwiz@${PACKWIZ_VERSION}
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
       - name: Verify index is up to date
         run: |
-          "$(go env GOPATH)/bin/packwiz" refresh
+          packwiz refresh
           git diff --exit-code -- pack.toml index.toml
-
-      - name: Add manual-download files to the packwiz cache
-        if: matrix.platform == 'modrinth'
-        env:
-          MANUAL_MODS: immersive-vehicles-craftspeed
-        run: |
-          import_dir="${XDG_CACHE_HOME:-$HOME/.cache}/packwiz/cache/import"
-          mkdir -p "$import_dir"
-          for slug in $MANUAL_MODS; do
-            meta="mods/${slug}.pw.toml"
-            name=$(sed -n 's/^filename = "\(.*\)"$/\1/p' "$meta")
-            file_id=$(sed -n 's/^file-id = \([0-9]*\)$/\1/p' "$meta")
-            hash_format=$(sed -n 's/^hash-format = "\(.*\)"$/\1/p' "$meta")
-            hash=$(sed -n 's/^hash = "\(.*\)"$/\1/p' "$meta")
-            encoded=$(python3 -c 'import sys, urllib.parse; print(urllib.parse.quote(sys.argv[1]))' "$name")
-            curl -fsSL --retry 3 -o "$import_dir/$name" "https://edge.forgecdn.net/files/$((file_id / 1000))/$((file_id % 1000))/$encoded"
-            echo "$hash  $import_dir/$name" | "${hash_format}sum" -c -
-          done
 
       - name: Export
         id: export
@@ -80,7 +65,7 @@ jobs:
         run: |
           mkdir -p dist
           file="dist/ohm-${GITHUB_SHA::7}-${PLATFORM}.${EXT}"
-          "$(go env GOPATH)/bin/packwiz" "$PLATFORM" export --output "$file"
+          sh scripts/export.sh "$PLATFORM" "$file"
           echo "file=$file" >> "$GITHUB_OUTPUT"
 
       - uses: actions/upload-artifact@v7
