@@ -39,7 +39,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
 | Immersive Vehicles - Official Content Pack [OCP] | immersive-vehicles-official-content-pack | modrinth | github.com/DonBruce64/MTSOfficialPack |
 | GT CRAFT [IV/MTS] | gt-craft-ivmts | modrinth | - |
-| [Immersive Vehicles] Craftspeed | immersive-vehicles-craftspeed | curseforge | - |
 
 ## Item/Mob
 

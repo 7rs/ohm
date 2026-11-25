@@ -1,6 +1,6 @@
 # Comparisons index
 
-One-page summary of every comparison in `refs/comparisons/`. Read this first. Open a topic folder only when the evidence behind a result is needed. Install state was checked against `mods/`, `resourcepacks/` and `shaderpacks/` on 2026-11-25 (136 mod metafiles). Where the table here and a `comparison.md` differ, the later date wins; `refs/notes.md` holds the decisions made after each comparison.
+One-page summary of every comparison in `refs/comparisons/`. Read this first. Open a topic folder only when the evidence behind a result is needed. Install state was checked against `mods/`, `resourcepacks/` and `shaderpacks/` on 2026-11-25 (136 mod metafiles; 135 after Craftspeed was removed on 2026-11-26). Where the table here and a `comparison.md` differ, the later date wins; `refs/notes.md` holds the decisions made after each comparison.
 
 ## How to use
 
@@ -50,7 +50,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 | [content-additions](#content-additions) | 11-24 | 19 content mods | Mostly added |
 | [superb-warfare](#superb-warfare) | 11-24 | Superb Warfare | Added |
 | [vehicles](#vehicles) | 11-24 | Five added, Valkyrien Skies held | Decided |
-| [iv-car-packs](#iv-car-packs) | 11-24 | Craftspeed plus GT CRAFT | Added |
+| [iv-car-packs](#iv-car-packs) | 11-24 | Craftspeed plus GT CRAFT | GT CRAFT added; Craftspeed removed 11-26 |
 | [mob-difficulty](#mob-difficulty) | 11-24 | Simple Enemy, Enhanced Celestials 2, Clanging Howl | Added |
 | [difficulty-mods](#difficulty-mods) | 11-25 | L2Hostility, Cold Sweat, Cataclysm, No Mindless Shooting | Pending, not added |
 
@@ -196,6 +196,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 
 - Question: Immersive Vehicles content packs for JDM, American and European cars. Field enumerated from three inventories plus web searches; not a crawl of CurseForge.
 - Decision 2026-11-24 (user): Craftspeed 1.7.5 (CurseForge, the only pack covering all three regions: 38 JDM, 18 American, 39 European; cheap recipes) plus GT CRAFT 2.1.2 (best JDM pack, Modrinth, Japanese names, expensive recipes), with Official Content Pack V29 as GT CRAFT's required dependency. All `side = "both"`.
+- Decision 2026-11-26 (user): Craftspeed removed (not needed). GT CRAFT and OCP stay. The "only pack covering all three regions" claim above no longer matters for the pack. Craftspeed had no CurseForge API download URL, which is why the build once needed a download script.
 - Not added: Kaminari Motor Works (largest catalogue, 199 definitions, but abandoned since 2025-05, 176 MB, needs OCP). Not a fit: New Cars (on IV's crash list), fictional-brand and non-car packs. Craftspeed: 13 of 97 vehicles have no recipe list.
 - Standalone car mods (Kuruma, Valiant Vehicles, Ultimate Car Mod, [ST]Drive, Automobility) have no real-brand sets.
 
