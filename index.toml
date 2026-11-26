@@ -21,6 +21,10 @@ file = "config/defaultoptions/extra/config/cwb.json"
 hash = "82b26f02f49a8994f6dce487370c8b844d0e716fbe19275e40247aa41fcb3479"
 
 [[files]]
+file = "config/defaultoptions/extra/config/dynamic_fps.json"
+hash = "65e923330f111de6700f18876eded783e0d50938be1c58ececd147e1fbfc8984"
+
+[[files]]
 file = "config/defaultoptions/extra/config/embeddium-options.json"
 hash = "ca63fa70522103243032ec157af833e9b09363fbdf6ddc96e0fb4ec7340f1ebd"
 
@@ -29,8 +33,20 @@ file = "config/defaultoptions/extra/config/oculus.properties"
 hash = "3027c2ed9a4242626a36c2e5af9722ad52b11044cc06115590dc0040d0efb26a"
 
 [[files]]
+file = "config/defaultoptions/extra/config/renderscale.json5"
+hash = "6da8f1a38d56f5caf49335536d27e501d1206f9f732df0a1783ed2e220bf9029"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaero/minimap/profiles/default.cfg"
+hash = "6aad3650724fb2a0dbfdbb66a1bf84e36a595557efb495252b1e9e65694c9524"
+
+[[files]]
+file = "config/defaultoptions/extra/config/xaerohud.txt"
+hash = "a6ff9972cc152213e8c0c294117c086fdd906b05c1a15a0b3c044d583d80c686"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
-hash = "8e001b39b9c8a0ef2d0f133a49ba286b30329fdc12ed0280227c3d9da0010ad9"
+hash = "2111b9cfdcbd53a44e7e575aca532f349feef63bf843ba14147cbcb5951e357e"
 
 [[files]]
 file = "config/modernfix-mixins.properties"

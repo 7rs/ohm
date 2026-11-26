@@ -24,6 +24,7 @@ File: `config/defaultoptions/options.txt`
 | `lang` | `ja_jp` | Japanese. |
 | `mouseSensitivity` | `0.165` | Sensitivity 33%. `options.txt` stores half of the percent shown in the game (default `0.5` is 100%). |
 | `onboardAccessibility` | `false` | Skips the accessibility and narrator screen at first launch. |
+| `soundCategory_music` | `0.0` | Music volume (the Music slider, the vanilla BGM) at 0%. Chosen by the user (2026-11-27). The other sound categories stay at the default `1.0`. |
 | `resourcePacks` | `["vanilla","tacz_resources","mod_resources","mod/punchy:punchy","file/Fluid & Foolish 1.0.1.zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/Iron Girl v2.0.zip","file/Piglin-Chan.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip","file/AzukiV57.zip"]` | Enables the packs. The first entry has the lowest priority, the last the highest: Fresh Animations at the bottom, then Iron Girl, Piglin-Chan and the Melody's packs, with Melody's Witches above them (Iron Girl ships its own `witch.jem`). Japanese Language Pack (`AzukiV57.zip`) is the last entry, so it is on top: its author asks for the top slot, it holds only `ja_jp.json` files (no textures, so it does not touch the entity packs), and a pack above jtrans wins for the same key. The list is copied from a real instance, so it also names the packs mods add. The `file/` id is the file name in `resourcepacks/`. The game saves `&` as a JSON unicode escape, but a plain `&` parses the same. |
 | `incompatibleResourcePacks` | `["file/Iron Girl v2.0.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip"]` | Minecraft 1.20.1 reads only `pack_format` (the jar has no `supported_formats`), and compares it with 15. Iron Girl declares 32 and the four Melody's packs declare 10, so the game would remove them from `resourcePacks` at load ("no longer compatible"). Listing them here keeps them enabled. |
 
@@ -110,6 +111,49 @@ File: `config/defaultoptions/extra/config/cwb.json`
 - It replaces the Fullscreen button of the vanilla Video Settings screen with a mode selector. Embeddium has its own video options screen with a plain Fullscreen toggle; whether the selector shows anywhere else was not checked. Its config screen needs Cloth Config or YACL, and Cloth Config is installed.
 - To start in exclusive fullscreen instead, set `fullscreenMode` to `EXCLUSIVE` and Chloride's `fullscreen.mode` to `FULLSCREEN`. Not run.
 
+### Xaero's Minimap
+
+Files: `config/defaultoptions/extra/config/xaero/minimap/profiles/default.cfg` (the profile `default`, which `xaero/minimap/client.cfg` selects) and `config/defaultoptions/extra/config/xaerohud.txt` (position). Taken from the author's instance on 2026-11-26. Defaults were read from the 26.6.0 jar (`MinimapProfiledConfigOptions`) and the xaerolib 1.7.3 jar inside it.
+
+| File | Key | Value | Reason |
+| --- | --- | --- | --- |
+| `default.cfg` | `minimap_size` | `120` | Minimap size. The default is `0` (Auto). |
+| `default.cfg` | `minimap_opacity` | `90` | Minimap opacity in percent. The default is `100`. |
+| `default.cfg` | `profile_name` | `Default` | The default is `Untitled`, so a profile file without this line would be renamed. |
+| `xaerohud.txt` | the `xaerominimap:minimap` module line | `x=-1;y=12`, `fromRight=false`, `fromBottom=false` | Position, anchored to the top left, in the HUD's own units. The file is that one line, as the game saved it. The default position was not read. |
+
+- Every other key stays at its default. The game writes the whole profile when it saves, so a file with only these three keys relies on Xaero filling the rest with the defaults (inferred, not run).
+- `minimap_ui_scale` was `2` in the author's instance (default `1`) and is not shipped: the user listed only the size, the opacity and the position (2026-11-27).
+- The world map (`xaero/world-map/profiles/default.cfg`), the radar and the waypoint keys were not touched.
+
+### Dynamic FPS
+
+File: `config/defaultoptions/extra/config/dynamic_fps.json`. Taken from the author's instance on 2026-11-26. Dynamic FPS saves only the values that differ from its built-in defaults and fills the missing keys from the jar's `default_config.json` (read from the 3.11.4 source: `Serialization.removeUnchangedFields`, `addMissingFields`), so the file is the difference as the game saved it.
+
+| Key | Value | Default | Reason |
+| --- | --- | --- | --- |
+| `idle.timeout` | `180` | `300` | Seconds without movement, look change or mouse movement before the `abandoned` state. |
+| `idle.condition` | `none` | `vanilla` | `IdleHandler` adds a check only for `on_battery`, so `none` and `vanilla` behave alike there. Other uses were not read. |
+| `states.unfocused.graphics_state` | `reduced` | `default` | Reduced graphics while the window has no focus. |
+| `states.invisible.frame_rate_target`, `graphics_state` | `1`, `reduced` | `0`, `default` | Window minimized or hidden: 1 FPS and reduced graphics. |
+| `states.abandoned.frame_rate_target`, `graphics_state` | `30`, `reduced` | `10`, `default` | Idle player: 30 FPS and reduced graphics. |
+
+- Left at the defaults: `hovered` 60 FPS, `unfocused` 1 FPS with the master volume at 25%, `invisible` volume 0. The focused window is not capped by any state.
+- The user confirmed on 2026-11-27 that every changed value is shipped (all of the table above).
+
+### RenderScale
+
+File: `config/defaultoptions/extra/config/renderscale.json5`. RenderScale 2.0.0-beta.1 registers a Cloth Config AutoConfig named `renderscale` with the Jankson serializer (read from the jar: `RenderScaleConfig`, `me/shedaniel/autoconfig/serializer/JanksonConfigSerializer`), so the game reads `config/renderscale.json5`. The defaults are the field initializers in the jar's `RenderScaleConfig` constructor. Chosen by the user (2026-11-27).
+
+| Key | Value | Default | Reason |
+| --- | --- | --- | --- |
+| `scale` | `0.8` | `1.0` | Render scale of 80%, relative to the window resolution. |
+| `irisScale` | `0.75` | `-1.0` | Render scale while a shader pack is on, 75%. `-1` keeps the value of `scale`. |
+| `fsr` | `true` | `false` | FSR 1 upscaling (the option's screen name is "FSR 1 upscaling"; the user's "SR"). Its tooltip says it works at 100% scale and below, so 80% and 75% qualify. |
+
+- Left at the defaults: `targetFrameRate` `0` (dynamic scaling off), `aggressionLevel` `NORMAL`, `minimumScale` `0.1`, `forceBilinear` `false`, `downscaleFilter` `AUTO`, `sharpeningMode` `OFF`, `sharpeningStrength` `35`.
+- A file with only these three keys relies on Jankson leaving the other fields at their defaults (inferred, not run). The file name and the three values were not tested in the game (see `refs/issues.md`).
+
 ### Oculus
 
 File: `config/defaultoptions/extra/config/oculus.properties`
@@ -169,13 +213,12 @@ Added 2026-11-23. Nothing is shipped for them. The defaults were read from the j
 - Fast Items: `enable` is `true`, `affect3DModels` is `true`, `renderSidesOfItems` is `false`, `castShadows` is `true` (vanilla `entityShadows:false` already hides shadows).
 - Leaves Be Gone: `minimumDecayTicks` is 5 and `maximumDecayTicks` is 20.
 
-### Cerulean, FISM, RenderScale
+### Cerulean, FISM
 
-Added 2026-11-26. Nothing is shipped for them:
+Added 2026-11-26. Nothing is shipped for them (RenderScale has its own section above):
 
 - Cerulean: the jar's `cerulean.yml` has `enable_skip_ticks`, `ignore_triggers_for_emptied_stacks` and `ignore_triggers_for_decreased_stacks` at `true` and `debug_mode` at `false`. The defaults already switch the optimization on.
 - FISM: the jar holds no config.
-- RenderScale: the defaults of its Cloth Config screen (`scale`, `dynamic`, `irisScale`, `forceBilinear`, `downscaleFilter`, `sharpeningMode`, `sharpeningStrength`) were not read, so whether it changes anything out of the box is unknown (see `refs/issues.md`). A player sets the scale in the game.
 
 ### Debug Keybind
 
