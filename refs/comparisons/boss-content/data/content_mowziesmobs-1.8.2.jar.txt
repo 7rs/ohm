@@ -1,0 +1,6 @@
+bosses (class names): 
+structure_set frostmaw_spawns.json: type=minecraft:random_spread spacing=25 separation=8 freq=None structures=['mowziesmobs:frostmaw_spawn']
+structure_set monasteries.json: type=minecraft:random_spread spacing=25 separation=8 freq=None structures=['mowziesmobs:monastery']
+structure_set umvuthana_groves.json: type=minecraft:random_spread spacing=25 separation=8 freq=None structures=['mowziesmobs:umvuthana_grove']
+structure_set wrought_chambers.json: type=minecraft:random_spread spacing=15 separation=5 freq=None structures=['mowziesmobs:wrought_chamber']
+biome_modifier mowzie_mob_spawns.json: type=mowziesmobs:mowzie_mob_spawns biomes=None spawners=[]

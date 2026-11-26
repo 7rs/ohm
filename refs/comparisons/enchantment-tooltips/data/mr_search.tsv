@@ -1,0 +1,12 @@
+slug	title	downloads	updated	client	server	terms	description
+enchantment-descriptions	Enchantment Descriptions	40639327	2026-09-27	required	optional	enchantment description|enchantment descriptions	Provides a way to get enchantment descriptions from enchanted books.
+emi-enchanting	EMI Enchanting	9348915	2024-09-18	required	unsupported	enchantment info	EMI Plugin that gives basic enchantment information; valid items, exlcusions, etc.
+emienchants	EMI Enchants	5028324	2024-06-14	required	unsupported	enchantment description|enchantment info	EMI addon to view enchanting information & enchantment description
+more-enchantment-info	More Enchantment Info	751002	2026-06-16	required	unsupported	enchantment info	Providing enchantment info to JEI
+useful-spyglass	Useful Spyglass	393047	2026-06-06	required	required	enchantment info	Viewing a mob or player with a spyglass displays some information on the screen. Also adds a unique enchantment for the spyglass.
+uei	Universal Enchantment Info (JEI/REI/EMI/RRV)	51705	2026-11-21	required	unsupported	enchantment info	A JEI/REI/EMI/RRV plugin that displays detailed enchantment information
+enchantment-descriptions-java	Enchantment Descriptions Java	30496	2025-10-01	optional	required	enchantment description|enchantment descriptions	This resource pack enhances Minecraft’s enchantment system by providing detailed descriptions of every enchantment directly in-game. Whether you're new or exper
+enchantment-info	Enchantment Info	22821	2026-09-30	required	unsupported	enchantment info	Shows compatibilities and other info about Enchantments in Enchanted Book's tooltip.
+pin-tooltips	Pin Tooltips 📌	5731	2026-11-01	required	unsupported	enchantment description|enchantment descriptions|enchantment info|enchantment tooltip	Adds the ability to pin tooltips to the screen and view more information from them such as enchantment and mob effect descriptions.
+enchantment-tooltip-cleaner	Enchantment Tooltip Cleaner	1289	2026-09-27	required	unsupported	enchantment description|enchantment tooltip	Enchantment Tooltip Cleaner can remove enchantment lines and/or the gray description text beneath them.
+reunmending	ReUnmending	441	2024-07-25	required	required	enchantment tooltip	ReUnmending enhances Minecraft's item repair system by modifying Mending enchantment behavior, adding customizable tooltips, and fixing anvil interface issues.

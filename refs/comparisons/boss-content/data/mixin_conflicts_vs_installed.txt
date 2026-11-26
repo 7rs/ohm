@@ -1,0 +1,144 @@
+=== bestylewither-forge-mc1.20-1.6.1.jar  mixin classes: 8  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 5 (handler methods resolved to SRG through the refmap: 21 of 21)
+   SHARED with clanging-howl-[Forge]_1.20.1_1.1.0: 2
+   SHARED with immersive_aircraft-1.5.0+1.20.1-forge: 1
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 1
+   SHARED with tenshilib-1.20.1-1.7.6-forge: 1
+=== better_wither-1.0.0-forge-1.20.1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== bosses_recrafted-1.0.0-forge-1.20.1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== witherstormmod-1.20.1-4.2.1-all.jar  mixin classes: 63  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 71 (handler methods resolved to SRG through the refmap: 48 of 50)
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 11
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 9
+   SHARED with oculus-mc1.20.1-1.8.0: 7
+   SHARED with Botania-1.20.1-456-FORGE: 5
+   SHARED with immersive_aircraft-1.5.0+1.20.1-forge: 4
+   SHARED with punchy-3.2b-forge-1.20.1: 4
+   SHARED with renderscale-2.0.0-beta.1-forge+1.20.1: 3
+   SHARED with l2complements-2.6.1: 2
+   SHARED with l2hostility-2.5.19: 2
+   SHARED with appliedenergistics2-forge-15.4.12: 2
+   SHARED with BadOptimizations-2.4.1-1.20.1: 2
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 2
+=== Deicide Wither1.0.7.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 1  shared-method entries: 55 (handler methods resolved to SRG through the refmap: 26 of 33)
+   OVERWRITE LivingEntity#m_21223_ [Inject vs Overwrite] <-> BadOptimizations-2.4.1-1.20.1
+   SHARED with entity_model_features-3.3.12-1.20.1-forg: 6
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 4
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 4
+   SHARED with renderscale-2.0.0-beta.1-forge+1.20.1: 4
+   SHARED with modernfix-forge-5.27.91+mc1.20.1: 4
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 3
+   SHARED with aether-1.20.1-1.5.2-neoforge: 3
+   SHARED with irons_spellbooks-1.20.1-3.16.4: 3
+   SHARED with l2complements-2.6.1: 3
+   SHARED with l2hostility-2.5.19: 3
+   SHARED with BadOptimizations-2.4.1-1.20.1: 2
+   SHARED with bedrockoid-0.1.2: 2
+=== tkvm_wither-1.4.1.jar  mixin classes: 4  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 4 (handler methods resolved to SRG through the refmap: 10 of 11)
+   SHARED with aether-1.20.1-1.5.2-neoforge: 1
+   SHARED with irons_spellbooks-1.20.1-3.16.4: 1
+   SHARED with l2complements-2.6.1: 1
+   SHARED with l2hostility-2.5.19: 1
+=== warwither-1.20.1-1.1.1.jar  mixin classes: 4  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 4 of 4)
+=== withering-heights-alpha-1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== [1.19.4-1.20.1]witherswrath-1.16.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== 凋灵斯拉mc1.20.1-1.7.jar  mixin classes: 16  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 15 (handler methods resolved to SRG through the refmap: 23 of 27)
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with Harium-mc1.20.1-2.0-cumulative-hotfix-v2: 3
+   SHARED with bedrockoid-0.1.2: 1
+   SHARED with Enhanced-Celestials-2-Core-Forge-1.20.1-: 1
+   SHARED with Platform-forge-1.20.1-1.4.2: 1
+   SHARED with tacz-1.20.1-1.1.8-hotfix2: 1
+   SHARED with immersive_optimization-forge-1.20.1-0.2.: 1
+   SHARED with BadOptimizations-2.4.1-1.20.1: 1
+   SHARED with entityculling-forge-1.11.3-mc1.20.1: 1
+=== architectury-9.2.14-forge.jar  mixin classes: 19  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 17 (handler methods resolved to SRG through the refmap: 9 of 10)
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 4
+   SHARED with Corgilib-Forge-1.20.1-4.0.3.6: 2
+   SHARED with Data_Anchor-forge-1.20.1-1.0.0.24: 2
+   SHARED with LeavesBeGone-v8.0.0-1.20.1-Forge: 2
+   SHARED with solix-0.3.7-mc1.20.1-forge: 2
+   SHARED with ParCool-1.20.1-4.0.2.0: 2
+   SHARED with balm-forge-1.20.1-7.3.44: 1
+   SHARED with Fastquit-3.0.1+1.20.1forge: 1
+   SHARED with Ixeris-4.6.11+1.20.1-forge: 1
+=== IceAndFireCE-1.3.1-bugfix-1.20.1-forge.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 120 (handler methods resolved to SRG through the refmap: 19 of 19)
+   SHARED with oculus-mc1.20.1-1.8.0: 32
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 10
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 7
+   SHARED with player-animation-lib-forge-1.0.2-rc1+1.2: 7
+   SHARED with entity_texture_features-7.2.7-1.20.1-for: 7
+   SHARED with punchy-3.2b-forge-1.20.1: 6
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with Immersive Vehicles-1.20.1-24.0.0: 5
+   SHARED with create-1.20.1-6.0.8: 5
+   SHARED with entity_model_features-3.3.12-1.20.1-forg: 4
+   SHARED with renderscale-2.0.0-beta.1-forge+1.20.1: 3
+   SHARED with chloride-FORGE-mc1.20.1-v1.8.1: 2
+=== IceAndFireCE-1.3.2-1.20.1-forge.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 120 (handler methods resolved to SRG through the refmap: 19 of 19)
+   SHARED with oculus-mc1.20.1-1.8.0: 32
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 10
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 7
+   SHARED with player-animation-lib-forge-1.0.2-rc1+1.2: 7
+   SHARED with entity_texture_features-7.2.7-1.20.1-for: 7
+   SHARED with punchy-3.2b-forge-1.20.1: 6
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with Immersive Vehicles-1.20.1-24.0.0: 5
+   SHARED with create-1.20.1-6.0.8: 5
+   SHARED with entity_model_features-3.3.12-1.20.1-forg: 4
+   SHARED with renderscale-2.0.0-beta.1-forge+1.20.1: 3
+   SHARED with chloride-FORGE-mc1.20.1-v1.8.1: 2
+=== IceAndFireCE-1.2.7-1.20.1-forge.jar  mixin classes: 12  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 120 (handler methods resolved to SRG through the refmap: 17 of 17)
+   SHARED with oculus-mc1.20.1-1.8.0: 32
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 10
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 7
+   SHARED with player-animation-lib-forge-1.0.2-rc1+1.2: 7
+   SHARED with entity_texture_features-7.2.7-1.20.1-for: 7
+   SHARED with punchy-3.2b-forge-1.20.1: 6
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with Immersive Vehicles-1.20.1-24.0.0: 5
+   SHARED with create-1.20.1-6.0.8: 5
+   SHARED with entity_model_features-3.3.12-1.20.1-forg: 4
+   SHARED with renderscale-2.0.0-beta.1-forge+1.20.1: 3
+   SHARED with chloride-FORGE-mc1.20.1-v1.8.1: 2
+=== jupiter-2.3.7-1.20.1-forge.jar  mixin classes: 2  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 1)
+=== L_Enders_Cataclysm-3.31.jar  mixin classes: 25  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 14 (handler methods resolved to SRG through the refmap: 17 of 18)
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 3
+   SHARED with l2complements-2.6.1: 2
+   SHARED with oculus-mc1.20.1-1.8.0: 2
+   SHARED with tenshilib-1.20.1-1.7.6-forge: 2
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 2
+   SHARED with appliedenergistics2-forge-15.4.12: 1
+   SHARED with structure_layout_optimizer-forge-1.0.12: 1
+   SHARED with create-1.20.1-6.0.8: 1
+=== lionfishapi-3.0.jar  mixin classes: 2  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 12 (handler methods resolved to SRG through the refmap: 2 of 2)
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with create-1.20.1-6.0.8: 2
+   SHARED with Harium-mc1.20.1-2.0-cumulative-hotfix-v2: 2
+   SHARED with touhoulittlemaid-1.5.3-forge+mc1.20.1: 2
+   SHARED with ParCool-1.20.1-4.0.2.0: 1
+=== mowziesmobs-1.8.2.jar  mixin classes: 1  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 1 of 1)
+=== uranus-2.2.6-bugfix.2-1.20.1-forge.jar  mixin classes: 15  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 34 (handler methods resolved to SRG through the refmap: 17 of 20)
+   SHARED with modernfix-forge-5.27.91+mc1.20.1: 7
+   SHARED with VanillaBackport-forge-1.20.1-1.2.2: 5
+   SHARED with l2complements-2.6.1: 3
+   SHARED with Platform-forge-1.20.1-1.4.2: 3
+   SHARED with Data_Anchor-forge-1.20.1-1.0.0.24: 2
+   SHARED with irons_spellbooks-1.20.1-3.16.4: 2
+   SHARED with tenshilib-1.20.1-1.7.6-forge: 2
+   SHARED with l2hostility-2.5.19: 2
+   SHARED with oculus-mc1.20.1-1.8.0: 2
+   SHARED with Enhanced-Celestials-2-Core-Forge-1.20.1-: 1
+   SHARED with punchy-3.2b-forge-1.20.1: 1
+   SHARED with Harium-mc1.20.1-2.0-cumulative-hotfix-v2: 1
+=== witherreincarnated-1.20.1-1.0.5.jar  mixin classes: 18  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 65 (handler methods resolved to SRG through the refmap: 51 of 52)
+   SHARED with oculus-mc1.20.1-1.8.0: 24
+   SHARED with superbwarfare-0.8.9.2-mc1.20.1-65d985a64: 7
+   SHARED with create-1.20.1-6.0.8: 5
+   SHARED with Harium-mc1.20.1-2.0-cumulative-hotfix-v2: 3
+   SHARED with Immersive Vehicles-1.20.1-24.0.0: 3
+   SHARED with Botania-1.20.1-456-FORGE: 2
+   SHARED with AsyncParticles-20.1.4.4+1.20.1: 2
+   SHARED with player-animation-lib-forge-1.0.2-rc1+1.2: 2
+   SHARED with punchy-3.2b-forge-1.20.1: 2
+   SHARED with punchy-moves-1.0.9b-forge-1.20.1: 2
+   SHARED with entity_texture_features-7.2.7-1.20.1-for: 2
+   SHARED with irons_spellbooks-1.20.1-3.16.4: 1
