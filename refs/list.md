@@ -87,11 +87,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Key Binding Patch | key-binding-patch | modrinth | github.com/Giant-Salted-Fish/Key-Binding-Patch |
 | Controlling | controlling | modrinth | github.com/jaredlll08/Controlling |
 | Mine Menu | mine-menu | modrinth | github.com/GirafiStudios/MineMenu |
-| Shoulder Surfing Reloaded | shoulder-surfing-reloaded | modrinth | github.com/Exopandora/ShoulderSurfing |
-| Punchy! | punchy-fpa | modrinth | - |
-| Punchy! Moves | punchymoves | modrinth | - |
-| Weather Refined | weather-refined | curseforge | github.com/Hxtomi/WeatherRefind |
-| Yeetus Experimentus | yeetus-experimentus | modrinth | github.com/nanite/Yeetus-Experimentus |
 | Leaves Be Gone | leaves-be-gone | modrinth | Fuzss/leavesbegone |
 
 ## UI Improvement
@@ -120,6 +115,10 @@ Installed mods by category. The human-facing version with links and badges is th
 | Oculus | oculus | modrinth | github.com/Asek3/Oculus |
 | Spawn Animations | spawn-animations | modrinth | github.com/Tschipcraft/spawnanimations |
 | 3D Skin Layers | 3dskinlayers | modrinth | github.com/tr7zw/3d-skin-layers |
+| Punchy! | punchy-fpa | modrinth | - |
+| Punchy! Moves | punchymoves | modrinth | - |
+| Weather Refined | weather-refined | curseforge | github.com/Hxtomi/WeatherRefind |
+| Shoulder Surfing Reloaded | shoulder-surfing-reloaded | modrinth | github.com/Exopandora/ShoulderSurfing |
 
 ## Fix/Patch
 
@@ -135,6 +134,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Colorwheel | colorwheel | modrinth | github.com/djefrey/Colorwheel |
 | Colorwheel Patcher | colorwheel-patcher | modrinth | github.com/djefrey/Colorwheel-Patcher |
 | Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
+| Yeetus Experimentus | yeetus-experimentus | modrinth | github.com/nanite/Yeetus-Experimentus |
 
 ## Graphic Optimization
 
