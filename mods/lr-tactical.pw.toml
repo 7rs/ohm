@@ -1,13 +1,14 @@
 name = "[TACZ] LesRaisins Tactical Equipements"
-filename = "lrtactical-1.20.1-0.4.3.jar"
+filename = "lrtactical-1.20.1-0.3.0.jar"
 side = "both"
+pin = true
 
 [download]
-url = "https://cdn.modrinth.com/data/AiwNM9O0/versions/eygQmqIl/lrtactical-1.20.1-0.4.3.jar"
+url = "https://cdn.modrinth.com/data/AiwNM9O0/versions/wMn7gapK/lrtactical-1.20.1-0.3.0.jar"
 hash-format = "sha512"
-hash = "57c4faa6fb408f8226271ecb8ec855de728fbe04687e4c05bf36654e6f5e7fa2aba92d3ed32b108920dd34c06011cb920889f109f6e91d2c9d8e21645cb4cd39"
+hash = "abf0a3a7ef3989f71edf924ea7a9a2d308ce3492a0f1ffdad6f4ab320724eb58a5474a7dfb1653e38428439e4a63532d311203bcbd9da7b353df9fe6a0305938"
 
 [update]
 [update.modrinth]
 mod-id = "AiwNM9O0"
-version = "eygQmqIl"
+version = "wMn7gapK"

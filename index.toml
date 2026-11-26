@@ -167,6 +167,11 @@ hash = "28358fe53c22695b3bf1f93ac2225c46fe3525918b7b993ac36e68a7f0a16fe8"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "ba71bdea2bb0e65eb53646a70e710a23bd711743aba3bc8ba1f2e1034f1cbc50"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "ff2aa5045d98d0303e288dd37a1613c6376d8cfe2c829219e6e7283fb86008bb"
 metafile = true
@@ -272,8 +277,18 @@ hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
 
 [[files]]
+file = "mods/deltaforce-melee-pack.pw.toml"
+hash = "eeb173214d5c08812fd2eb2bdb26c70f37e122fca59d67be0f71c6efc8f48801"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "084a056c8eca61bdfcb53d7a9ae05693e27ea856256d783cd7757612df125ee5"
+metafile = true
+
+[[files]]
+file = "mods/doggy-talents-next.pw.toml"
+hash = "47d2beddfa3c5430380d8d0c3d211a6d615a86d2e25a25e781fcefe1ee503dd4"
 metafile = true
 
 [[files]]
@@ -294,6 +309,11 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "724ef5d1976e623bccf155159410708893b16fb1f35911ab7911ef6f047552ad"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "60c712cc541a109ebef9675bb441ef20d79eeee8b0395ee28e5e15cce2947223"
 metafile = true
 
 [[files]]
@@ -427,6 +447,11 @@ hash = "ca75fcd0621d9fce36cbb4095053a9fd8a63cf8f99ccb414c3fda673a7b85a29"
 metafile = true
 
 [[files]]
+file = "mods/iceandfire-ce.pw.toml"
+hash = "6cb84071aa3ed7459e1f76529166a42f97d3fc0175081304ffe0e16c9f126da6"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "1a9564ded8e9cd1f843f9de7fc87ffbf73033aab51494205458b0e58cc0ab194"
 metafile = true
@@ -507,6 +532,11 @@ hash = "be8f1b7d603c876330d7eb6d30a89cac7b6ad6a1243c430892edcb8055d9672f"
 metafile = true
 
 [[files]]
+file = "mods/jupiter.pw.toml"
+hash = "4c8cf40be3dc27a873a88ab75f231bddc8cf52e13d2c6be3ef2b44486aa9c059"
+metafile = true
+
+[[files]]
 file = "mods/kerria-opt.pw.toml"
 hash = "954760d08055240d0df82cd00b7c91d2c5a17f6c42f80cea19528b164f521ce2"
 metafile = true
@@ -514,6 +544,11 @@ metafile = true
 [[files]]
 file = "mods/key-binding-patch.pw.toml"
 hash = "0ecb4812fff8a53ff775fe23d4c2b7e0a70d86dd1f69d18a45fcbe7d01915a76"
+metafile = true
+
+[[files]]
+file = "mods/knifes-pack-from-cs2.pw.toml"
+hash = "9ca7dd46ad66b2c7d9b6cc39e2a9ada2ae6201f47eaaa67e4dcd2d6d4ef263a7"
 metafile = true
 
 [[files]]
@@ -537,8 +572,18 @@ hash = "1a511b7855dd61afa9fd9aa1be3360fdae83ef2f6a95b3f98d9c23cdb6163052"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "dfdd246954f9bcfbff66668558b17ba5b3e75a12ba6031c441750a472670fbd8"
+metafile = true
+
+[[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "f3b6b7cd660a91a34a4e18010c9eaacaeb7ff306cadfee14431fa25a15b041ec"
 metafile = true
 
 [[files]]
@@ -548,7 +593,7 @@ metafile = true
 
 [[files]]
 file = "mods/lr-tactical.pw.toml"
-hash = "143569673f10c7517a0b1f09beaa9ccaf97478908d55923c1f5a6a37547d51f6"
+hash = "e54b1457b2c81798fa0e771cdef26b8e897740c4fe37f84c77043945331cf69b"
 metafile = true
 
 [[files]]
@@ -584,6 +629,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
+metafile = true
+
+[[files]]
+file = "mods/mowzies-mobs.pw.toml"
+hash = "0e6b04ea03c95a193b564aee5c67b8912c52c1de61cd2bd43222c494e26bbbe9"
 metafile = true
 
 [[files]]
@@ -697,6 +747,11 @@ hash = "f3eebcd5777b4fb0c893b167022ac40ea36288c22d543de47ecfa6e240e4c5df"
 metafile = true
 
 [[files]]
+file = "mods/spartan-shields.pw.toml"
+hash = "031ac3ccf10d474da8a854c8fe2490e81d4f514505c638e334ac06939bd13635"
+metafile = true
+
+[[files]]
 file = "mods/spawn-animations.pw.toml"
 hash = "8bd74dbc38697092f1beafe030c4965a1af0c1e1311e3a22068f27c8f469b634"
 metafile = true
@@ -742,6 +797,11 @@ hash = "42265150218eb6dbc6d819c330e69c60968889423ff47cd8573933dc80b8895c"
 metafile = true
 
 [[files]]
+file = "mods/touhou-little-maid-spell.pw.toml"
+hash = "fc866dceed7ded2c6890a4c62a607e04f0e4d9837107ead2986a3ff8f794d386"
+metafile = true
+
+[[files]]
 file = "mods/touhou-little-maid.pw.toml"
 hash = "b8045b5cd3b12a300913a6fc066fb4d7a0c9c9ece468dcf604a5648d4c283d59"
 metafile = true
@@ -762,6 +822,11 @@ hash = "c2df41a37fec3a93afc4e2866705bf9e457d506ce8cd02e61c2f610d4f6a7617"
 metafile = true
 
 [[files]]
+file = "mods/uranus.pw.toml"
+hash = "a7bf7c45c0a8ef540c80e9e9458b06d00fea031162e5fb97cc074a94f36f8102"
+metafile = true
+
+[[files]]
 file = "mods/vanillabackport.pw.toml"
 hash = "2b77a327d048ef40db95a67de21e88e2ef3622a22e994173a95232dee058d6b3"
 metafile = true
@@ -779,6 +844,11 @@ metafile = true
 [[files]]
 file = "mods/weather-refined.pw.toml"
 hash = "3dcf823ac7fb4f88febbf49b0aa4fce7e088dd4138f0b6877c9e3918a503d7b7"
+metafile = true
+
+[[files]]
+file = "mods/wither-reincarnated.pw.toml"
+hash = "c0ea2bc41aad92d3083cf833b2f447032fb4901cf5ec0e4cf62a35b4e7034d1f"
 metafile = true
 
 [[files]]

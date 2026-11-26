@@ -25,6 +25,10 @@ Installed mods by category. The human-facing version with links and badges is th
 | Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
 | L2 Hostility | l2hostility | modrinth | github.com/Minecraft-LightLand/L2Hostility |
 | Improved Mobs | improved-mobs | modrinth | github.com/Flemmli97/ImprovedMobs |
+| L_Ender's Cataclysm | l_enders-cataclysm | modrinth | github.com/lender544/new1.20.1 |
+| Mowzie's Mobs | mowzies-mobs | modrinth | github.com/BobMowzie/MowziesMobs |
+| IceAndFire Community Edition | iceandfire-ce | curseforge | github.com/IAFEnvoy/IceAndFire-CE |
+| Wither: Reincarnated | wither-reincarnated | modrinth | - |
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
 
 ## Concepts/Mechanics
@@ -52,6 +56,8 @@ Installed mods by category. The human-facing version with links and badges is th
 | Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
 | Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 | Simply Swords | simply-swords | modrinth | github.com/Sweenus/SimplySwords |
+| Doggy Talents Next | doggy-talents-next | modrinth | github.com/DashieDev/DoggyTalentsNext |
+| Spartan Shields | spartan-shields | modrinth | github.com/ObliviousSpartan/SpartanShields |
 
 ## Addon/Plugin
 
@@ -61,6 +67,9 @@ Installed mods by category. The human-facing version with links and badges is th
 | Create: Steam 'n' Rails | create-steam-n-rails | modrinth | github.com/Layers-of-Railways/Railway |
 | Mekanism Generators | mekanism-generators | modrinth | github.com/mekanism/Mekanism |
 | [TACZ] LesRaisins Tactical Equipements | lr-tactical | modrinth | github.com/LesRaisins-Studios/LesRaisins-Tactical-Equipements |
+| Knifes pack from cs2 | knifes-pack-from-cs2 | modrinth | - |
+| [TACZ] DeltaForce Melee Pack | deltaforce-melee-pack | modrinth | - |
+| Touhou Little Maid: Spell | touhou-little-maid-spell | modrinth | github.com/yimeng261/Touhou-Little-Maid-Spell |
 | Simple Enemy | simple-enemy | modrinth | github.com/NekoYuni/Simple-Enemy-Mod-Public |
 | [TaCZ/SBW] Combined Arms | tacz-combined-arms | modrinth | github.com/NeoAlive/tacz-simple-enemies-vehicular-warfare |
 | TACZ-Sound Attracts Zombies | tacz-sound-attracts-zombies | modrinth | - |
@@ -109,6 +118,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Better Advancements | better-advancements | modrinth | github.com/way2muchnoise/BetterAdvancements |
 | Catalogue | catalogue | curseforge | github.com/MrCrayfish/Catalogue |
 | All Japanese Translate | jtrans | curseforge | - |
+| Enchantment Descriptions | enchantment-descriptions | modrinth | github.com/Darkhax-Minecraft/Enchantment-Descriptions |
 
 ## Graphic
 
@@ -221,6 +231,10 @@ Installed mods by category. The human-facing version with links and badges is th
 | Architectury API | architectury-api | modrinth | github.com/architectury/architectury |
 | Fzzy Config | fzzy-config | modrinth | github.com/fzzyhmstrs/fconfig |
 | Simply Tooltips | simply-tooltips | modrinth | github.com/Sweenus/simplytooltips |
+| Lionfish-API | lionfish-api | modrinth | github.com/lender544/Lionfish-API |
+| Bookshelf | bookshelf-lib | modrinth | github.com/Darkhax-Minecraft/Bookshelf |
+| Uranus | uranus | modrinth | github.com/IAFEnvoy/Uranus |
+| Jupiter | jupiter | modrinth | github.com/IAFEnvoy/Jupiter |
 
 ## Resource Pack
 

@@ -284,6 +284,16 @@ Evidence: `refs/comparisons/vehicles/` (`gh_issues.md` has the issue digest). No
 - Better Combat with TaCZ, Superb Warfare and LR Tactical items: not checked. (`unverified`)
 - Simply Swords: a GitHub issue search for Oculus, Embeddium, Punchy! and shaders found one closed report (stutter when drawing and sheathing weapons, issue 287). (`unverified`)
 
+## Cataclysm, Mowzie's Mobs, Ice and Fire CE, Wither: Reincarnated, Doggy Talents Next, Touhou Little Maid: Spell, Spartan Shields, TaCZ add-ons, Enchantment Descriptions (added 2026-11-26)
+
+- None was run in the game, and no Mixin scan against the installed jars was completed (the runs stopped at the usage limit; partial data is in `refs/comparisons/boss-content/data/`). Fourteen jars arrived at once, so a crash will be hard to trace. (`unverified`)
+- Doggy Talents Next 1.19.2: the 1.20.1 jar's `mods.toml` holds unexpanded placeholders (`loaderVersion="${fml_version_range}"`, `versionRange="${forge_version_range}"`, `versionRange="${minecraft_version_range}"`). The mod is widely used on 1.20.1, but whether Forge 47.4.28 accepts the file was not settled. (`unverified`)
+- Touhou Little Maid: Spell 1.9.4.0 patches bytecode through a ModLauncher transformation service (`HurtHeadTransformationService`) instead of Mixin. Mods that hook a `hurt` method (L2 Hostility, Improved Mobs, Better Combat, Guard Villagers, Simple Enemy) were not checked against it. (`unverified`)
+- LR Tactical 0.3.0 (pinned) was released 2025-07-10; its behavior with TaCZ 1.1.8-hotfix2 and Superb Warfare was not tested. (`unverified`)
+- Ice and Fire: the original has an open Distant Horizons crash (#5416); the Community Edition was not checked with Distant Horizons 3.3.3, Oculus 1.8.0 or Embeddium 0.3.31. Cataclysm, Mowzie's Mobs and Ice and Fire CE were not checked against L2 Hostility traits or TaCZ and Superb Warfare damage. (`unverified`)
+- Ice and Fire CE is not save-compatible with the original Ice and Fire. (`by design`)
+- Weight (entity types, structures, tick cost) of Cataclysm, Mowzie's Mobs and Ice and Fire CE was not measured; see the content table in `refs/comparisons/difficulty-mods/comparison.md`. (`unverified`)
+
 ## Mixin hard-conflict candidates among installed mods (scan 2026-11-25)
 
 - Method: the Mixin annotations of the 134 installed jars (nested Jar-in-Jar included; the three Immersive Vehicles content packs skipped) were parsed from the class files: target class, target method, injector kind and hooked call. A candidate is an `@Overwrite` on a method another mod also hooks, or two `@Redirect` or `@ModifyConstant` on the same call. Names are compared as written (Mojmap and SRG spellings of one method are not matched) and a mixin that a plugin switches off at load is not known, so this is a list to check, not a result. Earlier scans reported no hard conflict; this parser also counts `@Overwrite`. Not run. (`unverified`)
