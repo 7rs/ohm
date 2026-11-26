@@ -169,6 +169,14 @@ Added 2026-11-23. Nothing is shipped for them. The defaults were read from the j
 - Fast Items: `enable` is `true`, `affect3DModels` is `true`, `renderSidesOfItems` is `false`, `castShadows` is `true` (vanilla `entityShadows:false` already hides shadows).
 - Leaves Be Gone: `minimumDecayTicks` is 5 and `maximumDecayTicks` is 20.
 
+### Cerulean, FISM, RenderScale
+
+Added 2026-11-26. Nothing is shipped for them:
+
+- Cerulean: the jar's `cerulean.yml` has `enable_skip_ticks`, `ignore_triggers_for_emptied_stacks` and `ignore_triggers_for_decreased_stacks` at `true` and `debug_mode` at `false`. The defaults already switch the optimization on.
+- FISM: the jar holds no config.
+- RenderScale: the defaults of its Cloth Config screen (`scale`, `dynamic`, `irisScale`, `forceBilinear`, `downscaleFilter`, `sharpeningMode`, `sharpeningStrength`) were not read, so whether it changes anything out of the box is unknown (see `refs/issues.md`). A player sets the scale in the game.
+
 ### Bedrockoid
 
 File: `config/bedrockoid-config.toml` (enforced: it changes world generation). Added 2026-11-24. Bedrockoid writes the other keys with their defaults at first start (it reads the file with NightConfig and fills what is missing; read from the jar, not run).

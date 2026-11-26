@@ -248,6 +248,15 @@ Evidence: `refs/comparisons/vehicles/` (`gh_issues.md` has the issue digest). No
 - Closed reports of interest: 314 (a 1.20.1 `ConcurrentModificationException` in `GoalSelector` on a zombie; the author points to other AI mods, the report had Enhanced AI and Zombie Awareness), 301 (a `RepairGolem` crash in 1.6.17), 305 (1.20.1 lag the author attributed to vanilla). Zombie Awareness and AI Improvements both change mob goals here. (`unverified`)
 - Clanging Howl infection and Enhanced Celestials 2 village sieges are threats the guards answer; how guards do against techno-flesh with 50 % resistance was not tested. (`unverified`)
 
+## Cerulean, FISM, RenderScale (added 2026-11-26)
+
+- Not run in the game. The record is the optimization review in `refs/notes.md` (no comparison folder): 0 hard conflicts by the Mixin scan of 2026-11-25. TxniLib's mixin list is empty (read again 2026-11-26). (`unverified`)
+- Cerulean hooks `InventoryChangeTrigger`, `ItemStack`, `AbstractContainerMenu` and `ItemPredicate` (five mixins, `defaultRequire` 1). Its `ignore_triggers_for_emptied_stacks` and `ignore_triggers_for_decreased_stacks` are on by default, and its own text says to turn them off if an advancement becomes unobtainable. 5,547 advancements of the installed mods use `inventory_changed` (5,266 are recipe-book unlocks); whether any unlock is missed was not tested. (`unverified`)
+- Cerulean's `enable_skip_ticks` runs advancement checks less often, so an unlock can come a little later. (`by design`)
+- The platform lists Cerulean as server only; it ships as `both` so single-player's integrated server has it. A dedicated server needs it and TxniLib too. (`by design`)
+- FISM skips sign text, banner patterns, enchantment glint and map drawing in the shadow pass only. Its four client mixins have `defaultRequire` 1 (`AbstractSignRendererMixin`, `BannerRendererMixin`, `MapRendererMixin`, `ItemStackMixin`), so a missing target would stop the launch (inference). Optimized Block Entities also hooks `SignRenderer.renderSignText` (plain injects). It has an Entity Culling compat class; its effect with Entity Culling installed was not run. (`unverified`)
+- RenderScale 2.0.0-beta.1 is a beta (2026-10-17). It names exact versions of Embeddium 0.3.31, Oculus 1.8.0 and Cloth Config 11.1.136 (the pack has them) and declares four resolution mods incompatible (none installed). It shares `Iris.reload` with Colorwheel and AsyncParticles and changes the render size; its behavior with Oculus's `RenderTargets.resizeIfNeeded`, Distant Horizons and shader packs was not run. Its dynamic scaling is off while a shader pack is on (its page), and its default scale was not read. (`unverified`)
+
 ## Turbo for Distant Horizons (added 2026-11-24)
 
 - Version 1.6.0, chosen by the user from `refs/comparisons/dh-optimization/`. Not run in the game or on a server. Its speed and accuracy figures are the author's own, measured on Minecraft 1.21.1 with a LOD radius of 256 chunks (the pack uses 64), and no independent benchmark exists. (`unverified`)

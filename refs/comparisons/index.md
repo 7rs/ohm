@@ -134,7 +134,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 - Limits: HiResShot checks the GPU texture limit and prints a chat error; the others do not (a crash is expected, inference). Estimated GPU memory with a shader pack: about 3 to 5 GiB at 8K, 12 to 19 GiB at 15360x8640. No mod makes real detail beyond the GPU limit reliable with shaders; Pixelshot's tiled mode is the only route and is unproven with Oculus.
 - Risks: HiResShot has one release, one author and no commit since 2026-01-17; nobody reported it with Oculus or DH. It calls `Iris.reload()` after each shot. Its CPU_UPSCALE mode is bicubic, not detail, and uses the Java heap.
 - Settings: the defaults already work (F9, REAL_TIME, multiplier 4, `realtimeDelay` 20, GUI and player hidden). Ship nothing; a player may raise `realtimeDelay` to 40-60 if shots look dark.
-- Constraints: key clashes are not a reason to exclude a mod, only a rebind (the user, 2026-11-26): Power Screenshot and Pixelshot (F8) share Punchy!'s main-menu key; Forgeshot (F6) shares Punchy!'s `save_session`; Key Binding Patch fires both, so rebind one. Do not add a second capture mod beside HiResShot. RenderScale is not installed (`refs/notes.md` lists it as a candidate); with HiResShot it has 0 hard conflicts but both touch `Window` size and Oculus's `RenderTargets.resizeIfNeeded`, untested.
+- Constraints: key clashes are not a reason to exclude a mod, only a rebind (the user, 2026-11-26): Power Screenshot and Pixelshot (F8) share Punchy!'s main-menu key; Forgeshot (F6) shares Punchy!'s `save_session`; Key Binding Patch fires both, so rebind one. Do not add a second capture mod beside HiResShot. RenderScale was added on 2026-11-26 (the user; `refs/notes.md`), HiResShot was not; with HiResShot it has 0 hard conflicts but both touch `Window` size and Oculus's `RenderTargets.resizeIfNeeded`, untested.
 - Evidence: `comparison.md`, `data/memory_estimate.csv`, `gh_issues.md`, `coverage_report.md`.
 
 ## Startup, loading and world
@@ -239,6 +239,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 - "The pack has no `defaultconfigs/` folder" (mob-difficulty, difficulty-mods, superb-warfare): the folder exists now (CLAUDE.md, Structure). A global data pack channel is still not in the pack.
 - "The Immersive Vehicles content pack is chosen later" (vehicles): chosen in iv-car-packs.
 - "The pack's GeckoLib 4.8.5 wins over Superb Warfare's bundled 4.4.6" (superb-warfare, content-additions): it wins, and Superb Warfare 0.8.9.2 then crashes at launch on 4.8.5. The pack pins GeckoLib 4.8.4 (`refs/notes.md`, `refs/issues.md`).
+- "RenderScale is not installed" (ultra-high-res-screenshot): RenderScale 2.0.0-beta.1 was added 2026-11-26.
 - Jar and metafile counts (91, 111, 118, 124, 132, 135) are snapshots; 136 on 2026-11-25.
 
 ## Keeping this index current

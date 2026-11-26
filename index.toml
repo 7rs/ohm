@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/extensions.json"
+hash = "312ef22462acb7f0a0801a6cc56e587cf36b35df2324c35067e034552596e5a5"
+
+[[files]]
 file = "config/bedrockoid-config.toml"
 hash = "f7491e0f61b0a687aacaa8ae7df0221083e21b274463db11d7f5b426463b59b0"
 
@@ -160,6 +164,11 @@ metafile = true
 [[files]]
 file = "mods/catalogue.pw.toml"
 hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
+metafile = true
+
+[[files]]
+file = "mods/cerulean-advancements.pw.toml"
+hash = "df8cf9d71a5cc237daf59380778f1086a90ec1d40098740a38c22c35f1e527b9"
 metafile = true
 
 [[files]]
@@ -355,6 +364,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
+file = "mods/fism.pw.toml"
+hash = "e3e7539dbcd26587fc32961caaa8e43a5dd50af0f993e57bb9a17b54e81ae734"
 metafile = true
 
 [[files]]
@@ -598,6 +612,11 @@ hash = "1a8db9faf02199c49019e71d422d01f1f3601f09b22c219ed19faf83662f58d4"
 metafile = true
 
 [[files]]
+file = "mods/renderscale.pw.toml"
+hash = "6a4c94bf281c0576be4436c7716e929e58d6cf9bec9f3d5233a34a4e2320b30b"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "b85e8417e797be3fdae046c487eeda8f54cdc88f3f20e462e0e229f8dd734214"
 metafile = true
@@ -685,6 +704,11 @@ metafile = true
 [[files]]
 file = "mods/turbo-for-distant-horizons.pw.toml"
 hash = "c568f2b0a37e18e4874f60bcb3095fcf11c11a76e464ab2bd27e0951fba36fdb"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "c2df41a37fec3a93afc4e2866705bf9e457d506ce8cd02e61c2f610d4f6a7617"
 metafile = true
 
 [[files]]
