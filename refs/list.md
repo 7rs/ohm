@@ -13,23 +13,41 @@ Installed mods by category. The human-facing version with links and badges is th
 | --- | --- | --- | --- |
 | The Aether | aether | modrinth | github.com/The-Aether-Team/The-Aether |
 | The Twilight Forest | the-twilight-forest | curseforge | github.com/TeamTwilight/twilightforest |
-| ParCool! | parcool | modrinth | github.com/alRex-U/ParCool |
-| [TaCZ] Timeless and Classics Zero | timeless-and-classics-zero | modrinth | github.com/MCModderAnchor/TACZ |
-| Create | create | modrinth | github.com/Creators-of-Create/Create |
-| Mekanism | mekanism | modrinth | github.com/mekanism/Mekanism |
-| Iron's Spells 'n Spellbooks | irons-spells-n-spellbooks | modrinth | github.com/iron431/Irons-Spells-n-Spellbooks |
-| Superb Warfare | superb-warfare | modrinth | github.com/Mercurows/SuperbWarfare |
 
 ## Sub Feature
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
 | Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
+| End Remastered | endrem | modrinth | github.com/Jack-Bagel/End-Remastered |
+| Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
+| Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
+| Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
+
+## Concepts/Mekanism
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| ParCool! | parcool | modrinth | github.com/alRex-U/ParCool |
+| Create | create | modrinth | github.com/Creators-of-Create/Create |
+| Mekanism | mekanism | modrinth | github.com/mekanism/Mekanism |
+| Iron's Spells 'n Spellbooks | irons-spells-n-spellbooks | modrinth | github.com/iron431/Irons-Spells-n-Spellbooks |
+| Superb Warfare | superb-warfare | modrinth | github.com/Mercurows/SuperbWarfare |
+| [TaCZ] Timeless and Classics Zero | timeless-and-classics-zero | modrinth | github.com/MCModderAnchor/TACZ |
 | Applied Energistics 2 | ae2 | modrinth | github.com/AppliedEnergistics/Applied-Energistics-2 |
-| Botania | botania | modrinth | github.com/VazkiiMods/Botania |
 | Immersive Aircraft | immersive-aircraft | modrinth | github.com/Luke100000/ImmersiveAircraft |
+| Botania | botania | modrinth | github.com/VazkiiMods/Botania |
 | Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
 | Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
+
+## Item/Mob
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
+| True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
+| Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
+| Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 
 ## Addon/Plugin
 
@@ -43,21 +61,8 @@ Installed mods by category. The human-facing version with links and badges is th
 | Create Crafts & Additions | createaddition | modrinth | github.com/mrh0/createaddition |
 | [TaCZ/SBW] Combined Arms | tacz-combined-arms | modrinth | github.com/NeoAlive/tacz-simple-enemies-vehicular-warfare |
 | Man of Many Planes | man-of-many-planes | modrinth | github.com/Luke100000/Man-of-Many-Planes |
-
-## Item/Mob
-
-| Name | Slug | Source | Repository |
-| --- | --- | --- | --- |
-| Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
-| End Remastered | endrem | modrinth | github.com/Jack-Bagel/End-Remastered |
-| True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
-| Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
 | TACZ-Sound Attracts Zombies | tacz-sound-attracts-zombies | modrinth | - |
 | Simple Enemy | simple-enemy | modrinth | github.com/NekoYuni/Simple-Enemy-Mod-Public |
-| Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
-| Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
-| Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
-| Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 
 ## Change
 
@@ -67,53 +72,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Almost Unified | almostunified | modrinth | github.com/AlmostReliable/almostunified |
 | Almost Unify Everything | almost-unify-everything | modrinth | git.karmakrafts.dev/kk/mc-projects/almost-unify-everything |
 | Bedrockoid | bedrockoid | modrinth | github.com/SashaKYotoz/Bedrockoid |
-
-## Graphic Optimization
-
-| Name | Slug | Source | Repository |
-| --- | --- | --- | --- |
-| Embeddium | embeddium | modrinth | github.com/FiniteReality/embeddium |
-| Flerovium | flerovium | modrinth | github.com/MoePus/Flerovium |
-| ImmediatelyFast | immediatelyfast | modrinth | github.com/RaphiMC/ImmediatelyFast |
-| (Sodium) Chloride | chloride | modrinth | github.com/SrRapero720/chloride |
-| Entity Culling | entityculling | modrinth | github.com/tr7zw/EntityCulling |
-| Optimized Block Entities [OBE] | obe | modrinth | github.com/maDU59/OptimisedBlockEntities |
-| AsyncParticles | asyncparticles | modrinth | github.com/Harveykang/AsyncParticles |
-| Kerria | kerria-opt | modrinth | github.com/decce6/Kerria |
-| GPUBooster | gputape | modrinth | github.com/ITsMrToad/GPUBooster |
-| Gnetum | gnetum | modrinth | github.com/decce6/Gnetum |
-| BadOptimizations | badoptimizations | modrinth | github.com/imthosea/BadOptimizations |
-| CreateBetterFPS | createbetterfps | modrinth | github.com/MoePus/CreateBetterFPS |
-| Colorwheel | colorwheel | modrinth | github.com/djefrey/Colorwheel |
-| Colorwheel Patcher | colorwheel-patcher | modrinth | github.com/djefrey/Colorwheel-Patcher |
-| Fast Items | fast-items | modrinth | Noryea/fast-items |
-
-## Optimization
-
-| Name | Slug | Source | Repository |
-| --- | --- | --- | --- |
-| AI Improvements: Performance Tuning | ai-improvements | modrinth | github.com/BuiltBrokenModding/AI-Improvements |
-| Alternate Current | alternate-current | modrinth | github.com/SpaceWalkerRS/alternate-current |
-| Async Logger | asynclogger | modrinth | github.com/decce6/AsyncLogger |
-| Clumps | clumps | modrinth | github.com/jaredlll08/Clumps |
-| FerriteCore | ferrite-core | modrinth | github.com/malte0811/FerriteCore |
-| HU: Harium | harium | modrinth | github.com/JustHari01/Harium |
-| Immersive Optimization | immersive-optimization | modrinth | github.com/Luke100000/ImmersiveOptimization |
-| Ixeris | ixeris | modrinth | github.com/decce6/Ixeris |
-| Jasione | jasione | modrinth | github.com/decce6/Jasione |
-| Let Me Despawn | lmd | modrinth | github.com/frikinjay/let-me-despawn |
-| ModernFix | modernfix | modrinth | github.com/embeddedt/ModernFix |
-| Fast Noise | zfastnoise | modrinth | codeberg.org/ZenXArch/FastNoise |
-| Solix | solix | curseforge | github.com/SolarBiscuit/Solix |
-| AllTheLeaks (Memory Leak Fix) | alltheleaks | curseforge | github.com/pietro-lopes/AllTheLeaks |
-| JEI/EMI Optimizations | jeiemi-optimizations | curseforge | - |
-| Structure Layout Optimizer | structure-layout-optimizer | modrinth | github.com/TelepathicGrunt/StructureLayoutOptimizer |
-| Turbo for Distant Horizons | turbo-for-distant-horizons | modrinth | github.com/Pocky-l/dhturbo |
-| FastWorkbench | fastworkbench | modrinth | github.com/Shadows-of-Fire/FastWorkbench |
-| FastFurnace | fastfurnace | modrinth | github.com/Shadows-of-Fire/FastFurnace |
-| FastSuite | fastsuite | modrinth | github.com/Shadows-of-Fire/FastSuite |
-| Async Locator | async-locator | modrinth | thebrightspark/AsyncLocator |
-| Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
 
 ## QoL
 
@@ -171,6 +129,53 @@ Installed mods by category. The human-facing version with links and badges is th
 | Spawn Animations | spawn-animations | modrinth | github.com/Tschipcraft/spawnanimations |
 | 3D Skin Layers | 3dskinlayers | modrinth | github.com/tr7zw/3d-skin-layers |
 | Enhanced Celestials 2: Shader Support | enhanced-celestials-2-shader-support | modrinth | - |
+
+## Graphic Optimization
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| Embeddium | embeddium | modrinth | github.com/FiniteReality/embeddium |
+| Flerovium | flerovium | modrinth | github.com/MoePus/Flerovium |
+| ImmediatelyFast | immediatelyfast | modrinth | github.com/RaphiMC/ImmediatelyFast |
+| (Sodium) Chloride | chloride | modrinth | github.com/SrRapero720/chloride |
+| Entity Culling | entityculling | modrinth | github.com/tr7zw/EntityCulling |
+| Optimized Block Entities [OBE] | obe | modrinth | github.com/maDU59/OptimisedBlockEntities |
+| AsyncParticles | asyncparticles | modrinth | github.com/Harveykang/AsyncParticles |
+| Kerria | kerria-opt | modrinth | github.com/decce6/Kerria |
+| GPUBooster | gputape | modrinth | github.com/ITsMrToad/GPUBooster |
+| Gnetum | gnetum | modrinth | github.com/decce6/Gnetum |
+| BadOptimizations | badoptimizations | modrinth | github.com/imthosea/BadOptimizations |
+| CreateBetterFPS | createbetterfps | modrinth | github.com/MoePus/CreateBetterFPS |
+| Colorwheel | colorwheel | modrinth | github.com/djefrey/Colorwheel |
+| Colorwheel Patcher | colorwheel-patcher | modrinth | github.com/djefrey/Colorwheel-Patcher |
+| Fast Items | fast-items | modrinth | Noryea/fast-items |
+
+## Optimization
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| AI Improvements: Performance Tuning | ai-improvements | modrinth | github.com/BuiltBrokenModding/AI-Improvements |
+| Alternate Current | alternate-current | modrinth | github.com/SpaceWalkerRS/alternate-current |
+| Async Logger | asynclogger | modrinth | github.com/decce6/AsyncLogger |
+| Clumps | clumps | modrinth | github.com/jaredlll08/Clumps |
+| FerriteCore | ferrite-core | modrinth | github.com/malte0811/FerriteCore |
+| HU: Harium | harium | modrinth | github.com/JustHari01/Harium |
+| Immersive Optimization | immersive-optimization | modrinth | github.com/Luke100000/ImmersiveOptimization |
+| Ixeris | ixeris | modrinth | github.com/decce6/Ixeris |
+| Jasione | jasione | modrinth | github.com/decce6/Jasione |
+| Let Me Despawn | lmd | modrinth | github.com/frikinjay/let-me-despawn |
+| ModernFix | modernfix | modrinth | github.com/embeddedt/ModernFix |
+| Fast Noise | zfastnoise | modrinth | codeberg.org/ZenXArch/FastNoise |
+| Solix | solix | curseforge | github.com/SolarBiscuit/Solix |
+| AllTheLeaks (Memory Leak Fix) | alltheleaks | curseforge | github.com/pietro-lopes/AllTheLeaks |
+| JEI/EMI Optimizations | jeiemi-optimizations | curseforge | - |
+| Structure Layout Optimizer | structure-layout-optimizer | modrinth | github.com/TelepathicGrunt/StructureLayoutOptimizer |
+| Turbo for Distant Horizons | turbo-for-distant-horizons | modrinth | github.com/Pocky-l/dhturbo |
+| FastWorkbench | fastworkbench | modrinth | github.com/Shadows-of-Fire/FastWorkbench |
+| FastFurnace | fastfurnace | modrinth | github.com/Shadows-of-Fire/FastFurnace |
+| FastSuite | fastsuite | modrinth | github.com/Shadows-of-Fire/FastSuite |
+| Async Locator | async-locator | modrinth | thebrightspark/AsyncLocator |
+| Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
 
 ## Library
 
