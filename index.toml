@@ -437,6 +437,11 @@ hash = "704fad4989730378eb427751d32a53d1e5bd8fb8ef5a2677a766cca404b519a1"
 metafile = true
 
 [[files]]
+file = "mods/improved-mobs.pw.toml"
+hash = "5aa379ba6fe1ebdda8bbe5f5af6a333cf9262ec63fd67ca41febcc885ac2d70f"
+metafile = true
+
+[[files]]
 file = "mods/invmove.pw.toml"
 hash = "d3993d3799faf90e195a7e1c73cb8319ef6f6e31cb1bce132b18bbe2e46799e9"
 metafile = true
@@ -499,6 +504,21 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
+metafile = true
+
+[[files]]
+file = "mods/l2-complements.pw.toml"
+hash = "344d58be1680b7a7d4c5e132a4a7ab52d897d6194455301219e9ec01af481b3c"
+metafile = true
+
+[[files]]
+file = "mods/l2hostility.pw.toml"
+hash = "8159c231b0f4771ad41bbc0d9ce58328a920387fa39705d88167e7900abb3332"
+metafile = true
+
+[[files]]
+file = "mods/l2library.pw.toml"
+hash = "1a511b7855dd61afa9fd9aa1be3360fdae83ef2f6a95b3f98d9c23cdb6163052"
 metafile = true
 
 [[files]]
@@ -679,6 +699,11 @@ metafile = true
 [[files]]
 file = "mods/tacz-sound-attracts-zombies.pw.toml"
 hash = "add2d937fcc1bd0552fdd612f4b996c7ce666fbf0deb5a7f19280dac03ef32d0"
+metafile = true
+
+[[files]]
+file = "mods/tenshilib.pw.toml"
+hash = "25ac4e21c8f32b8bc174037bb4a6b4e9ca7b03018de859596113022de4906036"
 metafile = true
 
 [[files]]

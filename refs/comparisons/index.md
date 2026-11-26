@@ -52,7 +52,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 | [vehicles](#vehicles) | 11-24 | Five added, Valkyrien Skies held | Decided |
 | [iv-car-packs](#iv-car-packs) | 11-24 | Craftspeed plus GT CRAFT | GT CRAFT added; Craftspeed removed 11-26 |
 | [mob-difficulty](#mob-difficulty) | 11-24 | Simple Enemy, Enhanced Celestials 2, Clanging Howl | Added |
-| [difficulty-mods](#difficulty-mods) | 11-25 | L2Hostility, Cold Sweat, Cataclysm, No Mindless Shooting | Pending, not added |
+| [difficulty-mods](#difficulty-mods) | 11-25 | L2Hostility, Cold Sweat, Cataclysm, No Mindless Shooting | Scaling added 11-26 (L2Hostility, Improved Mobs); rest pending |
 | [ultra-high-res-screenshot](#ultra-high-res-screenshot) | 11-25 | HiResShot after a scratch-instance test; Forgeshot as fallback | Pending, not added |
 
 ## Rendering and display
@@ -224,7 +224,8 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 ### difficulty-mods
 
 - Question: a mod that raises difficulty, four directions chosen by the user. 121-row ledger, 17 finalists, 119 candidate jars scanned against 135 installed (0 hard conflicts). A sample, not exhaustive.
-- Result by axis (nothing added; pending the user):
+- Decision 2026-11-26 (user): L2Hostility 2.5.19 (with L2 Library and L2 Complements) and Improved Mobs 1.13.7 (with TenshiLib) added, both. No config shipped, so their stat and gear scaling stacks; splitting them (Improved Mobs for behavior only) is open and untested (`refs/notes.md`). The other axes stay pending.
+- Result by axis (pending the user, except Scaling):
   - Scaling: L2Hostility 2.5.19 (needs L2 Library and L2 Complements) is the best fit; its traits Adaptive, Reflect, Repelling, Dementor, Teleport, Undying work against bullets from level 100 to 150. Alternative Improved Mobs 1.13.7 (stats and behavior, no traits). Install at most one of L2Hostility and Champions. Shipping L2Hostility's data would need a data pack channel such as Open Loader.
   - Survival: Cold Sweat 2.4.5 plus one thirst mod (Thirst Was Reclaimed 3.0.5, or Homeostatic). TaCZ Bleeding on hold: the user will try it first (2026-11-25). First Aid turns natural regeneration off and keeps it off after removal; not wanted unless asked.
   - Content: Cataclysm 3.31 (70.5 MB; 97 entity types, 188 structure templates) first; lighter Mowzie's Mobs 1.8.2 and Legendary Monsters 2.2.4. Do not add Block Factory's Bosses (overwrite pair with AllTheLeaks).

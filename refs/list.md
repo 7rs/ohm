@@ -23,6 +23,8 @@ Installed mods by category. The human-facing version with links and badges is th
 | True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
 | Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
 | Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
+| L2 Hostility | l2hostility | modrinth | github.com/Minecraft-LightLand/L2Hostility |
+| Improved Mobs | improved-mobs | modrinth | github.com/Flemmli97/ImprovedMobs |
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
 
 ## Concepts/Mechanics
@@ -205,6 +207,9 @@ Installed mods by category. The human-facing version with links and badges is th
 | Enhanced Celestials 2: Core | enhanced-celestials-2-core | modrinth | - |
 | Curios API | curios | modrinth | github.com/TheIllusiveC4/Curios |
 | Patchouli | patchouli | modrinth | github.com/VazkiiMods/Patchouli |
+| L2 Library | l2library | modrinth | github.com/Minecraft-LightLand/L2Library |
+| L2 Complements | l2-complements | modrinth | github.com/Minecraft-LightLand/L2Complements |
+| TenshiLib | tenshilib | modrinth | github.com/Flemmli97/TenshiLib |
 | GuideME | guideme | modrinth | github.com/AppliedEnergistics/GuideME |
 | GeckoLib | geckolib | modrinth | github.com/bernie-g/geckolib |
 | playerAnimator | playeranimator | modrinth | github.com/KosmX/fabricPlayerAnimation |
