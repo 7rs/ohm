@@ -177,6 +177,10 @@ Added 2026-11-26. Nothing is shipped for them:
 - FISM: the jar holds no config.
 - RenderScale: the defaults of its Cloth Config screen (`scale`, `dynamic`, `irisScale`, `forceBilinear`, `downscaleFilter`, `sharpeningMode`, `sharpeningStrength`) were not read, so whether it changes anything out of the box is unknown (see `refs/issues.md`). A player sets the scale in the game.
 
+### Debug Keybind
+
+Added 2026-11-27. Nothing is shipped: every default is the vanilla key, so it behaves like vanilla until a player rebinds. Its keys are not `KeyMapping`s, so `config/defaultoptions/keybindings.txt` and `options.txt` cannot carry them. A player sets them in Controls > Debug Keybinds (`refs/notes.md`, `refs/issues.md`).
+
 ### Bedrockoid
 
 File: `config/bedrockoid-config.toml` (enforced: it changes world generation). Added 2026-11-24. Bedrockoid writes the other keys with their defaults at first start (it reads the file with NightConfig and fills what is missing; read from the jar, not run).

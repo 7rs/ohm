@@ -1,0 +1,184 @@
+=============== #19
+boxlib not tagged as required?
+state: open created: 2026-04-16 closed: -
+## Clear and Consise description of the issue
+When I booted up the game for the first time after installing this mod, I was met with an error screen about how "boxlib" is not installed.
+
+I would expect it to be downloaded automatically.
+
+## Mod Information
+**Minecraft version:** 1.20.1
+**Mod version:** latest
+**Other relevant mods:** n/a
+
+=============== #16
+Weird error message not suer whats going on here lol
+state: open created: 2025-12-06 closed: -
+<img width="774" height="459" alt="Image" src="https://github.com/user-attachments/assets/69731041-0677-48cf-a4ef-16631e3ffe11" />
+
+## Clear and Consise description of the issue
+
+**What happened**?
+
+
+**What did you expect to happen?**
+
+
+**Steps to reproduce the issue:**
+
+
+## Mod Information
+**Minecraft version:**
+**Mod version:**
+**Other relevant mods:**
+
+**Relevant logs (if applicable):**
+Pastebin link or attachment
+
+## Screenshots or videos: (Optional)
+
+
+--- comment Boxadactle 2025-12-10: Please provide the mod information so I can debug the correct version. It seems that you are using an incompatible java version. Newer Minecraft versions utilize java 17 or java 21.
+=============== #9
+game crashes after i try to change binds
+state: closed created: 2025-02-23 closed: 2025-04-27T06:28:53Z
+## Clear and Consise description of the issue
+
+**What happened**?
+game crashes after i try to change binds
+
+**What did you expect to happen?**
+menu to open
+
+## Mod Information
+**Minecraft version:**1.21.4
+**Mod version:**14.0.0
+**Other relevant mods:**journeymap 
+
+**Relevant logs (if applicable):**
+Pastebin link or attachment
+
+## Screenshots or videos: (Optional)
+
+
+--- comment tarti560 2025-02-23: ![Image](https://github.com/user-attachments/assets/0d52e026-1b37-407e-87a8-a11faf391716)
+this happens if i do it with mod loader
+--- comment Boxadactle 2025-03-23: Please provide log file.
+--- comment Boxadactle 2025-04-27: There was a bug in the library mod. Please update it.
+=============== #4
+The set bind resets when starting minecraft/changing the world
+state: closed created: 2024-07-10 closed: 2024-08-28T03:06:39Z
+As in the title
+
+But beside this issue, my question here - is there a possibility to change some file to read-only mode so it doesn't change automatically? If so, what file and where is it? 
+I have binded it for Left Alt
+--- comment Boxadactle 2024-08-18: The keybinds fail to save when escape is used to exit the config screen rather than the done button. This will be fixed in backports
+=============== #21
+[Feature Request] Rebind Toggle Hud (Default F1)
+state: open created: 2026-07-18 closed: -
+**Is your feature request related to a problem? Please describe.**
+I'm always frustrated when I need to press FN + F1 to toggle the hud on macOS. 
+
+**Describe the solution you'd like**
+I'd like to REBIND Toggle Hud to F5. 
+
+**Describe alternatives you've considered**
+I’ve searched the entire web for a mod to rebind the HUD toggle, but they’re all Fabric-exclusive. 
+
+**Additional context**
+<img width="949" height="59" alt="Image" src="https://github.com/user-attachments/assets/e2c0ca9a-9e07-497c-815f-50e1e7386ffb" />
+=============== #14
+Changing the setting for "require debug keybind" to false keeps resetting to true constantly
+state: open created: 2025-08-21 closed: -
+N/A. that setting that disables the need to use F3 when using the keybind keeps changing back to true after being set to false.
+
+example I wanna enable hitboxes with Q key but not F3+Q so I disable the require debug keybind and pressing Q works fine but when changing worlds or instances on a server it changes it back to true or f3 stops working entirely sometimes. till I reload or change instance again which sometimes fixes it.
+
+--- comment LastRaidBoss 2025-08-22: I found out why it's doing it using the mute key on my keyboard the little sound volume icon with a / over it toggles debug key required on which is a key I use a lot to mute my pc... idk why that would do that anyway to disable keys from toggling mod settings like that?
+--- comment LastRaidBoss 2025-08-22: so if u can make it so u can't toggle on and off required debug key at all unless u go into settings manually that'd be nice
+--- comment Boxadactle 2025-09-28: Keybinds can be disabled by pressing escape when binding. However I will update the mod to automatically unbind the key as default.
+=============== #12
+Chunk Border Chat message
+state: open created: 2025-04-20
+## Clear and Consise description of the issue
+
+**What happened**?
+The message of toggling the chunk borders by using (f3 replacement) + g shows the chat message 2 times
+
+**What did you expect to happen?**
+The chat message to only appear once
+
+**Steps to reproduce the issue:**
+Press the f3 keybind, and the chunk borders keybind
+
+## Mod Information
+**Minecraft version:** 1.21.4
+**Mod version:** 14.0.1
+**Other relevant mods:** none
+
+**Relevant logs (if applicable):**
+Pastebin link or attachment
+
+## Screenshots or videos: (Optional)
+
+
+--- comment Boxadactle 2025-05-24: Does the chunk borders not show at all, like in #10 
+--- comment mcgamerguy 2025-05-31: The chunk border did appear, also for some reason i am not able to recreate it again, eventho i havent updated the mod
+=============== #10
+Chunk Border issue
+state: open created: 2025-03-02
+## Clear and Consise description of the issue
+
+**What happened**?
+After I press my debug key and the button to open the chunk borders it doesn't show the chunk borders
+
+**What did you expect to happen?**
+It shows the chunk borders
+**Steps to reproduce the issue:**
+Idk
+
+## Mod Information
+**Minecraft version:** 1.21.1
+**Mod version:** 14.4.1
+**Other relevant mods:** Boxlib
+
+**Relevant logs (if applicable):**
+Pastebin link or attachment
+
+## Screenshots or videos: (Optional)
+
+
+=============== #8
+Compatability issues with "too-many-shortcuts" mod, making the keybinds shortcut button disappear
+state: closed created: 2025-02-17
+## Clear and Consise description of the issue
+
+**What happened**?
+When the too-many-shortcuts mod is used, the "Debug Keybinds..." button from the Controls settings menu disappears (See image)
+
+
+**What did you expect to happen?**
+The "Debug Keybinds..." button to still be accessible from the vanilla controls menu.
+
+**Steps to reproduce the issue:**
+Install the too-many-shortcuts mod (https://modrinth.com/mod/too-many-shortcuts) with this mod, go into Options > Controls, and see that the Debug Keybinds button is missing.
+
+## Mod Information
+**Minecraft version:** 1.21.4
+**Mod version:** 14.0.0
+**Other relevant mods:** Tested on a fresh installation with only Debug Keybind, too-many-shortcuts,
+--- comment JustJum11 2025-03-02: Seems to have been fixed in v0.0.8 of Too Many Shortcuts
+=============== #20
+[Feature Request] Add a way to hide the options menu.
+state: open created: 2026-05-05
+Hi, I'm a modpack maker and I don't want my players to set the debug keys, so I want to find a way to totally hide the debug keys setting menu, wish this could be added in future!
+
+Thanks.
+=============== #18
+Allow mouse buttons for rebinds
+state: open created: 2026-03-23
+Title.
+
+Correct me if I'm wrong since I'm not a modder, but it seems like you're just looking for the InputConstants value for whatever key is being pressed, which this does not include side mouse buttons (though lmb/rmb don't seem to work in the mod even though they're listed in the documentation?).
+
+It'd be nice to be able to use side mouse buttons.

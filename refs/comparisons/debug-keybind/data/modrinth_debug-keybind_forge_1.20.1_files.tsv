@@ -1,0 +1,5 @@
+version_number	name	type	game_versions	published	downloads	required_deps	file	size	sha1
+9.1.1-forge	[Forge 1.20.2] v9.1.1	release	1.20.1,1.20.2	2025-03-23T20:59:26.023900Z	2835		DebugKeybind-forge-9.1.1.jar	1892130	9dbc841d8ef50c43158d876673f9e5aa33ec0d07
+9.1.0-forge	[Forge 1.20.2] v9.1.0	release	1.20.1,1.20.2	2024-08-20T04:31:27.533803Z	1191		DebugKeybind-forge-9.1.0.jar	1891936	9738489750d03ffc16db1a2fe87b56cc73399001
+5.0.0-forge	[Forge 1.20.1] v5.0.0	release	1.20,1.20.1	2023-10-02T04:03:33.882349Z	1575		DebugKeybind-5.0.0.jar	432539	379c520d47e882ee632537cf804769032fdc6d55
+1.1.0-forge	[Forge 1.20(.1)] 1.1.0	release	1.20,1.20.1	2023-08-27T02:17:03.945227Z	128		DebugKeybind-1.1.0.jar	432027	1fd7c75a7fdf127937ee631a6f7c0ea5bd747eef

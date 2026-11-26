@@ -1,0 +1,20 @@
+#21 [open] 2026-07-18 [Feature Request] Rebind Toggle Hud (Default F1) | labels: enhancement | comments: 0
+#20 [open] 2026-05-05 [Feature Request] Add a way to hide the options menu. | labels: enhancement | comments: 0
+#19 [open] 2026-04-16 boxlib not tagged as required? | labels: bug | comments: 0
+#18 [open] 2026-03-23 Allow mouse buttons for rebinds | labels: enhancement | comments: 0
+#17 [closed] 2026-02-03 Update to 1.21.11 | labels: enhancement | comments: 3
+#16 [open] 2025-12-06 Weird error message not suer whats going on here lol | labels: bug | comments: 1
+#15 [closed] 2025-10-19 Update to 1.21.10 | labels: enhancement | comments: 1
+#14 [open] 2025-08-21 Changing the setting for "require debug keybind" to false keeps resetting to true constantly | labels: bug | comments: 3
+#12 [open] 2025-04-20 Chunk Border Chat message | labels: bug | comments: 2
+#11 [closed] 2025-04-19 Update to 1.21.5 | labels: enhancement | comments: 1
+#10 [open] 2025-03-02 Chunk Border issue | labels: bug | comments: 0
+#9 [closed] 2025-02-23 game crashes after i try to change binds | labels: bug | comments: 3
+#8 [closed] 2025-02-17 Compatability issues with "too-many-shortcuts" mod, making the keybinds shortcut button disappear | labels: bug | comments: 1
+#7 [closed] 2025-02-17 Use Esc to unbind a debug keybind. | labels: enhancement | comments: 0
+#6 [closed] 2025-02-17 1.16.1 port | labels: enhancement | comments: 1
+#5 [closed] 2024-07-20 [Fabric 1.21] v9.0.0: Crashing due to "ReloadSubcommand" is implementing an abstract class | labels:  | comments: 1
+#4 [closed] 2024-07-10 The set bind resets when starting minecraft/changing the world | labels:  | comments: 1
+#3 [closed] 2024-02-28 incompatibility with Dashboard | labels:  | comments: 0
+#2 [closed] 2023-08-27 F3 screen appears when it shouldn't | labels:  | comments: 0
+#1 [closed] 2023-08-25 Game crash with mod Dashloader 5.0.0 Beta 2 | labels:  | comments: 2

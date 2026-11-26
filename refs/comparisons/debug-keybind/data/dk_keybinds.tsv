@@ -1,0 +1,18 @@
+config_key	action_class	default_key	glfw_code	vanilla_function	source
+debug	GlobalKeybind DEBUG	F3	292	Debug key: toggles the debug screen on release; the modifier of every combo below	DebugKeybinds.<clinit> + KeybindConfig fields (jar 9.1.1, read)
+hideGui	GlobalKeybind HIDE_GUI	F1	290	Hide the GUI (HUD)	same
+reloadChunks	ActionKeybind	A	65	F3+A reload chunks	same
+showHitboxes	ActionKeybind	B	66	F3+B show hitboxes	same
+copyLocation	ActionKeybind	C	67	F3+C copy location	same
+clearChat	ActionKeybind	D	68	F3+D clear chat	same
+chunkBorders	ActionKeybind	G	71	F3+G chunk borders	same
+advancedTooltips	ActionKeybind	H	72	F3+H advanced tooltips	same
+inspect	ActionKeybind	I	73	F3+I copy targeted block or entity data	same
+profiling	ActionKeybind	L	76	F3+L start or stop profiling	same
+creativeSpectator	ActionKeybind	N	78	F3+N cycle creative and spectator	same
+pauseFocus	ActionKeybind	P	80	F3+P pause on lost focus	same
+help	ActionKeybind	Q	81	F3+Q list the combos in chat	same
+dumpDynamicTextures	ActionKeybind	S	83	F3+S dump dynamic textures	same
+reloadResourcePacks	ActionKeybind	T	84	F3+T reload resource packs	same
+openGamemodeSwitcher	ActionKeybind	F4	293	F3+F4 game mode switcher	same
+pauseWithoutMenu	ActionKeybind	Esc	256	F3+Esc pause without the pause menu	same

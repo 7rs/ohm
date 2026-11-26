@@ -1,0 +1,45 @@
+# Vanilla 1.20.1 (Forge 47.4.28 SRG client jar in the Prism libraries folder) facts used to check Debug Keybind 9.1.1 targets
+# Source jar: libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar, read with javap (nothing run)
+
+## KeyboardHandler.keyPress (m_90893_) integer constants and calls
+  51: sipush        292
+  96: sipush        292
+  606: sipush        292
+  757: sipush        256
+  772: sipush        292
+  798: sipush        292
+  809: invokevirtual #1725               // Method m_90932_:(I)Z
+  834: sipush        290
+
+## KeyboardHandler.handleDebugKeys (m_90932_) lookupswitch (14 keys; 65=A 66=B 67=C 68=D 71=G 72=H 73=I 76=L 78=N 80=P 81=Q 83=S 84=T 293=F4)
+      27: lookupswitch  { // 14
+                    65: 148
+                    66: 170
+                    67: 943
+                    68: 221
+                    71: 247
+                    72: 279
+                    73: 347
+                    76: 906
+                    78: 388
+                    80: 536
+                    81: 606
+                    83: 796
+                    84: 885
+                   293: 492
+               default: 1107
+
+## ControlsScreen.init (m_7856_): number of Button.Builder.bounds (m_252987_) calls (Debug Keybind uses ordinal 2, so needs >= 3)
+3
+
+## GameModeSwitcherScreen: checkToClose has isKeyDown(292), keyPressed has constant 293, render has >=2 drawCenteredString(Font,Component,III)
+
+## KeyBindsList$KeyEntry.refreshEntry (m_264257_): Component.empty() into local 1, then KeyMapping.isUnbound (m_90862_) once
+  41: invokestatic  #241                // InterfaceMethod net/minecraft/network/chat/Component.m_237119_:()Lnet/minecraft/network/chat/MutableComponent;
+  44: astore_1
+  49: invokevirtual #244                // Method net/minecraft/client/KeyMapping.m_90862_:()Z
+
+## Not in 1.20.1 (used only by Debug Keybind 9.1.1 F3Command, the bare /f3 command)
+  Minecraft.m_293199_()Lnet/minecraft/client/gui/components/DebugScreenOverlay;  occurrences in the 1.20.1 Minecraft class: 0
+  DebugScreenOverlay.m_293034_()V  occurrences in the 1.20.1 DebugScreenOverlay class: 0
+  (In 1.20.1 the overlay is a field of Gui; the 1.20.2 API moved it to Minecraft. Inference from the member ids, which are in the 29xxxx range of 1.20.2.)

@@ -1,0 +1,59 @@
+mod	mixin_class	target	kind	handler	details
+0pack2reload	MixinOptions	Lnet/minecraft/client/Options	Inject	inject$updateResourcePacks	 method=["updateResourcePacks"] at=[@At( value="HEAD" )]
+almanac[nested:DungeonConfig-1.20.1-forge-1.26.11.1]	KeyMappingAccessor	Lnet/minecraft/client/KeyMapping	Accessor	dungeonconfig$categorySortOrder	 value="CATEGORY_SORT_ORDER"
+almanac[nested:DungeonConfig-1.20.1-forge-1.26.11.1]	KeyMappingMixin	Lnet/minecraft/client/KeyMapping	Inject	dungeonconfig$ctrlPrefix	 method=["getTranslatedKeyMessage"] at=[@At( value="RETURN" )] cancellable=true
+almanac[nested:DungeonConfig-1.20.1-forge-1.26.11.1]	OptionsMixin	Lnet/minecraft/client/Options	Inject	dungeonconfig$addKey	 method=["load()V","load(Z)V"] at=[@At( value="HEAD" )]
+better-biome-blend	MixinOptions	Lnet/minecraft/client/Options	Inject	bbb$onProcessOptions	 method=["processOptions"] at=[@At( value="HEAD" )]
+betterf3	DebugOptionMixin	Lnet/minecraft/client/Options	Inject	addAutomaticDebugOption	 method=["<init>"] at=[@At( value="RETURN" )]
+betterf3	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Inject	onDebugActivate	 method=["onKey"] at=[@At( value="FIELD" opcode=181 target="net/minecraft/client/option/GameOptions.debugEnabled : Z" )] cancellable=true
+betterf3	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Inject	processF3	 method=["processF3"] at=[@At( value="HEAD" )] cancellable=true
+betterf3	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Inject	processF3Messages	 method=["processF3"] at=[@At( value="RETURN" )]
+betterf3	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Redirect	alwaysEnableProfiler	 method=["onKey"] at=@At( value="FIELD" target="Lnet/minecraft/client/option/GameOptions;debugProfilerEnabled:Z" opcode=181 ordinal=0 )
+betterf3	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Redirect	alwaysEnableTPS	 method=["onKey"] at=@At( value="FIELD" target="Lnet/minecraft/client/option/GameOptions;debugTpsEnabled:Z" opcode=181 ordinal=0 )
+chloride	BorderlessMixin$KeyboardHandlerMixin	Lnet/minecraft/client/KeyboardHandler	Inject	redirect$handleFullScreenToggle	 method=["keyPress"] at=[@At( value="INVOKE" target="Lcom/mojang/blaze3d/platform/Window;toggleFullScreen()V" )] cancellable=true
+colorwheel	OptionsMixin	Lnet/minecraft/client/Options	Inject	colorwheel$onLoad	 method=["load()V"] at=[@At( value="RETURN" )]
+colorwheel	OptionsMixin	Lnet/minecraft/client/Options	Inject	colorwheel$onSave	 method=["save"] at=[@At( value="HEAD" )]
+controlling	AccessKeyBindsScreen	Lnet/minecraft/client/gui/screens/controls/KeyBindsScreen	Accessor	controlling$getKeyBindsList	 value="keyBindsList"
+controlling	AccessKeyBindsScreen	Lnet/minecraft/client/gui/screens/controls/KeyBindsScreen	Accessor	controlling$getResetButton	 value="resetButton"
+controlling	AccessKeyBindsScreen	Lnet/minecraft/client/gui/screens/controls/KeyBindsScreen	Accessor	controlling$setKeyBindsList	 value="keyBindsList"
+controlling	AccessKeyBindsScreen	Lnet/minecraft/client/gui/screens/controls/KeyBindsScreen	Accessor	controlling$setResetButton	 value="resetButton"
+controlling	AccessKeyMapping	Lnet/minecraft/client/KeyMapping	Accessor	controlling$getKey	 value="key"
+create-steam-n-rails	MixinKeyBindsListKeyEntry	Lnet/minecraft/client/gui/screens/controls/KeyBindsList$KeyEntry	WrapOperation	railways$createKeybindsDontConflictWithOurs	 method=["refreshEntry"] at=[@At( value="INVOKE" target="Lnet/minecraft/client/KeyMapping;same(Lnet/minecraft/client/KeyMapping;)Z" )]
+default-options	ForgeKeyMappingMixin	Lnet/minecraft/client/KeyMapping	Inject	setKeyModifierAndCode	 method=["setKeyModifierAndCode"] at=[@At( value="HEAD" )] remap=false
+default-options	ForgeOptionsMixin	Lnet/minecraft/client/Options	Inject	load	 method=["load(Z)V"] at=[@At( value="RETURN" )] remap=false
+default-options	KeyMappingMixin	Lnet/minecraft/client/KeyMapping	Inject	setKey	 method=["setKey"] at=[@At( value="HEAD" )]
+default-options	OptionsMixin	Lnet/minecraft/client/Options	Inject	load	 method=["load()V"] at=[@At( value="HEAD" )]
+dynamic-fps	OptionsMixin	Lnet/minecraft/client/Options	Inject	save0	 method=["m_92169_()V"] at=[@At( value="HEAD" )]
+dynamic-fps	OptionsMixin	Lnet/minecraft/client/Options	Inject	save1	 method=["m_92169_()V"] at=[@At( value="RETURN" )]
+emi	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Inject	onChar	 at=[@At( value="HEAD" )] method=["onChar(JII)V"] cancellable=true
+emi	KeyboardMixin	Lnet/minecraft/client/KeyboardHandler	Inject	onKey	 at=[@At( value="INVOKE" target="net/minecraft/client/gui/screen/Screen.wrapScreenError(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V" )] method=["onKey(JIIII)V"] cancellable=true
+immersive-aircraft	KeyMappingMixin	Lnet/minecraft/client/KeyMapping priority=100	Inject	immersiveAircraft$equals	 method=["same(Lnet/minecraft/client/KeyMapping;)Z"] at=[@At( value="HEAD" )] cancellable=true
+immersive-aircraft	KeyMappingMixin	Lnet/minecraft/client/KeyMapping priority=100	Inject	immersiveAircraft$onClick	 method=["click(Lcom/mojang/blaze3d/platform/InputConstants$Key;)V"] at=[@At( value="HEAD" )]
+immersive-aircraft	KeyMappingMixin	Lnet/minecraft/client/KeyMapping priority=100	Inject	immersiveAircraft$resetMapping	 method=["resetMapping()V"] at=[@At( value="HEAD" )]
+immersive-aircraft	KeyMappingMixin	Lnet/minecraft/client/KeyMapping priority=100	Inject	immersiveAircraft$set	 method=["set(Lcom/mojang/blaze3d/platform/InputConstants$Key;Z)V"] at=[@At( value="HEAD" )]
+invmove	KeyMappingCompareMixin	Lnet/minecraft/client/KeyMapping	WrapOperation	safeCompare	 method=["compareTo(Lnet/minecraft/client/KeyMapping;)I"] at=[@At( value="INVOKE" target="Ljava/util/Map;get(Ljava/lang/Object;)Ljava/lang/Object;" )]
+key-binding-patch	KeyBindsListMixin	Lnet/minecraft/client/gui/screens/controls/KeyBindsList	Redirect	onNew$Invoke	 method=["<init>"] at=@At( value="INVOKE" target="Ljava/util/Arrays;sort([Ljava/lang/Object;)V" )
+key-binding-patch	KeyBindsListMixin	Lnet/minecraft/client/gui/screens/controls/KeyBindsList	Redirect	onNew$Invoke	 method=["<init>"] at=@At( value="INVOKE" target="Lnet/minecraft/network/chat/Component;translatable(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;" ordinal=1 )
+key-binding-patch	KeyEntryMixin	Lnet/minecraft/client/gui/screens/controls/KeyBindsList$KeyEntry	Redirect	onRefreshEntry$Invoke	 method=["refreshEntry"] at=@At( value="INVOKE" target="Lnet/minecraft/network/chat/Component;translatable(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;" ordinal=0 )
+key-binding-patch	KeyMappingLookupMixin	Lnet/minecraftforge/client/settings/KeyMappingLookup	Overwrite	getAll	 remap=false
+key-binding-patch	KeyMappingLookupMixin	Lnet/minecraftforge/client/settings/KeyMappingLookup	Overwrite	put	 remap=false
+key-binding-patch	KeyMappingMixin	Lnet/minecraft/client/KeyMapping	Inject	onNew	 method=["<init>(Ljava/lang/String;Lcom/mojang/blaze3d/platform/InputConstants$Type;ILjava/lang/String;)V"] at=[@At( value="RETURN" )]
+key-binding-patch	KeyMappingMixin	Lnet/minecraft/client/KeyMapping	Inject	onNew	 method=["<init>(Ljava/lang/String;Lnet/minecraftforge/client/settings/IKeyConflictContext;Lnet/minecraftforge/client/settings/KeyModifier;Lcom/mojang/blaze3d/platform/InputConstants$Key;Ljava/lang/String;)V"] at=[@At( value="RETURN" )]
+key-binding-patch	OptionsMixin	Lnet/minecraft/client/Options	Inject	onProcessOptionsForge	 method=["processOptionsForge"] remap=false at=[@At( value="INVOKE" target="Lnet/minecraft/sounds/SoundSource;values()[Lnet/minecraft/sounds/SoundSource;" )]
+key-binding-patch	OptionsMixin	Lnet/minecraft/client/Options	Redirect	onProcessOptionsForge$GetField	 method=["processOptionsForge"] at=@At( value="FIELD" target="Lnet/minecraft/client/Options;keyMappings:[Lnet/minecraft/client/KeyMapping;" )
+oculus	MixinMaxFpsCrashFix	Lnet/minecraft/client/Options	Redirect	iris$resetFramerateLimit	 method=["processOptions"] at=@At( value="INVOKE" target="Lnet/minecraft/client/Options$FieldAccess;process(Ljava/lang/String;Lnet/minecraft/client/OptionInstance;)V" ) slice=@Slice( from=@At( value="CONSTANT" args=["stringValue=maxFps"] ) to=@At( value="CONSTANT" args=["stringValue=graphicsMode"] ) ) allow=1
+oculus	MixinOptions_CloudsOverride	Lnet/minecraft/client/Options priority=1010	Inject	iris$overrideCloudsType	 method=["getCloudsType"] at=[@At( value="HEAD" )] cancellable=true
+oculus	MixinOptions_Entrypoint	Lnet/minecraft/client/Options priority=990	Inject	iris$beforeLoadOptions	 method=["load()V"] at=[@At( value="HEAD" )]
+parcool	OptionsMixin	Lnet/minecraft/client/Options	Inject	onGetCameraType	 method=["getCameraType"] at=[@At( value="HEAD" )] cancellable=true
+patchouli	AccessorKeyMapping	Lnet/minecraft/client/KeyMapping	Accessor	getAllKeyMappings	 value="ALL"
+punchy-fpa	OptionsAccessor	Lnet/minecraft/client/Options	Accessor	punchy$getKeyMappings	 value="keyMappings"
+punchy-fpa	OptionsAccessor	Lnet/minecraft/client/Options	Accessor	punchy$setKeyMappings	 value="keyMappings"
+punchymoves	KeyMappingCategoryAccessor	Lnet/minecraft/client/KeyMapping	Accessor	punchymoves$categoryOrder	 value="CATEGORY_SORT_ORDER"
+punchymoves	KeyboardHandlerMixin	Lnet/minecraft/client/KeyboardHandler	Inject	punchymoves$keys	 method=["keyPress"] at=[@At( value="HEAD" )] cancellable=true
+punchymoves	OptionsAccessor	Lnet/minecraft/client/Options	Accessor	punchymoves$setKeyMappings	 value="keyMappings"
+punchymoves	OptionsStartupKeysMixin	Lnet/minecraft/client/Options	Inject	punchymoves$captureStartupKeys	 method=["load"] at=[@At( value="HEAD" )]
+rrls	RendererKeyboardMouseMixin	Lnet/minecraft/client/renderer/GameRenderer,Lnet/minecraft/client/KeyboardHandler,Lnet/minecraft/client/MouseHandler	WrapOperation	rrls$miniRender	 method=["*"] at=[@At( value="INVOKE" target="Lnet/minecraft/client/Minecraft;getOverlay()Lnet/minecraft/client/gui/screens/Overlay;" )]
+shoulder-surfing-reloaded	OptionsMixin	Lnet/minecraft/client/Options	Inject	setCameraType	 at=[@At( value="HEAD" )] method=["setCameraType"] cancellable=true
+small-ships	KeyboardHandlerMixin	Lnet/minecraft/client/KeyboardHandler	Inject	keyPress	 method=["keyPress"] at=[@At( value="TAIL" )]
+superb-warfare	KeymappingMixin	Lnet/minecraft/client/KeyMapping	Inject	consumeClick	 method=["consumeClick()Z"] at=[@At( value="HEAD" )] cancellable=true
+vanillabackport	OptionsMixin	Lnet/minecraft/client/Options	Inject	vb$processCustomOptions	 method=["processOptions"] at=[@At( value="TAIL" )]

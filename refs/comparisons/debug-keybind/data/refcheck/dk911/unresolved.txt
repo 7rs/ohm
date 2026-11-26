@@ -1,0 +1,2 @@
+1 net/minecraft/client/Minecraft.m_293199_:()Lnet/minecraft/client/gui/components/DebugScreenOverlay;
+1 net/minecraft/client/gui/components/DebugScreenOverlay.m_293034_:()V

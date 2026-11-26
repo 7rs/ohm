@@ -114,6 +114,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Xaero's Minimap | xaeros-minimap | modrinth | - |
 | Xaero's World Map | xaeros-world-map | modrinth | - |
 | BetterF3 | betterf3 | modrinth | github.com/TreyRuffy/BetterF3 |
+| Debug Keybind | debug-keybind | modrinth | github.com/Boxadactle/DebugKeybind |
 | Enhanced Boss Bars | enhanced-boss-bars-mod | modrinth | Naku2004/Enhanced_Boss_Bars_1.21.1_NeoForge |
 | Better Advancements | better-advancements | modrinth | github.com/way2muchnoise/BetterAdvancements |
 | Catalogue | catalogue | curseforge | github.com/MrCrayfish/Catalogue |

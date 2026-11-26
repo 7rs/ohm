@@ -1,0 +1,42 @@
+id,criterion,value,type,source,source_url
+dk-9.1.1,modrinth_downloads_project,65261,measured,Modrinth API 2026-11-26,https://api.modrinth.com/v2/project/debug-keybind
+dk-9.1.1,modrinth_downloads_file,2835,measured,Modrinth API (version 9.1.1-forge),https://api.modrinth.com/v2/project/debug-keybind/version
+dk-9.1.1,curseforge_downloads_project,19705,measured,CFWidget mirror of CurseForge 2026-11-26,https://api.cfwidget.com/minecraft/mc-mods/debug-keybind
+dk-9.1.1,curseforge_downloads_file,145,measured,CFWidget (file 6337011),https://api.cfwidget.com/minecraft/mc-mods/debug-keybind
+dk-9.1.1,release_date_modrinth,2025-03-23T20:59:26Z,measured,Modrinth API,https://api.modrinth.com/v2/project/debug-keybind/version
+dk-9.1.1,release_date_curseforge,2025-03-23T20:59:24Z,measured,CFWidget (same release; neither platform is newer),https://api.cfwidget.com/minecraft/mc-mods/debug-keybind
+dk-9.1.1,latest_release_any_mc,17.0.0 on 2025-10-20 (Minecraft 1.21.9 and 1.21.10),measured,Modrinth API,https://api.modrinth.com/v2/project/debug-keybind/version
+dk-9.1.1,github_last_commit_dev,2025-10-20,measured,GitHub API,https://github.com/Boxadactle/DebugKeybind
+dk-9.1.1,github_last_push_any_branch,2026-01-27,measured,GitHub API,https://github.com/Boxadactle/DebugKeybind
+dk-9.1.1,github_stars_forks_open_issues,2 / 2 / 8,measured,GitHub API,https://github.com/Boxadactle/DebugKeybind
+dk-9.1.1,jar_sha1,9dbc841d8ef50c43158d876673f9e5aa33ec0d07,measured,downloaded jar (matches the Modrinth hash),https://cdn.modrinth.com/data/DX9ioka8/versions/ITjGkv0o/DebugKeybind-forge-9.1.1.jar
+dk-9.1.1,jar_size_bytes,1892130 (icon.png is 1852362 of it),measured,downloaded jar,
+dk-9.1.1,mods_toml_minecraft_range,"[1.20,)",measured by reading,META-INF/mods.toml,
+dk-9.1.1,mods_toml_boxlib_dependency,"[11.0.0,12.0.0) mandatory side CLIENT",measured by reading,META-INF/mods.toml,
+dk-9.1.1,modrinth_listed_dependencies,none (BoxLib is not tagged required on this file),measured,Modrinth API and GitHub issue 19,https://github.com/Boxadactle/DebugKeybind/issues/19
+dk-9.1.1,mixin_classes,6 (all in the client list; defaultRequire 1; required true),measured by reading,debugkeybind.mixins.json,
+dk-9.1.1,mixin_injectors,"KeyboardHandler.keyPress: 3 ModifyConstant (292 F3, 256 Esc, 290 F1) + 1 ModifyArg on the handleDebugKeys call; KeyboardHandler.handleDebugKeys: Inject HEAD cancellable + Invoker; InputConstants.isKeyDown: Inject HEAD cancellable; KeyBindsList$KeyEntry: Inject render RETURN + Inject refreshEntry at KeyMapping.isUnbound (CAPTURE_FAILSOFT); ControlsScreen.init: Inject RETURN + ModifyArg on Button$Builder.bounds ordinal 2; GameModeSwitcherScreen: ModifyArg checkToClose, ModifyConstant 293 in keyPressed, ModifyArg render",measured by reading,javap of the mixin classes (data/dk-9.1.1_mixin_annotations.txt),
+dk-9.1.1,mixin_targets_in_1.20.1,all exist (keyPress has 5x292 + 1x256 + 1x290 + the handleDebugKeys call; ControlsScreen.init has 3 bounds calls; refreshEntry has Component.empty() in local 1 then one isUnbound call),measured by reading,Forge-patched client and SRG client from the Prism libraries (data/vanilla_1.20.1_evidence.txt),
+dk-9.1.1,member_references_unresolved_in_1.20.1,2 of 41 (Minecraft.m_293199_ and DebugScreenOverlay.m_293034_; only the bare /f3 command),measured by reading,data/refcheck_summary.md,
+dk-9.1.1,vanilla_handleDebugKeys_keys,14 (A B C D G H I L N P Q S T F4); Debug Keybind covers all 14 plus Esc plus F3 plus F1 = 17 keys,measured by reading,data/vanilla_1.20.1_evidence.txt and data/dk_keybinds.tsv,
+dk-9.1.1,config_file,config/debugkeybind.json in the game directory (JSON; 17 int fields; defaults are the vanilla key codes),measured by reading,BConfigFile("debugkeybind") and BConfigHandler,
+dk-9.1.1,network_channels,none (no NetworkRegistry or SimpleChannel strings in the jar or in BoxLib),measured by reading,grep of class files,
+dk-9.1.1,dist_guards,none (no OnlyIn or DistExecutor; the mod class calls BoxLib and client classes at construction),measured by reading,javap,
+dk-5.0.0,minecraft_range,"[1.20,1.20.1]",measured by reading,META-INF/mods.toml,
+dk-5.0.0,bundled_library,BoxLib 9.0.0 as Jar-in-Jar (range [9.0.0,)),measured by reading,META-INF/jarjar/metadata.json,
+dk-5.0.0,modrinth_downloads_file,1575,measured,Modrinth API,https://api.modrinth.com/v2/project/debug-keybind/version
+dk-5.0.0,member_references_unresolved_in_1.20.1,0 of 76 (BoxLib 9.0.0: 0 of 114),measured by reading,data/refcheck_summary.md,
+dk-5.0.0,config_fields,16 (no hideGui field),measured by reading,javap of KeybindConfig,
+boxlib-11.3.2,modrinth_downloads_project,873937,measured,Modrinth API,https://api.modrinth.com/v2/project/boxlib
+boxlib-11.3.2,modrinth_downloads_file,20077,measured,Modrinth API,https://api.modrinth.com/v2/project/boxlib/version
+boxlib-11.3.2,curseforge_downloads_project,2114795,measured,CFWidget,https://api.cfwidget.com/minecraft/mc-mods/boxlib
+boxlib-11.3.2,release_date,2024-08-17 (Modrinth 19:32:19Z; CurseForge 19:32:15Z; same release),measured,Modrinth API and CFWidget,
+boxlib-11.3.2,github_last_push,2026-10-13 (open issues 0; 4 stars),measured,GitHub API,https://github.com/Boxadactle/BoxLib
+boxlib-11.3.2,jar_sha1,a530d266fdb122dbac0fc2588ca42f9bdb1c4685,measured,downloaded jar (matches the Modrinth hash),https://cdn.modrinth.com/data/HAE5KvTA/versions/rXxdW1JV/Boxlib-forge-11.3.2.jar
+boxlib-11.3.2,mods_toml_dependencies,forge [0,) and minecraft [1.20.1,) only,measured by reading,META-INF/mods.toml,
+boxlib-11.3.2,mixins,1 class (CommandSourceStackMixin: implements an interface on CommandSourceStack; no injectors),measured by reading,boxlib.mixins.json and javap,
+boxlib-11.3.2,member_references_unresolved_in_1.20.1,0 of 127 (one false report: CommandSourceStack.m_81374_ exists),measured by reading,data/refcheck_summary.md,
+boxlib-11.3.2,network_use,"none at startup; HTTP and Google Translate modules exist but Debug Keybind does not reference them",measured by reading,grep of class files,
+installed,jars_scanned,138 of 140 metafiles (GT CRAFT and the Official Content Pack skipped: assets only); every hash matched its metafile,measured,data/installed_jar_urls.tsv,
+installed,mixin_classes_on_hooked_targets,47 mixin classes in 25 mods target KeyboardHandler/KeyMapping/Options/KeyBindsList(+KeyEntry)/KeyBindsScreen/InputConstants/ControlsScreen/GameModeSwitcherScreen; 58 injector rows,measured by reading,data/installed_hooks_of_interest.tsv,
+installed,hard_conflicts_with_dk_9.1.1,0,measured by reading,data/installed_hooks_of_interest.tsv against data/dk-9.1.1_mixin_annotations.txt,

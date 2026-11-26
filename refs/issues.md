@@ -16,6 +16,15 @@ Problems found so far in installed mods. Status: `open` is known and unresolved,
 - Key Binding Patch triggers every key binding that shares one key, unlike vanilla. Two mods with the same default key can fire together. (`by design`)
 - Whether Key Binding Patch interacts with TaCZ, Mine Menu, Ixeris or Shoulder Surfing Reloaded is not checked. (`unverified`)
 
+## Debug Keybind (added 2026-11-27)
+
+- Not run in the game or on a server. The record is `refs/comparisons/debug-keybind/`: 0 hard conflicts against the 138 installed jars by the Mixin scan, 76 of 76 Minecraft and Forge references resolve on 1.20.1. First launch is the test: Mixin warnings from `debugkeybind.mixins.json` in `logs/latest.log`, the Controls screen layout with Key Binding Patch and Controlling installed, rebinding F3 and one combo, F3+Q output next to BetterF3. (`unverified`)
+- Pinned to 5.0.0 (2023-10-02), the 1.20.1 build. Modrinth tags 9.1.1 for 1.20.1 as well, but it is built for 1.20.2 and needs BoxLib added by hand. The pin has to be removed to move to it (`refs/notes.md`). (`by design`)
+- 5.0.0 has no `hideGui` field, so the Hide GUI (F1) binding is probably not saved across restarts (inference from the class). (`unverified`)
+- The debug keys are the mod's own objects, not `KeyMapping`s: they are missing from the vanilla Controls list, Controlling's search, Key Binding Patch, Mine Menu and `options.txt`. They are set only in Controls > Debug Keybinds, and the pack cannot ship defaults for them. (`by design`)
+- BetterF3 issue 185 (2025-11-09, Fabric, BetterF3 16.0.3): a crash when the Debug key is rebound to a letter that is also a combo key (B, V, E). Not reported for 1.20.1 Forge 7.0.2. Do not rebind the Debug key to a letter. (`unverified`)
+- Keyboard keys only, no mouse buttons (its issue 18, open). The Debug Keybinds screen cannot be hidden from players (its issue 20, open). (`by design`)
+
 ## Punchy!, Punchy! Moves
 
 - Punchy! 3.2b (release) and Punchy! Moves 1.0.9b (beta) were added on 2026-11-22. Both are Forge 1.20.1 builds with a refmap. Neither was tested in-game. (`unverified`)
