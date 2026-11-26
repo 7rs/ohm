@@ -23,6 +23,8 @@ Installed mods by category. The human-facing version with links and badges is th
 | Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
 | Clanging Howl | clanging-howl | curseforge | github.com/Polarice3/ClangingHowl |
+| True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
+| Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
 
 ## Concepts/Mekanism
 
@@ -44,8 +46,6 @@ Installed mods by category. The human-facing version with links and badges is th
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
-| Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
-| True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
 | Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
 | Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
 
@@ -77,15 +77,11 @@ Installed mods by category. The human-facing version with links and badges is th
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
-| 0Pack2Reload | 0pack2reload | modrinth | github.com/Nova-Committee/0Pack2Reload |
 | AttributeFix | attributefix | modrinth | github.com/Darkhax-Minecraft/AttributeFix |
 | Dynamic FPS | dynamic-fps | modrinth | codeberg.org/LostLuma/Dynamic-FPS |
 | Essential Mod | essential | modrinth | github.com/SparkUniverse/Essential-Mod |
-| FastQuit-Forge | fastquit-forge | modrinth | github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/FastQuit-Forge |
 | InvMove | invmove | modrinth | github.com/PieKing1215/InvMove |
 | Mouse Tweaks | mouse-tweaks | modrinth | github.com/YaLTeR/MouseTweaks |
-| No Telemetry | no-telemetry | modrinth | github.com/kb-1000/no-telemetry |
-| Remove Reloading Screen | rrls | modrinth | github.com/dima-dencep/rrls |
 | VeinMiner | veinminer | modrinth | github.com/MiraculixxT/Veinminer |
 | Default Options | default-options | modrinth | github.com/TwelveIterations/DefaultOptions |
 | Key Binding Patch | key-binding-patch | modrinth | github.com/Giant-Salted-Fish/Key-Binding-Patch |
@@ -97,8 +93,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Weather Refined | weather-refined | curseforge | github.com/Hxtomi/WeatherRefind |
 | Yeetus Experimentus | yeetus-experimentus | modrinth | github.com/nanite/Yeetus-Experimentus |
 | Leaves Be Gone | leaves-be-gone | modrinth | Fuzss/leavesbegone |
-| Cubes Without Borders | cubes-without-borders | modrinth | Kira-NT/cubes-without-borders |
-| All Japanese Translate | jtrans | curseforge | - |
 
 ## UI Improvement
 
@@ -115,6 +109,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Jade | jade | modrinth | github.com/Snownee/Jade |
 | Jade Addons (Neo/Forge) | jade-addons-forge | modrinth | github.com/Snownee/JadeAddons |
 | Enhanced Boss Bars | enhanced-boss-bars-mod | modrinth | Naku2004/Enhanced_Boss_Bars_1.21.1_NeoForge |
+| All Japanese Translate | jtrans | curseforge | - |
 
 ## Graphic
 
@@ -123,12 +118,23 @@ Installed mods by category. The human-facing version with links and badges is th
 | Better Biome Blend | better-biome-blend | modrinth | github.com/FionaTheMortal/better-biome-blend |
 | Distant Horizons | distanthorizons | modrinth | gitlab.com/distant-horizons-team/distant-horizons |
 | Oculus | oculus | modrinth | github.com/Asek3/Oculus |
-| Entity Model Features (EMF) | entity-model-features | modrinth | github.com/Traben-0/Entity_Model_Features |
-| Entity Texture Features (ETF) | entitytexturefeatures | modrinth | github.com/Traben-0/Entity_Texture_Features |
-| EntityModelShaderFix | entitymodelshadersfix | modrinth | github.com/vfx-dev/EntityModelShaderFix |
 | Spawn Animations | spawn-animations | modrinth | github.com/Tschipcraft/spawnanimations |
 | 3D Skin Layers | 3dskinlayers | modrinth | github.com/tr7zw/3d-skin-layers |
+
+## Fix/Patch
+
+| Name | Slug | Source | Repository |
+| --- | --- | --- | --- |
+| No Telemetry | no-telemetry | modrinth | github.com/kb-1000/no-telemetry |
+| Cubes Without Borders | cubes-without-borders | modrinth | Kira-NT/cubes-without-borders |
+| Remove Reloading Screen | rrls | modrinth | github.com/dima-dencep/rrls |
+| 0Pack2Reload | 0pack2reload | modrinth | github.com/Nova-Committee/0Pack2Reload |
+| FastQuit-Forge | fastquit-forge | modrinth | github.com/frcvdt45g6by7hnj8ukm-nh8b7g6vtf5r4de3/FastQuit-Forge |
+| EntityModelShaderFix | entitymodelshadersfix | modrinth | github.com/vfx-dev/EntityModelShaderFix |
 | Enhanced Celestials 2: Shader Support | enhanced-celestials-2-shader-support | modrinth | - |
+| Colorwheel | colorwheel | modrinth | github.com/djefrey/Colorwheel |
+| Colorwheel Patcher | colorwheel-patcher | modrinth | github.com/djefrey/Colorwheel-Patcher |
+| Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
 
 ## Graphic Optimization
 
@@ -146,8 +152,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | Gnetum | gnetum | modrinth | github.com/decce6/Gnetum |
 | BadOptimizations | badoptimizations | modrinth | github.com/imthosea/BadOptimizations |
 | CreateBetterFPS | createbetterfps | modrinth | github.com/MoePus/CreateBetterFPS |
-| Colorwheel | colorwheel | modrinth | github.com/djefrey/Colorwheel |
-| Colorwheel Patcher | colorwheel-patcher | modrinth | github.com/djefrey/Colorwheel-Patcher |
 | Fast Items | fast-items | modrinth | Noryea/fast-items |
 
 ## Optimization
@@ -175,7 +179,6 @@ Installed mods by category. The human-facing version with links and badges is th
 | FastFurnace | fastfurnace | modrinth | github.com/Shadows-of-Fire/FastFurnace |
 | FastSuite | fastsuite | modrinth | github.com/Shadows-of-Fire/FastSuite |
 | Async Locator | async-locator | modrinth | thebrightspark/AsyncLocator |
-| Quick Pack | quick-pack | modrinth | DrexHD/quick-pack |
 
 ## Library
 
@@ -202,6 +205,8 @@ Installed mods by category. The human-facing version with links and badges is th
 | Enhanced Celestials 2: Core | enhanced-celestials-2-core | modrinth | - |
 | CorgiLib | corgilib | modrinth | github.com/CorgiTaco/CorgiLib |
 | Data Anchor | data-anchor | modrinth | github.com/CorgiTaco/Data-Anchor |
+| Entity Model Features (EMF) | entity-model-features | modrinth | github.com/Traben-0/Entity_Model_Features |
+| Entity Texture Features (ETF) | entitytexturefeatures | modrinth | github.com/Traben-0/Entity_Texture_Features |
 
 ## Resource Pack
 
