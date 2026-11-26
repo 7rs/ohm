@@ -54,6 +54,7 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 | [mob-difficulty](#mob-difficulty) | 11-24 | Simple Enemy, Enhanced Celestials 2, Clanging Howl | Added |
 | [difficulty-mods](#difficulty-mods) | 11-25 | L2Hostility, Cold Sweat, Cataclysm, No Mindless Shooting | Scaling added 11-26 (L2Hostility, Improved Mobs); rest pending |
 | [ultra-high-res-screenshot](#ultra-high-res-screenshot) | 11-25 | HiResShot after a scratch-instance test; Forgeshot as fallback | Pending, not added |
+| [debug-keybind](#debug-keybind) | 11-26 | Debug Keybind 5.0.0 pinned (9.1.1 needs BoxLib by hand) | Added 11-27 |
 
 ## Rendering and display
 
@@ -233,6 +234,16 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 - Rules: never both Tough As Nails and Cold Sweat (both temperature); never both Thirst Was Taken and Thirst Was Reclaimed (same mod id `thirst`). Fabric-only jars appear in Forge listings (Custom Entity Attributes, Mob AI Tweaks, Mebahel's mods, Eldritch End): do not add. Alex's Mobs is heavy because of per-tick AI searches and unlimited populations, not content size.
 - No installed difficulty mod was found that a candidate clearly beats. Staged adding is suggested: one axis, then measure in the same world.
 - Evidence: `followup_alexsmobs_perf.md`, `content_counts.csv`, `mixin_conflicts.txt`.
+
+## Controls
+
+### debug-keybind
+
+- Question: add Debug Keybind (Modrinth `debug-keybind`, Boxadactle) to make the F3 debug key and its combos rebindable? What does it need, and does it fit the installed key-handling mods?
+- Result: add, with conditions. 17 rebindable keys (F3, Hide GUI F1, 15 combos) with vanilla defaults, client only, 0 hard conflicts against 138 installed jars (BetterF3 shares `handleDebugKeys` with plain injects). The file the user named, 9.1.1, is built for 1.20.2 (bare `/f3` calls two 1.20.2-only methods) and needs BoxLib 11.x, which Modrinth does not list as its dependency. 5.0.0 is built for 1.20.1 with BoxLib inside, but has no `hideGui` field. No other Forge 1.20.1 mod does this.
+- Decision 2026-11-27 (user): add. Version 5.0.0 with `pin = true` (the assistant's recommendation; the user told to push and open the PR without naming another). No BoxLib metafile. Nothing shipped.
+- Constraints (`refs/notes.md`): do not rebind the Debug key to a combo letter beside BetterF3; keep the pin or add `boxlib` 11.3.2 by hand to move to 9.1.1; its keys are invisible to Key Binding Patch, Controlling and Default Options.
+- Not run in the game; first launch is the test (`refs/issues.md`).
 
 ## Statements in the comparisons that are out of date
 

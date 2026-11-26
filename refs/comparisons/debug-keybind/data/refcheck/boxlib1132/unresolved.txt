@@ -1,0 +1,1 @@
+1 net/minecraft/commands/CommandSourceStack.m_81374_:()Lnet/minecraft/world/entity/Entity;

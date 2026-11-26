@@ -1,0 +1,32 @@
+=============== BoxLib #2
+BoxLib 1.20.4 not working
+state: closed created: 2024-07-25 closed: 2024-07-26T02:46:23Z
+I tried to install Coordinates Display, but evertime I install BoxLib 12.1.1 I get following error.
+The only mods I have installed are BoxLib and Fabric API
+
+Uncaught exception in thread "main"
+java.lang.RuntimeException: Error creating Mixin config boxlib.mixins.json for mod boxlib
+	at net.fabricmc.loader.impl.launch.FabricMixinBootstrap.init(FabricMixinBootstrap.java:96)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:151)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: org.spongepowered.asm.launch.MixinInitialisationError: Error initialising mixin config boxlib.mixins.json
+	at org.spongepowered.asm.mixin.transformer.Config.create(Config.java:153)
+	at org.spongepowered.asm.mixin.Mixins.createConfiguration(Mixins.java:100)
+	at org.spongepowered.asm.mixin.Mi
+--- Shringe 2024-07-25: The pre 1.20.6 versions of this mod need to be compiled with java 17 not 21
+--- quumhd 2024-07-26: Ah thanks
+--- Shringe 2024-07-27: This is an issue on the developers side, there's no reason to close.
+=============== BoxLib #3
+Game fails to launch
+state: closed created: 2024-07-26 closed: 2024-10-13T17:01:12Z
+I'm using Modrinth as a launcher, and fabric as a loader, on version 1.20.1. Upon attempt to launch the game, having the library installed makes the launch fail. It's not a mod conflict as I tested it with just the library and it still failed (the log file is from that test) Log file attached https://mclo.gs/QojjoNh#L62
+--- Boxadactle 2024-10-13: This issue has been fixed. Please update to the newest version 10.4.0 for 1.20.1.
+=============== BoxLib #4
+Version downgraded?
+state: closed created: 2024-12-08 closed: 2024-12-19T20:54:08Z
+Your mod went from 11.3.2 to 10.4, which mods requiring it recognize as a downgrade aka not a valid version and crash.
+
+forge 1.20.1
+--- NolanHewitt 2024-12-10: I noticed this as well. I just use 11.3.2, not sure if 10.4 is actually newer or just a reupload
+--- Boxadactle 2024-12-19: 10.4 is for 1.20 only and was mislabeled, 11.3.2 is the correct version for 1.20.1

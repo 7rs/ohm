@@ -1,0 +1,20 @@
+ControlsScreenMixin | Inject | private void addButton(callback.CallbackInfo); |  method=["init"] at=[@At( value="RETURN" )]
+ControlsScreenMixin | ModifyArg | private int modifyButtonY(int); |  method=["init"] at=@At( value="INVOKE" target="Lnet/minecraft/client/gui/components/Button$Builder;bounds(IIII)Lnet/minecraft/client/gui/components/Button$Builder;" ordinal=2 ) index=1
+ControlsScreenMixin | Mixin | private void lambda$addButton$0(net.minecraft.client.gui.components.Button); |  value=[class Lnet/minecraft/client/gui/screens/controls/ControlsScreen;]
+DebugInvoker | Invoker | public abstract boolean invokeHandleDebugKeys(int); |  value="handleDebugKeys"
+DebugInvoker | Mixin | public abstract boolean invokeHandleDebugKeys(int); |  value=[class Lnet/minecraft/client/KeyboardHandler;]
+GamemodeSwitcherScreenMixin | ModifyArg | private int overrideF3Close(int); |  method=["checkToClose"] at=@At( value="INVOKE" target="Lcom/mojang/blaze3d/platform/InputConstants;isKeyDown(JI)Z" ) index=1
+GamemodeSwitcherScreenMixin | ModifyConstant | private int overrideF4Press(int); |  method=["keyPressed"] constant=[@Constant( intValue=293 )]
+GamemodeSwitcherScreenMixin | ModifyArg | private net.minecraft.network.chat.Component updateKeyText(net.minecraft.network.chat.Component); |  method=["render"] at=@At( value="INVOKE" target="Lnet/minecraft/client/gui/GuiGraphics;drawCenteredString(Lnet/minecraft/client/gui/Font;Lnet/minecraft/network/chat/Component;III)V" ordinal=1 ) index=1
+GamemodeSwitcherScreenMixin | Mixin | private net.minecraft.network.chat.Component updateKeyText(net.minecraft.network.chat.Component); |  value=[class Lnet/minecraft/client/gui/screens/debug/GameModeSwitcherScreen;]
+InputConstantsMixin | Inject | private static void handleUnboundKey(long, int, callback.CallbackInfoReturnable<java.lang.Boolean>); |  method=["isKeyDown"] at=[@At( value="HEAD" )] cancellable=true
+InputConstantsMixin | Mixin | private static void handleUnboundKey(long, int, callback.CallbackInfoReturnable<java.lang.Boolean>); |  value=[class Lcom/mojang/blaze3d/platform/InputConstants;]
+KeyBindsListMixin | Inject | private void checkDebugCollisions(net.minecraft.client.gui.GuiGraphics, int, int, int, int, int, int |  method=["render"] at=[@At( value="RETURN" )]
+KeyBindsListMixin | Inject | private void checkDebugCollisions(callback.CallbackInfo, net.minecraft.network.chat.MutableComponent |  method=["refreshEntry"] at=[@At( value="INVOKE" target="Lnet/minecraft/client/KeyMapping;isUnbound()Z" )] locals=Lorg/spongepowered/asm/mixin/injection/callback/LocalCapture;.CAPTURE_FAILSOFT
+KeyBindsListMixin | Mixin | private void checkDebugCollisions(callback.CallbackInfo, net.minecraft.network.chat.MutableComponent |  value=[class Lnet/minecraft/client/gui/screens/controls/KeyBindsList$KeyEntry;]
+KeyboardHandlerMixin | ModifyConstant | private int overrideDebugKey(int); |  method=["keyPress"] constant=[@Constant( intValue=292 )]
+KeyboardHandlerMixin | ModifyConstant | private int handleF3Escape(int); |  method=["keyPress"] constant=[@Constant( intValue=256 )]
+KeyboardHandlerMixin | ModifyConstant | private int handleF1(int); |  method=["keyPress"] constant=[@Constant( intValue=290 )]
+KeyboardHandlerMixin | ModifyArg | private int remapDebugKeys(int); |  method=["keyPress"] at=@At( value="INVOKE" target="Lnet/minecraft/client/KeyboardHandler;handleDebugKeys(I)Z" )
+KeyboardHandlerMixin | Inject | private void overrideHelpMenu(int, callback.CallbackInfoReturnable<java.lang.Boolean>); |  method=["handleDebugKeys"] at=[@At( value="HEAD" )] cancellable=true
+KeyboardHandlerMixin | Mixin | private net.minecraft.network.chat.Component debugKeybind$translateHelpMessage(java.lang.String, dev |  value=[class Lnet/minecraft/client/KeyboardHandler;]

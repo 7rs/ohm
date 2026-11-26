@@ -1,0 +1,18 @@
+id,company,product,variant,model_number,tags,catalogue_url,status,exclusion_reason
+dk-9.1.1,Boxadactle,Debug Keybind,Forge file tagged 1.20.1+1.20.2 (named "[Forge 1.20.2] v9.1.1"),DebugKeybind-forge-9.1.1.jar,"client;rebinds F3 combos;needs BoxLib 11.x;Modrinth+CurseForge",https://modrinth.com/mod/debug-keybind,researched,
+dk-5.0.0,Boxadactle,Debug Keybind,Forge 1.20.1 build 2023-10-02 (minecraft [1.20,1.20.1]); BoxLib 9.0.0 inside as Jar-in-Jar,DebugKeybind-5.0.0.jar,"client;older build;no separate library;Modrinth+CurseForge",https://modrinth.com/mod/debug-keybind/version/5.0.0-forge,researched,
+dk-9.1.0,Boxadactle,Debug Keybind,Forge 1.20.1+1.20.2 (2024-08-20),DebugKeybind-forge-9.1.0.jar,"client;superseded by 9.1.1",https://modrinth.com/mod/debug-keybind,listed,Same line as 9.1.1; not read
+dk-1.1.0,Boxadactle,Debug Keybind,Forge 1.20 and 1.20.1 (2023-08-27),DebugKeybind-1.1.0.jar,"client;first release line",https://modrinth.com/mod/debug-keybind,listed,Superseded by 5.0.0 and 9.1.1; not read
+boxlib-11.3.2,Boxadactle,BoxLib,Forge file tagged 1.20.1+1.20.2,Boxlib-forge-11.3.2.jar,"client library;required by dk-9.1.1",https://modrinth.com/mod/boxlib,researched,
+no-mod-os-remap,none,Operating-system or keyboard remap,Fn lock or a key remapper,,"no mod;works outside the game;per player",,researched (not tested),
+thorough-keybindings,crazysmc,Thorough Keybindings,Fabric only,,"Fabric;rebinds F3 and Esc as controls;111240 downloads",https://modrinth.com/mod/thorough-keybindings,excluded,Fabric only: no Forge 1.20.1 build (Modrinth loader list is fabric); Sinytra Connector was removed from the pack
+f3-changer,jonaslpeuu,F3 CHANGER,Fabric only,,"Fabric;toggles the F3 screen with a custom key only",https://modrinth.com/mod/f3-changer,excluded,Fabric only; covers the toggle key only
+rebindmykeys,agent-LuluDodo,RebindMyKeys,Fabric only (alpha),,"Fabric;extra rebinds",https://modrinth.com/mod/rebindmykeys,excluded,Fabric only
+rebind-all-the-keys,unknown,Rebind All The Keys,Fabric,,"Fabric;named in a web search result",https://www.curseforge.com/minecraft/mc-mods/rebindallthekeys,excluded,Fabric mod per a search snippet; its page was not opened
+rebind-austeretony,austeretony,ReBind,legacy Forge,,"Minecraft 1.7.10 to 1.12.2",https://www.curseforge.com/minecraft/mc-mods/rebind,excluded,Outside the version (1.12.2 and older)
+legacy-rebindable-keys,unknown,Legacy Rebindable Keys,Minecraft 1.6.4,,"legacy",https://www.curseforge.com/minecraft/mc-mods/legacy-rebindable-keys,excluded,Outside the version (1.6.4)
+xyzcopy,unknown,XYZ Copy,Forge 1.20-1.20.4,,"partial overlap: replaces the location-copy hotkeys only",https://modrinth.com/mod/xyzcopy,listed,Covers one combo (F3+C) only; not read
+better-gamemode,unknown,Better Gamemode,Forge,,"partial overlap: game mode hotkeys",https://modrinth.com/mod/better-gamemode,listed,Covers game mode switching only; not read
+no-f3,unknown,no f3,Forge,,"opposite function: removes F3 features",https://modrinth.com/mod/no-f3,excluded,Different function (removes features)
+debugutils,Flemmli97,DebugUtils,Forge 1.20.1,,"restores Mojang development debug tools",https://modrinth.com/mod/debugutils,excluded,Different function; client and server required
+simpler-keybinds,unknown,simpler keybinds,Forge 1.19-1.20.1,,"radial menu that fires registered KeyMappings",https://modrinth.com/mod/simpler-keybinds,excluded,Fires KeyMappings only; F3 combos are not KeyMappings

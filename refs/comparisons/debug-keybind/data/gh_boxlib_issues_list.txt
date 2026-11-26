@@ -1,0 +1,9 @@
+#9 [closed] 2026-01-02 Is this ever gonna be updated to work with 1.21.11 | comments: 2
+#8 [closed] 2025-07-09 back at it again in the newest version 18.0.2 my game crashes when going in any world | comments: 4
+#7 [closed] 2025-07-07 crash on 1.21.7 | comments: 4
+#6 [closed] 2025-04-19 Update to 1.21.5 | comments: 0
+#5 [closed] 2025-03-28 Error with 1.16.1 BoxLib | comments: 4
+#4 [closed] 2024-12-08 Version downgraded? | comments: 2
+#3 [closed] 2024-07-26 Game fails to launch | comments: 1
+#2 [closed] 2024-07-25 BoxLib 1.20.4 not working | comments: 3
+#1 [closed] 2023-12-29 https://maven.boxadactle.dev is down | comments: 1

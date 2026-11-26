@@ -1,0 +1,14 @@
+name = "Debug Keybind"
+filename = "DebugKeybind-5.0.0.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/DX9ioka8/versions/shVxcsKM/DebugKeybind-5.0.0.jar"
+hash-format = "sha512"
+hash = "588ac5f4d32adc6472687eaa6e653f07df9ffff681f42b983558d4f1320330f0e357378e0a2ce3aa0bd84b233f7a5397ab59c799415a1e07bc95d588e43de1e8"
+
+[update]
+[update.modrinth]
+mod-id = "DX9ioka8"
+version = "shVxcsKM"

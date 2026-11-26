@@ -1,0 +1,102 @@
+=============== TreyRuffy/BetterF3#185
+[Bug]: Crashes if DebugKeybind mod rebinds f3 to specific keys
+state: open created: 2025-11-09 updated: 2025-11-09 labels: 
+### Describe the Bug
+
+If the [Debug Keybind](https://modrinth.com/mod/debug-keybind) mod is used to rebind the debug key (Originally f3) is to certain keys, pressing it causes the game to crash. Specifically, it crashes when the debug keybind is bound to something that's intended to be a debug action (Eg: B for Show HItboxes, V, E, etc)
+
+It _doesn't_ crash if f3 is rebound and BetterF3 is _not_ installed. I'm unsure which mod exactly is causing the problem, but the crash log is only mentioning BetterF3 so I'm reporting it here.
+
+### Steps to Reproduce
+
+1. Install Debug Keybind and BetterF3.
+2. Rebind the "Debug Key" to B (Or any other key that's originally a Debug Action).
+(It doesn't matter if "Show Hitboxes" (Originally B) is changed to another key or not).
+4. Press B, and the game crashes.
+
+### Expected Behavior
+
+Not to crash
+
+### Screenshots
+
+_No response_
+
+### Modloader Type
+
+Fabric
+
+### Modloader Version
+
+0.18.0
+
+### Mod Version
+
+16.0.3
+
+### Log Output
+
+```shell
+https://mclo.gs/ytFmHPa
+```
+
+### Additional Context
+
+_No response_
+=============== jaredlll08/Controlling#237
+Do not show key bind duplicates from debug menu
+state: open created: 2026-07-11 updated: 2026-08-15 labels: 
+This is a very annoying "feature". Vanilla game does not show a debug menu key bind as duplicate, because it is used only inside the debug menu. Please implement the same vanilla behavior.
+--- comment Wyvest 2026-08-02: Any updates on this?
+--- comment lunaynx 2026-08-02: > Vanilla game does not show a debug menu key bind as duplicate
+
+This is only partially accurate. Vanilla will still report a conflict if it's a customized keybind. However, Controlling makes it worse and marks them as conflicting regardless.
+--- comment jaredlll08 2026-08-02: > Vanilla game does not show a debug menu key bind as duplicate, because it is used only inside the debug menu.
+
+That is not correct.
+
+Vanilla doesn't report conflicting keybinds *if* both keybinds are their default value.
+in vanilla none of these keybinds "conflict"
+
+<img width="2560" height="1369" alt="Image" src="https://github.com/user-attachments/assets/55fc2d35-7e4f-45e0-abbc-0303364acdff" />
+
+however if we set another keybind to `c`, they now do conflict, only with that keybind that is set to `c` though, still not with each other.
+
+<img width="2560" height="1369" alt="Image" src="https://github.com/user-attachments/assets/8111f46c-9c62-4217-8ee0-8f0edc3edeee" />
+
+although Select On Hotbar does say it conflicts with everything else, even though everything else can't actually conflict in game.
+
+<img width="1560" height="232" alt="Image" src="https://github.com/user-attachments/assets/fcc0cde9-d26c-40b5-ba90-86dced48dc4f" />
+
+
+Unfortunately this feature only really works in vanilla, once you start adding mods to the mix, it kinda becomes useless as now nothing conflicts with each other since everything is set to the default, even though they WILL conflict in game.
+
+
+So I don't really have a good way to solve this, I could always add a "show non-default conflicting" option, but *by default* that will show nothing...
+--- comment Wyvest 2026-08-02: > > Vanilla game does not show a debug menu key bind as duplicate, because it is used only inside the debug menu.
+> 
+> That is not correct.
+> 
+> Vanilla doesn't report conflicting keybinds _if_ both keybinds are their default value. in vanilla none of these keybinds "conflict"
+> 
+> <img alt="Image" width="2000" height="1070" src="https://private-user-images.githubusercontent.com/5553605/630272747-55fc2d35-7e4f-45e0-abbc-0303364acdff.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODU2OTc2MDEsIm5iZiI6MTc4NTY5NzMwMSwicGF0aCI6Ii81NTUzNjA1LzYzMDI3Mjc0Ny01NWZjMmQzNS03ZTRmLTQ1ZTAtYWJiYy0wMzAzMzY0YWNkZmYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDgwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA4MDJUMTkwMTQxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NGMzMDFiZjE3NTY4NjA0ZWM2YzA5NmY3ZDkwM2Q4ZjM1MWNmZjQxZjFjNGI5NDg5NGJjNzA0YmMwMzFhM2I5ZSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.l_8P5jARYXn-RBD_diqQBxA3IGqwd-w6v-WaV8H_r1c">
+> however if we set another keybind to `c`, they now do conflict, only with that keybind that is set to `c` though, still not with each other.
+> 
+> <img alt="Image" width="2000" height="1070" src="https://private-user-images.githubusercontent.com/5553605/630272917-8111f46c-9c62-4217-8ee0-8f0edc3edeee.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1Ni
+--- comment jaredlll08 2026-08-02: > Well I think Controlling should fix this behavior by just properly checking the conflicts. For debug keybinds it should only conflict with other debug keybinds (cause those are the only keybinds that need f3 to be held), and the Debug Crash keybind should just be ignored entirely in the conflict calculations since its a unique keybind
+
+That isn't a realistic approach to fix the problem as a whole though, it only works for vanilla keybinds, not modded keybinds.
+
+it also gets incredibly complicated when you factor in Neoforge's modifier keys and whatever fabric mods add key modifiers, if someone remaps the `Debug Modifier Key` to something like `Left Shift`, now it is a proper conflict for something that is bound to `Left Shift + c`, it gets *even more* complicated if they remap the `Debug Modifier Key` to something like `p` and then remap one of the debug keys to `Left Shift`, since in this case the modifier isn't the Left Shift, it is `p`, so you could have 2 keys, one mapped to `p + Left Shift` and another mapped to `Left Shift + p` and it just becomes a mess of keys that 100% are conflicting but with whatever special handling the `Debug` keys get, may not show them as conflicting.
+
+
+This is generally a wider issue than just the debug keys though, for example in the screenshots I sent above, there are creative mode specific keybinds and spectator mode specific keybinds, if those were mapped to the same keys, should they show as conflicting? there isn't a modifier key for t
+--- comment MeeniMc 2026-08-15: I think fixing only the `f3+<key>` issue would add value, even if it does not solve the general issue that is intractable.
+--- comment lunaynx 2026-08-15: Yeah, not regressing from vanilla behavior would be a good start, then we can discuss possibly having Controlling go beyond that.
+--- comment jaredlll08 2026-08-15: Just wanted to make a note here that neoforge itself suffers from the same regression.
+
+<img width="2560" height="1369" alt="Image" src="https://github.com/user-attachments/assets/8647d8be-66ec-44cf-8e61-39be4ff3d20b" />
+
+https://github.com/neoforged/NeoForge/blob/26.2.x/patches/net/minecraft/client/gui/screens/options/controls/KeyBindsList.java.patch#L24
+
+I'm going to speak to them and see how they are going to go about fixing it.
