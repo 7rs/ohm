@@ -45,6 +45,10 @@ file = "config/defaultoptions/extra/config/xaerohud.txt"
 hash = "a6ff9972cc152213e8c0c294117c086fdd906b05c1a15a0b3c044d583d80c686"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "efbdbcbadd24dd2a6c3e318516fac394d99f889b2ba99ea6218d59c8b1590774"
+
+[[files]]
 file = "config/defaultoptions/options.txt"
 hash = "2111b9cfdcbd53a44e7e575aca532f349feef63bf843ba14147cbcb5951e357e"
 
