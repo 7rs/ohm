@@ -1,0 +1,3 @@
+bosses (class names): CommandBlockEntity, WitherStormEntity, WitherStormSegmentEntity, WitheredSymbiontEntity
+structure_set bowels.json: type=minecraft:random_spread spacing=20 separation=19 freq=None structures=['witherstormmod:bowels']
+structure_set storm_spawn_platform.json: type=minecraft:random_spread spacing=1 separation=0 freq=None structures=['witherstormmod:storm_spawn_platform']

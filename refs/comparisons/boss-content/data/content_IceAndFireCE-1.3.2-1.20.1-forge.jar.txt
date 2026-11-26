@@ -1,0 +1,10 @@
+bosses (class names): EntityDreadQueen
+structure_set cyclops_cave.json: type=minecraft:random_spread spacing=10 separation=6 freq=None structures=['iceandfire:cyclops_cave']
+structure_set dragon_cave.json: type=minecraft:random_spread spacing=18 separation=12 freq=None structures=['iceandfire:fire_dragon_cave', 'iceandfire:ice_dragon_cave', 'iceandfire:lightning_dragon_cave']
+structure_set dragon_roost.json: type=minecraft:random_spread spacing=15 separation=6 freq=None structures=['iceandfire:fire_dragon_roost', 'iceandfire:ice_dragon_roost', 'iceandfire:lightning_dragon_roost']
+structure_set gorgon_temple.json: type=minecraft:random_spread spacing=32 separation=12 freq=None structures=['iceandfire:gorgon_temple']
+structure_set graveyard.json: type=minecraft:random_spread spacing=28 separation=14 freq=None structures=['iceandfire:graveyard']
+structure_set hydra_cave.json: type=minecraft:random_spread spacing=10 separation=6 freq=None structures=['iceandfire:hydra_cave']
+structure_set mausoleum.json: type=minecraft:random_spread spacing=32 separation=12 freq=None structures=['iceandfire:mausoleum']
+structure_set pixie_village.json: type=minecraft:random_spread spacing=12 separation=8 freq=None structures=['iceandfire:pixie_village']
+structure_set siren_island.json: type=minecraft:random_spread spacing=20 separation=14 freq=None structures=['iceandfire:siren_island']

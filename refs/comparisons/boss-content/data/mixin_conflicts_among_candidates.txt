@@ -1,0 +1,98 @@
+=== bestylewither-forge-mc1.20-1.6.1.jar  mixin classes: 8  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 30 (handler methods resolved to SRG through the refmap: 21 of 21)
+   SHARED with witherreincarnated-1.20.1-1.0.5: 12
+   SHARED with Deicide Wither1.0.7: 8
+   SHARED with tkvm_wither-1.4.1: 8
+   SHARED with warwither-1.20.1-1.1.1: 2
+=== better_wither-1.0.0-forge-1.20.1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== bosses_recrafted-1.0.0-forge-1.20.1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== witherstormmod-1.20.1-4.2.1-all.jar  mixin classes: 63  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 12 (handler methods resolved to SRG through the refmap: 48 of 50)
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 3
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 3
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 3
+   SHARED with L_Enders_Cataclysm-3.31: 1
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+   SHARED with Deicide Wither1.0.7: 1
+=== Deicide Wither1.0.7.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 1  shared-method entries: 38 (handler methods resolved to SRG through the refmap: 26 of 33)
+   OVERWRITE WitherBoss#m_31448_ [Overwrite vs Inject] <-> witherreincarnated-1.20.1-1.0.5
+   SHARED with tkvm_wither-1.4.1: 12
+   SHARED with bestylewither-forge-mc1.20-1.6.1: 8
+   SHARED with 凋灵斯拉mc1.20.1-1.7: 5
+   SHARED with witherreincarnated-1.20.1-1.0.5: 4
+   SHARED with warwither-1.20.1-1.1.1: 2
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 2
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 2
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 2
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 1
+=== tkvm_wither-1.4.1.jar  mixin classes: 4  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 33 (handler methods resolved to SRG through the refmap: 10 of 11)
+   SHARED with Deicide Wither1.0.7: 12
+   SHARED with witherreincarnated-1.20.1-1.0.5: 9
+   SHARED with bestylewither-forge-mc1.20-1.6.1: 8
+   SHARED with warwither-1.20.1-1.1.1: 4
+=== warwither-1.20.1-1.1.1.jar  mixin classes: 4  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 9 (handler methods resolved to SRG through the refmap: 4 of 4)
+   SHARED with tkvm_wither-1.4.1: 4
+   SHARED with bestylewither-forge-mc1.20-1.6.1: 2
+   SHARED with Deicide Wither1.0.7: 2
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+=== withering-heights-alpha-1.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== [1.19.4-1.20.1]witherswrath-1.16.jar  mixin classes: 0  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 0)
+=== 凋灵斯拉mc1.20.1-1.7.jar  mixin classes: 16  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 9 (handler methods resolved to SRG through the refmap: 23 of 27)
+   SHARED with Deicide Wither1.0.7: 5
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 1
+   SHARED with uranus-2.2.6-bugfix.2-1.20.1-forge: 1
+=== architectury-9.2.14-forge.jar  mixin classes: 19  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 9 of 10)
+=== IceAndFireCE-1.3.1-bugfix-1.20.1-forge.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 49 (handler methods resolved to SRG through the refmap: 19 of 19)
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 21
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 19
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 3
+   SHARED with Deicide Wither1.0.7: 2
+   SHARED with L_Enders_Cataclysm-3.31: 1
+   SHARED with 凋灵斯拉mc1.20.1-1.7: 1
+   SHARED with uranus-2.2.6-bugfix.2-1.20.1-forge: 1
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+=== IceAndFireCE-1.3.2-1.20.1-forge.jar  mixin classes: 13  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 49 (handler methods resolved to SRG through the refmap: 19 of 19)
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 21
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 19
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 3
+   SHARED with Deicide Wither1.0.7: 2
+   SHARED with L_Enders_Cataclysm-3.31: 1
+   SHARED with 凋灵斯拉mc1.20.1-1.7: 1
+   SHARED with uranus-2.2.6-bugfix.2-1.20.1-forge: 1
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+=== IceAndFireCE-1.2.7-1.20.1-forge.jar  mixin classes: 12  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 47 (handler methods resolved to SRG through the refmap: 17 of 17)
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 19
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 19
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 3
+   SHARED with Deicide Wither1.0.7: 2
+   SHARED with L_Enders_Cataclysm-3.31: 1
+   SHARED with 凋灵斯拉mc1.20.1-1.7: 1
+   SHARED with uranus-2.2.6-bugfix.2-1.20.1-forge: 1
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+=== jupiter-2.3.7-1.20.1-forge.jar  mixin classes: 2  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 0 of 1)
+=== L_Enders_Cataclysm-3.31.jar  mixin classes: 25  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 6 (handler methods resolved to SRG through the refmap: 17 of 18)
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 1
+   SHARED with witherreincarnated-1.20.1-1.0.5: 1
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 1
+   SHARED with uranus-2.2.6-bugfix.2-1.20.1-forge: 1
+=== lionfishapi-3.0.jar  mixin classes: 2  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 2 of 2)
+=== mowziesmobs-1.8.2.jar  mixin classes: 1  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 0 (handler methods resolved to SRG through the refmap: 1 of 1)
+=== uranus-2.2.6-bugfix.2-1.20.1-forge.jar  mixin classes: 15  hard conflicts: 0  overwrite pairs: 0  shared-method entries: 5 (handler methods resolved to SRG through the refmap: 17 of 20)
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 1
+   SHARED with 凋灵斯拉mc1.20.1-1.7: 1
+   SHARED with L_Enders_Cataclysm-3.31: 1
+=== witherreincarnated-1.20.1-1.0.5.jar  mixin classes: 18  hard conflicts: 0  overwrite pairs: 1  shared-method entries: 31 (handler methods resolved to SRG through the refmap: 51 of 52)
+   OVERWRITE WitherBoss#m_31448_ [Inject vs Overwrite] <-> Deicide Wither1.0.7
+   SHARED with bestylewither-forge-mc1.20-1.6.1: 12
+   SHARED with tkvm_wither-1.4.1: 9
+   SHARED with Deicide Wither1.0.7: 4
+   SHARED with warwither-1.20.1-1.1.1: 1
+   SHARED with witherstormmod-1.20.1-4.2.1-all: 1
+   SHARED with L_Enders_Cataclysm-3.31: 1
+   SHARED with IceAndFireCE-1.3.1-bugfix-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.3.2-1.20.1-forge: 1
+   SHARED with IceAndFireCE-1.2.7-1.20.1-forge: 1

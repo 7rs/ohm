@@ -1,0 +1,15 @@
+slug	subclasses	registry_refs	first_subclasses
+clanging-howl	5	3	EnergyEfficiencyEnchantment,EnergyTreasureEnchantment,FuelSavingEnchantment,FuelTreasureEnchantment,NapalmStreamEnchantment
+create	2	3	CapacityEnchantment,PotatoRecoveryEnchantment
+deeperdarker	2	2	CatalysisEnchantment,SculkSmiteEnchantment
+l2-complements	1	11	UnobtainableEnchantment
+l2hostility	0	6	
+l2library	0	3	
+lr-tactical	1	1	BackstabEnchantment
+mekanism	0	1	
+placebo	0	2	
+puzzles-lib	0	1	
+tenshilib	0	1	
+the-twilight-forest	1	5	LootOnlyEnchantment
+touhou-little-maid	3	3	EndersEnderEnchantment,ImpedingEnchantment,SpeedyEnchantment
+vanillabackport	1	0	LungeEnchantment

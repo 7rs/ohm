@@ -1,0 +1,13 @@
+bosses (class names): 
+structure_set abandoned_structures.json: type=cataclysm:cataclysm_random_spread spacing=30 separation=20 freq=None structures=['cataclysm:abandoned_spire', 'cataclysm:abandoned_temple', 'cataclysm:abandoned_village']
+structure_set acropolis.json: type=cataclysm:cataclysm_random_spread spacing=80 separation=50 freq=None structures=['cataclysm:acropolis']
+structure_set amethyst_nest.json: type=minecraft:random_spread spacing=32 separation=8 freq=None structures=['cataclysm:amethyst_nest']
+structure_set ancient_factory.json: type=minecraft:random_spread spacing=112 separation=70 freq=None structures=['cataclysm:ancient_factory']
+structure_set burning_arena.json: type=cataclysm:cataclysm_random_spread spacing=80 separation=50 freq=None structures=['cataclysm:burning_arena']
+structure_set cursed_pyramid.json: type=cataclysm:cataclysm_random_spread spacing=80 separation=50 freq=None structures=['cataclysm:cursed_pyramid']
+structure_set desert_structures.json: type=cataclysm:cataclysm_random_spread spacing=30 separation=20 freq=None structures=['cataclysm:desert_site', 'cataclysm:desert_occupied_village']
+structure_set frosted_prison.json: type=cataclysm:cataclysm_random_spread spacing=80 separation=50 freq=None structures=['cataclysm:frosted_prison']
+structure_set ruined_citadel.json: type=minecraft:random_spread spacing=50 separation=25 freq=None structures=['cataclysm:ruined_citadel']
+structure_set soul_black_smith.json: type=cataclysm:cataclysm_random_spread spacing=60 separation=50 freq=None structures=['cataclysm:soul_black_smith']
+structure_set sunken_city.json: type=cataclysm:cataclysm_random_spread spacing=100 separation=70 freq=None structures=['cataclysm:sunken_city']
+biome_modifier cataclysm_mob_spawns.json: type=cataclysm:cataclysm_mob_spawns biomes=None spawners=[]

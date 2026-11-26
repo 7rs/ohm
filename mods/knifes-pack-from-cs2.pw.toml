@@ -1,0 +1,13 @@
+name = "Knifes pack from cs2"
+filename = "Knifes pack from cs2-0.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bbvmpeoh/versions/leSJKpkp/Knifes%20pack%20from%20cs2-0.2.1.jar"
+hash-format = "sha512"
+hash = "9cf20ca482cc2ff1f7f8d5801387b6a3c796d464db65023508da5ce8ff65ec42cc64880f863d3477b2edc0bdc0b87bf57890ca2c32ec7fe0fd7d29a826e4c968"
+
+[update]
+[update.modrinth]
+mod-id = "bbvmpeoh"
+version = "leSJKpkp"

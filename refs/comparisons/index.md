@@ -243,6 +243,10 @@ Topics with `comparison.md` only: `create-flywheel`, `enum-values-memory`, `flyw
 - "RenderScale is not installed" (ultra-high-res-screenshot): RenderScale 2.0.0-beta.1 was added 2026-11-26.
 - Jar and metafile counts (91, 111, 118, 124, 132, 135) are snapshots; 136 on 2026-11-25.
 
+## Interrupted runs (2026-11-26)
+
+Five `mod-researcher` runs started on 2026-11-26 (melee-combat, tacz-addons, ally-power, boss-content, enchantment-tooltips) stopped at the usage limit before any `comparison.md` was written. `ally-power/`, `boss-content/` and `enchantment-tooltips/` hold their scripts and raw data; `melee-combat/` and `tacz-addons/` left no files. The user added the mods on their word (see `refs/notes.md`, "Added 2026-11-26: content, companions and TaCZ add-ons"). Rerun a topic only if its result is wanted: nothing here is a result.
+
 ## Keeping this index current
 
 - When a comparison is added, add its row, section and folder to this file in the same change.
