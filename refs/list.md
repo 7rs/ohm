@@ -18,7 +18,6 @@ Installed mods by category. The human-facing version with links and badges is th
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |
-| Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
 | End Remastered | endrem | modrinth | github.com/Jack-Bagel/End-Remastered |
 | Deeper and Darker | deeperdarker | modrinth | github.com/KyaniteMods/DeeperAndDarker |
 | Enhanced Celestials 2: Default Lunar Events | enhanced-celestials-2-default-lunar-events | modrinth | - |
@@ -41,6 +40,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Botania | botania | modrinth | github.com/VazkiiMods/Botania |
 | Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
 | Immersive Vehicles | immersive-vehicles | modrinth | github.com/DonBruce64/MinecraftTransportSimulator |
+| Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
 
 ## Item/Mob
 
