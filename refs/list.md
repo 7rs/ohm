@@ -150,11 +150,13 @@ Installed mods by category. The human-facing version with links and badges is th
 | GPUBooster | gputape | modrinth | github.com/ITsMrToad/GPUBooster |
 | Entity Culling | entityculling | modrinth | github.com/tr7zw/EntityCulling |
 | Optimized Block Entities [OBE] | obe | modrinth | github.com/maDU59/OptimisedBlockEntities |
+| Faster Iris Shadow Mapper [FISM] | fism | modrinth | github.com/maDU59/FasterIrisShadowMapper |
 | Fast Items | fast-items | modrinth | Noryea/fast-items |
 | CreateBetterFPS | createbetterfps | modrinth | github.com/MoePus/CreateBetterFPS |
 | AsyncParticles | asyncparticles | modrinth | github.com/Harveykang/AsyncParticles |
 | Kerria | kerria-opt | modrinth | github.com/decce6/Kerria |
 | BadOptimizations | badoptimizations | modrinth | github.com/imthosea/BadOptimizations |
+| RenderScale | renderscale | modrinth | github.com/Zolo101/RenderScale |
 
 ## Optimization
 
@@ -168,6 +170,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Immersive Optimization | immersive-optimization | modrinth | github.com/Luke100000/ImmersiveOptimization |
 | AI Improvements: Performance Tuning | ai-improvements | modrinth | github.com/BuiltBrokenModding/AI-Improvements |
 | Let Me Despawn | lmd | modrinth | github.com/frikinjay/let-me-despawn |
+| Cerulean | cerulean-advancements | modrinth | github.com/txnimc/Cerulean |
 | Clumps | clumps | modrinth | github.com/jaredlll08/Clumps |
 | Alternate Current | alternate-current | modrinth | github.com/SpaceWalkerRS/alternate-current |
 | Solix | solix | curseforge | github.com/SolarBiscuit/Solix |
@@ -212,6 +215,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | playerAnimator | playeranimator | modrinth | github.com/KosmX/fabricPlayerAnimation |
 | Entity Model Features (EMF) | entity-model-features | modrinth | github.com/Traben-0/Entity_Model_Features |
 | Entity Texture Features (ETF) | entitytexturefeatures | modrinth | github.com/Traben-0/Entity_Texture_Features |
+| TxniLib | txnilib | modrinth | github.com/txnimc/TxniLib |
 
 ## Resource Pack
 
