@@ -25,7 +25,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | True Ending - Ender Dragon Overhaul | true-ending | modrinth | - |
 | Zombie Awareness | zombie-awareness | modrinth | github.com/Corosauce/ZombieAwareness |
 
-## Concepts/Mekanism
+## Concepts/Mechanics
 
 | Name | Slug | Source | Repository |
 | --- | --- | --- | --- |

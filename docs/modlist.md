@@ -22,7 +22,7 @@
 | True Ending - Ender Dragon Overhaul | [![Modrinth](https://cdn.simpleicons.org/modrinth?size=16)](https://modrinth.com/datapack/true-ending) [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/true-ending) | - |
 | Zombie Awareness | [![Modrinth](https://cdn.simpleicons.org/modrinth?size=16)](https://modrinth.com/mod/zombie-awareness) [![CurseForge](https://cdn.simpleicons.org/curseforge?size=16)](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness) [![GitHub](https://cdn.simpleicons.org/github/181717/white?size=16)](https://github.com/Corosauce/ZombieAwareness) | ![last commit](https://img.shields.io/github/last-commit/Corosauce/ZombieAwareness) |
 
-## Concepts/Mekanism
+## Concepts/Mechanics
 
 | Name | Links | Last Updated |
 | --- | --- | --- |
