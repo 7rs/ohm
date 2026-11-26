@@ -276,6 +276,14 @@ Evidence: `refs/comparisons/vehicles/` (`gh_issues.md` has the issue digest). No
 - Improved Mobs adds block breaking, ladder climbing, chest stealing and villager targeting for hostile mobs (keys `mobListBreakWhitelist`, `mobListLadderWhitelist`, `mobListStealWhitelist`, `targetVillagerWhitelist`; defaults not read). With Guard Villagers, Zombie Awareness and AI Improvements it adds goals to the same mobs; Guard Villagers issue 314 (closed) shows goal-selector clashes between AI mods on 1.20.1. Its open issues: 326 (difficulty speed wrong on a server), 354 (deadlock while saving). It hooks `Mob.finalizeSpawn` and the save-data methods like Enhanced Celestials 2 Core, Vanilla Backport, Almanac and Let Me Despawn (plain injects). (`unverified`)
 - Both are `both`, so a dedicated server must carry them too. Removing L2 Hostility later leaves its levels on mobs that already exist until they die. (`by design`)
 
+## Better Combat, Simply Swords (added 2026-11-26)
+
+- None was run in the game, and no Mixin scan against the installed jars was made (the comparison run stopped at the usage limit). Better Combat uses playerAnimator, which hooks `LivingEntityRenderer.render` like Punchy! Moves; the combination is not tested. (`unverified`)
+- Better Combat and Punchy!: Punchy! draws held items itself. A NeoForge 1.21.1 fix exists for the first-person weapon drawn twice during Better Combat attacks with Punchy! under shaders; no report was found for 1.20.1 Forge, and the problem is not ruled out here. Candidate fix: the resource pack "Modded Swords x Punchy! Compatibility" (not installed, content not read). (`unverified`)
+- Better Combat issue 617 (open, 1.9.0): with "show hands in first person" the swing of modded weapons looks wrong when the player looks up or down. (`open`)
+- Better Combat with TaCZ, Superb Warfare and LR Tactical items: not checked. (`unverified`)
+- Simply Swords: a GitHub issue search for Oculus, Embeddium, Punchy! and shaders found one closed report (stutter when drawing and sheathing weapons, issue 287). (`unverified`)
+
 ## Mixin hard-conflict candidates among installed mods (scan 2026-11-25)
 
 - Method: the Mixin annotations of the 134 installed jars (nested Jar-in-Jar included; the three Immersive Vehicles content packs skipped) were parsed from the class files: target class, target method, injector kind and hooked call. A candidate is an `@Overwrite` on a method another mod also hooks, or two `@Redirect` or `@ModifyConstant` on the same call. Names are compared as written (Mojmap and SRG spellings of one method are not matched) and a mixin that a plugin switches off at load is not known, so this is a list to check, not a result. Earlier scans reported no hard conflict; this parser also counts `@Overwrite`. Not run. (`unverified`)

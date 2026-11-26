@@ -176,6 +176,15 @@ The user asked for a mod that raises difficulty and chose four directions: time 
 - Enemy: No Mindless Shooting 2.3.0 (TaCZ gunfire spawns mobs). Not recommended: TaCZ More Level and Insurgents (second gun-enemy system next to Simple Enemy), The Hordes, Undead Nights and Zombie Apocalypse Addon (overlap Zombie Awareness, Enhanced Celestials 2, Clanging Howl).
 - Fabric-only jars listed under Forge on Modrinth (do not add): Custom Entity Attributes, Mob AI Tweaks, Mebahel's mods, Eldritch End.
 
+## Added 2026-11-26: melee combat
+
+The user chose Better Combat and Simply Swords in chat on 2026-11-26, after a survey of sword and combat mods (evidence read from Modrinth, GitHub issues and the jars; there is no `refs/comparisons/` folder for it: the comparison runs started the same day stopped at the usage limit). Nothing was run in the game.
+
+- Better Combat 1.9.0+1.20.1-forge (released 2025-12-02, `side = "both"`): the jar needs playerAnimator `[1,)` and Cloth Config `[11.0.0,)`; both are installed (playerAnimator 1.0.2-rc1, Cloth Config 11.1.136). It gives weapons without an attribute file a preset by item id.
+- Simply Swords 1.70.2-1.20.1 (2026-08-27, `side = "both"`): katanas, spears, glaives, chakrams, greataxes and more, with Better Combat animations (Better Combat is an optional dependency). Its jar needs Architectury `[9.2.14,)` (9.2.14+forge added), Fzzy Config `[0.6.6,)` (0.7.7 added; it needs Kotlin for Forge, installed) and Simply Tooltips `[0.1,)` (0.1.5 added; its `mods.toml` marks it `CLIENT` and Modrinth lists the server as unsupported, so `side = "client"`). Remove the three libraries with Simply Swords.
+- Not added: Epic Fight 20.14.17 (own renderer; the maintainers say about 99 % of its incompatibilities come from it, Antikythera-Studios/epicfight #2460; open 1.20.1 issues with Oculus and Embeddium: #2126 and #2398) and SlashBlade: Resharped 1.9.65 (the 1.20.1 line was last released 2026-05-15; open issue #179: first-person model spasm with playerAnimator 1.0.2-rc1 and TaCZ 1.1.8-hotfix, the versions of this pack; closed #108 and #112: crash with Better Combat when SlashBlade is in the off hand). Do not add Epic Fight beside Better Combat: both replace the player's attack and animation handling (inference).
+- Better Combat Punchy Fix and First Person Model Compat exist for NeoForge 1.21.x only. For Punchy!, the pack could add the resource pack "Modded Swords x Punchy! Compatibility" (Modrinth `punchy-compatibility`, has a 1.20.1 build, 2026-10-28); its content was not read and it is not installed.
+
 ## Optimization Mods
 
 - Overlapping features were checked and are complementary:

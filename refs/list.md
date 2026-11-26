@@ -43,6 +43,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | Small Ships | small-ships | modrinth | github.com/talhanation/smallships |
 | ParCool! | parcool | modrinth | github.com/alRex-U/ParCool |
 | Touhou Little Maid | touhou-little-maid | modrinth | github.com/TartaricAcid/TouhouLittleMaid |
+| Better Combat | better-combat | modrinth | github.com/ZsoltMolnarrr/BetterCombat |
 
 ## Item/Mob
 
@@ -50,6 +51,7 @@ Installed mods by category. The human-facing version with links and badges is th
 | --- | --- | --- | --- |
 | Guard Villagers | guard-villagers | modrinth | github.com/seymourimadeit/guardvillagers |
 | Waystones | waystones | modrinth | github.com/TwelveIterations/Waystones |
+| Simply Swords | simply-swords | modrinth | github.com/Sweenus/SimplySwords |
 
 ## Addon/Plugin
 
@@ -216,6 +218,9 @@ Installed mods by category. The human-facing version with links and badges is th
 | Entity Model Features (EMF) | entity-model-features | modrinth | github.com/Traben-0/Entity_Model_Features |
 | Entity Texture Features (ETF) | entitytexturefeatures | modrinth | github.com/Traben-0/Entity_Texture_Features |
 | TxniLib | txnilib | modrinth | github.com/txnimc/TxniLib |
+| Architectury API | architectury-api | modrinth | github.com/architectury/architectury |
+| Fzzy Config | fzzy-config | modrinth | github.com/fzzyhmstrs/fconfig |
+| Simply Tooltips | simply-tooltips | modrinth | github.com/Sweenus/simplytooltips |
 
 ## Resource Pack
 

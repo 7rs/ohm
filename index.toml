@@ -107,6 +107,11 @@ hash = "b9e6e6a4a26ff1421620ea6cd99c0be1caaa66a1277c8cc72d2f64443be1fbcf"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
 file = "mods/async-locator.pw.toml"
 hash = "50e84c4b402d1772d2fea803812074b2946dac2a6b85944bfb5af37fd0db082c"
 metafile = true
@@ -149,6 +154,11 @@ metafile = true
 [[files]]
 file = "mods/better-biome-blend.pw.toml"
 hash = "52dd6d53a9d2327902621aa86b4c6a1e5382b966a5f9abdda248e7a49b29a002"
+metafile = true
+
+[[files]]
+file = "mods/better-combat.pw.toml"
+hash = "52b4f29eb4a4392ef085617292842dc9fc84d86c318da5ce470b24eab77f6bdc"
 metafile = true
 
 [[files]]
@@ -374,6 +384,11 @@ metafile = true
 [[files]]
 file = "mods/flerovium.pw.toml"
 hash = "7e26a34d801aec5b79cfeda3a998660739caae6f2fd3ddf1ea845e19cf7902fb"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "dd18fd6bae21df582b4fffc3dd18a4972e783a859c0295e5ea8582a6617dceb5"
 metafile = true
 
 [[files]]
@@ -659,6 +674,16 @@ metafile = true
 [[files]]
 file = "mods/simple-enemy.pw.toml"
 hash = "82634c1f07aba77bccc2aa01f3db9aee90cac6df0752198ec627177deace12c1"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "29068859ba1ef7215264705703de009d57730c059ad963ec5d54bedfa65c5861"
+metafile = true
+
+[[files]]
+file = "mods/simply-tooltips.pw.toml"
+hash = "58b6c58f8c7b8886048fd2028079d4a58162b4ca9bdc997882d2f8ae1be6aabb"
 metafile = true
 
 [[files]]
