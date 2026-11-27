@@ -13,5 +13,8 @@ lang:ja_jp
 mouseSensitivity:0.165
 onboardAccessibility:false
 soundCategory_music:0.0
+key_key.parcool.crawl:key.keyboard.left.shift:NONE:key.keyboard.left.control
+key_shadow#key.parcool.crawl@0:key.keyboard.left.control:NONE:key.keyboard.left.shift
+key_key.tacz.interact.desc:key.mouse.left:NONE:key.keyboard.left.alt
 resourcePacks:["vanilla","tacz_resources","mod_resources","mod/punchy:punchy","file/Fluid & Foolish 1.0.1.zip","file/FreshAnimations_v1.11.2_1.20+.zip","file/Iron Girl v2.0.zip","file/Piglin-Chan.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip","file/AzukiV57.zip"]
 incompatibleResourcePacks:["file/Iron Girl v2.0.zip","file/Melodys Cute Traders 1.0.0_pre-26.1.zip","file/Melodys Cute Illagers 1.0.1.zip","file/Melodys Cute Villagers v1.11.1_pre-26.1.zip","file/Melodys Cute Witches 1.0.1.zip"]
