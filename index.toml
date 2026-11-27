@@ -54,7 +54,7 @@ hash = "a71e3074be38d68a4b69a9eac6c52a972d1de2740363107ac6c5917920447d39"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "85c75177b14823eb363e17984cc62dcf726f84642234a32df81a4d80b87843f7"
+hash = "d278962ac6cafec45fabfe7da123c530216296d5965605a79176773abbeadfca"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
