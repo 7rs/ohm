@@ -21,7 +21,7 @@ In this project, we maintain a Packwiz modpack named ohm.
 - `shaderpacks/*.pw.toml`: One metafile per shader pack. packwiz marks them `both` because Modrinth lists their environment as unknown, so set `side = "client"` by hand. No shader pack is selected at first launch: `config/defaultoptions/extra/config/oculus.properties` has no `shaderPack` key. A pinned pack (`pin = true`) stays on its version through `packwiz update`.
 - `README.md`: Human-facing overview and install and update guide (Installation: Build modpack, Install on your PC with Prism Launcher, Install on your server; Update: modpack, PC, server). Not distributed.
 - `CONTRIBUTING.md`: Branch, pull request and merge rules for maintainers. Not distributed.
-- `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed.
+- `docs/modlist.md`: The Mod List with links and badges. Linked from `README.md`. Not distributed. Columns: Name, Links (Modrinth, CurseForge and repository), Last Updated, Links (official Site and Wiki). The right-hand Links column holds no repository page, because the left one has it. The wiki need not be official (Fandom and wiki.gg count; a GitHub Wiki counts, a README or a file in the repository does not). `-` means none was found.
 - `docs/benchmark.md`, `docs/benchmark-mods.md`: Human procedures to profile and benchmark the pack: the common method, then one mod from a clean Forge instance, overlap tests and the scene each optimization mod needs. They hold no results. Linked from `README.md`. Not distributed. Results of a run go to `refs/` (see the Run record in `docs/benchmark.md`).
 - `.github/`: `workflows/build-mrpack.yml` checks the index and builds the pack with `packwiz modrinth export` and `packwiz curseforge export`. It runs on every pull request with no `paths:` filter, because `main` requires its checks and a skipped workflow leaves them pending forever. `rulesets/*.json` are the GitHub rulesets of `main` and `dev`, importable under Settings > Rules > Rulesets. Not distributed.
 - `.editorconfig`: Editor settings for files edited by hand (UTF-8, LF, final newline, 2 spaces). `config/` and `defaultconfigs/` are unset, because mods write those files and an editor must not reformat them (the bytes feed the `index.toml` hash). Not distributed.
@@ -104,7 +104,7 @@ Needs the comparison and review above to be done.
 - After adding or removing a mod, run `packwiz refresh` to update `index.toml`.
 - When the setup is done, record it:
   - Problems and open questions found so far: `refs/issues.md`.
-  - The mod: `refs/list.md` and the Mod List in `docs/modlist.md` (Modrinth, CurseForge and repository links, last commit badge).
+  - The mod: `refs/list.md` and the Mod List in `docs/modlist.md` (Modrinth, CurseForge and repository links, last commit badge, official site and wiki links in the right-hand Links column).
   - Shipped settings: `refs/settings.md`.
   - Decisions and constraints (what to avoid beside it): `refs/notes.md`.
 
