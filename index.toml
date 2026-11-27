@@ -29,6 +29,10 @@ file = "config/defaultoptions/extra/config/embeddium-options.json"
 hash = "ca63fa70522103243032ec157af833e9b09363fbdf6ddc96e0fb4ec7340f1ebd"
 
 [[files]]
+file = "config/defaultoptions/extra/config/key_binding_patch-client.toml"
+hash = "44d6dac9fe73949469d2f26295780cea6e53e427a3cb89d989411bc7fac0d3e8"
+
+[[files]]
 file = "config/defaultoptions/extra/config/oculus.properties"
 hash = "3027c2ed9a4242626a36c2e5af9722ad52b11044cc06115590dc0040d0efb26a"
 
@@ -46,11 +50,11 @@ hash = "a6ff9972cc152213e8c0c294117c086fdd906b05c1a15a0b3c044d583d80c686"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "efbdbcbadd24dd2a6c3e318516fac394d99f889b2ba99ea6218d59c8b1590774"
+hash = "a71e3074be38d68a4b69a9eac6c52a972d1de2740363107ac6c5917920447d39"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "2111b9cfdcbd53a44e7e575aca532f349feef63bf843ba14147cbcb5951e357e"
+hash = "85c75177b14823eb363e17984cc62dcf726f84642234a32df81a4d80b87843f7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
