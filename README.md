@@ -37,23 +37,89 @@ Open the [Build modpack workflow](https://github.com/7rs/ohm/actions/workflows/b
 
 #### From a clone
 
-Requires [Git](https://git-scm.com/) and [packwiz](https://packwiz.infra.link/installation/).
+Requires Git, Go 1.23 or newer (it builds packwiz) and [packwiz](https://packwiz.infra.link/installation/).
 
-Install packwiz with Go 1.23 or newer:
+1. Install [Git](https://git-scm.com/install/).
 
-```sh
-go install github.com/packwiz/packwiz@latest
-```
+   <details>
+   <summary>Install Git with a package manager</summary>
 
-Or download a prebuilt binary from the [packwiz GitHub Actions](https://github.com/packwiz/packwiz/actions) and add it to your `PATH`. The workflow builds with the version pinned in `PACKWIZ_VERSION` of [build-mrpack.yml](.github/workflows/build-mrpack.yml).
+   | OS | Command |
+   | --- | --- |
+   | Windows (WinGet) | `winget install --exact --id Git.Git --source winget` |
+   | Windows (Chocolatey) | `choco install git` |
+   | Windows (Scoop, community) | `scoop install git` |
+   | macOS (Homebrew) | `brew install git` |
+   | macOS (MacPorts) | `sudo port install git` |
+   | macOS (Xcode Command Line Tools) | `xcode-select --install` |
+   | Debian and Ubuntu | `sudo apt install git` |
+   | Fedora | `sudo dnf install git` |
+   | Arch Linux | `sudo pacman -S git` |
+   | openSUSE | `sudo zypper install git` |
+   | Alpine (as root) | `apk add git` |
 
-Clone the repository and export:
+   The WinGet and Chocolatey packages are not maintained by the Git for Windows project, so their version can differ from the [Git for Windows installer](https://git-scm.com/install/windows). Other Linux options (Gentoo, Nix, Mageia, RHEL and its derivatives) are on the [Linux install page](https://git-scm.com/install/linux).
 
-```sh
-git clone https://github.com/7rs/ohm.git
-cd ohm
-packwiz modrinth export
-```
+   Check the install with `git --version`.
+
+   </details>
+
+2. Install [Go](https://go.dev/doc/install) 1.23 or newer.
+
+   <details>
+   <summary>Install Go with a package manager</summary>
+
+   | OS | Command |
+   | --- | --- |
+   | Windows (WinGet) | `winget install --exact --id GoLang.Go` |
+   | Windows (Scoop, community) | `scoop install go` |
+   | Windows (Chocolatey, community) | `choco install golang` |
+   | macOS (Homebrew) | `brew install go` |
+   | macOS (MacPorts) | `sudo port install go` |
+   | Linux (Snap) | `sudo snap install --classic go` |
+   | Debian and Ubuntu | `sudo apt install golang-go` |
+   | Fedora | `sudo dnf install golang` |
+   | Arch Linux | `sudo pacman -S go` |
+
+   The packages of Debian and Ubuntu can be older than Go 1.23. Use Snap or the tarball below if `go version` prints an older one.
+
+   Linux tarball: download `go<version>.linux-amd64.tar.gz` (`arm64` on ARM) from the [download page](https://go.dev/dl/), then run the following. Never extract it over an existing `/usr/local/go`.
+
+   ```sh
+   sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go<version>.linux-amd64.tar.gz
+   ```
+
+   Add `/usr/local/go/bin` to `PATH` in `~/.profile`, then open a new terminal:
+
+   ```sh
+   export PATH=$PATH:/usr/local/go/bin
+   ```
+
+   The Windows MSI and the macOS package are on the [download page](https://go.dev/dl/) too, and they set `PATH` themselves. Check the install with `go version` in a new terminal.
+
+   </details>
+
+3. Install packwiz:
+
+   ```sh
+   go install github.com/packwiz/packwiz@latest
+   ```
+
+   `go install` writes `packwiz` to the `bin` folder of the directory that `go env GOPATH` prints (`~/go/bin` by default, `%USERPROFILE%\go\bin` on Windows). Add that folder to `PATH` and open a new terminal. On Linux and macOS, add this line to `~/.profile` (`~/.zshrc` on macOS):
+
+   ```sh
+   export PATH="$PATH:$(go env GOPATH)/bin"
+   ```
+
+   Or download a prebuilt binary from the [packwiz GitHub Actions](https://github.com/packwiz/packwiz/actions) and add it to your `PATH`. The workflow builds with the version pinned in `PACKWIZ_VERSION` of [build-mrpack.yml](.github/workflows/build-mrpack.yml).
+
+4. Clone the repository and export:
+
+   ```sh
+   git clone https://github.com/7rs/ohm.git
+   cd ohm
+   packwiz modrinth export
+   ```
 
 It writes `ohm-<version>.mrpack` to the repository directory. Run `packwiz curseforge export` for the CurseForge `.zip`, and add `--output <file>` to change the file name.
 
