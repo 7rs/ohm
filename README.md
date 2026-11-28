@@ -1,15 +1,14 @@
 # ohm
 
-Packwiz modpack for Minecraft Java Edition 1.20.1 and Forge 47.4.28.
+No matter how many updates it gets, vanilla Minecraft loses its charm once you have beaten it. What if it turned into a completely different game? ohm is a modpack that leaves vanilla behind and changes the concept itself. Come and see a new world!
 
-- [Mod List](docs/modlist.md)
-- [Contributing](CONTRIBUTING.md)
-- [Benchmark](docs/benchmark.md)
 - [Overview](#overview)
 - [Installation](#installation)
   - [Build modpack](#build-modpack)
   - [Install on your PC](#install-on-your-pc)
   - [Install on your server](#install-on-your-server)
+- [Benchmark](#benchmark)
+- [Contributing](#contributing)
 - [Update](#update)
   - [Update modpack](#update-modpack)
   - [Update on your PC](#update-on-your-pc)
@@ -17,10 +16,17 @@ Packwiz modpack for Minecraft Java Edition 1.20.1 and Forge 47.4.28.
 
 ## Overview
 
-- Minecraft Java Edition 1.20.1, Forge 47.4.28, Java 17.
-- Main features: The Aether, The Twilight Forest, ParCool!, TaCZ and Create. The [Mod List](docs/modlist.md) has every mod, resource pack and shader pack by category.
-- Distant Horizons draws far terrain. With a shader pack on, it draws only if the pack supports it. Every shader pack shipped here does.
-- Clients install an `.mrpack` with Prism Launcher. Servers install with packwiz-installer, which skips client-only mods.
+The main features are The Aether and The Twilight Forest, two new realms to explore, with ParCool!, TaCZ and Create. Around them, Deeper and Darker, End Remastered and a rebuilt Ender Dragon fight add more to find. L_Ender's Cataclysm, Mowzie's Mobs, IceAndFire Community Edition, L2 Hostility and Improved Mobs make bosses and enemies tougher. Mekanism, Applied Energistics 2, Botania and Iron's Spells 'n Spellbooks add machines and magic. Superb Warfare, Immersive Vehicles and Immersive Aircraft add more guns, vehicles and aircraft, and Touhou Little Maid gives you maids to live with.
+
+ohm has more to offer than content:
+
+- **Performance.** Optimization mods cover rendering (Embeddium, Flerovium, ImmediatelyFast, Entity Culling), lighting (Solix), memory and loading (ModernFix, FerriteCore), redstone (Alternate Current), entity and AI ticks (Immersive Optimization, AI Improvements) and structure search (Async Locator). Their overlaps were checked. Distant Horizons draws far terrain, and Turbo for Distant Horizons and Fast Noise speed up generating it. Nothing has been measured on the pack yet: see [Benchmark](#benchmark).
+- **Convenience.** JEI and EMI show recipes, Jade shows what you are looking at, Xaero's Minimap and World Map show where you are, and Waystones fast-travel. VeinMiner, Mouse Tweaks, Mine Menu, Controlling (key binding search), Better Advancements and Enchantment Descriptions smooth out the small things. Japanese translations (All Japanese Translate and Japanese Language Pack) cover mods that have no official Japanese text. Default Options starts you with sensible video options, key bindings and resource packs on the first launch.
+- **Visuals.** Five shader packs (BSL Shaders, Complementary Reimagined, Mellow, I Like Vanilla and Solas) run through Oculus, and every one supports Distant Horizons, so far terrain keeps drawing with a shader on. None is selected at first launch. Resource packs change mobs and animations (Fresh Animations, Fluid & Foolish, Iron Girl, Piglin-Chan, Melody's Cute Girl packs). Punchy!, Punchy! Moves, Spawn Animations, Shoulder Surfing Reloaded, 3D Skin Layers and Better Biome Blend polish how the game looks and moves.
+
+ohm is a Packwiz modpack for Minecraft Java Edition 1.20.1 and Forge 47.4.28, and needs Java 17. Clients install an `.mrpack` with Prism Launcher. Servers install with packwiz-installer, which skips client-only mods.
+
+The [Mod List](docs/modlist.md) has every mod, resource pack and shader pack by category, with links to each one's pages, official site and wikis.
 
 ## Installation
 
@@ -191,6 +197,14 @@ The server needs Java 17. Use an empty server directory.
 Notes:
 
 - Files under `defaultconfigs/` apply to new worlds only. A world that already has its own `serverconfig/<modid>-server.toml` keeps it.
+
+## Benchmark
+
+[Benchmark](docs/benchmark.md) describes how to profile and benchmark the pack. [Benchmark: one mod at a time](docs/benchmark-mods.md) tests each mod from a clean Forge instance, with overlap tests and the scene each optimization mod needs. Both hold procedures only, and no result is recorded yet.
+
+## Contributing
+
+[CONTRIBUTING.md](CONTRIBUTING.md) has the branch, pull request and merge rules for maintainers. Cut one topic branch per change from `dev` and merge it into `dev` by pull request. `main` is the released state.
 
 ## Update
 
