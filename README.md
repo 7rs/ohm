@@ -1,8 +1,18 @@
 # ohm
 
-No matter how many updates it gets, vanilla Minecraft loses its charm once you have beaten it. What if it turned into a completely different game? ohm is a modpack that leaves vanilla behind and changes the concept itself. Come and see a new world!
+New realms wait in the sky and in a twilight forest. Bosses and enemies hit back harder than vanilla ever did. You build machines, cast spells, carry guns, drive vehicles, fly aircraft, run like a parkour athlete and live with maids. It is a different game from the first minute.
 
-- [Overview](#overview)
+It is also comfortable to play:
+
+- **🚀 Ultra Fast.** The whole game runs faster, from loading to rendering to world generation, and far terrain is drawn well past your render distance. Not measured yet: see [Benchmark](#benchmark).
+- **🧰 Convenient.** Recipes, maps, tooltips and fast travel are built in, so you spend your time playing instead of looking things up. Video options, key bindings and resource packs are preset on the first launch, and Japanese text is bundled.
+- **✨ Beautiful.** Several shader packs are ready to pick (none is selected at first launch, and all of them keep far terrain drawing), and resource packs and animation upgrades change how mobs look and how you move.
+
+The [Mod List](docs/modlist.md) has every mod, resource pack and shader pack by category, with links to each one's pages, official site and wikis.
+
+<details>
+<summary>Table of contents</summary>
+
 - [Installation](#installation)
   - [Build modpack](#build-modpack)
   - [Install on your PC](#install-on-your-pc)
@@ -14,17 +24,7 @@ No matter how many updates it gets, vanilla Minecraft loses its charm once you h
   - [Update on your PC](#update-on-your-pc)
   - [Update on your server](#update-on-your-server)
 
-## Overview
-
-New realms wait in the sky and in a twilight forest. Bosses and enemies hit back harder than vanilla ever did. You build machines, cast spells, carry guns, drive vehicles, fly aircraft, run like a parkour athlete and live with maids. It is a different game from the first minute.
-
-It is also comfortable to play:
-
-- **🚀 Ultra Fast.** The whole game runs faster, from loading to rendering to world generation, and far terrain is drawn well past your render distance. Not measured yet: see [Benchmark](#benchmark).
-- **🧰 Convenient.** Recipes, maps, tooltips and fast travel are built in, so you spend your time playing instead of looking things up. Video options, key bindings and resource packs are preset on the first launch, and Japanese text is bundled.
-- **✨ Beautiful.** Several shader packs are ready to pick (none is selected at first launch, and all of them keep far terrain drawing), and resource packs and animation upgrades change how mobs look and how you move.
-
-The [Mod List](docs/modlist.md) has every mod, resource pack and shader pack by category, with links to each one's pages, official site and wikis.
+</details>
 
 ## Installation
 
